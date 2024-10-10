@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  z-index: 9999;
+  position: relative;
+}
+
+.logo {
+  object-fit: contain;
+  height: 100px;
+  color: #111;
+  width: 200px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ol {
+  color: #111 !important;
+}
+
+.nav ul li {
+  margin: 0 1rem;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav ul li a:hover {
+  color: #1E96FB;
+  transition: all 1s;
+}
+
+/* .actions {
+    display: flex;
+    align-items: center;
+  } */
+
+.btnStart {
+  border: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(90deg, #0929C2, #2095FB);
+  border-radius: 30px;
+  color: white;
+  transition: all 0.1s;
+  font-weight: 600;
+}
+.btnStart svg{
+  transform: rotate(-45deg);
+  transition: all 0.1s;
+}
+.btnStart:hover{
+  background-image: linear-gradient(90deg, #2095FB ,#0929C2);
+}
+.btnStart:hover svg{
+  transform: rotate(0deg);
+  transition: all 0.1s;
+}
+
+.menuBox {
+  background: #162A3E;
+}
+
+.menuBox ul {
+  list-style: none;
+}
+
+.menuBox ul li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.menuBox ul li>svg {
+  background: #2096F9;
+  margin-right: 10px;
+  font-size: 20px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.menuBox ul li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuBox ul li div a {
+  color: #2095FB;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.menuBox ul li div a svg {
+  color: #2096F9;
+  font-size: 35px;
+}
+
+.menuBox ul li div span {
+  color: gray;
+}
+
+.menuBox ul li div a:hover {
+  padding-left: 5px;
+  transition: all 0.1s;
+}
+
+/* PRODUCTS MENU ========================= */
+.productsMenu {
+  z-index: 9999;
+}
+
+.productsMenu ul {
+  background: #162A3E;
+  padding: 20px 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 0 0 25px 25px;
+  /* top: 15%; */
+  margin-top: 30px;
+}
+
+.productsMenu ul li {
+  padding: 7px 0;
+}
+.productsMenu ul li a{
+  color: white !important;
+}
+
+.menuButton {
+  display: none;
+}
+
+/* Button to open the sidebar */
+.menuButton {
+  /* position: fixed; */
+  top: 20px;
+  right: 20px;
+  background: #2096F9;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1001;
+  padding: 10px 15px;
+  border-radius: 5px;
+  line-height: 0;
+  color: white;
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: white;
+  padding-top: 60px;
+  transition: 0.3s ease;
+  z-index: 1000;
+  overflow: hidden;
+  display: none;
+}
+
+.sidebar.open {
+  left: 0;
+  overflow-y: scroll;
+  z-index: 9999;
+}
+
+.mobilelogo {
+  object-fit: contain;
+  height: 63px;
+  width: 61%;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+/* Links inside the sidebar */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 15px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #111;
+}
+
+.sidebar ul li a:hover {
+  color: #1E8BF6;
+}
+
+/* Dropdown */
+.dropdownButton {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  color: black;
+
+}
+
+.dropdownButton:hover {
+  color: #1E8BF6;
+}
+
+.dropdown {
+  padding-left: 1rem;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+
+.dropdown li a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.dropdown li a:hover {
+  color: #111;
+}
+
+.dropdown li {
+  border-bottom: 1px solid #80808040;
+  padding: 5px 0 !important;
+}
+
+/* Responsive Styles ============================== */
+@media (max-width: 992px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .btnStart {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .nav ul li {
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .logo {
+    width: 140px;
+  }
+}

@@ -1,0 +1,133 @@
+.testimonialsBg {
+    background-image:
+        linear-gradient(90deg, #350759 0%, #074783 100%);
+    color: white;
+    padding: 50px 80px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.testimonialsBg::after {
+    content: "";
+    position: absolute;
+    height: 309px;
+    width: 33%;
+    background-image: url(../images/h1_bg-left-768x617.png);
+    bottom: -108px;
+    background-size: cover;
+    left: -103px;
+    background-repeat: no-repeat;
+    transform: rotate(-23deg);
+    opacity: 0.50;
+    background-position: bottom bottom;
+}
+
+.testimonialsBg::before {
+    content: "";
+    position: absolute;
+    top: -78px;
+    right: -311px;
+    height: 316px;
+    width: 41%;
+    background-image: url(../images/h1_bg-right-768x550.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-23deg);
+    opacity: 0.50;
+}
+
+.testimonailsLeftPart .tagBox {
+    display: inline-block;
+    background: linear-gradient(90deg, #2271af, #072BC9);
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonailsLeftPart .tagBox span {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.testimonailsLeftPart .tagBox svg {
+    margin-right: 10px;
+}
+
+.testimonailsLeftPart h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* RIGHT PART OF TESTIMONIALS SECTION CSS ================================================ */
+.testimonailsRightPart p {
+    padding-top: 65px;
+}
+
+
+
+.contentSection {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    padding: 30px 10px;
+    margin-top: 50px;
+}
+
+.contentSection>div {
+    display: flex;
+}
+
+.contentSection img.logo1 {
+    width: 78px;
+    height: 78px;
+    margin-right: 10px;
+    padding: 9px 9px;
+    border-radius: 50px;
+    object-fit: scale-down;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.contentSection span {
+    font-size: 14px;
+}
+
+@media screen and (max-width:992px) {
+    .testimonailsRightPart p {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .testimonialsBg {
+        padding: 50px 50px;
+    }
+
+    .testimonailsLeftPart h4 {
+        font-size: 30px;
+    }
+
+    .contentSection>div {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .contentSection img.logo1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .testimonialsBg {
+        padding: 50px 20px;
+    }
+
+    .testimonailsLeftPart h4 {
+        font-size: 25px;
+    }
+
+    .testimonailsRightPart p {
+        font-size: 13px;
+    }
+}

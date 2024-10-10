@@ -1,0 +1,205 @@
+.about {
+  padding: 8px 20px;
+  background-color: transparent;
+  background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.about svg{
+  margin-right: 5px;
+}
+.about h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.settingIcon {
+  color: white;
+  font-size: 22px;
+}
+.content {
+  margin: 10px 0;
+}
+.content h1 {
+  font-weight: 600;
+}
+.content p {
+  font-weight: 400;
+  color: #929292;
+  font-size: 13px;
+  padding-right: 50px;
+}
+.LuSend {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #d3d3d361;
+  margin: 25px 0;
+}
+.LuSend span {
+  display: block;
+}
+.LuSend span p {
+  margin: 0;
+  color: #DADADA;
+  font-weight: 500;
+  font-size: 13px;
+}
+.LuSend span h6 {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.LuSend2 {
+  border: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(90deg, #0929C2, #2095FB);
+  border-radius: 30px;
+  color: white;
+  transition: all 0.1s;
+  font-weight: 600;
+}
+.LuSend2 svg {
+  transform: rotate(-45deg);
+  transition: all 0.1s;
+}
+.LuSend2:hover {
+  background-image: linear-gradient(90deg, #2095FB, #0929C2);
+}
+.LuSend2:hover svg {
+  transform: rotate(0deg);
+  transition: all 0.1s;
+}
+.LuSend span {
+  margin-left: 10px;
+}
+.sendIcon {
+  font-size: 24px;
+  color: #065EFE;
+}
+.LuSend2 button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+.LuSend2 button:hover {
+  color: white;
+  background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+}
+
+
+/* SERVICES CARDS ============================================================================================== */
+.card {
+  border: 1px solid #d3d3d361;
+  padding: 50px 30px;
+  width: 23vw;
+  border-radius: 30px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.card:hover {
+  border: 1px solid #006FF9;
+}
+.card h2{
+  font-size: 25px;
+  font-weight: 700;
+}
+.card p{
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+}
+.card span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.arrow img{}
+.arrow {
+  font-size: 16px;
+  border: 1px solid #d3d3d361;
+  border-radius: 50%;
+  width: 40px;
+  padding: 10px;
+  height: 40px;
+}
+.arrow:hover{
+  transform: all 1s;
+  color: white;
+  background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+}
+.rightBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/* ============================================================================ */
+@media (max-width: 1024px) {
+  .about {
+    width: 15vw;
+  }
+  .about h4 {
+    font-size: 16px;
+  }
+  .card {
+    width: 35vw;
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    width: 20vw;
+  }
+  .about h4 {
+    font-size: 14px;
+  }
+  .rightBoxes {
+    justify-content: space-between;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .about {
+    width: 40vw;
+  }
+  .about h4 {
+    font-size: 12px;
+  }
+  .card {
+    width: 90vw;
+    padding: 15px;
+  }
+  .arrow {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .LuSend,
+  .LuSend2 {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .rightBoxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .LuSend2 button {
+    width: 100%;
+    text-align: center;
+  }
+}

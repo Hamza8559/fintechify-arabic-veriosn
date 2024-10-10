@@ -1,0 +1,69 @@
+.BannerBg {
+    background: linear-gradient(150deg, #16222F, #1B64A3);
+    color: white;
+    padding: 130px 50px;
+    text-align: center;
+    position: relative;
+    border-radius: 0 0 30px 30px;
+}
+
+.BannerBg::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-image: url(../assets/images/hjalftone-header-1@2x.webp);
+}
+
+.bannerBox h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.bannerBox span {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 20px;
+    color: #e9e1e1;
+}
+
+.bannerBox p {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 18px;
+    color: #e9e1e1;
+}
+
+.bannerBox .bannerTag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: white;
+    background: linear-gradient(90deg, #2271af, #072BC9);
+    padding: 5px 20px;
+    border-radius: 0 10px 10px 15px;
+    box-shadow: 3px 4px 4px #3f3739;
+}
+
+.bannerBox .bannerTag svg {
+    margin-right: 10px;
+}
+
+.bannerBox .bannerTag h5 {
+    margin: 0;
+}
+
+@media screen and (max-width:565px) {
+    .BannerBg{
+        padding: 100px 0;
+    }
+    .bannerBox p {
+        padding: 0;
+    }
+}
