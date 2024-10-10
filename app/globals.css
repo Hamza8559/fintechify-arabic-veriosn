@@ -7,9 +7,13 @@
 }
 h1,h2,h3,h4,h5,h6,span,button,p,div,section,a,ul,li{
   font-family: "DM Sans", sans-serif !important;
+  text-align: right;
 }
 section{
   overflow-x: clip !important;
+}
+ul,li{
+  list-style: none;
 }
 body {
   color: var(--foreground);

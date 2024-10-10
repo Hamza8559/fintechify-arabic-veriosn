@@ -14,9 +14,9 @@
 .contactBox svg {
     color: white;
     font-size: 50px;
-    margin-right: 44px;
-    border-right: 1px solid #d3d3d340;
-    padding-right: 10px;
+    margin-left: 44px;
+    border-left: 1px solid #d3d3d340;
+    padding-left: 10px;
 }
 
 .contactBox div {
@@ -63,6 +63,7 @@
 
 .contactFormBox input {
     border-radius: 20px;
+    text-align: right;
 }
 
 .contactFormBox button {

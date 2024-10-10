@@ -35,7 +35,7 @@ const payment = () => {
   return (
     <div className={`container-fluid ${style.containerFluid}`}>
       <div className={`container ${style.container}`}>
-        <div className={`row ${style.row}`}>
+        <div className={`row ${style.row} justify-content-end`}>
           <div className="col-lg-6">
             <span className={style.about}>
               <MdOutlinePayment className={style.settingIcon} />
@@ -47,6 +47,23 @@ const payment = () => {
           </div>
         </div>
         <div className={`row ${style.row2}`}>
+          <div className={`col-lg-6  ${style.col6}`}>
+            {isHover && (
+              <div className={style.divbg}>
+                <Image src={bg1} className={`${style.bg1} img-fluid`} />
+              </div>
+            )}
+            {isHover1 && (
+              <div className={style.divbg}>
+                <Image src={bg2} className={`${style.bg1} img-fluid`} />
+              </div>
+            )}
+            {isHover2 && (
+              <div className={style.divbg}>
+                <Image src={bg3} className={`${style.bg1} img-fluid`} />
+              </div>
+            )}
+          </div>
           <div className={`col-lg-6 mt-1`}>
             <div
               className={isHover ? style.cardHover : style.card}
@@ -94,23 +111,6 @@ const payment = () => {
                 </p>
               </span>
             </div>
-          </div>
-          <div className={`col-lg-6  ${style.col6}`}>
-            {isHover && (
-              <div className={style.divbg}>
-                <Image src={bg1} className={`${style.bg1} img-fluid`} />
-              </div>
-            )}
-             {isHover1 && (
-              <div className={style.divbg}>
-                <Image src={bg2} className={`${style.bg1} img-fluid`} />
-              </div>
-            )}
-             {isHover2 && (
-              <div className={style.divbg}>
-                <Image src={bg3} className={`${style.bg1} img-fluid`} />
-              </div>
-            )}
           </div>
         </div>
       </div>

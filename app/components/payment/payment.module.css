@@ -2,14 +2,12 @@
     margin: 100px 0px;
 }
 .about {
-    padding: 8px 2px;
     background-color: transparent;
     background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
     border-radius: 30px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    width: 15vw;
+    padding: 11px 15px;
 }
 .about svg{
     margin-right: 5px;

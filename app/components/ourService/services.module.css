@@ -31,13 +31,13 @@
   font-weight: 400;
   color: #929292;
   font-size: 13px;
-  padding-right: 50px;
 }
 .LuSend {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   border-bottom: 1px solid #d3d3d361;
   margin: 25px 0;
+  justify-content: end;
 }
 .LuSend span {
   display: block;

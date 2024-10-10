@@ -1,5 +1,5 @@
 .financialText {
-  text-align: left;
+  text-align: right;
 }
 
 /* Right column background and phone image styling */
@@ -46,7 +46,7 @@
   align-items: center;
   border-bottom: 1px solid #E2E4EF;
   padding-bottom: 10px;
-  padding-right: 100px;
+  padding-left: 75px;
 }
 
 .percent1 h3 {
@@ -57,7 +57,7 @@
 
 .percent p {
   margin-top: 10px;
-  text-align: left;
+  text-align: right;
   font-weight: 600;
   line-height: initial;
 }

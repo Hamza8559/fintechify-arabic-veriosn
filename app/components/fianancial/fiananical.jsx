@@ -14,7 +14,9 @@ const FinancialComponent = () => {
     <>
       <section className={`container mt-5 ${styles.container}`}>
         <div className="row  align-items-center">
-          {/* Left Column */}
+          <div className={`col-lg-6 text-center ${styles.right}`} data-aos="fade-left" data-aos-duration="500">
+            <Image src={Phone1} alt="Phone1" className={styles.rightPhone} />
+          </div>
           <div className="col-lg-6 p-4" data-aos="fade-right" data-aos-duration="500">
             <div className={styles.financialText}>
               <span className={styles.about}>
@@ -45,11 +47,6 @@ const FinancialComponent = () => {
               </div>
             </div>
           </div>
-
-          {/* Right Column */}
-          <div className={`col-lg-6 text-center ${styles.right}`} data-aos="fade-left" data-aos-duration="500">
-                <Image src={Phone1} alt="Phone1" className={styles.rightPhone} />
-          </div>
         </div>
       </section>
 
@@ -59,14 +56,14 @@ const FinancialComponent = () => {
           <div className={styles.marqueeWrapper}>
             <div className={styles.marquee}>
               <div className={styles.marqueeContent}>
-                  <Image src={Brand1} alt="Brand 1" className={styles.brand} />
-                  <Image src={Brand2} alt="Brand 2" className={styles.brand}/>
-                  <Image src={Brand3} alt="Brand 3" className={styles.brand} />
-                  <Image src={Brand4} alt="Brand 4" className={styles.brand}/>
-                  <Image src={Brand5} alt="Brand 5" className={styles.brand}/>
-                  <Image src={Brand1} alt="Brand 1" className={styles.brand} />
-                  <Image src={Brand2} alt="Brand 2" className={styles.brand}/>
-                  <Image src={Brand3} alt="Brand 3" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand2} alt="Brand 2" className={styles.brand} />
+                <Image src={Brand3} alt="Brand 3" className={styles.brand} />
+                <Image src={Brand4} alt="Brand 4" className={styles.brand} />
+                <Image src={Brand5} alt="Brand 5" className={styles.brand} />
+                <Image src={Brand1} alt="Brand 1" className={styles.brand} />
+                <Image src={Brand2} alt="Brand 2" className={styles.brand} />
+                <Image src={Brand3} alt="Brand 3" className={styles.brand} />
               </div>
             </div>
           </div>

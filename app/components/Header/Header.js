@@ -52,7 +52,15 @@ export default function Header() {
     return (
         <>
             <header className={styles.header}>
-                <Image className={styles.logo} src={logo} alt="Logo" />
+                <div className={styles.actions}>
+                    <button className={styles.btnStart}>Get Started <FaArrowRight />
+                    </button>
+                   
+                    {isOpen ? false :  <button className={styles.menuButton} onClick={toggleSidebar}>
+                    <FaBars />
+                    </button>}
+
+                </div>
                 <nav className={`${styles.nav}`}>
                     <ul>
                         <li><Link href="/">Home</Link></li>
@@ -75,13 +83,7 @@ export default function Header() {
                         <li><Link href="/contact-us">Contact</Link></li>
                     </ul>
                 </nav>
-                <div className={styles.actions}>
-                    <button className={styles.btnStart}>Get Started <FaArrowRight />
-                    </button>
-                    <button className={styles.menuButton} onClick={toggleSidebar}>
-                        {isOpen ? <MdClose /> : <FaBars />}
-                    </button>
-                </div>
+                <Image className={styles.logo} src={logo} alt="Logo" />
             </header>
 
             {isMenuOpen && (
@@ -93,77 +95,77 @@ export default function Header() {
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <AiFillAppstore />
                                         <div>
-                                            <Link href="/Banking-app-development">Banking App Development <WiDirectionUpRight /></Link>
+                                            <Link href="/Banking-app-development"><WiDirectionUpRight /> Banking App Development</Link>
                                         </div>
+                                        <AiFillAppstore />
                                     </li>
                                     <li>
-                                        <CiWallet />
                                         <div>
-                                            <Link href="/Digital-wallet-development">Digital Wallet Development <WiDirectionUpRight /></Link>
+                                            <Link href="/Digital-wallet-development"><WiDirectionUpRight /> Digital Wallet Development</Link>
                                             {/* <span>The power of seamless banking</span> */}
                                         </div>
+                                        <CiWallet />
                                     </li>
                                     <li>
+                                        <div>
+                                            <Link href="/Insurance-software-development"><WiDirectionUpRight /> Insurance Software Development</Link>
+                                        </div>
                                         <SiBmcsoftware />
-                                        <div>
-                                            <Link href="/Insurance-software-development">Insurance Software Development <WiDirectionUpRight /></Link>
-                                        </div>
                                     </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
+                                        <div>
+                                            <Link href="/finops-services"><WiDirectionUpRight /> FinOps Services</Link>
+                                        </div>
                                         <MdOutlineDesignServices />
-                                        <div>
-                                            <Link href="/finops-services">FinOps Services <WiDirectionUpRight /></Link>
-                                        </div>
                                     </li>
                                     <li>
+                                        <div>
+                                            <Link href="/Crowdfunding-platform-development"><WiDirectionUpRight /> Crowdfunding Platform Development</Link>
+                                        </div>
                                         <GiFlatPlatform />
-                                        <div>
-                                            <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development <WiDirectionUpRight /></Link>
-                                        </div>
                                     </li>
                                     <li>
+                                        <div>
+                                            <Link href="/decentralized-finance-defi-platform"><WiDirectionUpRight /> Decentralized Finance Platform</Link>
+                                        </div>
                                         <GiPlatform />
-                                        <div>
-                                            <Link href="/decentralized-finance-defi-platform">Decentralized Finance Platform <WiDirectionUpRight /></Link>
-                                        </div>
                                     </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
+                                        <div>
+                                            <Link href="/integration-services"><WiDirectionUpRight />Integration Services</Link>
+                                        </div>
                                         <GrIntegration />
-                                        <div>
-                                            <Link href="/integration-services">Integration Services <WiDirectionUpRight /></Link>
-                                        </div>
                                     </li>
                                     <li>
+                                        <div>
+                                            <Link href="/resource-augmentation"><WiDirectionUpRight /> Resource Augmentation</Link>
+                                        </div>
                                         <GrResources />
-                                        <div>
-                                            <Link href="/resource-augmentation">Resource Augmentation <WiDirectionUpRight /></Link>
-                                        </div>
                                     </li>
                                     <li>
-                                        <FaExchangeAlt />
                                         <div>
-                                            <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <WiDirectionUpRight /></Link>
+                                            <Link href="/currency-exchange-platform-development"><WiDirectionUpRight /> Currency Exchange Platform Development</Link>
                                         </div>
+                                        <FaExchangeAlt />
                                     </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <CiLock />
                                         <div>
-                                            <Link href="/cybersecurity">Cybersecurity <WiDirectionUpRight /></Link>
+                                            <Link href="/cybersecurity"><WiDirectionUpRight /> Cybersecurity</Link>
                                         </div>
+                                        <CiLock />
                                     </li>
                                 </ul>
                             </div>
@@ -174,6 +176,10 @@ export default function Header() {
 
             <div className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}>
                 <Image className={styles.mobilelogo} src={logo} alt="Logo" />
+               
+                {isOpen ?  <button className={styles.menuButton2} onClick={toggleSidebar}>
+                    <MdClose /> 
+                </button> : false}
                 <ul>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/about">About</Link></li>

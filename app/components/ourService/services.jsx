@@ -15,40 +15,9 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const services = () => {
   return (
-    <div className={`container-fluid my-5`}>
+    <div className={`container-fluid my-5 mt-5`}>
       <div className={`container mt-5`}>
         <div className={`row`}>
-          <div className={`col-lg-5`}>
-            <span className={style.about}>
-              <RiSettings2Line className={style.settingIcon} />
-              <h4>our services</h4>
-            </span>
-            <div className={style.content}>
-              <h1 className={style.h1}>Our banking services and benefits</h1>
-              <p>
-                Explore the our banking services and benefits at Bank of
-                Fintechify, tailored to provide a modern, secure banking
-                experience.
-              </p>
-            </div>
-            <div className={style.LuSend}>
-              <LuSend className={style.sendIcon} />
-              <span>
-                <p>General enquiries</p>
-                <h6>talktous@fintechify.ae</h6>
-              </span>
-            </div>
-            <div className={style.LuSend}>
-              <PiHeadphonesLight className={style.sendIcon} />
-              <span>
-                <p>Customer sales enquiries</p>
-                <h6>+971-54-5061985</h6>
-              </span>
-            </div>
-            <button className={style.LuSend2}>
-              View All Services <FaArrowRight />
-            </button>
-          </div>
           <div className={`col-lg-7 ${style.rightBoxes}`} >
             <div className={style.card}>
               <h2>Saving Account</h2>
@@ -98,6 +67,37 @@ const services = () => {
                 <MdArrowOutward className={style.arrow} />
               </span>
             </div>
+          </div>
+          <div className={`col-lg-5`}>
+            <span className={style.about}>
+              <RiSettings2Line className={style.settingIcon} />
+              <h4>our services</h4>
+            </span>
+            <div className={style.content}>
+              <h1 className={style.h1}>Our banking services and benefits</h1>
+              <p>
+                Explore the our banking services and benefits at Bank of
+                Fintechify, tailored to provide a modern, secure banking
+                experience.
+              </p>
+            </div>
+            <div className={style.LuSend}>
+              <LuSend className={style.sendIcon} />
+              <span>
+                <p>General enquiries</p>
+                <h6>talktous@fintechify.ae</h6>
+              </span>
+            </div>
+            <div className={style.LuSend}>
+              <PiHeadphonesLight className={style.sendIcon} />
+              <span>
+                <p>Customer sales enquiries</p>
+                <h6>+971-54-5061985</h6>
+              </span>
+            </div>
+            <button className={style.LuSend2}>
+              View All Services <FaArrowRight />
+            </button>
           </div>
         </div>
       </div>
