@@ -22,10 +22,14 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image className="img-fluid" src={img} />
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Why Your Business Deserves Cybersecurity Excellence</h4>
-
                                 <p>User Explosion: Prevent data breaches and protect confidential information from cybercriminals who are constantly evolving their tactics.</p>
                                 <p>Build Customer Trust: A secure business fosters loyalty. By investing in strong cybersecurity measures, you reassure your clients that their data is in safe hands.</p>
                                 <p>Ensure Business Continuity: Cyberattacks can lead to costly downtime and disrupt your operations. Protect your business with proactive defense to keep running smoothly, no matter what.</p>
@@ -35,12 +39,7 @@ function page() {
                                 <p>Protect Your Reputation: One security breach can tarnish years of brand-building. Defend your reputation by staying ahead of potential threats with cutting-edge cybersecurity solutions.</p>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                            <Image className="img-fluid" src={img} />
-                        </div>
                     </div>
-                </div>
                 </div>
             </section>
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
@@ -51,51 +50,34 @@ function page() {
                         <div className='col-lg-6 p-lg-0'>
                             <div className={`${styles.processBox} ${styles.blueBg} ${styles.cybersecurityBlueUpperBox}`}>
                                 <ul>
-                                    <h5>1. Prevent Financial Loss
-                                    </h5>
+                                    <h5>1. Prevent Financial Loss</h5>
                                     <p>Cyberattacks can result in significant financial damage through stolen data, ransomware, and downtime. Proactive cybersecurity measures help you avoid these costly disruptions.</p>
                                 </ul>
                                 <ul>
-                                    <h5>2. Maintain Customer Confidence
-                                    </h5>
-                                    <p>Customers are increasingly concerned about the safety of their personal information. By securing your business, you maintain their trust and loyalty, driving long-term success.
-
-                                    </p>
+                                    <h5>2. Maintain Customer Confidence</h5>
+                                    <p>Customers are increasingly concerned about the safety of their personal information. By securing your business, you maintain their trust and loyalty, driving long-term success.</p>
 
                                 </ul>
                                 <ul>
-                                    <h5>3. Regulatory Compliance
-                                    </h5>
-                                    <p>Compliance with data protection regulations (like GDPR, CCPA, or HIPAA) is essential for avoiding fines and legal consequences. Cybersecurity helps your business stay compliant with the latest requirements.
-
-                                    </p>
+                                    <h5>3. Regulatory Compliance</h5>
+                                    <p>Compliance with data protection regulations (like GDPR, CCPA, or HIPAA) is essential for avoiding fines and legal consequences. Cybersecurity helps your business stay compliant with the latest requirements.</p>
                                 </ul>
                             </div>
                         </div>
                         <div className='col-lg-6 p-lg-0'>
                             <div className={`${styles.processBox} ${styles.whiteBg} ${styles.cybersecurityWhiteBottomBox}`}>
                                 <ul>
-                                    <h5>4. Defend Against Emerging Threats
-                                    </h5>
-                                    <p>Cyber threats are constantly evolving. A strong cybersecurity strategy helps your business stay ahead of hackers and malicious actors, minimizing vulnerabilities.
-
-                                    </p>
+                                    <h5>4. Defend Against Emerging Threats</h5>
+                                    <p>Cyber threats are constantly evolving. A strong cybersecurity strategy helps your business stay ahead of hackers and malicious actors, minimizing vulnerabilities.</p>
                                 </ul>
                                 <ul>
-                                    <h5>5 .Secure Intellectual Property
-                                    </h5>
-                                    <p>Your business’s proprietary data and innovations are valuable. Cybersecurity ensures that your intellectual property stays in your hands, not in those of cybercriminals.
-
-                                    </p>
+                                    <h5>5 .Secure Intellectual Property</h5>
+                                    <p>Your business’s proprietary data and innovations are valuable. Cybersecurity ensures that your intellectual property stays in your hands, not in those of cybercriminals.</p>
                                 </ul>
                                 <ul>
-                                    <h5>6 .Boost Business Continuity
-                                    </h5>
-                                    <p>A solid cybersecurity plan minimizes disruptions by preventing attacks that could lead to downtime or operational failures. This ensures your business runs smoothly, even in the face of cyber risks.
-
-                                    </p>
+                                    <h5>6 .Boost Business Continuity</h5>
+                                    <p>A solid cybersecurity plan minimizes disruptions by preventing attacks that could lead to downtime or operational failures. This ensures your business runs smoothly, even in the face of cyber risks.</p>
                                 </ul>
-
                             </div>
                         </div>
                     </div>
@@ -106,10 +88,7 @@ function page() {
                     <div className="row">
                         <div className={styles.startedUpperBox}>
                             <Image src={QoutesImg} alt='Qoutes' />
-                            <h4>Strengthen Your Business with Fintechy Cybersecurity Solutions
-
-                            </h4>
-
+                            <h4>Strengthen Your Business with Fintechy Cybersecurity Solutions</h4>
                         </div>
                         <div className="col-lg-12">
                             <div className={`${styles.startedBox} ${styles.startedLeft}`}>
@@ -120,8 +99,6 @@ function page() {
                                 </ul>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>

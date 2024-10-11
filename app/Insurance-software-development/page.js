@@ -22,6 +22,11 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image src={img2} className='img-fluid' />
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Customized Insurance <br /> Software Development <br /> Solutions</h4>
@@ -35,11 +40,6 @@ function page() {
 
                                     Ready to unlock the full potential of your insurance business? Let’s <br /> talk!
                                 </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                                <Image src={img2} className='img-fluid' />
                             </div>
                         </div>
                     </div>

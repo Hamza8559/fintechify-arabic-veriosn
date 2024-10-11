@@ -22,6 +22,11 @@ const page = () => {
       <section className='mb-5 mt-5'>
         <div className="container">
           <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                <Image src={img1} className='img-fluid' />
+              </div>
+            </div>
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
               <div className={styles.InnovativeBox}>
                 <h4>Why Digital Wallet <br />Development is <br />Booming.</h4>
@@ -32,17 +37,11 @@ const page = () => {
                   Fort Knox Security: Worried about safety? Digital wallets are security champions, using cutting-edge tech to keep your finances safe.                </p>
                 <p>Beyond Cash: It’s not just payments anymore.  Imagine storing loyalty cards, tickets, and even managing investments – all in one secure app.  The future of finance is here!</p>
                 <p>Ready to join the revolution?  Develop the next game-changing digital wallet app!</p>
-                    </div>
-            </div>
-            <div className="col-lg-6">
-              <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                <Image src={img1} className='img-fluid' />
               </div>
             </div>
           </div>
         </div>
       </section>
-     
       <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
         <div className="container">
           <div className="row">
@@ -50,7 +49,6 @@ const page = () => {
             <h4>Digital Wallet's Potential</h4>
             <span>That's the power of our Code, Craft, Cash! digital wallet development process.</span>
             <span>Here's how we turn your vision into reality:</span>
-
             <div className='col-lg-6 p-lg-0'>
               <div className={`${styles.processBox}  ${styles.blueBg} ${styles.DigiBlueUpperBox}`}>
                 <ul>
@@ -74,13 +72,12 @@ const page = () => {
                   <h5>4. Testing & Cashing Out:</h5>
                   <p>Before you launch, we put your app through rigorous testing. We identify and eliminate any bugs or glitches, ensuring a seamless experience across all devices.
                     Consider it a final polish before you unveil your masterpiece to the world.</p>
-                </ul> 
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
         <div className="container">
           <div className="row">
@@ -94,17 +91,15 @@ const page = () => {
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
                   <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
-                  <li><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the <br /> forefront.</span></li>
-                  <li><IoCheckmarkSharp /><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future.</span></li>
-                  <li><IoCheckmarkSharp /><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen.</span></li>
+                  <li><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the forefront. <IoCheckmarkSharp /></span></li>
+                  <li><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future. <IoCheckmarkSharp /></span></li>
+                  <li><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen. <IoCheckmarkSharp /></span></li>
                 </ul>
               </div>
             </div>
-           
           </div>
         </div>
       </section>
-
       <Testimonials />
       <Footer />
     </>

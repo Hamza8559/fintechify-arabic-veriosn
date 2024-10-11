@@ -26,6 +26,11 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image src={img1} className='img-fluid' />
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
                             <div className={styles.InnovativeBox}>
                                 <h4>With Banking App <br />Your finances, finally <br />on autopilot.</h4>
@@ -40,11 +45,6 @@ function page() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                                <Image src={img1} className='img-fluid' />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -53,50 +53,47 @@ function page() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
+                            <div data-aos="fade-up" data-aos-duration="500" >
+                                <Image className="img-fluid" src={aboutFirstSectionImg} />
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
                             <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
                                 <h2>
                                     Why You Should Move <br />for Banking App <br />Development
                                 </h2>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Reduced Costs:</h3>
+                                        <h3>Reduced Costs:  <IoMdCheckmarkCircleOutline /></h3>
                                         <span>Lower operational expenses by encouraging the use of mobile banking over physical branches.</span>
                                     </div>
+                                   
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Lower operational expenses by encouraging the use of mobile banking over physical branches.</h3>
+                                        <h3>Lower operational expenses by <br /> encouraging the use of mobile <br /> banking over physical branches.  <IoMdCheckmarkCircleOutline /></h3>
                                         <span>Offer a more personalized and interactive banking experience.</span>
                                     </div>
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Improved Customer Satisfaction:</h3>
+                                        <h3>Improved Customer Satisfaction: <IoMdCheckmarkCircleOutline /></h3>
                                         <span>Provide convenient and efficient services, leading to higher customer retention.</span>
                                     </div>
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Data-Driven Insights:</h3>
+                                        <h3>Data-Driven Insights: <IoMdCheckmarkCircleOutline /></h3>
                                         <span>Gain valuable customer data and spending habits to inform future marketing strategies and product development.</span>
                                     </div>
+                                    
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Competitive Advantage:</h3>
+                                        <h3>Competitive Advantage: <IoMdCheckmarkCircleOutline /></h3>
                                         <span>Stay ahead of the curve by offering innovative mobile banking solutions.</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div data-aos="fade-up" data-aos-duration="500" >
-                                <Image className="img-fluid" src={aboutFirstSectionImg} />
                             </div>
                         </div>
                     </div>
@@ -221,9 +218,9 @@ function page() {
                             <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                                 <ul>
                                     <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
-                                    <li><IoCheckmarkSharp /><span>Shield information like Fort Knox (but with better wifi).</span></li>
-                                    <li><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
-                                    <li><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
+                                    <li><span>Shield information like Fort Knox (but with better wifi)<IoCheckmarkSharp /></span></li>
+                                    <li><span>Make managing finances smoother than a frictionless slide <IoCheckmarkSharp /></span></li>
+                                    <li><span>Make managing finances smoother than a frictionless slide <IoCheckmarkSharp /></span></li>
                                 </ul>
                             </div>
                         </div>
@@ -231,16 +228,16 @@ function page() {
                             <div className={`${styles.startedBox}  ${styles.starteRight}`}>
                                 <ul>
                                     <h5>We’re not just developers, we’re banking superheroes. Our team of design wizards, coding ninjas, and strategic masterminds join forces to create:</h5>
-                                    <li><IoCheckmarkSharp /><span>Apps that are a joy to use, not a chore.</span></li>
-                                    <li><IoCheckmarkSharp /><span>Features that make banking a breeze, not a battlefield.</span></li>
-                                    <li><IoCheckmarkSharp /><span>Solutions that turn customers into raving fans, not frustrated users.</span></li>
+                                    <li><span>Apps that are a joy to use, not a chore. <IoCheckmarkSharp /></span></li>
+                                    <li><span>Features that make banking a breeze, not a battlefield. <IoCheckmarkSharp /></span></li>
+                                    <li><span>Solutions that turn customers into raving fans, not frustrated users. <IoCheckmarkSharp /></span></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-12">
                             <div className={styles.startedBottomSection}>
-                            Don't just offer banking, be the banking revolution. Partner with Fintechify and watch your mobile app soar! <br />
-                            Ready to launch your mobile banking app into the stratosphere? Contact us today!
+                                Don't just offer banking, be the banking revolution. Partner with Fintechify and watch your mobile app soar! <br />
+                                Ready to launch your mobile banking app into the stratosphere? Contact us today!
                             </div>
                         </div>
                     </div>

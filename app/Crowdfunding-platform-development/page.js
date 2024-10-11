@@ -26,6 +26,11 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image className="img-fluid" src={aboutFirstSectionImg} />
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Transforming Ideas into <br /> Funded Realities with <br /> Crowdfunding Platform <br /> Development</h4>
@@ -39,17 +44,13 @@ function page() {
                                 <p>More Than Development: We provide ongoing support and <br /> maintenance to ensure your client’s platform stays secure, efficient, <br /> and at the forefront of the crowdfunding landscape</p>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                            <Image className="img-fluid" src={aboutFirstSectionImg} />                        </div>
-                    </div>
                     </div>
                 </div>
             </section>
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
-                        <h4>Our Process</h4> 
+                        <h4>Our Process</h4>
                         <div className='col-lg-6 p-lg-0'>
                             <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>
                                 <ul>
@@ -58,20 +59,20 @@ function page() {
                                 </ul>
                                 <ul>
                                     <h5>Campaign Management</h5>
-                                    <p>Support with planning, launching, and managing your crowdfunding <br /> campaign.</p>                   
+                                    <p>Support with planning, launching, and managing your crowdfunding <br /> campaign.</p>
                                 </ul>
                                 <ul><h5>Marketing and Promotion</h5>
-                                <p>Develop strategies to reach your target audience and attract <br /> investors.</p>
+                                    <p>Develop strategies to reach your target audience and attract <br /> investors.</p>
                                 </ul>
                                 <ul>
                                     <h5>Payment Processing</h5>
                                     <p>Integrate secure payment gateways to facilitate seamless <br />
-                                         transactions.</p>
+                                        transactions.</p>
                                 </ul>
                                 <ul>
                                     <h5>Regulatory Compliance</h5>
                                     <p>Ensure your platform adheres to all relevant crowdfunding <br /> regulations.
-</p>
+                                    </p>
                                 </ul>
                                 <ul>
                                     <h5>Entrepreneurship</h5>
@@ -87,7 +88,7 @@ function page() {
                                     </h5>
                                     <p>Support social good initiatives, charities, and community  <br />development projects.
 
-</p>
+                                    </p>
                                 </ul>
                                 <ul>
                                     <h5>Real Estate</h5>
@@ -129,7 +130,7 @@ function page() {
                                 <ul>
                                     <h5>Fintechify: Where crowdfunding dreams take flight.</h5>
                                 </ul>
-                              
+
                             </div>
                         </div>
                     </div>
@@ -143,7 +144,7 @@ function page() {
                             <h4>Get Started Today</h4>
                             <p>Unleash the potential of your idea. Contact Fintechify today! We'll craft your custom crowdfunding <br /> platform and empower you to reach your funding goals. Together, let's make a difference..</p>
                         </div>
-                       
+
                     </div>
                 </div>
             </section>

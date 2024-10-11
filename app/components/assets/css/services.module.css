@@ -43,7 +43,7 @@
 }
 .InnovativeBox p {
     font-size: 14px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     color: black;
     font-weight: 400;
 }
@@ -141,7 +141,7 @@
     font-size: 14px;
     white-space: break-spaces;
     color: #666666;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     display: block;
 }
 .aboutFirst img {

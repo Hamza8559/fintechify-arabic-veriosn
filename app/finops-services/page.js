@@ -21,36 +21,30 @@ function page() {
             <section className='mb-5 mt-5'>
                 <div className="container">
                     <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image className="img-fluid" src={img1} />
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
                                 <h4>Your one-stop shop <br /> for FinOps Services.</h4>
                                 <p>Struggling with financial chaos? Ditch the spreadsheets! Fintechify is your financial SWAT team, blasting complexity and optimizing your business health. Startups or enterprises, we craft a plan unique to you. Join the revolution and unlock streamlined operations, soaring business health, and freedom from financial busywork. Enlist today!</p>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                                <Image className="img-fluid" src={img1} />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
-
-
-
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
                         <h4>See Where FinOps Service Works:</h4>
-
                         <div className='col-lg-6 p-lg-0'>
                             <div className={`${styles.processBox} ${styles.blueBg} ${styles.FinBlueUpperBox}`}>
                                 <ul>
                                     <h5>Financial Planning and Analysis</h5>
-                                    <p>Tired of flying blind with your finances?  Our expert Financial Planning and Analysis (Fp&A) services are your key to financial clarity and empowered decision-making. <br />We’re not just number crunchers, we’re financial strategists.
-
-                                    </p>                                </ul>
-
+                                    <p>Tired of flying blind with your finances?  Our expert Financial Planning and Analysis (Fp&A) services are your key to financial clarity and empowered decision-making. <br />We’re not just number crunchers, we’re financial strategists.</p>
+                                </ul>
                                 <ul>
                                     <h5>Financial X-Ray Vision</h5>
                                     <p>Gain deep insights into your financial performance, uncovering hidden opportunities and areas for improvement</p>
@@ -159,7 +153,6 @@ function page() {
                     </div>
                 </div>
             </section>
-
             <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container">
                     <div className="row">
@@ -168,11 +161,9 @@ function page() {
                             <h4>Get Started Today</h4>
                             <p>Start your journey towards financial empowerment and business growth now! Reach out to us today to  <br /> discover how our FinOps services can propel your business to success. Don't wait, take the first step <br /> towards a brighter future!</p>
                         </div>
-
                     </div>
                 </div>
             </section>
-
             <Testimonials />
             <Footer />
         </>
