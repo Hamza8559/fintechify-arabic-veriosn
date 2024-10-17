@@ -9,6 +9,15 @@ function page() {
       <section className="mb-5" style={{marginTop: "100px"}}>
         <div className="container">
           <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <Image src={img1} className="img-fluid" />
+              </div>
+            </div>
             <div
               className="col-lg-6"
               data-aos="fade-right"
@@ -26,15 +35,6 @@ function page() {
                   and tailored financial solutions. Experience banking that’s
                   perfectly attuned to your needs with Fintechify.
                 </p>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className={styles.InnovativeBox}
-                data-aos="fade-up"
-                data-aos-duration="500"
-              >
-                <Image src={img1} className="img-fluid" />
               </div>
             </div>
           </div>

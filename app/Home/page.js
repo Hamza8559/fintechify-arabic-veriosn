@@ -20,7 +20,7 @@ const page = () => {
       <Fianancial   />
       <Banking />
       <Services />
-      <Count />
+      {/* <Count /> */}
       <Payment />
       <Move />
       <Retail />

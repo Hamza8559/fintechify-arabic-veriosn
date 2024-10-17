@@ -14,7 +14,14 @@ const FinancialComponent = () => {
     <>
       <section className={`container mt-5 ${styles.container}`}>
         <div className="row  align-items-center">
-          {/* Left Column */}
+          {/* Right Column */}
+          <div
+            className={`col-lg-6 text-center ${styles.right}`}
+            data-aos="fade-left"
+            data-aos-duration="500"
+          >
+            <Image src={Phone1} alt="Phone1" className={styles.rightPhone} />
+          </div>
           <div
             className="col-lg-6 p-4"
             data-aos="fade-right"
@@ -52,15 +59,6 @@ const FinancialComponent = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Right Column */}
-          <div
-            className={`col-lg-6 text-center ${styles.right}`}
-            data-aos="fade-left"
-            data-aos-duration="500"
-          >
-            <Image src={Phone1} alt="Phone1" className={styles.rightPhone} />
           </div>
         </div>
       </section>

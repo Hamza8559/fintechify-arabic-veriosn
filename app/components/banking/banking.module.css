@@ -8,7 +8,7 @@
 }
 .InnovativeBox p {
   font-size: 14px;
-  padding-right: 50px;
+  /* padding-right: 50px; */
   color: gray;
   font-weight: 400;
 }
@@ -59,11 +59,11 @@
   }
   .InnovativeBox h4 {
     font-size: 30px;
-    text-align: left;
+    /* text-align: left; */
   }
   .InnovativeBox p {
-    padding-right: 0px;
-    text-align: left;
+    /* padding-right: 0px;
+    text-align: left; */
   }
   .LuSend2 {
     flex-direction: row;

@@ -10,7 +10,7 @@
 
   .check{
     display: flex;
-    align-items: flex-start;
+    align-items: end;
     justify-content: center;
     flex-direction: column;
   }
@@ -38,7 +38,6 @@
     font-weight: 400;
     color: #929292;
     font-size: 13px;
-    padding-right: 50px;
   }
  
   .LuSend {
@@ -83,7 +82,7 @@
     transition: all 0.1s;
   }
   .LuSend span {
-    margin-left: 10px;
+    margin-right: 10px;
   }
   .sendIcon {
     font-size: 24px;

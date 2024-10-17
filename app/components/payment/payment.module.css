@@ -40,11 +40,11 @@
     align-items: center;
 }
 .spam {
-    margin-left: 15px;
+    margin-right: 15px;
     color: black;
 }
 .spamHover {
-    margin-left: 15px;
+    margin-right: 15px;
 }
 #spamHeadBox h1{
     font-weight: 600;
@@ -139,7 +139,8 @@
 }
 @media (max-width: 576px) {
     .card, .cardHover {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: end;
         padding: 15px 10px;
     }
     .about h4 {

@@ -11,6 +11,22 @@ function Page() {
       <section className="mb-5 mt-5">
         <div className="container">
           <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className={styles.InnovativeBox}
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <Image src={img1} alt="Fintech Image" className="img-fluid" />
+              </div>
+              {/* <button className={`${styles.LuSend2} mt-3 d-lg-none d-block float-end`}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                  <FaArrowRight /> GET STARTED 
+                  </span>
+                </Link>
+              </button> */}
+            </div>
             <div
               className="col-lg-6"
               data-aos="fade-right"
@@ -38,30 +54,14 @@ function Page() {
                   solutions, seamlessly integrating expertise to fuel your
                   growth. Let’s transform together towards shared success!
                 </p>
-                <button className={`${styles.LuSend2} mt-3 d-lg-block d-none`}>
-                  <Link href="/contact-us"passHref>
+                <button className={`${styles.LuSend2} mt-3 float-end`}>
+                  <Link href="/contact-us">
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      GET STARTED <FaArrowRight />
+                    <FaArrowRight /> GET STARTED
                     </span>
                   </Link>
                 </button>
               </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className={styles.InnovativeBox}
-                data-aos="fade-up"
-                data-aos-duration="500"
-              >
-                <Image src={img1} alt="Fintech Image" className="img-fluid" />
-              </div>
-              <button className={`${styles.LuSend2} mt-3 d-lg-none d-block`}>
-                <Link href="/contact-us"passHref>
-                  <span style={{ textDecoration: "none", color: "white" }}>
-                    GET STARTED <FaArrowRight />
-                  </span>
-                </Link>
-              </button>
             </div>
           </div>
         </div>

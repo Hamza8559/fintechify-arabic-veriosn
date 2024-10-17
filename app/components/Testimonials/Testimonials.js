@@ -19,6 +19,11 @@ export default function Testimonials() {
             <section className='mt-5'>
                 <div className={`${styles.testimonialsBg} container `}>
                     <div className="row">
+                        <div className="col-lg-6" data-aos="fade-up-left" data-aos-duration="1000">
+                            <div className={styles.testimonailsRightPart}>
+                                <p>Our clients are at the heart of everything we do. We pride ourselves on building lasting relationships and providing exceptional service to individuals who appreciate the finer things in life.</p>
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-up-right" data-aos-duration="1000">
                             <div className={styles.testimonailsLeftPart}>
                                 <div className={styles.tagBox}>
@@ -30,24 +35,19 @@ export default function Testimonials() {
                                 </h4>
                             </div>
                         </div>
-                        <div className="col-lg-6" data-aos="fade-up-left" data-aos-duration="1000">
-                            <div className={styles.testimonailsRightPart}>
-                                <p>Our clients are at the heart of everything we do. We pride ourselves on building lasting relationships and providing exceptional service to individuals who appreciate the finer things in life.</p>
-                            </div>
-                        </div>
                         <div className="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
                             <div className={styles.contentSection}>
                                 <div>
-                                    <Image src={logo1} alt="logo" className={styles.logo1} />
                                     <span>“Fintechify has transformed my financial experience. Their seamless online services, responsive support, and innovative investment solutions have made managing my finances a breeze. I highly recommend Fintechify for their user-friendly interface and commitment to customer satisfaction.”</span>
+                                    <Image src={logo1} alt="logo" className={styles.logo1} />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6" data-aos="fade-up" data-aos-duration="3000">
                             <div className={styles.contentSection}>
                                 <div>
-                                    <Image src={logo2} alt="logo" className={styles.logo1} />
                                     <span>“Fintechify has changed my monetary experience. Their consistent internet based administrations, resposive help, and creative speculation arrangements have made dealing with my funds a breeze. I enthusiastically suggest Fintechify for their easy to understand connection point and obligation to consumer loyalty.”</span>
+                                    <Image src={logo2} alt="logo" className={styles.logo1} />
                                 </div>
                             </div>
                         </div>

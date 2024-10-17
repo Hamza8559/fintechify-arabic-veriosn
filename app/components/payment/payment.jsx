@@ -56,7 +56,7 @@ const payment = () => {
     <div className={`container-fluid ${style.containerFluid}`}>
       <div className={`container ${style.container}`}>
         <div className={`row ${style.row}`}>
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <span className={style.about}>
               <MdOutlinePayment className={style.settingIcon} />
               <h4>Payment Process</h4>
@@ -67,101 +67,6 @@ const payment = () => {
           </div>
         </div>
         <div className={`row ${style.row2}`}>
-          <div className={`col-lg-6 mt-1`}>
-            <div
-              className={isHover ? style.cardHover : style.card}
-              onMouseEnter={handleMouseOver}
-            >
-              <h1 className={isHover ? style.numberHover : style.number}>01</h1>
-              <span
-                className={isHover ? style.spamHover : style.spam}
-                id={style.spamHeadBox}
-              >
-                <h1>Strategies That Shift Perspectives</h1>
-                <p>
-                  Join Fintechify in revolutionizing digital finance. We craft
-                  innovative strategies and top-tier solutions to propel your
-                  business ahead in the fintech market. Let's shape the future
-                  of banking together.
-                </p>
-              </span>
-            </div>
-            <div
-              className={isHover1 ? style.cardHover : style.card}
-              onMouseEnter={handleMouseOver1}
-            >
-              <h1 className={isHover1 ? style.numberHover : style.number}>
-                02
-              </h1>
-              <span
-                className={isHover1 ? style.spamHover : style.spam}
-                id={style.spamHeadBox}
-              >
-                <h1>The Game Has Changed</h1>
-                <p>
-                  Forget fumbling with cards and endless paperwork. Fintechify
-                  is your springboard to the future of finance, where a tap
-                  unlocks a world of financial ease.
-                </p>
-              </span>
-            </div>
-            <div
-              className={isHover2 ? style.cardHover : style.card}
-              onMouseEnter={handleMouseOver2}
-            >
-              <h1 className={isHover2 ? style.numberHover : style.number}>
-                03
-              </h1>
-              <span
-                className={isHover2 ? style.spamHover : style.spam}
-                id={style.spamHeadBox}
-              >
-                <h1>We Don't Just Craft Solutions, We Craft Experiences.</h1>
-                <p>
-                  Our team of financial wizards blends cutting-edge technology
-                  with unparalleled design to create digital banking that's as
-                  smooth as it is secure.
-                </p>
-              </span>
-            </div>
-            <div
-              className={isHover3 ? style.cardHover : style.card}
-              onMouseEnter={handleMouseOver3}
-            >
-              <h1 className={isHover3 ? style.numberHover : style.number}>
-                04
-              </h1>
-              <span
-                className={isHover3 ? style.spamHover : style.spam}
-                id={style.spamHeadBox}
-              >
-                <h1>Ready To Dominate The Market?</h1>
-                <p>
-                  Partner with Fintechify and transform your business. We'll
-                  help you navigate the ever-evolving digital finance landscape,
-                  leaving the competition in the dust.
-                </p>
-              </span>
-            </div>
-            <div
-              className={isHover4 ? style.cardHover : style.card}
-              onMouseEnter={handleMouseOver4}
-            >
-              <h1 className={isHover4 ? style.numberHover : style.number}>
-                05
-              </h1>
-              <span
-                className={isHover4 ? style.spamHover : style.spam}
-                id={style.spamHeadBox}
-              >
-                <h1>Don't Just Survive, Thrive.</h1>
-                <p>
-                  Become a pioneer in the fintech revolution. With Fintechify,
-                  you're not just keeping pace, you're setting the standard.
-                </p>
-              </span>
-            </div>
-          </div>
           <div className={`col-lg-6  ${style.col6}`}>
             {isHover && (
               <div className={style.divbg}>
@@ -188,6 +93,93 @@ const payment = () => {
                 <Image src={bg3} className={`${style.bg1} img-fluid`} />
               </div>
             )}
+          </div>
+          <div className={`col-lg-6 mt-1`}>
+            <div
+              className={isHover ? style.cardHover : style.card}
+              onMouseEnter={handleMouseOver}
+            >
+              <span
+                className={isHover ? style.spamHover : style.spam}
+                id={style.spamHeadBox}
+              >
+                <h1>Strategies That Shift Perspectives</h1>
+                <p>
+                  Join Fintechify in revolutionizing digital finance. We craft
+                  innovative strategies and top-tier solutions to propel your
+                  business ahead in the fintech market. Let's shape the future
+                  of banking together.
+                </p>
+              </span>
+              <h1 className={isHover ? style.numberHover : style.number}>01</h1>
+            </div>
+            <div
+              className={isHover1 ? style.cardHover : style.card}
+              onMouseEnter={handleMouseOver1}
+            >
+              <span
+                className={isHover1 ? style.spamHover : style.spam}
+                id={style.spamHeadBox}
+              >
+                <h1>The Game Has Changed</h1>
+                <p>
+                  Forget fumbling with cards and endless paperwork. Fintechify
+                  is your springboard to the future of finance, where a tap
+                  unlocks a world of financial ease.
+                </p>
+              </span>
+              <h1 className={isHover1 ? style.numberHover : style.number}>02</h1>
+            </div>
+            <div
+              className={isHover2 ? style.cardHover : style.card}
+              onMouseEnter={handleMouseOver2}
+            >
+              <span
+                className={isHover2 ? style.spamHover : style.spam}
+                id={style.spamHeadBox}
+              >
+                <h1>We Don't Just Craft Solutions, We Craft Experiences.</h1>
+                <p>
+                  Our team of financial wizards blends cutting-edge technology
+                  with unparalleled design to create digital banking that's as
+                  smooth as it is secure.
+                </p>
+              </span>
+              <h1 className={isHover2 ? style.numberHover : style.number}>03</h1>
+            </div>
+            <div
+              className={isHover3 ? style.cardHover : style.card}
+              onMouseEnter={handleMouseOver3}
+            >
+              <span
+                className={isHover3 ? style.spamHover : style.spam}
+                id={style.spamHeadBox}
+              >
+                <h1>Ready To Dominate The Market?</h1>
+                <p>
+                  Partner with Fintechify and transform your business. We'll
+                  help you navigate the ever-evolving digital finance landscape,
+                  leaving the competition in the dust.
+                </p>
+              </span>
+              <h1 className={isHover3 ? style.numberHover : style.number}>04</h1>
+            </div>
+            <div
+              className={isHover4 ? style.cardHover : style.card}
+              onMouseEnter={handleMouseOver4}
+            >
+              <span
+                className={isHover4 ? style.spamHover : style.spam}
+                id={style.spamHeadBox}
+              >
+                <h1>Don't Just Survive, Thrive.</h1>
+                <p>
+                  Become a pioneer in the fintech revolution. With Fintechify,
+                  you're not just keeping pace, you're setting the standard.
+                </p>
+              </span>
+              <h1 className={isHover4 ? style.numberHover : style.number}>05</h1>
+            </div>
           </div>
         </div>
       </div>

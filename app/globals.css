@@ -7,10 +7,15 @@
 }
 h1,h2,h3,h4,h5,h6,div,section,a,ul,li,button{
   font-family: "Montserrat", sans-serif !important;
+  text-align: right !important;
+}
+ul{
+  direction: rtl;
 }
 p,span{
   font-family: "Work Sans", sans-serif !important;;
   line-height: normal !important;
+  text-align: right !important;
 }
 section{
   overflow-x: clip !important;
