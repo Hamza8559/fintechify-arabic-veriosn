@@ -5,13 +5,11 @@ import Footer from '../components/Footer/Footer'
 import Banner from '../components/Banner/Banner'
 import styles from '../components/assets/css/contact.module.css'
 import { MdOutlineAddIcCall } from "react-icons/md";
-import ContactImg from '../components/assets/images/contact-img.jpg'
+import ContactImg from '../components/assets/images/smiling-arab-businessman-adult-happy-generate-ai-scaled-e1711735176898.jpg'
 import Image from 'next/image'
 import Map from '../components/map/map'
 import { IoLocation } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
-
-
 
 
 function page() {
@@ -29,35 +27,35 @@ function page() {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className={styles.contactBox}>
+                                <MdOutlineAddIcCall />
                                 <div>
                                     <span>Telephone</span>
                                     <a href="">+971-54-5061985</a>
                                 </div>
-                                <MdOutlineAddIcCall />
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className={styles.contactBox}>
+                            <IoLocation />
                                 <div>
                                     <span>Location</span>
                                     <a href="">Unit: IH0101-OF01, Level One, <br />Innovation One, <br />DIFC, Dubai, UAE</a>
                                 </div>
-                                <IoLocation />
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className={styles.contactBox}>
+                            <MdOutlineEmail />
                                 <div>
                                     <span>Email</span>
                                     <a href="">talktous@fintechify.ae</a>
                                 </div>
-                                <MdOutlineEmail />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <Map />
+            {/* <Map /> */}
             <section className={styles.contactFormSection}>
                 <div className="container">
                     <div className="row">

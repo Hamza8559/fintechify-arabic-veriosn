@@ -1,10 +1,11 @@
 .BannerBg {
-    background: linear-gradient(150deg, #16222F, #1B64A3);
+    background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     color: white;
     padding: 130px 50px;
     text-align: center;
     position: relative;
     border-radius: 0 0 30px 30px;
+    z-index: 0;
 }
 
 .BannerBg::after {
@@ -20,26 +21,47 @@
 }
 
 .bannerBox h2 {
-    font-size: 30px;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    text-align: center !important;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-weight: 800;
+    z-index: 1;
+    position: relative;
+    line-height: normal;
 }
 
-.bannerBox span {
+.bannerBox .aboutTagLine {
     margin-bottom: 20px;
     display: block;
     font-size: 20px;
     color: #e9e1e1;
-    text-align: center !important;
+    position: relative;
+    line-height: normal;
+    z-index: 1;
+}
+
+.bannerBox .tagLine2{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 35px;
+    color: #e9e1e1;
+    font-weight: 500;
+    position: relative;
+    line-height: normal;
+    z-index: 1;
 }
 
 .bannerBox p {
+    font-weight: 500;
     padding: 0 20px;
     margin: 0;
     font-size: 18px;
-    text-align: center !important;
     color: #e9e1e1;
+    position: relative;
+    line-height: normal;
+    z-index: 1;
 }
 
 .bannerBox .bannerTag {
@@ -62,11 +84,38 @@
     margin: 0;
 }
 
+@media screen and (max-width:768px){
+    .bannerBox h2 {
+       font-size: 30px;
+    }
+    .bannerBox .tagLine2{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:568px){
+    .BannerBg {
+        border-radius: 0;
+    }
+    .bannerBox h2 {
+       font-size: 23px;
+    }
+    .bannerBox .tagLine2{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+}
 @media screen and (max-width:565px) {
     .BannerBg{
         padding: 100px 0;
     }
     .bannerBox p {
         padding: 0;
+    }
+}
+
+@media screen and (max-width:480px){
+    .bannerBox .tagLine2{
+        font-size: 15px;
     }
 }

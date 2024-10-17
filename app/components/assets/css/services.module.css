@@ -38,12 +38,12 @@
 }
 .InnovativeBox h4 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
 }
 .InnovativeBox p {
     font-size: 14px;
-    /* padding-right: 50px; */
+    padding-right: 50px;
     color: black;
     font-weight: 400;
 }
@@ -57,8 +57,9 @@
 }
 .servicessection h5 {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
 }
+
 .servicessection p {
     font-size: 14px;
     margin-bottom: 30px;
@@ -71,6 +72,11 @@
     text-align: center;
     position: relative;
     height: 275px;
+}
+.servicesBoxScd{
+    background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
+    color: white !important;
+    height: 310px !important;
 }
 .servicesBox svg {
     font-size: 50px;
@@ -108,6 +114,43 @@
     font-weight: 800;
     font-size: 20px;
 }
+.LuSend2 {
+    border: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+    border-radius: 30px;
+    color: white;
+    transition: all 0.1s;
+    font-weight: 600;
+  }
+  .LuSend2 svg {
+    transform: rotate(-45deg);
+    transition: all 0.1s;
+  }
+  .LuSend2:hover {
+    background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+  }
+  .LuSend2:hover svg {
+    transform: rotate(0deg);
+    transition: all 0.1s;
+  }
+  
+  .sendIcon {
+    font-size: 24px;
+    color: #065efe;
+  }
+  .LuSend2 button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 500;
+    border: none;
+  }
+  .LuSend2 button:hover {
+    color: white;
+    background: linear-gradient(90deg, #006ff9 0%, #00dcc7 51%, #006ff9 100%) 0 /
+      200%;
+  }
 
 /* BANKING APP DEV CSS ============================================== */
 .aboutFirst {
@@ -115,7 +158,8 @@
     color: black;
 }
 .aboutFirstsection h2 {
-    font-size: 48px;
+    font-size: 40px;
+    font-weight: 500;
 }
 .aboutFirstsection p {
     color: #e9e1e1;
@@ -141,12 +185,11 @@
     font-size: 14px;
     white-space: break-spaces;
     color: #666666;
-    /* padding-right: 30px; */
+    padding-right: 30px;
     display: block;
 }
 .aboutFirst img {
     border-radius: 50px;
-    box-shadow: 3px 4px 0px #3f3739;
 }
 
 /* ================================================== */
@@ -185,6 +228,7 @@
 .blueBg {
     background: #1E96FC;
     color: white;
+    border-radius: 20px;
 }
 .whiteBg {
     background: #F5F5F5;
@@ -233,10 +277,10 @@
 
 /* ============================= */
 .DigiBlueUpperBox {
-    height: 450px;
+    height: 300px;
 }
 .DigiWhiteBottomBox {
-    height: 450px;
+    height: 300px;
 }
 
 /* ============================= */
@@ -249,10 +293,10 @@
 
 /* ============================= */
 .ResourceBlueUpperBox {
-    height: 450px;
+    height: 300px;
 }
 .ResourceWhiteBottomBox {
-    height: 450px;
+    height: 300px;
 }
 
 /* ============================= */
@@ -287,13 +331,21 @@
     height: 450px;
 }
 
+.flexBoxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+#marginBoxTop{
+    margin-top: 100px;
+}
+
 /* ================================================================================================= */
 
 
 
 /* GET STARTED SECTION CSS ================================== */
 .getStartedSection {
-    background-image: linear-gradient(180deg, #1E96FC 0%, #030304 100%);
+    background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
     color: white;
     padding: 80px 0;
     margin: 50px 0;
@@ -322,6 +374,7 @@
 .getStartedSection .startedBox {
     color: #e3e3e3;
     padding: 5px 60px;
+    text-align: center;
 }
 .getStartedSection .startedBox ul {
     list-style: none;
@@ -387,6 +440,12 @@
 
 /* ========================================================================= */
 
+@media screen and (max-width:1024px){
+    .aboutFirstsection h2 {
+        font-size: 35px;
+    }
+}
+
 @media screen and (max-width:992px) {
     .aboutFirstsection h2 {
         font-size: 30px;
@@ -413,8 +472,26 @@
     .servicesBox {
         height: auto;
     }
+    .servicesBoxScd{
+        height: auto !important;
+    }
     .aboutFirstsection .iconFlexBox span {
         padding-right: 0;
+    }
+    .flexBoxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: unset !important;
+    }
+    #marginBoxTop{
+        margin-top: 0;
+    }
+    .InnovativeBox h4 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .aboutFirstsection h2 {
+        margin-top: 30px;
     }
 }
 
@@ -425,28 +502,30 @@
     .processSection span {
         font-size: 15px;
     }
+    .InnovativeBox img {
+        border-radius: 10px;
+    }
+    .aboutFirst img {
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width:565px) {
     .everyoneSection h4 {
         font-size: 30px;
     }
-    .InnovativeBox h4 {
-        font-size: 30px;
-        text-align: center;
-    }
     .InnovativeBox p {
         padding-right: 0px;
-        text-align: center;
+        text-align: left;
     }
 }
 
 @media screen and (max-width:480px) {
     .aboutFirstsection .iconFlexBox h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .processSection h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .getStartedSection .startedUpperBox h4 {
         font-size: 25px;
@@ -456,5 +535,23 @@
     }
     .startedBottomSection p {
         font-size: 16px;
+    }
+    .InnovativeBox h4 {
+        font-size: 20px;
+    }
+    .InnovativeBox p {
+        font-size: 12px;
+    }
+    .aboutFirstsection h2 {
+        font-size: 20px;
+    }
+    .iconFlexBox svg{
+        display: none;
+    }
+    .aboutFirstsection p{
+        font-size: 13px;
+    }
+    .servicessection .keyBox{
+        font-size: 20px;
     }
 }

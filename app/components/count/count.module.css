@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-image: url('../assets/images/bg1.jpg');
+    background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -101,17 +101,16 @@
     .col12 {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: start;
     }
 
     .card {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         text-align: center;
     }
 
     .card span {
-        margin-left: 0;
     }
 
     .card span h1 {

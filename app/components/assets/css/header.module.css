@@ -76,7 +76,7 @@
 }
 
 .menuBox {
-  background: #162A3E;
+  background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
 }
 
 .menuBox ul {
@@ -87,12 +87,11 @@
   display: flex;
   align-items: center;
   margin: 20px 0;
-  justify-content: flex-end;
 }
 
 .menuBox ul li>svg {
-  background: #2096F9;
-  margin-left: 10px;
+  background: white;
+  margin-right: 10px;
   font-size: 20px;
   height: 65px;
   width: 65px;
@@ -106,7 +105,7 @@
 }
 
 .menuBox ul li div a {
-  color: #2095FB;
+  color: white;
   text-decoration: none;
   font-weight: 500;
   font-size: 13px;
@@ -114,7 +113,7 @@
 }
 
 .menuBox ul li div a svg {
-  color: #2096F9;
+  color: white;
   font-size: 35px;
 }
 
@@ -166,20 +165,6 @@
   cursor: pointer;
   z-index: 1001;
   padding: 10px 15px;
-  border-radius: 5px;
-  line-height: 0;
-  color: white;
-}
-.menuButton2{
-  position: fixed;
-  top: 21px;
-  left: 207px;
-  background: #2096F9;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
-  z-index: 1001;
-  padding: 5px 5px;
   border-radius: 5px;
   line-height: 0;
   color: white;
@@ -239,7 +224,7 @@
   background: none;
   border: none;
   font-size: 1rem;
-  text-align: right;
+  text-align: left;
   width: 100%;
   cursor: pointer;
   color: black;
@@ -294,7 +279,6 @@
 
   .menuButton {
     display: block;
-    z-index: 9999;
   }
 
   .sidebar {

@@ -1,13 +1,14 @@
 .containerFluid {
-    margin: 100px 0px;
+    margin: 100px 0px 0 0;
 }
 .about {
+    padding: 8px 20px;
     background-color: transparent;
-    background-image: linear-gradient(92deg, #065EFE 3%, #00DCC7 94%);
+    background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     border-radius: 30px;
     display: inline-flex;
     align-items: center;
-    padding: 11px 15px;
+    justify-content: center;
 }
 .about svg{
     margin-right: 5px;
@@ -34,6 +35,10 @@
     border-radius: 15px;
     margin: 30px 0px;
 }
+.col6{
+    display: flex;
+    align-items: center;
+}
 .spam {
     margin-left: 15px;
     color: black;
@@ -43,10 +48,10 @@
 }
 #spamHeadBox h1{
     font-weight: 600;
-    font-size: 23px;
+    font-size: 18px;
 }
 #spamHeadBox p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     color: gray;
 }
@@ -58,31 +63,32 @@
     margin: 30px 0px;
 }
 .numberHover {
-    background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+    background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     border: none;
-    width: 129px;
-    height: 60px;
-    margin: 0;
-    padding: 10px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
-    font-size: 19px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 50%;
 }
 .number {
-    color: #065EFE;
-    border: 1px solid #ccc;
-    width: 129px;
-    height: 60px;
-    margin: 0;
-    padding: 10px;
+    font-size: 18px;
     border-radius: 50%;
+    border: 1px solid #ccc;
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 22px;
+    justify-content: center;
+    padding: 0 20px;
+    font-size: 18px;
 }
 .divbg {
     height: auto;
@@ -103,18 +109,12 @@
     }
 }
 @media (max-width: 1200px) {
-    .about {
-        width: 20vw;
-    }
     .card, .cardHover {
         padding: 20px;
     }
 }
 
 @media (max-width: 992px) {
-    .about {
-        width: 25vw;
-    }
     .card, .cardHover {
         padding: 15px;
     }
@@ -124,39 +124,28 @@
     .col6{display: none;}
 }
 @media (max-width: 768px) {
-    .about {
-        width: 35vw;
-    }
     .card, .cardHover {
         padding: 10px;
     }
     .number, .numberHover {
-        width: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50px;
+        margin-left: 12px;
     }
     .about h4 {
         font-size: 14px;
     }
 }
 @media (max-width: 576px) {
-    .about {
-        width: 40vw;
-    }
     .card, .cardHover {
         flex-direction: column;
-        padding: 5px;
-    }
-    .number, .numberHover {
-        width: 45px;
-        height: 40px;
+        padding: 15px 10px;
     }
     .about h4 {
         font-size: 12px;
     }
     .heading {
-        margin-top: 5px;
+        margin-top: 15px;
     }
 }

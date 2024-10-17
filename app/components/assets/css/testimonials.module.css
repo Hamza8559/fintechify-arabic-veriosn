@@ -1,6 +1,7 @@
 .testimonialsBg {
-    background-image:
-        linear-gradient(90deg, #350759 0%, #074783 100%);
+    /* background-image:
+        linear-gradient(90deg, #350759 0%, #074783 100%); */
+        background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
     color: white;
     padding: 50px 80px;
     border-radius: 50px;
@@ -39,10 +40,11 @@
 
 .testimonailsLeftPart .tagBox {
     display: inline-block;
-    background: linear-gradient(90deg, #2271af, #072BC9);
+    background-image: linear-gradient(80deg, #082AC9 0%, #1F96FD 100%);
     padding: 8px 20px;
     border-radius: 20px;
     margin-bottom: 20px;
+    box-shadow: 1px 0px 44px #343a405e;
 }
 
 .testimonailsLeftPart .tagBox span {
@@ -70,7 +72,7 @@
     background: white;
     color: black;
     border-radius: 15px;
-    padding: 30px 10px;
+    padding: 30px 3px;
     margin-top: 50px;
 }
 
@@ -81,7 +83,7 @@
 .contentSection img.logo1 {
     width: 78px;
     height: 78px;
-    margin-left: 10px;
+    margin-right: 10px;
     padding: 9px 9px;
     border-radius: 50px;
     object-fit: scale-down;
@@ -118,6 +120,11 @@
     }
 }
 
+@media screen and (max-width:568px){
+    .testimonialsBg {
+        border-radius: 0;
+    }
+}
 @media screen and (max-width:480px) {
     .testimonialsBg {
         padding: 50px 20px;

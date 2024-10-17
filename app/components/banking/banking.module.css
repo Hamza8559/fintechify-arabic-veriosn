@@ -1,0 +1,76 @@
+.InnovativeBox {
+  color: black;
+}
+.InnovativeBox h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}
+.InnovativeBox p {
+  font-size: 14px;
+  padding-right: 50px;
+  color: gray;
+  font-weight: 400;
+}
+.InnovativeBox img {
+  border-radius: 50px;
+}
+.LuSend2 {
+  border: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+  border-radius: 30px;
+  color: white;
+  transition: all 0.1s;
+  font-weight: 600;
+}
+.LuSend2 svg {
+  transform: rotate(-45deg);
+  transition: all 0.1s;
+}
+.LuSend2:hover {
+  background-image: linear-gradient(90deg, #082ac9, #1f96fd);
+}
+.LuSend2:hover svg {
+  transform: rotate(0deg);
+  transition: all 0.1s;
+}
+
+.sendIcon {
+  font-size: 24px;
+  color: #065efe;
+}
+.LuSend2 button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+.LuSend2 button:hover {
+  color: white;
+  background: linear-gradient(90deg, #006ff9 0%, #00dcc7 51%, #006ff9 100%) 0 /
+    200%;
+}
+
+@media screen and (max-width: 565px) {
+  .InnovativeBox img {
+    border-radius: 10px;
+  }
+  .InnovativeBox h4 {
+    font-size: 30px;
+    text-align: left;
+  }
+  .InnovativeBox p {
+    padding-right: 0px;
+    text-align: left;
+  }
+  .LuSend2 {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .LuSend2 button {
+    width: 100%;
+    text-align: center;
+  }
+}

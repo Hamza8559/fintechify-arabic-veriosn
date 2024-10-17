@@ -3,7 +3,7 @@ import styles from './Banner.module.css'
 import { BsBuildings } from "react-icons/bs";
 
 
-export default function Banner({ showCase, head, tagLine, Des }) {
+export default function Banner({ showCase, head, tagLine, tagLine2, Des }) {
     return (
         <>
             <section className={`${styles.BannerBg}`}>
@@ -19,9 +19,12 @@ export default function Banner({ showCase, head, tagLine, Des }) {
 
                                 {head !== false ?
                                     <h2>{head}</h2> : false}
-                                    
+
                                 {tagLine !== false ?
-                                    <span>{tagLine}</span> : false}
+                                    <span className={styles.aboutTagLine}>{tagLine}</span> : false}
+
+                                {tagLine2 !== false ?
+                                    <span className={styles.tagLine2}>{tagLine2}</span> : false}
 
                                 {Des !== false ?
                                     <p>{Des}</p> : false}

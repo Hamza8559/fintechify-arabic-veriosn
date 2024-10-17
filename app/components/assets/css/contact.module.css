@@ -3,20 +3,22 @@
 }
 
 .contactBox {
-    background-image: linear-gradient(180deg, #1E96FC 0%, #030304 100%);
+    /* background-image: linear-gradient(180deg, #1E96FC 0%, #030304 100%); */
+    background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px 0;
     border-radius: 10px;
+    height: 200px;
 }
 
 .contactBox svg {
     color: white;
     font-size: 50px;
-    margin-left: 44px;
-    border-left: 1px solid #d3d3d340;
-    padding-left: 10px;
+    margin-right: 44px;
+    border-right: 1px solid #d3d3d340;
+    padding-right: 10px;
 }
 
 .contactBox div {
@@ -42,10 +44,10 @@
 }
 
 .contactFormBox {
-    background-image: radial-gradient(at bottom right, #1C1B1B 0%, #1E96FC47 70%);
+    background-image: linear-gradient(90deg, #082AC9, #1F96FD);
     padding: 60px 30px;
     border-radius: 20px;
-    color: black;
+    color: white;
 }
 
 .contactFormBox h5 {
@@ -63,7 +65,6 @@
 
 .contactFormBox input {
     border-radius: 20px;
-    text-align: right;
 }
 
 .contactFormBox button {
@@ -71,7 +72,7 @@
     padding: 10px 50px;
     border-radius: 42px;
     border: none;
-    background-image: linear-gradient(223deg, #1E96FC85 0%, #1E96FC 100%);
+    background-image: linear-gradient(90deg, #1F96FD,#082AC9);
     color: white;
 }
 
