@@ -43,7 +43,7 @@
 }
 .InnovativeBox p {
     font-size: 14px;
-    padding-right: 50px;
+    padding-left: 50px;
     color: black;
     font-weight: 400;
 }
@@ -185,7 +185,7 @@
     font-size: 14px;
     white-space: break-spaces;
     color: #666666;
-    padding-right: 30px;
+    padding-left: 30px;
     display: block;
 }
 .aboutFirst img {
@@ -476,7 +476,7 @@
         height: auto !important;
     }
     .aboutFirstsection .iconFlexBox span {
-        padding-right: 0;
+        padding-left: 0;
     }
     .flexBoxes{
         display: flex;
@@ -515,7 +515,7 @@
         font-size: 30px;
     }
     .InnovativeBox p {
-        padding-right: 0px;
+        padding-left: 0px;
         text-align: left;
     }
 }

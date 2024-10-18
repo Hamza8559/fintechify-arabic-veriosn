@@ -24,12 +24,6 @@ import { FaBars } from "react-icons/fa";
 import { GoArrowUpLeft } from "react-icons/go";
 
 
-
-
-
-
-
-
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isProdMenu, setProdMenu] = useState(false)
@@ -58,9 +52,19 @@ export default function Header() {
                     <button className={styles.btnStart}>
                         <Link href="/contact-us" style={{color:"white"}}> GET STARTED <FaArrowRight /></Link>
                     </button>
-                    <button className={styles.menuButton} onClick={toggleSidebar}>
-                        {isOpen ? <MdClose /> : <FaBars />}
-                    </button>
+                    
+                    {
+                        isOpen ? false :
+                        <button className={styles.menuButtonOpen} onClick={toggleSidebar}>
+                            <FaBars />
+                        </button>
+                    }
+                    {
+                        isOpen ?
+                        <button className={styles.menuButtonClose} onClick={toggleSidebar}>
+                            <MdClose />
+                        </button> : false
+                    }
                 </div>
                 <nav className={`${styles.nav}`}>
                     <ul>
@@ -69,11 +73,11 @@ export default function Header() {
                         <li onMouseEnter={() => {
                             setIsMenuOpen(true)
                             setProdMenu(false)
-                        }}><Link href="/service">SERVICES <IoIosArrowDown /></Link></li>
+                        }}><Link href="/service"><IoIosArrowDown /> SERVICES</Link></li>
                         <li onMouseEnter={() => {
                             setIsMenuOpen(false)
                             setProdMenu(true)
-                        }} className={styles.productsMenu}><Link href="#">PRODUCTS <IoIosArrowDown /></Link>
+                        }} className={styles.productsMenu}><Link href="#"><IoIosArrowDown /> PRODUCTS </Link>
                             {isProdMenu && (
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
                                     <li><Link href="/rizeApp" className={styles.ol}>Rize App</Link></li>
@@ -98,72 +102,72 @@ export default function Header() {
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <div>
-                                            <Link href="/integration-services"><GoArrowUpLeft />Integration Services</Link>
-                                        </div>
                                         <GrIntegration />
+                                        <div>
+                                            <Link href="/integration-services">Integration Services <GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <Link href="/resource-augmentation"><GoArrowUpLeft />Resource Augmentation</Link>
-                                        </div>
                                         <GrResources />
+                                        <div>
+                                            <Link href="/resource-augmentation">Resource Augmentation <GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <Link href="/currency-exchange-platform-development"><GoArrowUpLeft />Currency Exchange Platform Development</Link>
-                                        </div>
                                         <FaExchangeAlt />
+                                        <div>
+                                            <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <div>
-                                            <Link href="/finops-services"><GoArrowUpLeft />FinOps Services</Link>
-                                        </div>
                                         <MdOutlineDesignServices />
+                                        <div>
+                                            <Link href="/finops-services">FinOps Services <GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <Link href="/Crowdfunding-platform-development"><GoArrowUpLeft />Crowdfunding Platform Development</Link>
-                                        </div>
                                         <GiFlatPlatform />
+                                        <div>
+                                            <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development<GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <Link href="/decentralized-finance-defi-platform"><GoArrowUpLeft />Decentralized Finance Platform</Link>
-                                        </div>
                                         <GiPlatform />
+                                        <div>
+                                            <Link href="/decentralized-finance-defi-platform">Decentralized Finance <GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <div>
-                                            <Link href="/Banking-app-development"><GoArrowUpLeft />Banking App Development </Link>
-                                        </div>
                                         <AiFillAppstore />
+                                        <div>
+                                            <Link href="/Banking-app-development">Banking App Development<GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <Link href="/Digital-wallet-development"><GoArrowUpLeft />Digital Wallet Development</Link>
-                                        </div>
                                         <CiWallet />
+                                        <div>
+                                            <Link href="/Digital-wallet-development">Digital Wallet Development<GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <Link href="/Insurance-software-development"><GoArrowUpLeft />Insurance Software Development</Link>
-                                        </div>
                                         <SiBmcsoftware />
+                                        <div>
+                                            <Link href="/Insurance-software-development">Insurance Software Development<GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div>
-                                            <Link href="/cybersecurity"><GoArrowUpLeft />Cybersecurity</Link>
-                                        </div>
                                         <CiLock />
+                                        <div>
+                                            <Link href="/cybersecurity">Cybersecurity <GoArrowUpLeft /></Link>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>

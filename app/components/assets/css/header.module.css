@@ -49,11 +49,6 @@
   transition: all 1s;
 }
 
-/* .actions {
-    display: flex;
-    align-items: center;
-  } */
-
 .btnStart {
   border: none;
   padding: 10px 30px;
@@ -87,7 +82,7 @@
   display: flex;
   align-items: center;
   margin: 20px 0;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 .menuBox ul li>svg {
@@ -151,13 +146,33 @@
   color: white !important;
 }
 
-.menuButton {
+.menuButtonOpen {
   display: none;
 }
 
 /* Button to open the sidebar */
-.menuButton {
+.menuButtonOpen {
   /* position: fixed; */
+  top: 20px;
+  right: 20px;
+  background: #2096F9;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1001;
+  padding: 10px 15px;
+  border-radius: 5px;
+  line-height: 0;
+  color: white;
+}
+
+.menuButtonClose {
+  display: none;
+}
+
+/* Button to open the sidebar */
+.menuButtonClose {
+  position: fixed;
   top: 20px;
   right: 20px;
   background: #2096F9;
@@ -278,7 +293,8 @@
     display: none;
   }
 
-  .menuButton {
+  .menuButtonClose{display: block;}
+  .menuButtonOpen {
     display: block;
   }
 

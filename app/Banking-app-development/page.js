@@ -25,9 +25,14 @@ function page() {
                 tagLine2={"Banking that fits in Your Pocket"}
                 Des={false}
             />
-            <section className='mb-5 mt-5 d-lg-block d-none'>
+            <section className='mb-5 mt-5'>
                 <div className="container-fluid px-lg-5">
                     <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image src={img1} className='img-fluid' />
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
                             <div className={styles.InnovativeBox}>
                                 <h4>With Banking App <br />Your finances, finally <br />on autopilot.</h4>
@@ -44,44 +49,7 @@ function page() {
                             <button className={styles.LuSend2}>
                                 <Link href="/contact-us"passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
-                                    JOIN NOW <FaArrowRight />
-                                    </span>
-                                </Link>
-                            </button>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                                <Image src={img1} className='img-fluid' />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className='mb-5 mt-5 d-lg-none d-block'>
-                <div className="container-fluid px-lg-5">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                                <Image src={img1} className='img-fluid' />
-                            </div>
-                        </div>
-                        <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
-                            <div className={styles.InnovativeBox}>
-                                <h4 className="">With Banking App Your finances, <br /> finallyon autopilot.</h4>
-                                <h5>Get Tired of Traditional Banking Trends?</h5>
-                                <p>Imagine a world where:</p>
-                                <p>You don’t need to rush to the bank before closing.
-                                    Checking your balance, transferring funds, or paying bills feels effortless.</p>
-                                <p>You have a smart assistant in your pocket, helping you manage your money with ease.</p>
-                                <p>
-                                    This is now Possible in Real World with our Banking App Development.
-                                    Fintechify crafts sleek, secure mobile banking that blasts past the     competition.  Our team of designers, developers, and strategists build  features that empower users and fuel growth.
-                                </p>
-                            </div>
-                            <button className={styles.LuSend2}>
-                                <Link href="/contact-us"passHref>
-                                    <span style={{ textDecoration: "none", color: "white" }}>
-                                    JOIN NOW <FaArrowRight />
+                                         JOIN NOW 
                                     </span>
                                 </Link>
                             </button>
@@ -89,55 +57,55 @@ function page() {
                     </div>
                 </div>
             </section>
-
+            
             <section className={styles.aboutFirst}>
                 <div className="container-fluid px-lg-5">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div data-aos="fade-up" data-aos-duration="500" >
-                                <Image className="img-fluid" src={aboutFirstSectionImg} />
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
+                    <div className="col-lg-6">
                             <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
                                 <h2 className=''>
                                     Why You Should Move for <br /> Banking App Development
                                 </h2>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
                                         <h3>Reduced Costs:</h3>
                                         <span>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</span>
                                     </div>
+                                    <IoMdCheckmarkCircleOutline />
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
                                         <h3>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</h3>
                                         <span>Offer a more personalized and interactive banking experience.</span>
                                     </div>
+                                    <IoMdCheckmarkCircleOutline />
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
                                         <h3>Improved Customer Satisfaction:</h3>
                                         <span>Provide convenient and efficient services, leading to higher customer retention.</span>
                                     </div>
+                                    <IoMdCheckmarkCircleOutline />
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
                                         <h3>Data-Driven Insights:</h3>
                                         <span>Gain valuable customer data and spending habits to inform future marketing strategies and product development.</span>
                                     </div>
+                                    <IoMdCheckmarkCircleOutline />
                                 </div>
                                 <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
                                     <div>
                                         <h3>Competitive Advantage:</h3>
                                         <span>Stay ahead of the curve by offering innovative mobile banking solutions.</span>
                                     </div>
+                                    <IoMdCheckmarkCircleOutline />
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div data-aos="fade-up" data-aos-duration="500" >
+                                <Image className="img-fluid" src={aboutFirstSectionImg} />
                             </div>
                         </div>
                     </div>
@@ -255,8 +223,8 @@ function page() {
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container-fluid px-lg-5">
                     <div className="row">
-                        <h4>Our Process of Testifying</h4>
-                        <span>Before we blast off, we need a roadmap.</span>
+                        <h4 className='text-center'>Our Process of Testifying</h4>
+                        <span className='text-center'>Before we blast off, we need a roadmap.</span>
                         <div className={styles.flexBoxes}>
                             <div className='col-lg-5 p-lg-0'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevBlueUpperBox} `}>
