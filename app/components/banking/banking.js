@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./banking.module.css";
 import img1 from "../assets/images/sheikh.jpg";
 import { FaArrowRight } from "react-icons/fa6";
-import Link from 'next/link';
+import Link from "next/link";
 
 function Page() {
   return (
@@ -33,31 +33,27 @@ function Page() {
               data-aos-duration="500"
             >
               <div className={styles.InnovativeBox}>
-                <h4>
-                  Simplify Your Banking
-                  <br />
-                  with Fintechify
-                </h4>
+                <h4>بسط خدماتك المصرفية مع فينتكفاي</h4>
                 <p>
-                  Fintech is changing the way we manage our money, making it
-                  faster, easier, and more accessible for everyone. For example,
-                  you can now:
+                  التكنولوجيا المالية تغير الطريقة التي ندير بها أموالنا، مما
+                  يجعلها أسرع وأسهل وأكثر إتاحة للجميع. على سبيل المثال، يمكنك
+                  الآن:
                 </p>
                 <ul>
-                  <li>Use your phone to pay for groceries.</li>
-                  <li>Deposit checks remotely.</li>
-                  <li>Get a loan decision in minutes.</li>
-                  <li>Invest in stocks and bonds with just a few clicks.</li>
+                  <li>.استخدم هاتفك لدفع ثمن البقالة</li>
+                  <li>.إيداع الشيكات عن بُعد</li>
+                  <li>.احصل على قرار القرض في دقائق</li>
+                  <li>.استثمر في الأسهم والسندات ببضع نقرات فقط</li>
                 </ul>
                 <p>
-                  Join us on a fintech journey where we co-create tailored
-                  solutions, seamlessly integrating expertise to fuel your
-                  growth. Let’s transform together towards shared success!
+                  انضم إلينا في رحلة التكنولوجيا المالية حيث نتشارك في إنشاء
+                  حلول مخصصة، ونقوم بدمج الخبرات بسلاسة لتعزيز نموك. لنتحول معًا
+                  نحو النجاح!المشترك!
                 </p>
                 <button className={`${styles.LuSend2} mt-3 float-end`}>
                   <Link href="/contact-us">
                     <span style={{ textDecoration: "none", color: "white" }}>
-                    <FaArrowRight /> GET STARTED
+                      <FaArrowRight /> ابدأ الآن{" "}
                     </span>
                   </Link>
                 </button>

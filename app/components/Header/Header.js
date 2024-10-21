@@ -56,7 +56,7 @@ export default function Header() {
             <header className={styles.header}>
                 <div className={styles.actions}>
                     <button className={styles.btnStart}>
-                        <Link href="/contact-us" style={{color:"white"}}> GET STARTED <FaArrowRight /></Link>
+                        <Link href="/contact-us" style={{color:"white"}}> ابدأ الآن <FaArrowRight /></Link>
                     </button>
                     <button className={styles.menuButton} onClick={toggleSidebar}>
                         {isOpen ? <MdClose /> : <FaBars />}
@@ -64,24 +64,24 @@ export default function Header() {
                 </div>
                 <nav className={`${styles.nav}`}>
                     <ul>
-                        <li><Link href="/">HOME</Link></li>
-                        <li><Link href="/about">ABOUT</Link></li>
+                        <li><Link href="/">الرئيسية</Link></li>
+                        <li><Link href="/about">معلومات عنا</Link></li>
                         <li onMouseEnter={() => {
                             setIsMenuOpen(true)
                             setProdMenu(false)
-                        }}><Link href="/service">SERVICES <IoIosArrowDown /></Link></li>
+                        }}><Link href="/service">خدمات <IoIosArrowDown /></Link></li>
                         <li onMouseEnter={() => {
                             setIsMenuOpen(false)
                             setProdMenu(true)
-                        }} className={styles.productsMenu}><Link href="#">PRODUCTS <IoIosArrowDown /></Link>
+                        }} className={styles.productsMenu}><Link href="#">منتجات <IoIosArrowDown /></Link>
                             {isProdMenu && (
                                 <ul onMouseLeave={() => { setProdMenu(false) }}>
-                                    <li><Link href="/rizeApp" className={styles.ol}>Rize App</Link></li>
-                                    <li><Link href="/welab" className={styles.ol}>WeLab</Link></li>
+                                    <li><Link href="/rizeApp" className={styles.ol}>تطبيق رايز</Link></li>
+                                    <li><Link href="/welab" className={styles.ol}>وي لاب</Link></li>
                                 </ul>
                             )}
                         </li>
-                        <li><Link href="/contact-us">CONTACT</Link></li>
+                        <li><Link href="/contact-us">اتصل بنا</Link></li>
                     </ul>
                 </nav>
                 <Link href="/">
