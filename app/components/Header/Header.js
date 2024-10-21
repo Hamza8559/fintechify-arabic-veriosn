@@ -102,21 +102,27 @@ export default function Header() {
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <GrIntegration />
+                                        <AiFillAppstore />
                                         <div>
-                                            <Link href="/integration-services">Integration Services <GoArrowUpLeft /></Link>
+                                            <Link href="/Banking-app-development">Banking App Development<GoArrowUpLeft /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <GrResources />
+                                        <CiWallet />
                                         <div>
-                                            <Link href="/resource-augmentation">Resource Augmentation <GoArrowUpLeft /></Link>
+                                            <Link href="/Digital-wallet-development">Digital Wallet Development<GoArrowUpLeft /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <FaExchangeAlt />
+                                        <SiBmcsoftware />
                                         <div>
-                                            <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <GoArrowUpLeft /></Link>
+                                            <Link href="/Insurance-software-development">Insurance Software Development<GoArrowUpLeft /></Link>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <CiLock />
+                                        <div>
+                                            <Link href="/cybersecurity">Cybersecurity <GoArrowUpLeft /></Link>
                                         </div>
                                     </li>
                                 </ul>
@@ -146,27 +152,21 @@ export default function Header() {
                             <div className='col-lg-4 p-0 m-0'>
                                 <ul>
                                     <li>
-                                        <AiFillAppstore />
+                                        <GrIntegration />
                                         <div>
-                                            <Link href="/Banking-app-development">Banking App Development<GoArrowUpLeft /></Link>
+                                            <Link href="/integration-services">Integration Services <GoArrowUpLeft /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <CiWallet />
+                                        <GrResources />
                                         <div>
-                                            <Link href="/Digital-wallet-development">Digital Wallet Development<GoArrowUpLeft /></Link>
+                                            <Link href="/resource-augmentation">Resource Augmentation <GoArrowUpLeft /></Link>
                                         </div>
                                     </li>
                                     <li>
-                                        <SiBmcsoftware />
+                                        <FaExchangeAlt />
                                         <div>
-                                            <Link href="/Insurance-software-development">Insurance Software Development<GoArrowUpLeft /></Link>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <CiLock />
-                                        <div>
-                                            <Link href="/cybersecurity">Cybersecurity <GoArrowUpLeft /></Link>
+                                            <Link href="/currency-exchange-platform-development">Currency Exchange Platform Development <GoArrowUpLeft /></Link>
                                         </div>
                                     </li>
                                 </ul>

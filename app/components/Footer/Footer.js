@@ -14,6 +14,15 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div className={styles.newsletter}>
+          <div className={styles.newsletterText}>
+            <h2>
+              Subscribe to our newsletter <br /> and stay updated
+            </h2>
+            <p>
+              FinTechify revolutionizes banking, offering a user-centric digital
+              experience.
+            </p>
+          </div>
           <div className={styles.subscription}>
             <input
               type="email"
@@ -23,15 +32,6 @@ export default function Footer() {
             <button className={styles.subscribeButton}>
               Subscribe <FaArrowRight />
             </button>
-          </div>
-          <div className={styles.newsletterText}>
-            <h2>
-              Subscribe to our newsletter <br /> and stay updated
-            </h2>
-            <p>
-              FinTechify revolutionizes banking, offering a user-centric digital
-              experience.
-            </p>
           </div>
         </div>
         <div className={`${styles.footerMain} p-0 m-0`}>
@@ -145,7 +145,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.footerBottom}>
-          <p>&copy; 2024 FinTechify. All rights reserved.</p>
+          <p className="text-center">&copy; 2024 FinTechify. All rights reserved.</p>
         </div>
       </footer>
     </>

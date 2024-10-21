@@ -31,12 +31,42 @@ const page = () => {
         </div>
       </div>
 
-      <div className={`container  ${style.container2}`}>
+      <div className={`container d-lg-block d-none ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 flex_left  ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+          <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
+            <Image src={RisImage} />
+            <h1>
+              TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
+              CORPORATION (MALAYSIA)
+            </h1>
+            <p>
+              Experience a new era in banking with Rize. Open a savings account
+              anytime, anywhere, apply for personal financing with funds
+              deposited in your account within 15 minutes. Rize provides 24/7
+              access to your financial information and a comprehensive suite of
+              banking services. Whether you want to check your balance, transfer
+              funds, pay bills, or deposit checks, it’s all convenient and
+              secure from the comfort of your home or on the go using Rize. Rize
+              is revolutionizing the banking experience, combining anytime,
+              anywhere access, robust security measures, personalized financial
+              insights, and a wide range of banking services. Embrace the power
+              of digital banking with Rize and unlock a world of possibilities
+              for effortless and efficient financial management.
+            </p>
+            <button className={`${style.btn} mt-3`}>Join Now</button>
+          </div>
+          <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
             <Image src={RisMobile} className={style.RisMobile} />
           </div>
-          <div className={`col-lg-6 flex_left align-items-end ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
+        </div>
+      </div>
+
+      <div className={`container d-lg-none d-block ${style.container2}`}>
+        <div className={`row ${style.row}`}>
+          <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+            <Image src={RisMobile} className={style.RisMobile} />
+          </div>
+          <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
             <Image src={RisImage} />
             <h1>
               TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
@@ -64,54 +94,51 @@ const page = () => {
       <section className={style.aboutFirst}>
         <div className="container-fluid px-5">
           <div className="row text-center mb-5">
-            <h2 className="text-center" style={{fontWeight:"700"}}>Current Features</h2>
+            <h2  className="text-center" style={{fontWeight:"700"}}>Current Features</h2>
           </div>
           <div className="row">
-            <div className="col-lg-6 p-0">
+            <div className="col-lg-6">
               <div data-aos="fade-up" data-aos-duration="500" >
                 <Image className="img-fluid" src={aboutFirstSectionImg} />
               </div>
             </div>
-            <div className="col-lg-6 p-0">
+            <div className="col-lg-6">
               <div className={style.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
-                {/* <h2>
-                  Why You Should Move <br />for Banking App <br />Development
-                </h2> */}
                 <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>ACCOUNT MANAGEMENT:</h3>
                     <span>Users can access and manage their bank accounts, check balances, view transaction history, and perform various banking activities directly from their mobile devices.</span>
                   </div>
-                  <IoMdCheckmarkCircleOutline />
                 </div>
                 <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>PAYMENTS AND TRANSFERS:</h3>
                     <span>The app allows users to make local and international transfers, pay bills, and conduct other financial transactions seamlessly.</span>
                   </div>
-                  <IoMdCheckmarkCircleOutline />
                 </div>
                 <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>BUDGETING AND EXPENSE TRACKING:</h3>
                     <span>It offers tools to help users track their expenses, set budgets, and manage their finances more effectively.</span>
                   </div>
-                  <IoMdCheckmarkCircleOutline />
                 </div>
                 <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>CUSTOMER SUPPORT:</h3>
                     <span>This app incorporates customer support features to provide assistance and resolve queries directly through the app.</span>
                   </div>
-                  <IoMdCheckmarkCircleOutline />
                 </div>
                 <div className={style.iconFlexBox}>
+                  <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>
                     SECURITY FEATURES:</h3>
                     <span>Security is a top priority for banking apps. Rize likely implements robust security measures, such as encryption and authentication methods, to ensure the safety of users' financial information.</span>
                   </div>
-                  <IoMdCheckmarkCircleOutline />
                 </div>
               </div>
             </div>
@@ -121,7 +148,9 @@ const page = () => {
 
       <div className={`container-fluid ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row ${style.row2}`}>
-          <h1 className="text-center">Essential Banking Services</h1>
+          <h1 className="text-center">
+            Essential Banking Services
+          </h1>
           <div className={style.flexBoxes}>
             <div className={`col-lg-5 ${style.boxleft}`}>
               <h2>READY CASHLINE (RCL)</h2>
@@ -223,7 +252,9 @@ const page = () => {
 
       <div className={`container-fluid mt-5 ${style.Essential}`}>
         <div className={`row ${style.row2}`}>
-          <h1 className="text-center">Digital Lending</h1>
+          <h1  className="text-center">
+            Digital Lending
+          </h1>
           <div className={style.flexBoxes}>
             <div className={`col-lg-5 ${style.boxleft}`}>
               <h2>Personal Financing (PF)</h2>
