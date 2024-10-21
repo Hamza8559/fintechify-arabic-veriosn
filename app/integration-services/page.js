@@ -214,7 +214,7 @@ function page() {
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Our Expertise in Integration Services</h4>
+            <h4 className="text-center">Our Expertise in Integration Services</h4>
 
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
@@ -286,17 +286,17 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container-fluid px-lg-5">
+        <div className="container">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
-              <h4>Revolutionize Your Customer Experience with Fintech CRM.</h4>
-              <p>
+              <h4 className="text-center">Revolutionize Your Customer Experience with Fintech CRM.</h4>
+              <p className="text-center">
                 Tired of clunky CRM systems hindering your growth? We craft
                 powerful FinTech CRM solutions designed to transform the way you
                 manage customer relationships.
               </p>
-              <p>
+              <p className="text-center">
                 Contact us today! Let's discuss your needs and show you how a
                 custom Fintech CRM can revolutionize your business.
               </p>

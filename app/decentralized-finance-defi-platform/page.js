@@ -268,13 +268,13 @@ const page = () => {
       <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Our Services Of DeFi Platform Development</h4>
-            <h4 className="mb-5">Tired of worrying about security and limited options?</h4>
+            <h4 className="text-center">Our Services Of DeFi Platform Development</h4>
+            <h4 className="mb-5 text-center">Tired of worrying about security and limited options?</h4>
 
             <div className={styles.flexBoxes}>
-              <div className="col-lg-5 p-lg-0">
+              <div className="col-lg-5">
                 <div
-                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox} p-5`}
                 >
                   <h5>Tired of worrying about security and limited options?</h5>
                   <p>
@@ -303,9 +303,9 @@ const page = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
+              <div className="col-lg-5" id={styles.marginBoxTop}>
                 <div
-                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedWhiteBottomBox}`}
+                  className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedWhiteBottomBox} p-5`}
                 >
                   
                     <h5>Unleash a world of financial possibilities:</h5>
@@ -363,19 +363,19 @@ const page = () => {
             <div className="col-lg-12 text-center">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
-                  <li>
+                  <li className="text-center">
                     <span>
                       Trade like a pro: Access a diverse range of
                       cryptocurrencies on our secure DEX.
                     </span>
                   </li>
-                  <li>
+                  <li className="text-center">
                     <span>
                       Earn like royalty: Borrow, lend, and farm for high yields
                       with innovative DeFi tools.
                     </span>
                   </li>
-                  <li>
+                  <li className="text-center">
                     <span>
                       Be your own bank: Take control of your finances, free from
                       centralized control.
@@ -383,11 +383,11 @@ const page = () => {
                   </li>
                 </ul>
               </div>
-              <h5>
+              <h5 className="text-center">
                 Don't wait! Sign up for your FREE Fintechify account TODAY and
                 unlock a world of financial possibilities.
               </h5>
-              <h3 style={{fontWeight:"600"}}>Limited Spots Available! JOIN THE REVOLUTION NOW!</h3>
+              <h3 className="text-center" style={{fontWeight:"600"}}>Limited Spots Available! JOIN THE REVOLUTION NOW!</h3>
             </div>
           </div>
         </div>

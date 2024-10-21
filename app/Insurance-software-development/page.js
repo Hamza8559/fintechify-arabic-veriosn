@@ -266,7 +266,7 @@ function page() {
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>
+            <h4 className="text-center">
               Key Features of Fintechify Insurance Software <br /> Development
               Services
             </h4>
@@ -389,7 +389,7 @@ function page() {
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
               <h4>Get Started Today</h4>
-              <p>
+              <p className="text-center">
                 Clunky insurance software slowing you down? Upgrade to
                 Fintechify & <br /> thrive! Automate tasks, secure data, & make
                 data-driven decisions. Don't <br /> settle! Contact us & unlock

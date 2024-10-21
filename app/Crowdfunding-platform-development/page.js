@@ -179,7 +179,7 @@ function page() {
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container-fluid px-lg-5">
                     <div className="row">
-                        <h4>Our Process</h4>
+                        <h4 className='text-center'>Our Process</h4>
                         <div className={styles.flexBoxes}>
                             <div className='col-lg-5 p-lg-0'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>
@@ -274,7 +274,7 @@ function page() {
                         <div className={styles.startedUpperBox}>
                             <Image src={QoutesImg} alt='Qoutes' />
                             <h4>Get Started Today</h4>
-                            <p>Unleash the potential of your idea. Contact Fintechify today! We'll craft your custom crowdfunding <br /> platform and empower you to reach your funding goals. Together, let's make a difference..</p>
+                            <p className='text-center'>Unleash the potential of your idea. Contact Fintechify today! We'll craft your custom crowdfunding <br /> platform and empower you to reach your funding goals. Together, let's make a difference..</p>
                         </div>
 
                     </div>

@@ -87,10 +87,10 @@ const page = () => {
       <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Code, Craft, Cash! Unleash Your</h4>
-            <h4>Digital Wallet's Potential</h4>
-            <span className='m-0'>That's the power of our Code, Craft, Cash! digital wallet development process.</span>
-            <span>Here's how we turn your vision into reality:</span>
+            <h4 className='text-center'>Code, Craft, Cash! Unleash Your</h4>
+            <h4 className='text-center'>Digital Wallet's Potential</h4>
+            <span className='m-0 text-center'>That's the power of our Code, Craft, Cash! digital wallet development process.</span>
+            <span className='text-center'>Here's how we turn your vision into reality:</span>
 
             <div className={styles.flexBoxes}>
               <div className='col-lg-5 p-lg-0'>
@@ -132,15 +132,15 @@ const page = () => {
               <Image src={QoutesImg} alt='Qoutes' />
               <h1 className={styles.heading}>Ready to Code, Craft, and Cash In?</h1>
               <h3>Let's build the future of finance, together!</h3>
-              <p>Developing a digital wallet isn’t just about building an app, it’s about building the future of finance. Are you ready to be a <br />part of it?</p>
+              <p className='text-center'>Developing a digital wallet isn’t just about building an app, it’s about building the future of finance. Are you ready to be a part of it?</p>
             </div>
             <div className="col-lg-12">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
-                  <li className='text-start'><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the forefront.</span></li>
-                  <li className='text-start'><IoCheckmarkSharp /><span>Security that's sharper than your new suit. Convenience that's smoother than a crypto transaction.</span></li>
-                  <li className='text-start'><IoCheckmarkSharp /><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future.</span></li>
-                  <li className='text-start'><IoCheckmarkSharp /><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen.</span></li>
+                  <li className='text-end'><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the forefront.</span></li>
+                  <li className='text-end'><IoCheckmarkSharp /><span>Security that's sharper than your new suit. Convenience that's smoother than a crypto transaction.</span></li>
+                  <li className='text-end'><IoCheckmarkSharp /><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future.</span></li>
+                  <li className='text-end'><IoCheckmarkSharp /><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen.</span></li>
                 </ul>
               </div>
             </div>

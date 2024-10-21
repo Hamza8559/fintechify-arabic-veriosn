@@ -168,7 +168,7 @@ function page() {
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>
+            <h4 className="text-center">
               Key Features of Our Currency Exchange <br />
               Platform Development Service:
             </h4>
@@ -232,12 +232,12 @@ function page() {
       </section>
 
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container-fluid px-lg-5 text-center">
+        <div className="container px-lg-5 text-center">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
               <h4>Get Started Today</h4>
-              <h5>
+              <h5 className="text-center">
                 Ready to kickstart your currency exchange service or enhance
                 your current platform? With our wealth of expertise and
                 resources, we're poised to actualize your vision. Reach out

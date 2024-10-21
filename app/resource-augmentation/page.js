@@ -178,7 +178,7 @@ function page() {
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Key Features</h4>
+            <h4 className="text-center">Key Features</h4>
             <div  className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
                 <div
@@ -234,12 +234,12 @@ function page() {
       </section>
       
       <section className={styles.getStartedSection} data-aos="fade-up">
-        <div className="container-fluid px-lg-5">
+        <div className="container px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
-              <h4>Ready to transform how your business manages payments?</h4>
-              <p>
+              <h4 className="text-center">Ready to transform how your business manages payments?</h4>
+              <p className="text-center">
                 Reach out to us today to explore your project needs and initiate
                 the journey towards developing an innovative payment application
                 that propels your business towards growth and prosperity. Let's

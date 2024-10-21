@@ -62,6 +62,7 @@ function page() {
           </div>
         </div>
       </section>
+
       <section className="mb-5 mt-5 d-lg-none d-block">
         <div className="container px-lg-5">
           <div className="row align-items-center">
@@ -315,7 +316,7 @@ function page() {
       >
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>See Where FinOps Service Works:</h4>
+            <h4 className="text-center">See Where FinOps Service Works:</h4>
 
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
@@ -522,7 +523,7 @@ function page() {
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
               <h4>Get Started Today</h4>
-              <p>
+              <p className="text-center">
                 Start your journey towards financial empowerment and business
                 growth now! Reach out to us today to <br /> discover how our
                 FinOps services can propel your business to success. Don't wait,
