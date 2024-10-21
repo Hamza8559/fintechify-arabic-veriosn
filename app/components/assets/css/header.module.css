@@ -316,3 +316,12 @@
     width: 140px;
   }
 }
+
+@media screen and (max-width:340px){
+  .sidebar {
+    width: 200px;
+  }
+  .menuButtonClose{
+    right: 5px;
+  }
+}
