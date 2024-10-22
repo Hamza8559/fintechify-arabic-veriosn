@@ -154,7 +154,7 @@ export default function Footer() {
           </div>
           <div className="row" id={styles.BottomRow}>
             <p className="text-center">
-              &copy; 2024 FinTechify. جميع الحقوق محفوظة.
+               جميع الحقوق محفوظة &copy; 2024 FinTechify
             </p>
           </div>
         </section>

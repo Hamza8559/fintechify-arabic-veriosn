@@ -43,15 +43,17 @@ const FinancialComponent = () => {
               <div className={`${styles.percentFlex} d-flex  mt-4`}>
                 <div className={`me-5 text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
-                    <BsLightningCharge className={styles.eletric} />
+                    
                     <h3>20x</h3>
+                    <BsLightningCharge className={styles.eletric} />
                   </span>
                   <p>تحويلات ومدفوعات فورية وسريعة للغاية.</p>
                 </div>
                 <div className={`me-5 text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
-                    <RiSecurePaymentLine className={styles.eletric} />
+                    
                     <h3>100%</h3>
+                    <RiSecurePaymentLine className={styles.eletric} />
                   </span>
                   <p>حماية بيانات فائقة الأمان.</p>
                 </div>
