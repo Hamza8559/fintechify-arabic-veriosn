@@ -51,7 +51,7 @@ export default function Header() {
           <button className={styles.btnStart}>
             <Link href="/contact-us" style={{ color: "white" }}>
               {" "}
-              ابدأ الآن <FaArrowRight />
+              البدء <FaArrowRight />
             </Link>
           </button>
 
@@ -76,7 +76,7 @@ export default function Header() {
               <Link href="/">الرئيسية</Link>
             </li>
             <li>
-              <Link href="/about">معلومات عنا</Link>
+              <Link href="/about">حول</Link>
             </li>
             <li
               onMouseEnter={() => {
@@ -106,19 +106,19 @@ export default function Header() {
                 >
                   <li>
                     <Link href="/rizeApp" className={styles.ol}>
-                      تطبيق رايز
+                      تطبيق Rize
                     </Link>
                   </li>
                   <li>
                     <Link href="/welab" className={styles.ol}>
-                      وي لاب
+                      WeLab
                     </Link>
                   </li>
                 </ul>
               )}
             </li>
             <li>
-              <Link href="/contact-us">اتصل بنا</Link>
+              <Link href="/contact-us">تواصل</Link>
             </li>
           </ul>
         </nav>
@@ -137,6 +137,74 @@ export default function Header() {
         >
           <div className="container">
             <div className="row justify-content-center">
+              <div className="col-lg-4 p-0 m-0">
+                <ul>
+                  <li>
+                    <AiFillAppstore />
+                    <div>
+                      <Link href="/Banking-app-development">
+                        تطوير التطبيقات المصرفية
+                        <GoArrowUpLeft />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <CiWallet />
+                    <div>
+                      <Link href="/Digital-wallet-development">
+                        تطوير المحفظة الرقمية
+                        <GoArrowUpLeft />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <SiBmcsoftware />
+                    <div>
+                      <Link href="/Insurance-software-development">
+                        تطوير برامج التأمين
+                        <GoArrowUpLeft />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <CiLock />
+                    <div>
+                      <Link href="/cybersecurity">
+                        الأمن السيبراني <GoArrowUpLeft />
+                      </Link>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-4 p-0 m-0">
+                <ul>
+                  <li>
+                    <MdOutlineDesignServices />
+                    <div>
+                      <Link href="/finops-services">
+                        خدمات العمليات المالية (FinOps) <GoArrowUpLeft />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <GiFlatPlatform />
+                    <div>
+                      <Link href="/Crowdfunding-platform-development">
+                        تطوير منصة التمويل الجماعي
+                        <GoArrowUpLeft />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <GiPlatform />
+                    <div>
+                      <Link href="/decentralized-finance-defi-platform">
+                        التمويل اللامركزي <GoArrowUpLeft />
+                      </Link>
+                    </div>
+                  </li>
+                </ul>
+              </div>
               <div className="col-lg-4 p-0 m-0">
                 <ul>
                   <li>
@@ -159,77 +227,7 @@ export default function Header() {
                     <FaExchangeAlt />
                     <div>
                       <Link href="/currency-exchange-platform-development">
-                        تطوير منصة تبادل العملات
-                        <GoArrowUpLeft />
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-lg-4 p-0 m-0">
-                <ul>
-                  <li>
-                    <MdOutlineDesignServices />
-                    <div>
-                      <Link href="/finops-services">
-                        خدمات العمليات المالية (FinOps)
-                        <GoArrowUpLeft />
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <GiFlatPlatform />
-                    <div>
-                      <Link href="/Crowdfunding-platform-development">
-                      تطوير منصة التمويل الجماعي
-                        <GoArrowUpLeft />
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <GiPlatform />
-                    <div>
-                      <Link href="/decentralized-finance-defi-platform">
-                      التمويل اللامركزي <GoArrowUpLeft />
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-lg-4 p-0 m-0">
-                <ul>
-                  <li>
-                    <AiFillAppstore />
-                    <div>
-                      <Link href="/Banking-app-development">
-                      تطوير تطبيقات مصرفية
-                        <GoArrowUpLeft />
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <CiWallet />
-                    <div>
-                      <Link href="/Digital-wallet-development">
-                      تطوير المحفظة الرقمية
-                        <GoArrowUpLeft />
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <SiBmcsoftware />
-                    <div>
-                      <Link href="/Insurance-software-development">
-                      تطوير برامج التأمين
-                        <GoArrowUpLeft />
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <CiLock />
-                    <div>
-                      <Link href="/cybersecurity">
-                      الأمن السيبراني <GoArrowUpLeft />
+                        تطوير منصة تبادل العملات <GoArrowUpLeft />
                       </Link>
                     </div>
                   </li>
@@ -257,47 +255,49 @@ export default function Header() {
               <ul className={styles.dropdown}>
                 <li>
                   <Link href="/Banking-app-development">
-                    Banking App Development
+                    تطوير التطبيقات المصرفية
                   </Link>
                 </li>
                 <li>
                   <Link href="/Digital-wallet-development">
-                    Digital Wallet Development
+                    تطوير المحفظة الرقمية
                   </Link>
                 </li>
                 <li>
                   <Link href="/Insurance-software-development">
-                    Insurance Software Development
+                    تطوير برامج التأمين
                   </Link>
                 </li>
                 <li>
-                  <Link href="/finops-services">FinOps Services</Link>
+                  <Link href="/finops-services">
+                    خدمات العمليات المالية (FinOps)
+                  </Link>
                 </li>
                 <li>
                   <Link href="/Crowdfunding-platform-development">
-                    Crowdfunding Platform Development
+                    تطوير منصة التمويل الجماعي
                   </Link>
                 </li>
                 <li>
                   <Link href="/decentralized-finance-defi-platform">
-                    Decentralized Finance Platform
+                    التمويل اللامركزي
                   </Link>
                 </li>
                 <li>
-                  <Link href="/integration-services">Integration Services</Link>
+                  <Link href="/integration-services">خدمات التكامل</Link>
                 </li>
                 <li>
                   <Link href="/resource-augmentation">
-                    Resource Augmentation
+                  تعزيز الموارد
                   </Link>
                 </li>
                 <li>
                   <Link href="/currency-exchange-platform-development">
-                    Currency Exchange Platform Development
+                  تطوير منصة تبادل العملات
                   </Link>
                 </li>
                 <li>
-                  <Link href="/cybersecurity">Cybersecurity</Link>
+                  <Link href="/cybersecurity">الأمن السيبراني</Link>
                 </li>
               </ul>
             )}
@@ -313,7 +313,7 @@ export default function Header() {
             {isDropdownOpentwo && (
               <ul className={styles.dropdown}>
                 <li>
-                  <Link href="/rizeApp">Rize App</Link>
+                  <Link href="/rizeApp">تطبيق Rize</Link>
                 </li>
                 <li>
                   <Link href="/welab">WeLab</Link>
@@ -322,7 +322,7 @@ export default function Header() {
             )}
           </li>
           <li>
-            <Link href="/contact-us">Contact</Link>
+            <Link href="/contact-us">تواصل</Link>
           </li>
         </ul>
       </div>

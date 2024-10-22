@@ -30,35 +30,32 @@ const FinancialComponent = () => {
             <div className={styles.financialText}>
               <span className={styles.about}>
                 <RiBuilding3Fill />
-                معلومات عن فينتكفاي
+                حول شركة Fintechify
               </span>
               <h2>
-                الهدف هو الابتكارات من البطاقة الائتمانية إلى النقد الإلكتروني
+                الابتكارات من البطاقات الائتمانية إلى النقود الإلكترونية هي
+                الهدف.
               </h2>
               <p>
-                انسَ البلاستيك، واحتضن المستقبل. فينتكفاي تفتح لك آفاقًا جديدة
-                في عالم البنوك بلمسة واحدة. تجارب مصممة بإتقان، وليست مجرد حلول.
-                نحن بوابتك للسيطرة على عالم التمويل الرقمي. تعاون مع فينتكفاي.
-                كن الرائد، لا التابع
+                انسَ البلاستيك، واحتضن المستقبل. تفتح Fintechify بابًا لعالم
+                مصرفي متقدم بلمسة واحدة. تجارب مصممة بدقة، وليست مجرد حلول. نحن
+                بوابتك للسيطرة على عالم التمويل الرقمي. شارك مع Fintechify. كن
+                رائدًا، وليس تابعًا.{" "}
               </p>
               <div className={`${styles.percentFlex} d-flex  mt-4`}>
                 <div className={`me-5 text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     <BsLightningCharge className={styles.eletric} />
-                    <h3>٢٠x</h3>
+                    <h3>20x</h3>
                   </span>
-                  <p>
-                  تحويلات ومدفوعات فورية وسريعة للغاية
-                  </p>
+                  <p>تحويلات ومدفوعات فورية وسريعة للغاية.</p>
                 </div>
                 <div className={`me-5 text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     <BsLightningCharge className={styles.eletric} />
-                    <h3>١٠٠%</h3>
+                    <h3>100%</h3>
                   </span>
-                  <p>
-                  حماية بيانات فائقة الأمان
-                  </p>
+                  <p>حماية بيانات فائقة الأمان.</p>
                 </div>
               </div>
             </div>
