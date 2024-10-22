@@ -48,12 +48,13 @@
 }
 #spamHeadBox h1{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
 #spamHeadBox p{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     color: gray;
+    line-height: normal !important;
 }
 .cardHover {
     display: flex;
@@ -96,6 +97,8 @@
 .bg1 {
     border-radius: 30px;
     animation: focus-in-contract 1s ease 0s 1 normal none;
+    object-fit: cover;
+    height: auto;
 }
 @keyframes focus-in-contract {
     0% {

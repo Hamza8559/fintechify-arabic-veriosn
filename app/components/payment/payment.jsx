@@ -3,9 +3,11 @@ import React, { useState } from "react";
 import style from "./payment.module.css";
 import { RiSettings2Line } from "react-icons/ri";
 import Image from "next/image";
-import bg1 from "../assets/images/h1_showcase1.jpg";
-import bg2 from "../assets/images/h1_showcase2.jpg";
-import bg3 from "../assets/images/h1_showcase3.jpg";
+import bg1 from "../assets/images/h1.jpg";
+import bg2 from "../assets/images/h2.png";
+import bg3 from "../assets/images/h3.png";
+import bg4 from "../assets/images/h4.png";
+import bg5 from "../assets/images/h5.png";
 import { MdOutlinePayment } from "react-icons/md";
 
 const payment = () => {
@@ -59,11 +61,9 @@ const payment = () => {
           <div className="col-lg-12">
             <span className={style.about}>
               <MdOutlinePayment className={style.settingIcon} />
-              <h4>Payment Process</h4>
+              <h4>عملية الدفع</h4>
             </span>
-            <h1 className={style.heading}>
-            Simplified Your Banking!
-            </h1>
+            <h1 className={style.heading}>بسط خدماتك المصرفية!</h1>
           </div>
         </div>
         <div className={`row ${style.row2}`}>
@@ -85,12 +85,12 @@ const payment = () => {
             )}
             {isHover3 && (
               <div className={style.divbg}>
-                <Image src={bg3} className={`${style.bg1} img-fluid`} />
+                <Image src={bg4} className={`${style.bg1} img-fluid`} />
               </div>
             )}
             {isHover4 && (
               <div className={style.divbg}>
-                <Image src={bg3} className={`${style.bg1} img-fluid`} />
+                <Image src={bg5} className={`${style.bg1} img-fluid`} />
               </div>
             )}
           </div>
@@ -103,12 +103,12 @@ const payment = () => {
                 className={isHover ? style.spamHover : style.spam}
                 id={style.spamHeadBox}
               >
-                <h1>Strategies That Shift Perspectives</h1>
+                <h1>استراتيجيات تغير وجهات النظر</h1>
                 <p>
-                  Join Fintechify in revolutionizing digital finance. We craft
-                  innovative strategies and top-tier solutions to propel your
-                  business ahead in the fintech market. Let's shape the future
-                  of banking together.
+                  انضم إلى Fintechify في إحداث ثورة في التمويل الرقمي. نحن نصنع
+                  استراتيجيات مبتكرة وحلولًا رفيعة المستوى لدفع عملك نحو الأمام
+                  في سوق التكنولوجيا المالية. لنبني مستقبل الخدمات المصرفية
+                  معًا.
                 </p>
               </span>
               <h1 className={isHover ? style.numberHover : style.number}>01</h1>
@@ -121,14 +121,16 @@ const payment = () => {
                 className={isHover1 ? style.spamHover : style.spam}
                 id={style.spamHeadBox}
               >
-                <h1>The Game Has Changed</h1>
+                <h1>قواعد اللعبة تغيرت</h1>
                 <p>
-                  Forget fumbling with cards and endless paperwork. Fintechify
-                  is your springboard to the future of finance, where a tap
-                  unlocks a world of financial ease.
+                  انسَ التخبط مع البطاقات والأوراق التي لا تنتهي. Fintechify هي
+                  منصتك نحو مستقبل التمويل، حيث تفتح لمسة واحدة عالمًا من
+                  السهولة المالية.
                 </p>
               </span>
-              <h1 className={isHover1 ? style.numberHover : style.number}>02</h1>
+              <h1 className={isHover1 ? style.numberHover : style.number}>
+                02
+              </h1>
             </div>
             <div
               className={isHover2 ? style.cardHover : style.card}
@@ -138,14 +140,16 @@ const payment = () => {
                 className={isHover2 ? style.spamHover : style.spam}
                 id={style.spamHeadBox}
               >
-                <h1>We Don't Just Craft Solutions, We Craft Experiences.</h1>
+                <h1>نحن لا نصنع حلولًا فحسب، بل نصنع تجارب.</h1>
                 <p>
-                  Our team of financial wizards blends cutting-edge technology
-                  with unparalleled design to create digital banking that's as
-                  smooth as it is secure.
+                  فريقنا من خبراء المال يمزج بين التكنولوجيا المتقدمة والتصميم
+                  الذي لا يُضاهى لإنشاء خدمات مصرفية رقمية سلسة وآمنة في نفس
+                  الوقت.
                 </p>
               </span>
-              <h1 className={isHover2 ? style.numberHover : style.number}>03</h1>
+              <h1 className={isHover2 ? style.numberHover : style.number}>
+                03
+              </h1>
             </div>
             <div
               className={isHover3 ? style.cardHover : style.card}
@@ -155,14 +159,15 @@ const payment = () => {
                 className={isHover3 ? style.spamHover : style.spam}
                 id={style.spamHeadBox}
               >
-                <h1>Ready To Dominate The Market?</h1>
+                <h1>هل أنت مستعد للسيطرة على السوق؟</h1>
                 <p>
-                  Partner with Fintechify and transform your business. We'll
-                  help you navigate the ever-evolving digital finance landscape,
-                  leaving the competition in the dust.
+                  تعاون مع Fintechify وحوّل أعمالك. سنساعدك على التنقل في مشهد
+                  التمويل الرقمي المتطور باستمرار، لتترك منافسيك في الخلف.
                 </p>
               </span>
-              <h1 className={isHover3 ? style.numberHover : style.number}>04</h1>
+              <h1 className={isHover3 ? style.numberHover : style.number}>
+                04
+              </h1>
             </div>
             <div
               className={isHover4 ? style.cardHover : style.card}
@@ -172,13 +177,15 @@ const payment = () => {
                 className={isHover4 ? style.spamHover : style.spam}
                 id={style.spamHeadBox}
               >
-                <h1>Don't Just Survive, Thrive.</h1>
+                <h1>لا تكتفَ بالبقاء، بل ازدهر.</h1>
                 <p>
-                  Become a pioneer in the fintech revolution. With Fintechify,
-                  you're not just keeping pace, you're setting the standard.
+                  كن رائدًا في ثورة التكنولوجيا المالية. مع Fintechify، أنت لا
+                  تواكب التطور فحسب، بل تضع المعايير.
                 </p>
               </span>
-              <h1 className={isHover4 ? style.numberHover : style.number}>05</h1>
+              <h1 className={isHover4 ? style.numberHover : style.number}>
+                05
+              </h1>
             </div>
           </div>
         </div>

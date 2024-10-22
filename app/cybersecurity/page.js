@@ -16,9 +16,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Shield Your Business with Unbreakable Cybersecurity"}
+        head={"احمِ أعمالك بأمان إلكتروني لا يُقهر"}
         tagLine={false}
-        tagLine2={"Defend, Protect, And Prevail!"}
+        tagLine2={"دافع، احمِ، وتفوق!"}
         Des={false}
       />
       <section className="d-lg-block d-none mb-5 mt-5">
@@ -31,41 +31,38 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Why Your Business Deserves <br /> Cybersecurity Excellence
+                  لماذا تستحق أعمالك <br /> التميز في الأمن الإلكتروني؟
                 </h4>
 
                 <p>
-                  User Explosion: Prevent data breaches and protect confidential
-                  information from cybercriminals who are constantly evolving
-                  their tactics.
+                  انفجار المستخدمين: منع اختراق البيانات وحماية المعلومات
+                  السرية من مجرمي الإنترنت الذين يتطورون باستمرار في أساليبهم.
                 </p>
                 <p>
-                  Build Customer Trust: A secure business fosters loyalty. By
-                  investing in strong cybersecurity measures, you reassure your
-                  clients that their data is in safe hands.
+                  بناء ثقة العملاء: الأعمال الآمنة تبني الولاء. من خلال
+                  الاستثمار في تدابير قوية للأمن الإلكتروني، تطمئن عملاءك إلى
+                  أن بياناتهم في أيدٍ أمينة.
                 </p>
                 <p>
-                  Ensure Business Continuity: Cyberattacks can lead to costly
-                  downtime and disrupt your operations. Protect your business
-                  with proactive defense to keep running smoothly, no matter
-                  what.
+                  ضمان استمرارية العمل: الهجمات الإلكترونية قد تؤدي إلى توقف
+                  مكلف وتعطل عملياتك. احمِ عملك من خلال الدفاع الاستباقي للحفاظ
+                  على التشغيل السلس مهما حدث.
                 </p>
                 <p>
-                  Stay Compliant with Industry Standards: Many industries
-                  require stringent data security regulations. With robust
-                  cybersecurity, your business remains compliant and avoids
-                  hefty fines.
+                  البقاء متوافقًا مع المعايير الصناعية: العديد من الصناعات
+                  تتطلب معايير صارمة لحماية البيانات. مع الأمن الإلكتروني
+                  القوي، تظل شركتك متوافقة وتتجنب الغرامات الضخمة.
                 </p>
                 <p>
-                  Protect Your Reputation: One security breach can tarnish years
-                  of brand-building. Defend your reputation by staying ahead of
-                  potential threats with cutting-edge cybersecurity solutions.
+                  حماية سمعتك: يمكن لخرق أمني واحد أن يدمر سنوات من بناء
+                  العلامة التجارية. دافع عن سمعتك بالبقاء متقدمًا على التهديدات
+                  المحتملة من خلال حلول الأمن الإلكتروني المتطورة.
                 </p>
               </div>
               <button className={styles.LuSend2}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
-                    JOIN NOW <FaArrowRight />
+                    انضم الآن <FaArrowRight />
                   </span>
                 </Link>
               </button>
@@ -101,41 +98,38 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Why Your Business Deserves <br /> Cybersecurity Excellence
+                  لماذا تستحق أعمالك <br /> التميز في الأمن الإلكتروني؟
                 </h4>
 
                 <p>
-                  User Explosion: Prevent data breaches and protect confidential
-                  information from cybercriminals who are constantly evolving
-                  their tactics.
+                  انفجار المستخدمين: منع اختراق البيانات وحماية المعلومات
+                  السرية من مجرمي الإنترنت الذين يتطورون باستمرار في أساليبهم.
                 </p>
                 <p>
-                  Build Customer Trust: A secure business fosters loyalty. By
-                  investing in strong cybersecurity measures, you reassure your
-                  clients that their data is in safe hands.
+                  بناء ثقة العملاء: الأعمال الآمنة تبني الولاء. من خلال
+                  الاستثمار في تدابير قوية للأمن الإلكتروني، تطمئن عملاءك إلى
+                  أن بياناتهم في أيدٍ أمينة.
                 </p>
                 <p>
-                  Ensure Business Continuity: Cyberattacks can lead to costly
-                  downtime and disrupt your operations. Protect your business
-                  with proactive defense to keep running smoothly, no matter
-                  what.
+                  ضمان استمرارية العمل: الهجمات الإلكترونية قد تؤدي إلى توقف
+                  مكلف وتعطل عملياتك. احمِ عملك من خلال الدفاع الاستباقي للحفاظ
+                  على التشغيل السلس مهما حدث.
                 </p>
                 <p>
-                  Stay Compliant with Industry Standards: Many industries
-                  require stringent data security regulations. With robust
-                  cybersecurity, your business remains compliant and avoids
-                  hefty fines.
+                  البقاء متوافقًا مع المعايير الصناعية: العديد من الصناعات
+                  تتطلب معايير صارمة لحماية البيانات. مع الأمن الإلكتروني
+                  القوي، تظل شركتك متوافقة وتتجنب الغرامات الضخمة.
                 </p>
                 <p>
-                  Protect Your Reputation: One security breach can tarnish years
-                  of brand-building. Defend your reputation by staying ahead of
-                  potential threats with cutting-edge cybersecurity solutions.
+                  حماية سمعتك: يمكن لخرق أمني واحد أن يدمر سنوات من بناء
+                  العلامة التجارية. دافع عن سمعتك بالبقاء متقدمًا على التهديدات
+                  المحتملة من خلال حلول الأمن الإلكتروني المتطورة.
                 </p>
               </div>
               <button className={styles.LuSend2}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
-                    JOIN NOW <FaArrowRight />
+                    انضم الآن <FaArrowRight />
                   </span>
                 </Link>
               </button>
@@ -144,99 +138,16 @@ function page() {
         </div>
       </section>
 
-      {/* <section className={styles.processSection} data-aos="fade-up">
-        <div className="container-fluid px-5 ">
-          <div className="row">
-            <div className="text-center mb-5">
-              <h4>
-                Key Points for Implementing <br /> Cybersecurity in Business
-              </h4>
-              <span style={{ fontWeight: "600" }}>
-                Implementing cybersecurity is not just a protective measure but
-                it's a <br /> strategic advantage that sets your business apart
-                in an increasingly digital world.
-              </span>
-            </div>
-
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.blueBg} ${styles.cybersecurityBlueUpperBox}`}
-              >
-                <ul>
-                  <h5>1. Prevent Financial Loss</h5>
-                  <p>
-                    Cyberattacks can result in significant financial damage
-                    through stolen data, ransomware, and downtime. Proactive
-                    cybersecurity measures help you avoid these costly
-                    disruptions.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>2. Maintain Customer Confidence</h5>
-                  <p>
-                    Customers are increasingly concerned about the safety of
-                    their personal information. By securing your business, you
-                    maintain their trust and loyalty, driving long-term success.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>3. Regulatory Compliance</h5>
-                  <p>
-                    Compliance with data protection regulations (like GDPR,
-                    CCPA, or HIPAA) is essential for avoiding fines and legal
-                    consequences. Cybersecurity helps your business stay
-                    compliant with the latest requirements.
-                  </p>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.whiteBg} ${styles.cybersecurityWhiteBottomBox}`}
-              >
-                <ul>
-                  <h5>4. Defend Against Emerging Threats</h5>
-                  <p>
-                    Cyber threats are constantly evolving. A strong
-                    cybersecurity strategy helps your business stay ahead of
-                    hackers and malicious actors, minimizing vulnerabilities.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>5 .Secure Intellectual Property</h5>
-                  <p>
-                    Your business’s proprietary data and innovations are
-                    valuable. Cybersecurity ensures that your intellectual
-                    property stays in your hands, not in those of
-                    cybercriminals.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>6 .Boost Business Continuity</h5>
-                  <p>
-                    A solid cybersecurity plan minimizes disruptions by
-                    preventing attacks that could lead to downtime or
-                    operational failures. This ensures your business runs
-                    smoothly, even in the face of cyber risks.
-                  </p>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className={styles.processSection} data-aos="fade-up">
-        <div className="container-fluid px-lg-5 ">
+        <div className="container-fluid px-lg-5">
           <div className="row">
             <div className="text-center mb-5">
               <h4 className="text-center">
-                Key Points for Implementing <br /> Cybersecurity in Business
+                نقاط رئيسية لتنفيذ <br /> الأمن الإلكتروني في الأعمال
               </h4>
-              <span className="text-center" style={{ fontWeight: "600" }}>
-                Implementing cybersecurity is not just a protective measure but
-                it's a <br /> strategic advantage that sets your business apart
-                in an increasingly digital world.
+              <span style={{ fontWeight: "600" }}>
+                تنفيذ الأمن الإلكتروني ليس مجرد إجراء حماية بل هو <br />
+                ميزة استراتيجية تميز عملك في عالم رقمي متزايد.
               </span>
             </div>
 
@@ -246,30 +157,28 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.cybersecurityBlueUpperBox}`}
                 >
                   <ul>
-                    <h5>1. Prevent Financial Loss</h5>
+                    <h5>1. منع الخسائر المالية</h5>
                     <p>
-                      Cyberattacks can result in significant financial damage
-                      through stolen data, ransomware, and downtime. Proactive
-                      cybersecurity measures help you avoid these costly
-                      disruptions.
+                      يمكن أن تؤدي الهجمات الإلكترونية إلى أضرار مالية كبيرة
+                      من خلال البيانات المسروقة أو الفدية أو التوقف عن العمل.
+                      تساعد التدابير الأمنية الاستباقية على تجنب هذه
+                      الاضطرابات المكلفة.
                     </p>
                   </ul>
                   <ul>
-                    <h5>2. Maintain Customer Confidence</h5>
+                    <h5>2. الحفاظ على ثقة العملاء</h5>
                     <p>
-                      Customers are increasingly concerned about the safety of
-                      their personal information. By securing your business, you
-                      maintain their trust and loyalty, driving long-term
-                      success.
+                      يهتم العملاء بشكل متزايد بسلامة معلوماتهم الشخصية. من خلال
+                      تأمين عملك، تحافظ على ثقتهم وولائهم، مما يعزز النجاح
+                      طويل الأمد.
                     </p>
                   </ul>
                   <ul>
-                    <h5>3. Regulatory Compliance</h5>
+                    <h5>3. الامتثال التنظيمي</h5>
                     <p>
-                      Compliance with data protection regulations (like GDPR,
-                      CCPA, or HIPAA) is essential for avoiding fines and legal
-                      consequences. Cybersecurity helps your business stay
-                      compliant with the latest requirements.
+                      الامتثال للوائح حماية البيانات (مثل GDPR أو CCPA أو HIPAA)
+                      ضروري لتجنب الغرامات والعواقب القانونية. يساعد الأمن
+                      الإلكتروني في ضمان امتثال عملك للمتطلبات الحديثة.
                     </p>
                   </ul>
                 </div>
@@ -279,29 +188,29 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.cybersecurityWhiteBottomBox}`}
                 >
                   <ul>
-                    <h5>4. Defend Against Emerging Threats</h5>
+                    <h5>4. الدفاع ضد التهديدات الناشئة</h5>
                     <p>
-                      Cyber threats are constantly evolving. A strong
-                      cybersecurity strategy helps your business stay ahead of
-                      hackers and malicious actors, minimizing vulnerabilities.
+                      تتطور التهديدات الإلكترونية باستمرار. تساعد استراتيجية
+                      الأمن الإلكتروني القوية عملك على البقاء متقدمًا على
+                      القراصنة والمهاجمين الخبيثين، مما يقلل من الثغرات
+                      الأمنية.
                     </p>
                   </ul>
                   <ul>
-                    <h5>5 .Secure Intellectual Property</h5>
+                    <h5>5. حماية الملكية الفكرية</h5>
                     <p>
-                      Your business’s proprietary data and innovations are
-                      valuable. Cybersecurity ensures that your intellectual
-                      property stays in your hands, not in those of
-                      cybercriminals.
+                      البيانات الابتكارية والمعلومات الخاصة بشركتك قيمة. يضمن
+                      الأمن الإلكتروني أن تظل ملكيتك الفكرية في أيديك وليس في
+                      أيدي مجرمي الإنترنت.
                     </p>
                   </ul>
                   <ul>
-                    <h5>6 .Boost Business Continuity</h5>
+                    <h5>6. تعزيز استمرارية الأعمال</h5>
                     <p>
-                      A solid cybersecurity plan minimizes disruptions by
-                      preventing attacks that could lead to downtime or
-                      operational failures. This ensures your business runs
-                      smoothly, even in the face of cyber risks.
+                      خطة الأمن الإلكتروني المتينة تقلل من الاضطرابات من خلال
+                      منع الهجمات التي يمكن أن تؤدي إلى التوقف عن العمل أو
+                      فشل العمليات. هذا يضمن استمرار عملك بسلاسة حتى في مواجهة
+                      المخاطر الإلكترونية.
                     </p>
                   </ul>
                 </div>
@@ -317,32 +226,28 @@ function page() {
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
               <h4 className="text-center">
-                Strengthen Your Business with Fintechy Cybersecurity Solutions
+                عزز عملك مع حلول الأمن الإلكتروني من Fintechy
               </h4>
             </div>
             <div className="col-lg-12">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
                   <h5>
-                    Your customers deserve a mobile banking experience that
-                    blasts off, not one stuck in the dark ages. Fintechify
-                    crafts powerful, user-friendly apps that:
+                    يستحق عملاؤك تجربة مصرفية متقدمة، وليس تجربة عالقة في العصور
+                    الوسطى. Fintechy تقدم تطبيقات قوية وسهلة الاستخدام التي:
                   </h5>
                   <li>
                     <p>
-                      Worried about your business being vulnerable to cyber
-                      threats? We create easy-to-understand, effective
-                      cybersecurity plans designed specifically for fintech
-                      companies. Protect your valuable data, secure your
-                      reputation, and stay safe from hackers with our trusted
-                      services.
+                      قلق من تعرض عملك لتهديدات إلكترونية؟ نقوم بإنشاء خطط أمن
+                      إلكتروني فعالة وسهلة الفهم مصممة خصيصًا لشركات التكنولوجيا
+                      المالية. احمِ بياناتك القيمة، وأمّن سمعتك، وابق آمنًا من
+                      القراصنة مع خدماتنا الموثوقة.
                     </p>
                   </li>
                   <li>
                     <p>
-                      Contact us today! Let’s talk about your security needs and
-                      show you how Fintechy.ae can make your business safer and
-                      stronger.
+                      اتصل بنا اليوم! دعنا نتحدث عن احتياجاتك الأمنية ونريك كيف
+                      يمكن لـ Fintechy أن تجعل عملك أكثر أمانًا وقوة.
                     </p>
                   </li>
                 </ul>
@@ -356,62 +261,63 @@ function page() {
         <div className="container">
           <div className="row">
             <h5 className={`${styles.keyBox} text-center`}>
-              Fortify Your Future: Unbeatable <br /> Cybersecurity Services from
-              Fintechy.ae
+              حصّن مستقبلك: خدمات <br /> الأمن الإلكتروني التي لا تقهر من Fintechy.ae
             </h5>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
-                <h4 className="text-end">Threat Detection and Response</h4>
-                <span className="text-end pt-3">
-                  Stay one step ahead of cybercriminals with our real-time threat detection and response service. At Fintechy.ae, we monitor your systems 24/7, identifying potential risks before they become a problem. Protect your business from breaches, ensuring your data stays secure and your operations uninterrupted.</span>
-              </div>
-            </div>
-            <div className="col-lg-4 mt-3">
-              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
-                <h4 className="text-end">Network Security</h4>
-                <span className="text-end pt-3">
-                  Your network is the backbone of your business. Our advanced network security solutions provide multi-layered protection, safeguarding against malware, ransomware, and unauthorized access. With Fintechy.ae, your network will be fortified, ensuring every connection is safe and secure.</span>
-              </div>
-            </div>
-            <div className="col-lg-4 mt-3">
-              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
-                <h4 className="text-end">Cloud Security</h4>
-                <span className="text-end pt-3">
-                  As businesses transition to the cloud, so do cyber threats. Fintechy.ae ensures your cloud-based data and services are protected with cutting-edge encryption, access controls, and continuous monitoring, allowing you to enjoy the flexibility of the cloud without compromising security.
+                <h4 className="text-start">اكتشاف التهديدات والاستجابة لها</h4>
+                <span className="text-start pt-3">
+                  كن دائمًا متقدمًا على المجرمين الإلكترونيين باستخدام خدمة اكتشاف التهديدات والاستجابة في الوقت الفعلي. في Fintechy، نراقب أنظمتك على مدار الساعة، ونحدد المخاطر المحتملة قبل أن تصبح مشكلة. احمِ عملك من الاختراقات وتأكد من أمان بياناتك واستمرارية عملياتك دون انقطاع.
                 </span>
               </div>
             </div>
             <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
-                <h4 className="text-end">Data Encryption Services</h4>
-                <span className="text-end pt-3">
-                  Your data is your most valuable asset—protect it with our state-of-the-art encryption solutions. Fintechy.ae secures sensitive information in transit and at rest, making it virtually impossible for hackers to intercept or misuse your data, whether it’s on your network or stored in the cloud.
+                <h4 className="text-start">أمان الشبكات</h4>
+                <span className="text-start pt-3">
+                  شبكتك هي العمود الفقري لأعمالك. توفر حلول أمان الشبكات المتقدمة لدينا حماية متعددة الطبقات، مما يضمن حماية ضد البرامج الضارة والفدية والوصول غير المصرح به. مع Fintechy، ستكون شبكتك محصنة، مما يضمن أن يكون كل اتصال آمنًا.
                 </span>
               </div>
             </div>
             <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
-                <h4 className="text-end">Vulnerability Assessment and Penetration Testing</h4>
-                <span className="text-end pt-3">
-                  Don’t wait for a cyberattack to expose weaknesses in your security. Fintechy.ae offers thorough vulnerability assessments and penetration testing, identifying potential threats before they strike. We pinpoint your system’s vulnerabilities and provide actionable solutions to strengthen your defenses.
+                <h4 className="text-start">أمان السحابة</h4>
+                <span className="text-start pt-3">
+                  مع انتقال الأعمال إلى السحابة، تنتقل التهديدات الإلكترونية أيضًا. تضمن Fintechy حماية بياناتك وخدماتك القائمة على السحابة بتشفير متقدم، وعناصر تحكم في الوصول، ومراقبة مستمرة، مما يتيح لك الاستفادة من مرونة السحابة دون المساس بالأمان.
                 </span>
               </div>
             </div>
             <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
-                <h4 className="text-end">Cybersecurity Compliance Consulting</h4>
-                <span className="text-end pt-3">
-                  Compliance is key to maintaining a secure and legally sound business. Fintechy.ae helps you navigate complex regulations such as GDPR, CCPA, and more, ensuring your business meets all security standards while avoiding costly fines. We keep you compliant, so you can focus on growth.
+                <h4 className="text-start">خدمات تشفير البيانات</h4>
+                <span className="text-start pt-3">
+                  بياناتك هي أثمن أصولك—احمها بحلول التشفير المتقدمة لدينا. توفر Fintechy أمان المعلومات الحساسة أثناء النقل وفي حالة الراحة، مما يجعل من المستحيل تقريبًا على القراصنة اعتراض بياناتك أو إساءة استخدامها.
                 </span>
               </div>
             </div>
             <div className="col-lg-4 mt-3">
               <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
-                <h4 className="text-end">Incident Response and Recovery</h4>
-                <span className="text-end pt-3">
-                  In the event of a breach, Fintechy.ae’s rapid incident response team is here to minimize damage and get your business back on track. Our experts handle everything from containment to recovery, ensuring your data is restored and your operations resume with minimal downtime.
+                <h4 className="text-start">تقييم الثغرات واختبار الاختراق</h4>
+                <span className="text-start pt-3">
+                  لا تنتظر حتى يحدث هجوم إلكتروني لكشف الثغرات في أمانك. تقدم Fintechy تقييمات شاملة للثغرات واختبارات اختراق، مما يحدد التهديدات المحتملة قبل أن تضرب. نحدد نقاط ضعف نظامك ونوفر حلولاً قابلة للتنفيذ لتعزيز دفاعاتك.
+                </span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-3">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">استشارات الامتثال للأمن الإلكتروني</h4>
+                <span className="text-start pt-3">
+                  الامتثال هو المفتاح للحفاظ على عمل آمن وقانوني. تساعدك Fintechy في التنقل بين اللوائح المعقدة مثل GDPR، وCCPA، والمزيد، مما يضمن امتثال شركتك لجميع معايير الأمان مع تجنب الغرامات الباهظة. نبقيك متوافقًا، حتى تتمكن من التركيز على النمو.
+                </span>
+              </div>
+            </div>
+            <div className="col-lg-4 mt-3">
+              <div className={`${styles.servicesBox} ${styles.servicesBoxScd}`}>
+                <h4 className="text-start">الاستجابة للحوادث والتعافي</h4>
+                <span className="text-start pt-3">
+                  في حالة حدوث اختراق، فريق الاستجابة السريعة للحوادث في Fintechy هنا للحد من الأضرار وإعادة عملك إلى المسار الصحيح. يتولى خبراؤنا كل شيء بدءًا من الاحتواء إلى التعافي، مما يضمن استعادة بياناتك واستئناف عملياتك بأقل فترة توقف ممكنة.
                 </span>
               </div>
             </div>

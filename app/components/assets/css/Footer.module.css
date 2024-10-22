@@ -1,11 +1,189 @@
 /* components/Footer.module.css */
+/* background-image: url(../images/ft1-bg.jpg); */
+/* background-image: linear-gradient(180deg, #082ac9 0%, #1f96fd 100%); */
 
 .footer {
-  /* background-image: url(../images/ft1-bg.jpg); */
-  /* background-image: linear-gradient(180deg, #082ac9 0%, #1f96fd 100%); */
   background: #FDFEFF;
   color: black;
-  padding: 6rem 1.5rem;
+  padding: 2rem 1.5rem;
+  font-family: Arial, sans-serif;
+  margin: auto;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: clip;
+  box-shadow: -3px 6px 29px grey;
+  width: 95%;
+}
+.subscribeBox h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+.newsLatterBox{
+  display: flex;
+  justify-content: end;
+}
+.newsLatterBox input{
+  padding: 0.5rem;
+  border: none;
+  width: 400px;
+  height: 50px;
+  border-radius: 23px;
+  padding-left: 20px;
+  background: #7373738a;
+  color: white;
+  outline: none;
+  position: relative;
+  right: 44px;
+}
+
+.newsLatterBox input::placeholder {
+  color: white;
+  letter-spacing: 1px;
+}
+.newsLatterBox button {
+  background-image: linear-gradient(90deg, #0929c2, #2095fb);
+  border: none;
+  padding: 6px 9px;
+  color: white;
+  border-radius: 36px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.1s;
+  font-weight: 600;
+  text-align: center !important;
+  width: 158px;
+}
+.newsLatterBox button svg {
+  transform: rotate(-45deg);
+  transition: all 0.1s;
+}
+.newsLatterBox button:hover {
+  background-image: linear-gradient(90deg, #2095fb, #0929c2);
+}
+.newsLatterBox button:hover svg {
+  transform: rotate(0deg);
+  transition: all 0.1s;
+}
+.newsLatterBox button svg{
+  font-size: 20px;
+}
+.LogoBox img{
+  width: 50%;
+  height: 34px;
+  object-fit: contain;
+}
+.LogoBox .socailMediaIconsBox{
+  margin: 30px 0;
+  position: relative;
+  z-index: 999999;
+}
+.LogoBox .socailMediaIconsBox a {
+  margin-left: 10px;
+  background: #80808087;
+  padding: 10px 12px;
+  border-radius: 50px;
+  display: inline-block;
+  box-shadow: 0px 0px 2px 2px #8080802b;
+}
+.LogoBox .socailMediaIconsBox a:hover {
+  transition: all 1s;
+  background: white;
+}
+.LogoBox .socailMediaIconsBox a:hover svg {
+  color: #2095fb;
+}
+.LogoBox .socailMediaIconsBox a svg {
+  color: white;
+  font-size: 20px;
+}
+.linksBox h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+.linksBox ul{
+  list-style: none;
+  padding: 0;
+}
+.linksBox ul p{
+  font-size: 14px;
+}
+.linksBox ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+.linksBox ul li a:hover {
+  border-bottom: 1px solid #1f96fd;
+  transition: all 1s;
+  color: #1f96fd !important;
+}
+#BottomRow{
+  margin-top: 20px;
+  border-top: 1px solid #80808042;
+  padding-top: 15px;
+}
+
+@media screen and (max-width:992px){
+  .subscribeBox h2{
+    text-align: center !important;
+  }
+  .subscribeBox p{
+    text-align: center !important;
+  }
+  .newsLatterBox{
+    justify-content: center;
+  }
+  .newsLatterBox input{
+    border-radius: 0;
+    right: 0;
+  }
+  .newsLatterBox button {
+    width: auto;
+    border-radius: 0;
+    padding: 0 22px;
+  }
+}
+
+@media screen and (max-width:567px){
+  .footer {
+    border-radius: 0;
+    width: 100%;
+  }
+  .newsLatterBox button svg{
+    display: none;
+  }
+  .newsLatterBox input{
+    width: auto;
+  }
+}
+@media screen and (max-width:480px){
+  .footer {
+    border-radius: 0;
+    width: 100%;
+  }
+  .subscribeBox h2{
+    font-size: 20px;
+  }
+  .newsLatterBox{
+    flex-direction: column;
+  }
+  .newsLatterBox button svg{
+    display: none;
+  }
+  .newsLatterBox button{
+    width: fit-content;
+    padding: 12px 30px;
+    margin: 10px auto;
+  }
+}
+/* .footer {
+  background: #FDFEFF;
+  color: black;
+  padding: 2rem 1.5rem;
   font-family: Arial, sans-serif;
   width: 95%;
   margin: auto;
@@ -56,7 +234,7 @@
 }
 
 .newsletterText h2 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .newsletterText p {
@@ -108,9 +286,9 @@
   transform: rotate(0deg);
   transition: all 0.1s;
 }
-/* .subscribeButton svg{
+.subscribeButton svg{
   font-size: 20px;
-} */
+}
 
 .footerMain {
   display: flex;
@@ -267,4 +445,4 @@
   .newsletterText h2 {
     font-size: 20px;
   }
-}
+} */

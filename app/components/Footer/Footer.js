@@ -12,7 +12,7 @@ import { FaArrowRight } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <div className={styles.newsletter}>
           <div className={styles.newsletterText}>
             <h2>
@@ -38,12 +38,6 @@ export default function Footer() {
           <div className="row p-0 m-0">
             <div className={`${styles.companyInfo} col-lg-3 p-0 m-0`}>
               <Image src={logo} alt="Logo" className={styles.logo} />
-              {/* <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptate, atque obcaecati aut debitis natus esse totam
-                molestias molestiae quo iure adipisci unde! Autem, suscipit iure
-                tenetur amet voluptatibus inventore doloremque.
-              </p> */}
               <div className={styles.socialIcons}>
                 <Link href="#">
                   <FaFacebookSquare />
@@ -147,7 +141,149 @@ export default function Footer() {
         <div className={styles.footerBottom}>
           <p className="text-center">&copy; 2024 FinTechify. All rights reserved.</p>
         </div>
-      </footer>
+      </footer> */}
+      <div className="container-fluid p-0">
+        <section className={styles.footer}>
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className={styles.subscribeBox}>
+                <h2>
+                  Subscribe to our newsletter <br /> and stay updated
+                </h2>
+                <p>
+                  FinTechify revolutionizes banking, offering a user-centric digital
+                  experience.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className={styles.newsLatterBox}>
+                <input
+                  type="email"
+                  placeholder="Email address"
+                  className={styles.emailInput}
+                />
+                <button>
+                  Subscribe <FaArrowRight />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-3 col-md-4">
+              <div className={styles.LogoBox}>
+                <Image src={logo} />
+                <div className={styles.socailMediaIconsBox}>
+                  <Link href="#">
+                    <FaFacebookSquare />
+                  </Link>
+                  <Link href="#">
+                    <FaInstagram />
+                  </Link>
+                  <Link href="#">
+                    <FaXTwitter />
+                  </Link>
+                  <Link href="#">
+                    <FaLinkedin />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 p-0">
+              <div className={styles.linksBox}>
+                <h4>Services</h4>
+                <ul>
+                  <li>
+                    <Link href="/Banking-app-development">Banking App Development</Link>
+                  </li>
+                  <li>
+                    <Link href="/Digital-wallet-development">Digital Wallet Development</Link>
+                  </li>
+                  <li>
+                    <Link href="/Insurance-software-development">Insurance Software Development</Link>
+                  </li>
+                  <li>
+                    <Link href="/finops-services">FinOps Services</Link>
+                  </li>
+                  <li>
+                    <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 p-0 m-0">
+              <div className={styles.linksBox}>
+                <ul>
+                  <li>
+                    <Link href="/decentralized-finance-defi-platform">
+                      Decentralized Finance <br />
+                      (DeFi) Platform
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/integration-services">Integration Services</Link>
+                  </li>
+                  <li>
+                    <Link href="/resource-augmentation">Resource Augmentation</Link>
+                  </li>
+                  <li>
+                    <Link href="/currency-exchange-platform-development">
+                      Currency Exchange <br />
+                      Platform Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/cybersecurity">Cybersecurity</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 p-0">
+              <div className={styles.linksBox}>
+                <h4>Quick Links</h4>
+                <ul>
+                  <li>
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link href="/about">About</Link>
+                  </li>
+                  <li>
+                    <Link href="/service">Services</Link>
+                  </li>
+                  <li>
+                    <Link href="/rizeApp">Rize App</Link>
+                  </li>
+                  <li>
+                    <Link href="/welab">WeLab</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact-us">Contact</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 p-0">
+              <div className={styles.linksBox}>
+              <h4>Contact us</h4>
+                <ul>
+                  <p>+971-54-5061985</p>
+                  <p>talktous@fintechify.ae</p>
+                  <p>
+                    Unit: IH0101-OF01, Level One, <br /> Innovation One, DIFC,
+                    Dubai,
+                    <br /> UAE
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="row" id={styles.BottomRow}>
+            <p className="text-center">&copy; 2024 FinTechify. All rights reserved.</p>
+          </div>
+        </section>
+
+      </div>
     </>
   );
 }

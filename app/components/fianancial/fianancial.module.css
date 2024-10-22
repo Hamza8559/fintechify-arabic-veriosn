@@ -38,9 +38,9 @@
 
 .financialText p {
   line-height: normal;
-  font-weight: 400;
+  font-weight: 500;
   color: gray;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .percent1 {
@@ -111,25 +111,29 @@
 
 .marquee {
   display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   animation-name: infiniteScroll;
-  animation-duration: 5s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  animation-play-state: running;
   cursor: pointer;
 }
-.marquee:hover{
+/* .marquee:hover{
   animation-play-state: paused;
-}
+} */
 
 /* Animation for scrolling marquee */
 @keyframes infiniteScroll {
   from {
-    transform: translateX(0)
+    transform: translate(100%);
   }
 
   to {
-    transform: translateX(-50%)
+    transform: translateX(-100%)
   }
 }
 
@@ -146,7 +150,8 @@
 
 .brand {
   margin: 0px 25px;
-  height: 27px;
+  height: 67px;
+  width: 47%;
 }
 
 .OneApp {

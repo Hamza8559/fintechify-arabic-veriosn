@@ -16,9 +16,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Currency exchange platform development"}
+        head={"تطوير منصة تبادل العملات"}
         tagLine={false}
-        tagLine2={"The future of currency exchange is here."}
+        tagLine2={"مستقبل تبادل العملات هنا."}
         Des={false}
       />
       <section className="d-lg-block d-none mb-5 mt-5">
@@ -30,21 +30,20 @@ function page() {
               data-aos-offset="300"
             >
               <div className={styles.InnovativeBox}>
-                <h4>Optimize Your Currency Exchange Strategies</h4>
+                <h4>تحسين استراتيجيات تبادل العملات الخاصة بك</h4>
 
                 <p>
-                  At Fintechify, we’re passionate about building currency
-                  exchange platforms that are easy to use, grow with your
-                  business, and offer powerful features for a smooth exchange
-                  experience. With years in fintech development, we know the ins
-                  and outs of currency exchange and are dedicated to creating
-                  solutions that go above and beyond.
+                  في فينتشيفاين، نحن متحمسون لبناء منصات تبادل العملات التي
+                  تكون سهلة الاستخدام وتنمو مع عملك وتقدم ميزات قوية لتجربة
+                  تبادل سلسة. مع سنوات من الخبرة في تطوير التكنولوجيا المالية،
+                  نحن نفهم تفاصيل تبادل العملات وملتزمون بإنشاء حلول تتجاوز
+                  التوقعات.
                 </p>
               </div>
               <button className={styles.LuSend2}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
-                    JOIN NOW <FaArrowRight />
+                    انضم الآن <FaArrowRight />
                   </span>
                 </Link>
               </button>
@@ -79,21 +78,20 @@ function page() {
               data-aos-offset="300"
             >
               <div className={styles.InnovativeBox}>
-                <h4>Optimize Your Currency Exchange Strategies</h4>
+                <h4>تحسين استراتيجيات تبادل العملات الخاصة بك</h4>
 
                 <p>
-                  At Fintechify, we’re passionate about building currency
-                  exchange platforms that are easy to use, grow with your
-                  business, and offer powerful features for a smooth exchange
-                  experience. With years in fintech development, we know the ins
-                  and outs of currency exchange and are dedicated to creating
-                  solutions that go above and beyond.
+                  في فينتشيفاين، نحن متحمسون لبناء منصات تبادل العملات التي
+                  تكون سهلة الاستخدام وتنمو مع عملك وتقدم ميزات قوية لتجربة
+                  تبادل سلسة. مع سنوات من الخبرة في تطوير التكنولوجيا المالية،
+                  نحن نفهم تفاصيل تبادل العملات وملتزمون بإنشاء حلول تتجاوز
+                  التوقعات.
                 </p>
               </div>
               <button className={styles.LuSend2}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
-                    JOIN NOW <FaArrowRight />
+                    انضم الآن <FaArrowRight />
                   </span>
                 </Link>
               </button>
@@ -102,75 +100,12 @@ function page() {
         </div>
       </section>
 
-      {/* <section className={styles.processSection} data-aos="fade-up">
-        <div className="container-fluid px-5">
-          <div className="row">
-            <h4>
-              Key Features of Our Currency Exchange <br />Platform Development
-              Service:
-            </h4>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox}  ${styles.blueBg} ${styles.currencyBlueUpperBox}`}
-              >
-                <ul>
-                  <h5>Our Currency Exchange Platform Features</h5>
-                  <p>Customized Solution</p>
-                </ul>
-                <ul>
-                  <h5>Tailored for Your Exchange Needs</h5>
-                  <p>
-                    We don’t do one-size-fits-all. We listen to your business
-                    goals and build a currency exchange platform that fits you
-                    perfectly. Need a quick converter? Done. A trading
-                    powerhouse? We’ve got you covered.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Your Money, Our Priority</h5>
-                  <p>
-                    We understand finance is all about trust. That’s why our
-                    platforms are fortresses, built with top-notch encryption,
-                    two-factor authentication, and industry-leading compliance.
-                    Your users’ funds and data are safe and sound.
-                  </p>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox}  ${styles.whiteBg} ${styles.currencyWhiteBottomBox}`}
-              >
-                <ul>
-                  <h5>Effortless Connections</h5>
-                  <p>
-                    No more juggling systems! Our platforms integrate smoothly
-                    with all your financial partners, from APIs to banks and
-                    payment gateways. This means you can offer a wider range of
-                    currencies and payment options without the headache.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Grow Fearlessly</h5>
-                  <p>
-                    Don’t let your platform hold you back. We build with
-                    scalability in mind, so your currency exchange platform can
-                    expand as your business booms. More users, more services, no
-                    problem. You’ll keep the same smooth performance you love.
-                  </p>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
             <h4 className="text-center">
-              Key Features of Our Currency Exchange <br />
-              Platform Development Service:
+              الميزات الرئيسية لخدمة تطوير <br />
+              منصة تبادل العملات لدينا:
             </h4>
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
@@ -178,25 +113,24 @@ function page() {
                   className={`${styles.processBox}  ${styles.blueBg} ${styles.currencyBlueUpperBox}`}
                 >
                   <ul>
-                    <h5>Our Currency Exchange Platform Features</h5>
-                    <p>Customized Solution</p>
+                    <h5>ميزات منصة تبادل العملات لدينا</h5>
+                    <p>حلول مخصصة</p>
                   </ul>
                   <ul>
-                    <h5>Tailored for Your Exchange Needs</h5>
+                    <h5>مصممة خصيصًا لاحتياجات التبادل الخاصة بك</h5>
                     <p>
-                      We don’t do one-size-fits-all. We listen to your business
-                      goals and build a currency exchange platform that fits you
-                      perfectly. Need a quick converter? Done. A trading
-                      powerhouse? We’ve got you covered.
+                      نحن لا نقدم حلول جاهزة للجميع. نحن نستمع إلى أهداف عملك
+                      ونبني منصة تبادل العملات التي تناسبك تمامًا. تحتاج إلى
+                      محول سريع؟ تم. منصة تداول قوية؟ لقد قمنا بتغطية ذلك.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Your Money, Our Priority</h5>
+                    <h5>أموالك، أولويتنا</h5>
                     <p>
-                      We understand finance is all about trust. That’s why our
-                      platforms are fortresses, built with top-notch encryption,
-                      two-factor authentication, and industry-leading
-                      compliance. Your users’ funds and data are safe and sound.
+                      نحن ندرك أن المال يدور حول الثقة. لهذا السبب تُبنى
+                      منصاتنا على أساس من الأمان العالي، مع تشفير متقدم،
+                      ومصادقة ثنائية، والامتثال للمعايير الرائدة في الصناعة.
+                      أموال وبيانات المستخدمين في أمان.
                     </p>
                   </ul>
                 </div>
@@ -206,22 +140,21 @@ function page() {
                   className={`${styles.processBox}  ${styles.blueBg} ${styles.currencyWhiteBottomBox}`}
                 >
                   <ul>
-                    <h5>Effortless Connections</h5>
+                    <h5>اتصالات سهلة</h5>
                     <p>
-                      No more juggling systems! Our platforms integrate smoothly
-                      with all your financial partners, from APIs to banks and
-                      payment gateways. This means you can offer a wider range
-                      of currencies and payment options without the headache.
+                      لا مزيد من التعامل مع أنظمة متعددة! منصاتنا تتكامل بسلاسة
+                      مع جميع الشركاء الماليين لديك، من واجهات برمجة التطبيقات
+                      إلى البنوك وبوابات الدفع. هذا يعني أنك يمكنك تقديم نطاق
+                      أوسع من العملات وخيارات الدفع بدون أي تعقيدات.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Grow Fearlessly</h5>
+                    <h5>التوسع بثقة</h5>
                     <p>
-                      Don’t let your platform hold you back. We build with
-                      scalability in mind, so your currency exchange platform
-                      can expand as your business booms. More users, more
-                      services, no problem. You’ll keep the same smooth
-                      performance you love.
+                      لا تدع منصتك تقيدك. نحن نبني مع مراعاة التوسع، لذا يمكن
+                      لمنصة تبادل العملات الخاصة بك أن تنمو مع ازدهار عملك. عدد
+                      أكبر من المستخدمين، المزيد من الخدمات، لا مشكلة. ستظل
+                      تحتفظ بنفس الأداء السلس الذي تحبه.
                     </p>
                   </ul>
                 </div>
@@ -236,14 +169,13 @@ function page() {
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
-              <h4>Get Started Today</h4>
+              <h4>ابدأ اليوم</h4>
               <h5 className="text-center">
-                Ready to kickstart your currency exchange service or enhance
-                your current platform? With our wealth of expertise and
-                resources, we're poised to actualize your vision. Reach out
-                today to delve deeper into our Currency Exchange Platform
-                Development Service and discover how we can propel you towards
-                your business objectives.
+                هل أنت جاهز لبدء خدمة تبادل العملات الخاصة بك أو تحسين منصتك
+                الحالية؟ مع خبرتنا الواسعة ومواردنا، نحن مستعدون لتحويل رؤيتك
+                إلى حقيقة. تواصل معنا اليوم لمعرفة المزيد عن خدمة تطوير منصة
+                تبادل العملات لدينا واكتشاف كيف يمكننا دفعك نحو تحقيق أهداف
+                عملك.
               </h5>
             </div>
           </div>

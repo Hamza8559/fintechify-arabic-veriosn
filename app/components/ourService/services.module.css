@@ -10,7 +10,7 @@
 
   .check{
     display: flex;
-    align-items: end;
+    align-items: start;
     justify-content: center;
     flex-direction: column;
   }
@@ -35,9 +35,9 @@
     font-weight: 600;
   }
   .content p {
-    font-weight: 400;
+    font-weight: 500;
     color: #929292;
-    font-size: 13px;
+    font-size: 18px;
   }
  
   .LuSend {
@@ -51,9 +51,9 @@
   }
   .LuSend span p {
     margin: 0;
-    color: #DADADA;
+    color: black;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 20px;
   }
   .LuSend span h6 {
     font-weight: 500;
@@ -113,13 +113,14 @@
     border: 1px solid #006FF9;
   }
   .card h2{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
   }
   .card p{
-    font-size: 14px;
+    font-size: 18px;
     color: gray;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: normal !important;
   }
   .card span {
     display: flex;

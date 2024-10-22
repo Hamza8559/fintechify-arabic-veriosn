@@ -57,16 +57,16 @@
 
 .collg6 h1 {
   color: black;
-  font-size: 21px;
+  font-size: 25px;
   font-weight: 600;
   line-height: normal;
 }
 
 .collg6 p {
-  font-weight: 300;
+  font-weight: 500;
   margin: 10px 0;
   color: gray;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .btn {
@@ -86,14 +86,14 @@
 }
 
 .boxleft {
-  background-color: #1d96fd;
+  background: linear-gradient(180deg, #082ac9, #1f96fd);;
   /* background-image: url('../components/assets/images/risebanner1.png'); */
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 20px;
   padding: 50px;
   color: white;
-  height: 600px;
+  height: 750px;
 }
 
 .flexBoxes{
@@ -105,11 +105,11 @@
   margin-top: 100px;
 }
 .boxright {
-  background-color: #1d96fd;
+  background: linear-gradient(180deg, #082ac9, #1f96fd);;
   color: white;
   border-radius: 20px;
   padding: 50px;
-  height: 600px;
+  height: 750px;
 }
 
 .row2 {
@@ -124,34 +124,34 @@
 
 .boxleft h5 {
   color: white !important;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .boxleft h2 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .boxleft ul li {
   color: white !important;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .boxright h5 {
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .boxright h2 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .boxright ul li {
   color: white;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .row2 {
@@ -183,7 +183,10 @@
   margin: 50px 0;
   color: black;
 }
-
+/* 
+.aboutFirst h2{
+  font-size: 55px;
+} */
 .aboutFirstsection h2 {
   font-size: 48px;
 }
@@ -207,15 +210,15 @@
 
 .aboutFirstsection .iconFlexBox h3 {
   white-space: pre-wrap;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 
 .aboutFirstsection .iconFlexBox span {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 18px;
   white-space: break-spaces;
-  color: #666666;
+  color: black;
   padding-left: 30px;
   display: block;
 }
@@ -270,34 +273,7 @@
   .col12 p {
     width: 90vw;
   }
-  .btn {
-    padding: 15px 20px;
-    font-size: 12px;
-  }
   .row2 h1 {
     font-size: 7vw;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .aboutFirstsection .iconFlexBox h3 {
-    font-size: 14px;
-  }
-  .aboutFirstsection .iconFlexBox div span{
-    font-size: 12px;
-    padding-right: 15px;
-  }
-  .col12 h1 {
-    font-size: 10vw;
-  }
-  .col12 p {
-    width: 95vw;
-  }
-  .btn {
-    padding: 10px 16px;
-    font-size: 10px;
-  }
-  .row2 h1 {
-    font-size: 6vw;
   }
 }

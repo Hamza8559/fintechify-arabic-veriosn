@@ -16,9 +16,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Insurance Software Development"}
+        head={"تطوير برامج التأمين"}
         tagLine={false}
-        tagLine2={"Level Up Your Insurance Game with Fintechify"}
+        tagLine2={"ارتقِ بأعمال التأمين الخاصة بك مع فينتكفاي"}
         Des={false}
       />
       <section className="d-lg-block d-none mb-5 mt-5">
@@ -31,42 +31,31 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Customized Insurance Software <br />Development Solutions
+                  حلول تطوير برامج التأمين المخصصة
                 </h4>
-                <h5>Insure Your Advantage</h5>
+                <h5>أمّن تفوقك</h5>
                 <p>
-                  Fintechify understands the unique challenges you face in
-                  today’s dynamic insurance market. <br /> We’re not here to
-                  sell you a generic solution – we build custom-crafted
-                  software that empowers you to:
+                  تفهم فينتكفاي التحديات الفريدة التي تواجهك في سوق التأمين المتغيرة اليوم. <br /> نحن لسنا هنا لبيع حل عام – نحن نبني برامج مخصصة لتمكنك من:
                 </p>
                 <p>
-                  Outmaneuver complexity: Streamline workflows, automate tasks,{" "}
-                  and say goodbye to data silos with <br /> intelligent,
-                  scalable solutions. 
-                  Become a fortress of security: Protect sensitive data and
-                  ensure <br /> compliance with unwavering security protocols.
+                  التغلب على التعقيد: قم بتبسيط العمليات، وأتمتة المهام، ووداعًا للعوائق مع حلول ذكية وقابلة للتوسع.
+                  <br /> كن حصنًا من الأمان: احمِ البيانات الحساسة وتأكد من الامتثال لبروتوكولات الأمان الصارمة.
                 </p>
                 <p>
-                  Deliver lightning-fast quotes: Impress customers with
-                  real-time responsiveness and a streamlined <br /> quoting
-                  process.
+                  تقديم عروض أسعار سريعة: أدهش العملاء بسرعة الاستجابة في الوقت الفعلي وعملية تقديم العروض المبسطة.
                 </p>
                 <p>
-                  Embrace the data revolution: Gain game-changing insights with{" "}
-                   robust analytics that help you make <br />smarter
-                  decisions.Fintechify isn’t just software, it’s your strategic
-                  partner. We work  closely with you to <br /> understand your
-                  specific needs and develop  solutions that fuel your
-                  growth and optimize your operations <br />
-                  Ready to unlock the full potential of your insurance business?
-                  Let’s talk!
+                  احتضان ثورة البيانات: احصل على رؤى تغييرية من خلال التحليلات القوية التي تساعدك في اتخاذ قرارات أذكى.
+                  <br /> فينتكفاي ليست مجرد برنامج، إنها شريكك الاستراتيجي. نحن نعمل معك عن كثب لفهم احتياجاتك المحددة وتطوير حلول تدعم نموك وتحسن عملياتك.
+                </p>
+                <p>
+                  مستعد لاكتشاف الإمكانات الكاملة لعملك في مجال التأمين؟ لنتحدث!
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -102,42 +91,31 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Customized Insurance Software <br />Development Solutions
+                  حلول تطوير برامج التأمين المخصصة
                 </h4>
-                <h5>Insure Your Advantage</h5>
+                <h5>أمّن تفوقك</h5>
                 <p>
-                  Fintechify understands the unique challenges you face in
-                  today’s dynamic insurance market. <br /> We’re not here to
-                  sell you a generic solution – we build custom-crafted
-                  software that empowers you to:
+                  تفهم فينتكفاي التحديات الفريدة التي تواجهك في سوق التأمين المتغيرة اليوم. <br /> نحن لسنا هنا لبيع حل عام – نحن نبني برامج مخصصة لتمكنك من:
                 </p>
                 <p>
-                  Outmaneuver complexity: Streamline workflows, automate tasks,{" "}
-                  and say goodbye to data silos with <br /> intelligent,
-                  scalable solutions. 
-                  Become a fortress of security: Protect sensitive data and
-                  ensure <br /> compliance with unwavering security protocols.
+                  التغلب على التعقيد: قم بتبسيط العمليات، وأتمتة المهام، ووداعًا للعوائق مع حلول ذكية وقابلة للتوسع.
+                  <br /> كن حصنًا من الأمان: احمِ البيانات الحساسة وتأكد من الامتثال لبروتوكولات الأمان الصارمة.
                 </p>
                 <p>
-                  Deliver lightning-fast quotes: Impress customers with
-                  real-time responsiveness and a streamlined <br /> quoting
-                  process.
+                  تقديم عروض أسعار سريعة: أدهش العملاء بسرعة الاستجابة في الوقت الفعلي وعملية تقديم العروض المبسطة.
                 </p>
                 <p>
-                  Embrace the data revolution: Gain game-changing insights with{" "}
-                   robust analytics that help you make <br />smarter
-                  decisions.Fintechify isn’t just software, it’s your strategic
-                  partner. We work  closely with you to <br /> understand your
-                  specific needs and develop  solutions that fuel your
-                  growth and optimize your operations <br />
-                  Ready to unlock the full potential of your insurance business?
-                  Let’s talk!
+                  احتضان ثورة البيانات: احصل على رؤى تغييرية من خلال التحليلات القوية التي تساعدك في اتخاذ قرارات أذكى.
+                  <br /> فينتكفاي ليست مجرد برنامج، إنها شريكك الاستراتيجي. نحن نعمل معك عن كثب لفهم احتياجاتك المحددة وتطوير حلول تدعم نموك وتحسن عملياتك.
+                </p>
+                <p>
+                  مستعد لاكتشاف الإمكانات الكاملة لعملك في مجال التأمين؟ لنتحدث!
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -145,130 +123,11 @@ function page() {
           </div>
         </div>
       </section>
-
-      {/* <section className={styles.processSection} data-aos="fade-up">
-        <div className="container-fluid px-5">
-          <div className="row">
-            <h4>
-              Key Features of Fintechify Insurance Software <br /> Development
-              Services
-            </h4>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.blueBg} ${styles.InsuranceBlueUpperBox} `}
-              >
-                <ul>
-                  <h5>1. Policy Management Systems</h5>
-                  <p>
-                    Ditch the paperwork jungle! Our robust systems manage
-                    policies, <br /> premiums, claims, and more – all in one
-                    secure, digital platform.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>• Auto-pilot underwriting</h5>
-                  <p>
-                    Streamline approvals and free up staff for higher-value
-                    tasks.{" "}
-                  </p>
-                  
-                </ul>
-                <ul>
-                  <h5>• Risk assessment on steroids</h5>
-                  <p>Make smarter decisions with data-driven insights.</p>
-                </ul>
-                <ul>
-                  <h5>• Compliance, conquered!</h5>
-                  <p>Stay on top of regulations with built-in safeguards.</p>
-                </ul>
-                <ul>
-                  <h5>2. Claims Processing Solutions</h5>
-                  <p>
-                    Say goodbye to claim delays! Our solutions simplify and
-                    expedite <br /> the process:
-                  </p>
-                </ul>
-                <ul>
-                  <h5>• Automated claim intake</h5>
-                  <p>No more mountains of paperwork!</p>
-                </ul>
-                <ul>
-                  <h5>• Adjudication workflows</h5>
-                  <p>Streamlined approvals for faster payouts.</p>
-                </ul>
-                <ul>
-                  <h5>• Integrated communication tools</h5>
-                  <p>
-                    Keep clients informed and engaged throughout the process.
-                  </p>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.whiteBg} ${styles.InsuranceWhiteBottomBox}`}
-              >
-                <ul>
-                  <h5>3. Agency Management Platforms</h5>
-                  <p>Empower your agency with an all-in-one solution:</p>
-                </ul>
-                <ul>
-                  <p>
-                    • Manage clients, policies, and commissions with ease.{" "}
-                    <br />
-                    • Automate routine tasks to free up your team. <br />• Gain
-                    valuable insights to drive strategic decisions.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>4. Data Analytics and Reporting</h5>
-                  <p>Unlock the power of your data:</p>
-                </ul>
-                <ul>
-                  <h5>• See beyond the spreadsheets</h5>
-                  <p>
-                    Powerful analytics turn raw data into actionable insights.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Your brand, front and center</h5>
-                  <p>We’ll ensure the app reflects your unique identity.</p>
-                </ul>
-                <ul>
-                  <h5>• Risk Management Revolution</h5>
-                  <p>
-                    Identify patterns, predict trends, and make smarter risk
-                    decisions.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>• Underwriting with Eagle Eyes</h5>
-                  <p>Boost accuracy with data-driven insights.</p>
-                </ul>
-                <ul>
-                  <h5>• Happy Customers = Happy Business</h5>
-                  <p>
-                    Use data to personalize experiences and boost engagement.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Fintechify</h5>
-                  <p>
-                    Your one-stop shop for a smarter, more efficient insurance{" "}
-                    <br /> business.
-                  </p>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
             <h4 className="text-center">
-              Key Features of Fintechify Insurance Software <br /> Development
-              Services
+              الميزات الرئيسية لخدمات تطوير برامج التأمين من فينتكفاي
             </h4>
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
@@ -276,49 +135,42 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.InsuranceBlueUpperBox} `}
                 >
                   <ul>
-                    <h5>1. Policy Management Systems</h5>
+                    <h5>1. أنظمة إدارة السياسات</h5>
                     <p>
-                      Ditch the paperwork jungle! Our robust systems manage
-                      policies, <br /> premiums, claims, and more – all in one
-                      secure, digital platform.
+                      وداعًا للفوضى الورقية! أنظمتنا القوية تدير السياسات، الأقساط، المطالبات، والمزيد – كل ذلك في منصة رقمية آمنة.
                     </p>
                   </ul>
                   <ul>
-                    <h5>• Auto-pilot underwriting</h5>
+                    <h5>• الاكتتاب الآلي</h5>
                     <p>
-                      Streamline approvals and free up staff for higher-value
-                      tasks.{" "}
-                    </p>
-                    
-                  </ul>
-                  <ul>
-                    <h5>• Risk assessment on steroids</h5>
-                    <p>Make smarter decisions with data-driven insights.</p>
-                  </ul>
-                  <ul>
-                    <h5>• Compliance, conquered!</h5>
-                    <p>Stay on top of regulations with built-in safeguards.</p>
-                  </ul>
-                  <ul>
-                    <h5>2. Claims Processing Solutions</h5>
-                    <p>
-                      Say goodbye to claim delays! Our solutions simplify and
-                      expedite <br /> the process:
+                      قم بتبسيط الموافقات وتحرير الموظفين للقيام بمهام ذات قيمة أعلى.
                     </p>
                   </ul>
                   <ul>
-                    <h5>• Automated claim intake</h5>
-                    <p>No more mountains of paperwork!</p>
+                    <h5>• تقييم المخاطر المتقدم</h5>
+                    <p>اتخذ قرارات أذكى مع رؤى مستندة إلى البيانات.</p>
                   </ul>
                   <ul>
-                    <h5>• Adjudication workflows</h5>
-                    <p>Streamlined approvals for faster payouts.</p>
+                    <h5>• الامتثال المضمون!</h5>
+                    <p>ابق على اطلاع على اللوائح مع ضمانات مدمجة.</p>
                   </ul>
                   <ul>
-                    <h5>• Integrated communication tools</h5>
+                    <h5>2. حلول معالجة المطالبات</h5>
                     <p>
-                      Keep clients informed and engaged throughout the process.
+                      وداعًا لتأخير المطالبات! حلولنا تبسط وتسرع العملية:
                     </p>
+                  </ul>
+                  <ul>
+                    <h5>• استقبال المطالبات المؤتمت</h5>
+                    <p>لا مزيد من الأكوام الورقية!</p>
+                  </ul>
+                  <ul>
+                    <h5>• سير عمل القرار</h5>
+                    <p>موافقات مبسطة للحصول على مدفوعات أسرع.</p>
+                  </ul>
+                  <ul>
+                    <h5>• أدوات الاتصال المتكاملة</h5>
+                    <p>ابق العملاء مطلعين ومتفاعلين طوال العملية.</p>
                   </ul>
                 </div>
               </div>
@@ -327,53 +179,51 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.InsuranceWhiteBottomBox}`}
                 >
                   <ul>
-                    <h5>3. Agency Management Platforms</h5>
-                    <p>Empower your agency with an all-in-one solution:</p>
+                    <h5>3. منصات إدارة الوكالة</h5>
+                    <p>قم بتمكين وكالتك بحل شامل:</p>
                   </ul>
                   <ul>
                     <p>
-                      • Manage clients, policies, and commissions with ease.{" "}
+                      • إدارة العملاء، السياسات، والعمولات بسهولة.
                       <br />
-                      • Automate routine tasks to free up your team. <br />• Gain
-                      valuable insights to drive strategic decisions.
+                      • أتمتة المهام الروتينية لتحرير فريقك.
+                      <br /> • اكتساب رؤى قيمة لقيادة القرارات الإستراتيجية.
                     </p>
                   </ul>
                   <ul>
-                    <h5>4. Data Analytics and Reporting</h5>
-                    <p>Unlock the power of your data:</p>
+                    <h5>4. تحليلات البيانات والتقارير</h5>
+                    <p>اكتشاف قوة بياناتك:</p>
                   </ul>
                   <ul>
-                    <h5>• See beyond the spreadsheets</h5>
+                    <h5>• رؤى تتجاوز الجداول</h5>
                     <p>
-                      Powerful analytics turn raw data into actionable insights.
+                      التحليلات القوية تحول البيانات الخام إلى رؤى قابلة للتنفيذ.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Your brand, front and center</h5>
-                    <p>We’ll ensure the app reflects your unique identity.</p>
+                    <h5>علامتك التجارية، في المقدمة</h5>
+                    <p>سنضمن أن التطبيق يعكس هويتك الفريدة.</p>
                   </ul>
                   <ul>
-                    <h5>• Risk Management Revolution</h5>
+                    <h5>• ثورة إدارة المخاطر</h5>
                     <p>
-                      Identify patterns, predict trends, and make smarter risk
-                      decisions.
+                      تحديد الأنماط، توقع الاتجاهات، واتخاذ قرارات المخاطر بشكل أذكى.
                     </p>
                   </ul>
                   <ul>
-                    <h5>• Underwriting with Eagle Eyes</h5>
-                    <p>Boost accuracy with data-driven insights.</p>
+                    <h5>• الاكتتاب برؤية نسر</h5>
+                    <p>تعزيز الدقة من خلال رؤى مستندة إلى البيانات.</p>
                   </ul>
                   <ul>
-                    <h5>• Happy Customers = Happy Business</h5>
+                    <h5>• العملاء السعداء = أعمال ناجحة</h5>
                     <p>
-                      Use data to personalize experiences and boost engagement.
+                      استخدم البيانات لتخصيص التجارب وزيادة التفاعل.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Fintechify</h5>
+                    <h5>فينتكفاي</h5>
                     <p>
-                      Your one-stop shop for a smarter, more efficient insurance{" "}
-                      <br /> business.
+                      مركز واحد لعمل تأمين أكثر ذكاءً وكفاءة.
                     </p>
                   </ul>
                 </div>
@@ -382,18 +232,14 @@ function page() {
           </div>
         </div>
       </section>
-
       <section className={styles.getStartedSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
-              <h4>Get Started Today</h4>
+              <h4>ابدأ اليوم</h4>
               <p className="text-center">
-                Clunky insurance software slowing you down? Upgrade to
-                Fintechify & <br /> thrive! Automate tasks, secure data, & make
-                data-driven decisions. Don't <br /> settle! Contact us & unlock
-                growth
+                هل برامج التأمين البطيئة تعيقك؟ قم بالترقية إلى فينتكفاي وازدهر! أتمت المهام، احم البيانات، واتخذ قرارات مستندة إلى البيانات. لا ترضى! تواصل معنا وافتح باب النمو
               </p>
             </div>
           </div>

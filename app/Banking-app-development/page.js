@@ -20,31 +20,32 @@ function page() {
             <Header />
             <Banner
                 showCase={false}
-                head={"Banking App Development"}
+                head={"تطوير تطبيقات البنوك"}
                 tagLine={false}
-                tagLine2={"Banking that fits in Your Pocket"}
+                tagLine2={"البنك الذي يناسب جيبك"}
                 Des={false}
             />
             <section className='mb-5 mt-5 d-lg-block d-none'>
-                <div className="container-fluid px-lg-5">
+                <div className="container-fluid px-lg-5" style={{ direction: 'rtl' }}>
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
                             <div className={styles.InnovativeBox}>
-                                <h4>With Banking App <br />Your finances, finally <br />on autopilot.</h4>
-                                <h5>Get Tired of Traditional Banking Trends?</h5>
-                                <p>Imagine a world where:</p>
-                                <p>You don’t need to rush to the bank before closing.
-                                    Checking your balance, transferring funds, or paying bills feels effortless.</p>
-                                <p>You have a smart assistant in your pocket, helping you manage your money with ease.</p>
+                                <h4>مع تطبيق البنك <br /> أخيرًا أموالك تحت التحكم التلقائي.</h4>
+                                <h5>هل سئمت من الاتجاهات المصرفية التقليدية؟</h5>
+                                <p>تخيل عالمًا حيث:</p>
+                                <p>لم تعد بحاجة إلى الإسراع إلى البنك قبل الإغلاق.
+                                    التحقق من رصيدك، تحويل الأموال، أو دفع الفواتير بات أمرًا سهلًا.</p>
+                                <p>لديك مساعد ذكي في جيبك، يساعدك في إدارة أموالك بكل سهولة.</p>
                                 <p>
-                                    This is now Possible in Real World with our Banking App Development.
-                                    Fintechify crafts sleek, secure mobile banking that blasts past the     competition.  Our team of designers, developers, and strategists build  features that empower users and fuel growth.
+                                    هذا الآن ممكن في العالم الحقيقي مع تطوير تطبيقات البنوك.
+                                    فينتشيفايفي تصمم تطبيقات بنكية حديثة وآمنة تتفوق على المنافسة.
+                                    فريقنا من المصممين والمطورين والاستراتيجيين يقوم ببناء ميزات تعزز المستخدمين وتعزز النمو.
                                 </p>
                             </div>
                             <button className={styles.LuSend2}>
                                 <Link href="/contact-us" passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
-                                        JOIN NOW <FaArrowRight />
+                                        انضم الآن <FaArrowRight />
                                     </span>
                                 </Link>
                             </button>
@@ -57,8 +58,9 @@ function page() {
                     </div>
                 </div>
             </section>
+
             <section className='mb-5 mt-5 d-lg-none d-block'>
-                <div className="container-fluid px-lg-5">
+                <div className="container-fluid px-lg-5" style={{ direction: 'rtl' }}>
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
@@ -67,21 +69,22 @@ function page() {
                         </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
                             <div className={styles.InnovativeBox}>
-                                <h4 className="">With Banking App Your finances, <br /> finallyon autopilot.</h4>
-                                <h5>Get Tired of Traditional Banking Trends?</h5>
-                                <p>Imagine a world where:</p>
-                                <p>You don’t need to rush to the bank before closing.
-                                    Checking your balance, transferring funds, or paying bills feels effortless.</p>
-                                <p>You have a smart assistant in your pocket, helping you manage your money with ease.</p>
+                                <h4>مع تطبيق البنك أخيرًا أموالك تحت التحكم التلقائي.</h4>
+                                <h5>هل سئمت من الاتجاهات المصرفية التقليدية؟</h5>
+                                <p>تخيل عالمًا حيث:</p>
+                                <p>لم تعد بحاجة إلى الإسراع إلى البنك قبل الإغلاق.
+                                    التحقق من رصيدك، تحويل الأموال، أو دفع الفواتير بات أمرًا سهلًا.</p>
+                                <p>لديك مساعد ذكي في جيبك، يساعدك في إدارة أموالك بكل سهولة.</p>
                                 <p>
-                                    This is now Possible in Real World with our Banking App Development.
-                                    Fintechify crafts sleek, secure mobile banking that blasts past the     competition.  Our team of designers, developers, and strategists build  features that empower users and fuel growth.
+                                    هذا الآن ممكن في العالم الحقيقي مع تطوير تطبيقات البنوك.
+                                    فينتشيفايفي تصمم تطبيقات بنكية حديثة وآمنة تتفوق على المنافسة.
+                                    فريقنا من المصممين والمطورين والاستراتيجيين يقوم ببناء ميزات تعزز المستخدمين وتعزز النمو.
                                 </p>
                             </div>
                             <button className={styles.LuSend2}>
                                 <Link href="/contact-us" passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
-                                        JOIN NOW <FaArrowRight />
+                                        انضم الآن <FaArrowRight />
                                     </span>
                                 </Link>
                             </button>
@@ -90,7 +93,7 @@ function page() {
                 </div>
             </section>
 
-            <section className={styles.aboutFirst}>
+            <section className={styles.aboutFirst} style={{ direction: 'rtl' }}>
                 <div className="container-fluid px-lg-5">
                     <div className="row">
                         <div className="col-lg-6">
@@ -101,41 +104,34 @@ function page() {
                         <div className="col-lg-6">
                             <div className={styles.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
                                 <h2 className=''>
-                                    Why You Should Move for <br /> Banking App Development
+                                    لماذا يجب أن تنتقل إلى <br /> تطوير تطبيقات البنوك
                                 </h2>
                                 <div className={styles.iconFlexBox}>
                                     <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Reduced Costs:</h3>
-                                        <span>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</span>
+                                        <h3>تخفيض التكاليف:</h3>
+                                        <span>خفض النفقات التشغيلية من خلال تشجيع <br /> استخدام البنوك عبر الهاتف بدلاً من الفروع الفعلية.</span>
                                     </div>
                                 </div>
                                 <div className={styles.iconFlexBox}>
                                     <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Lower operational expenses by encouraging <br /> the use of mobile banking over physical branches.</h3>
-                                        <span>Offer a more personalized and interactive banking experience.</span>
+                                        <h3>تحسين رضا العملاء:</h3>
+                                        <span>تقديم خدمات مريحة وفعالة مما يؤدي إلى زيادة الاحتفاظ بالعملاء.</span>
                                     </div>
                                 </div>
                                 <div className={styles.iconFlexBox}>
                                     <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Improved Customer Satisfaction:</h3>
-                                        <span>Provide convenient and efficient services, leading to higher customer retention.</span>
+                                        <h3>رؤى مستندة إلى البيانات:</h3>
+                                        <span>الحصول على بيانات قيمة حول العملاء<br /> وعادات الإنفاق لاتخاذ استراتيجيات تسويقية وتطوير منتجات مستقبلي.</span>
                                     </div>
                                 </div>
                                 <div className={styles.iconFlexBox}>
                                     <IoMdCheckmarkCircleOutline />
                                     <div>
-                                        <h3>Data-Driven Insights:</h3>
-                                        <span>Gain valuable customer data and spending habits to inform <br />future marketing strategies and product development.</span>
-                                    </div>
-                                </div>
-                                <div className={styles.iconFlexBox}>
-                                    <IoMdCheckmarkCircleOutline />
-                                    <div>
-                                        <h3>Competitive Advantage:</h3>
-                                        <span>Stay ahead of the curve by offering innovative mobile banking solutions.</span>
+                                        <h3>ميزة تنافسية:</h3>
+                                        <span>ابقَ في طليعة المنافسة<br />  من خلال تقديم  حلول بنكية مبتكرة عبر الهاتف المحمول.</span>
                                     </div>
                                 </div>
                             </div>
@@ -144,57 +140,56 @@ function page() {
                 </div>
             </section>
 
-            {/* <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container-fluid px-5">
+            {/* <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500" style={{ direction: 'rtl' }}>
+                <div className="container-fluid px-lg-5">
                     <div className="row">
-                        <h4>Our Process of Testifying</h4>
-                        <span>Before we blast off, we need a roadmap.</span>
+                        <h4>عمليتنا للاختبار</h4>
+                        <span>قبل الإطلاق، نحتاج إلى خارطة طريق.</span>
                         <div className={styles.flexBoxes}>
                             <div className='col-lg-5 p-lg-0'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevBlueUpperBox} `}>
                                     <ul>
-                                        <h5>Deep dive</h5>
-                                        <p>We’ll analyze your goals, target audience, and tech needs to understand your vision perfectly.</p>
+                                        <h5>الغوص العميق</h5>
+                                        <p>سنقوم بتحليل أهدافك وجمهورك المستهدف واحتياجاتك التقنية لفهم رؤيتك تمامًا.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Plan the mission</h5>
-                                        <p>Based on our findings, we’ll craft a clear and concise project plan outlining:</p>
-                                        <li>What we’ll build the scope</li>
-                                        <li>Timeline for liftoff</li>
-                                        <li>What you’ll get at each stage deliverable</li>
-                                        <p>This ensures we’re all on the same page and your app lands smoothly.</p>
+                                        <h5>التخطيط للمهمة</h5>
+                                        <p>بناءً على نتائجنا، سنقوم بوضع خطة مشروع واضحة وموجزة توضح:</p>
+                                        <li>ما الذي سنبنيه ونطاق المشروع</li>
+                                        <li>جدول زمني للإطلاق</li>
+                                        <li>ما ستحصل عليه في كل مرحلة من المراحل</li>
+                                        <p>يضمن ذلك أننا جميعًا على نفس الصفحة وأن تطبيقك سيُطلق بسلاسة.</p>
                                     </ul>
                                 </div>
                             </div>
                             <div className='col-lg-5 p-lg-0'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevWhiteUpperBox}`}>
                                     <ul>
-                                        <h5>Crafting your dream app, one pixel at a time.<br />
-                                            Design masterminds and coding wizards join forces</h5>
-                                        <p>Our team collaborates to create</p>
+                                        <h5>تصميم التطبيق الحلم، بكسل تلو الآخر.</h5>
+                                        <p>يتعاون فريقنا لإنشاء</p>
                                     </ul>
                                     <ul>
-                                        <h5>Wireframes</h5>
-                                        <p>Think of them as blueprints for your app’s layout.</p>
+                                        <h5>الإطارات السلكية</h5>
+                                        <p>فكر بها كالمخططات لتخطيط تطبيقك.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Prototypes</h5>
-                                        <p>Interactive mockups that let you experience the app before it’s built.</p>
+                                        <h5>النماذج الأولية</h5>
+                                        <p>نماذج تفاعلية تتيح لك تجربة التطبيق قبل بنائه.</p>
                                     </ul>
                                     <ul>
-                                        <h5>User interfaces (UI)</h5>
-                                        <p>The beautiful and intuitive screens you’ll interact with.</p>
+                                        <h5>واجهة المستخدم (UI)</h5>
+                                        <p>الشاشات الجميلة والبديهية التي ستتفاعل معها.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Your brand, front and center</h5>
-                                        <p>We’ll ensure the app reflects your unique identity.</p>
+                                        <h5>علامتك التجارية في المقدمة</h5>
+                                        <p>سوف نتأكد من أن التطبيق يعكس هويتك الفريدة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Feedback loop at warp speed</h5>
-                                        <p>We use agile methods to constantly gather your input and refine the design as we go.</p>
+                                        <h5>حلقة ملاحظات سريعة</h5>
+                                        <p>نستخدم الأساليب الرشيقة لجمع مدخلاتك باستمرار وتحسين التصميم أثناء التقدم.</p>
                                     </ul>
                                     <ul>
-                                        <h5>The result? An app that's not just functional, but a joy to use.</h5>
+                                        <h5>النتيجة؟ تطبيق ليس فقط وظيفيًا، بل ممتعًا للاستخدام.</h5>
                                     </ul>
                                 </div>
                             </div>
@@ -203,106 +198,101 @@ function page() {
                             <div className='col-lg-5 p-lg-0 mt-5'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevWhiteBottomBox}`}>
                                     <ul>
-                                        <h5>Putting your banking app through the ultimate test.</h5>
-                                        <p>We don’t leave anything to chance. Our team conducts thorough examinations:</p>
+                                        <h5>وضع تطبيقك المصرفي في الاختبار النهائي.</h5>
+                                        <p>نحن لا نترك أي شيء للصدفة. فريقنا يجري فحوصات شاملة:</p>
                                     </ul>
                                     <ul>
-                                        <h5>Functional testing</h5>
-                                        <p>Ensuring every feature works exactly as intended.</p>
+                                        <h5>اختبار الأداء</h5>
+                                        <p>التأكد من أن التطبيق يعمل بسلاسة على جميع الأجهزة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Performance testing</h5>
-                                        <p>Making sure the app runs smoothly on all devices.</p>
+                                        <h5>اختبار الأمان</h5>
+                                        <p>بناء حصن حول بياناتك، للحفاظ عليها آمنة ومأمونة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Security testing</h5>
-                                        <p>Building a fortress around your data, keeping it safe and secure.</p>
-                                    </ul>
-                                    <ul>
-                                        <h5>Across devices, across platforms, your app will be flawless.</h5>
+                                        <h5>عبر الأجهزة والمنصات، سيكون تطبيقك بلا عيوب.</h5>
                                     </ul>
                                 </div>
                             </div>
                             <div className='col-lg-5 p-lg-0 mt-5'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevBlueBottomBox}`}>
                                     <ul>
-                                        <h5>Launch Day:</h5>
-                                        <h5>Time to celebrate!</h5>
-                                        <p>Everything’s checked and double-checked. With rigorous testing complete, we’ll handle:</p>
+                                        <h5>يوم الإطلاق:</h5>
+                                        <h5>حان وقت الاحتفال!</h5>
+                                        <p>تم التحقق من كل شيء وتكراره. بعد الانتهاء من الاختبارات الصارمة، سنتولى:</p>
                                     </ul>
                                     <ul>
-                                        <h5>App store submissions</h5>
-                                        <p>Getting your app in front of the right audience.</p>
+                                        <h5>تقديم التطبيق في المتجر</h5>
+                                        <p>إيصال تطبيقك إلى الجمهور المستهدف.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Backend setup</h5>
-                                        <p>The invisible engine powering your app.</p>
+                                        <h5>إعداد البنية التحتية الخلفية</h5>
+                                        <p>المحرك غير المرئي الذي يشغل تطبيقك.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Server configurations</h5>
-                                        <p>Fine-tuning for optimal performance.</p>
+                                        <h5>تهيئة الخوادم</h5>
+                                        <p>ضبط دقيق للحصول على أفضل أداء.</p>
                                     </ul>
                                     <ul>
-                                        <h5>**We’ll ensure a flawless launch, so your app can shine and attract new users.</h5>
+                                        <h5>نضمن إطلاقًا مثاليًا، لتستطيع تطبيقك التميز وجذب المستخدمين الجدد.</h5>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>  */}
 
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container-fluid px-lg-5">
                     <div className="row">
-                        <h4 className='text-center'>Our Process of Testifying</h4>
-                        <span className='text-center'>Before we blast off, we need a roadmap.</span>
+                        <h4 className='text-center'>عمليتنا في الاختبار</h4>
+                        <span className='text-center'>قبل الإطلاق، نحتاج إلى خارطة طريق.</span>
                         <div className={styles.flexBoxes}>
                             <div className='col-lg-5'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevBlueUpperBox} p-5`}>
                                     <ul>
-                                        <h5>Deep dive</h5>
-                                        <p>We’ll analyze your goals, target audience, and tech needs to understand your vision perfectly.</p>
+                                        <h5>الغوص العميق</h5>
+                                        <p>سنحلل أهدافك، جمهورك المستهدف، واحتياجاتك التقنية لفهم رؤيتك تمامًا.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Plan the mission</h5>
-                                        <p>Based on our findings, we’ll craft a clear and concise project plan outlining:</p>
-                                        <li>What we’ll build the scope</li>
-                                        <li>Timeline for liftoff</li>
-                                        <li>What you’ll get at each stage deliverable</li>
-                                        <p>This ensures we’re all on the same page and your app lands smoothly.</p>
+                                        <h5>تخطيط المهمة</h5>
+                                        <p>استنادًا إلى نتائجنا، سنضع خطة مشروع واضحة وموجزة توضح:</p>
+                                        <li>ما سنبنيه - نطاق المشروع</li>
+                                        <li>الجدول الزمني للإطلاق</li>
+                                        <li>ما ستحصل عليه في كل مرحلة - التسليمات</li>
+                                        <p>يضمن هذا أننا جميعًا على نفس الصفحة وأن تطبيقك سيهبط بسلاسة.</p>
                                     </ul>
                                 </div>
                             </div>
                             <div className='col-lg-5 p-lg-0' id={styles.marginBoxTop}>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevWhiteUpperBox} p-5`}>
                                     <ul>
-                                        <h5>Crafting your dream app, one pixel at a time.<br />
-                                            Design masterminds and coding wizards join forces</h5>
-                                        <p>Our team collaborates to create</p>
+                                        <h5>تصميم تطبيق أحلامك، بكسل بعد بكسل.</h5>
+                                        <p>فريق التصميم والبرمجة يتعاونان لخلق:</p>
                                     </ul>
                                     <ul>
-                                        <h5>Wireframes</h5>
-                                        <p>Think of them as blueprints for your app’s layout.</p>
+                                        <h5>إطارات السلكية</h5>
+                                        <p>فكر بها كالمخططات لتخطيط تطبيقك.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Prototypes</h5>
-                                        <p>Interactive mockups that let you experience the app before it’s built.</p>
+                                        <h5>النماذج الأولية</h5>
+                                        <p>نماذج تفاعلية تتيح لك تجربة التطبيق قبل بنائه.</p>
                                     </ul>
                                     <ul>
-                                        <h5>User interfaces (UI)</h5>
-                                        <p>The beautiful and intuitive screens you’ll interact with.</p>
+                                        <h5>واجهات المستخدم (UI)</h5>
+                                        <p>الشاشات الجميلة والبديهية التي ستتفاعل معها.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Your brand, front and center</h5>
-                                        <p>We’ll ensure the app reflects your unique identity.</p>
+                                        <h5>علامتك التجارية في المقدمة</h5>
+                                        <p>سنتأكد من أن التطبيق يعكس هويتك الفريدة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Feedback loop at warp speed</h5>
-                                        <p>We use agile methods to constantly gather your input and refine the design as we go.</p>
+                                        <h5>حلقة التغذية الراجعة بسرعة البرق</h5>
+                                        <p>نستخدم الأساليب المرنة لجمع ملاحظاتك باستمرار وتحسين التصميم مع تقدمنا.</p>
                                     </ul>
                                     <ul>
-                                        <h5>The result? An app that's not just functional, but a joy to use.</h5>
+                                        <h5>النتيجة؟ تطبيق ليس فقط وظيفيًا، بل ممتعًا للاستخدام.</h5>
                                     </ul>
                                 </div>
                             </div>
@@ -311,47 +301,47 @@ function page() {
                             <div className='col-lg-5'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevWhiteBottomBox} p-5`}>
                                     <ul>
-                                        <h5>Putting your banking app through the ultimate test.</h5>
-                                        <p>We don’t leave anything to chance. Our team conducts thorough examinations:</p>
+                                        <h5>وضع تطبيقك المصرفي في الاختبار النهائي.</h5>
+                                        <p>نحن لا نترك شيئًا للصدفة. فريقنا يجري فحوصات شاملة:</p>
                                     </ul>
                                     <ul>
-                                        <h5>Functional testing</h5>
-                                        <p>Ensuring every feature works exactly as intended.</p>
+                                        <h5>اختبار الوظائف</h5>
+                                        <p>نتأكد من أن كل ميزة تعمل كما هو مخطط لها.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Performance testing</h5>
-                                        <p>Making sure the app runs smoothly on all devices.</p>
+                                        <h5>اختبار الأداء</h5>
+                                        <p>نتأكد من أن التطبيق يعمل بسلاسة على جميع الأجهزة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Security testing</h5>
-                                        <p>Building a fortress around your data, keeping it safe and secure.</p>
+                                        <h5>اختبار الأمان</h5>
+                                        <p>نبني قلعة حول بياناتك لحمايتها وتأمينها.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Across devices, across platforms, your app will be flawless.</h5>
+                                        <h5>عبر الأجهزة، عبر المنصات، سيكون تطبيقك بلا عيوب.</h5>
                                     </ul>
                                 </div>
                             </div>
                             <div className='col-lg-5' id={styles.marginBoxTop}>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.bankDevBlueBottomBox} p-5`}>
                                     <ul>
-                                        <h5>Launch Day:</h5>
-                                        <h5>Time to celebrate!</h5>
-                                        <p>Everything’s checked and double-checked. With rigorous testing complete, we’ll handle:</p>
+                                        <h5>يوم الإطلاق:</h5>
+                                        <h5>حان وقت الاحتفال!</h5>
+                                        <p>كل شيء تم التحقق منه بشكل دقيق. بعد الانتهاء من الاختبار الشامل، سنتعامل مع:</p>
                                     </ul>
                                     <ul>
-                                        <h5>App store submissions</h5>
-                                        <p>Getting your app in front of the right audience.</p>
+                                        <h5>إرسال التطبيقات لمتاجر التطبيقات</h5>
+                                        <p>جعل تطبيقك يصل إلى الجمهور المناسب.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Backend setup</h5>
-                                        <p>The invisible engine powering your app.</p>
+                                        <h5>إعداد الواجهة الخلفية</h5>
+                                        <p>المحرك الخفي الذي يشغل تطبيقك.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Server configurations</h5>
-                                        <p>Fine-tuning for optimal performance.</p>
+                                        <h5>تهيئة الخوادم</h5>
+                                        <p>ضبط الأداء الأمثل.</p>
                                     </ul>
                                     <ul>
-                                        <h5>**We’ll ensure a flawless launch, so your app can shine and attract new users.</h5>
+                                        <h5>**سنتأكد من إطلاق سلس، حتى يلمع تطبيقك ويجذب المستخدمين الجدد.</h5>
                                     </ul>
                                 </div>
                             </div>
@@ -360,38 +350,39 @@ function page() {
                 </div>
             </section>
 
-            <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500">
+
+            <section className={styles.getStartedSection} data-aos="fade-up" data-aos-duration="500" style={{ direction: 'rtl' }}>
                 <div className="container-fluid px-lg-5">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
                             <Image src={QoutesImg} alt='Qoutes' />
-                            <h4 className='text-center'>Get Started Today</h4>
-                            <p className='text-center'>Tired of clunky banking apps? We build rocketships.</p>
+                            <h4>ابدأ اليوم</h4>
+                            <p className='text-center'>هل سئمت من التطبيقات المصرفية المعقدة؟ نحن نبني الصواريخ.</p>
                         </div>
                         <div className="col-lg-6">
                             <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                                 <ul>
-                                    <h5>Your customers deserve a mobile banking experience that blasts off, not one stuck in the dark ages.  Fintechify crafts powerful, user-friendly apps that:</h5>
-                                    <li className='text-end'><IoCheckmarkSharp /><span>Shield information like Fort Knox (but with better wifi).</span></li>
-                                    <li className='text-end'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
-                                    <li className='text-end'><IoCheckmarkSharp /><span>Make managing finances smoother than a frictionless slide.</span></li>
+                                    <h5>يستحق عملاؤك تجربة مصرفية عبر الهاتف تتجاوز الحدود، لا واحدة عالقة في العصور المظلمة.
+                                        نحن في فينتشيفايفي نصمم تطبيقات قوية وسهلة الاستخدام:</h5>
+                                    <li className='text-end'><IoCheckmarkSharp /><span>تحمي المعلومات كحصن (ولكن بشبكة واي فاي أفضل).</span></li>
+                                    <li className='text-end'><IoCheckmarkSharp /><span>تجعل إدارة الأموال أكثر سلاسة من زحلقة بدون احتكاك.</span></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className={`${styles.startedBox}  ${styles.starteRight}`}>
                                 <ul>
-                                    <h5>We’re not just developers, we’re banking superheroes. Our team of design wizards, coding ninjas, and strategic masterminds join forces to create:</h5>
-                                    <li className='text-end'><IoCheckmarkSharp /><span>Apps that are a joy to use, not a chore.</span></li>
-                                    <li className='text-end'><IoCheckmarkSharp /><span>Features that make banking a breeze, not a battlefield.</span></li>
-                                    <li className='text-end'><IoCheckmarkSharp /><span>Solutions that turn customers into raving fans, not frustrated users.</span></li>
+                                    <h5>نحن لسنا مجرد مطورين، نحن أبطال البنوك. فريقنا من السحرة التصميميين، النينجا البرمجيين، والعباقرة الاستراتيجيين ينضم لإنشاء:</h5>
+                                    <li className='text-end'><IoCheckmarkSharp /><span>تطبيقات ممتعة للاستخدام، وليست مهمة مملة.</span></li>
+                                    <li className='text-end'><IoCheckmarkSharp /><span>ميزات تجعل من إدارة الأموال أمرًا سهلًا وليس ساحة معركة.</span></li>
+                                    <li className='text-end'><IoCheckmarkSharp /><span>حلول تحول العملاء إلى معجبين متحمسين، وليس مستخدمين محبطين.</span></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-12">
                             <div className={`${styles.startedBottomSection} text-center`}>
-                                Don't just offer banking, be the banking revolution. Partner with Fintechify and watch your mobile app soar! <br />
-                                Ready to launch your mobile banking app into the stratosphere? Contact us today!
+                                لا تقدم مجرد خدمات مصرفية، كن الثورة المصرفية. شارك مع فينتشيفايفي وشاهد تطبيقك المصرفي ينطلق إلى السماء! <br />
+                                مستعد لإطلاق تطبيقك المصرفي إلى الفضاء؟ اتصل بنا اليوم!
                             </div>
                         </div>
                     </div>

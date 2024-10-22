@@ -13,6 +13,12 @@
   cursor: pointer;
 }
 
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
 .left span {
   font-size: 60px;
   font-weight: 800;
@@ -43,13 +49,12 @@
 
 .right {
   font-size: 80px;
-  font-weight: 400;
-  line-height: 1;
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   align-items: center;
   white-space: nowrap;
   transform: rotateZ(-7deg);
-  margin-top: 30px;
 }
 
 

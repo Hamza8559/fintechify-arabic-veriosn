@@ -18,9 +18,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Integration Services"}
+        head={"خدمات التكامل"}
         tagLine={false}
-        tagLine2={"The Ultimate Connector."}
+        tagLine2={"موصل الأمور النهائي."}
         Des={false}
       />
       <section className="d-lg-block d-none mb-5 mt-5">
@@ -33,24 +33,20 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Experience Uninterrupted Operations for Optimal Performance
-                  with Fintechify Integration Services.
+                  اختبر عمليات متواصلة لأداء مثالي مع خدمات التكامل من Fintechify.
                 </h4>
                 <p>
-                  Fintechify knows in today’s digital world, seamless
-                  connections are the key to success. That’s why we offer
-                  Integration Services designed to demolish data silos and
-                  turbocharge your workflows. Imagine your systems working
-                  together in perfect harmony, unlocking a new level of
-                  efficiency for your business. Stop wrestling with outdated
-                  tech. Let Fintechify’s Integration Services be your secret
-                  weapon for achieving optimal performance.
+                  تدرك Fintechify أن الاتصالات السلسة هي مفتاح النجاح في العالم الرقمي الحالي.
+                  لهذا السبب نقدم خدمات التكامل المصممة لهدم صوامع البيانات وتسريع سير عملك.
+                  تخيل أن أنظمتك تعمل معًا في وئام تام، مما يفتح مستوى جديدًا من الكفاءة لعملك.
+                  توقف عن الصراع مع التكنولوجيا القديمة. دع خدمات التكامل من Fintechify تكون سلاحك
+                  السري لتحقيق الأداء الأمثل.
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -67,7 +63,7 @@ function page() {
           </div>
         </div>
       </section>
-      
+
       <section className="d-lg-none d-block mb-5 mt-5">
         <div className="container px-lg-5">
           <div className="row align-items-center">
@@ -87,24 +83,20 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Experience Uninterrupted Operations for Optimal Performance
-                  with Fintechify Integration Services.
+                  اختبر عمليات متواصلة لأداء مثالي مع خدمات التكامل من Fintechify.
                 </h4>
                 <p>
-                  Fintechify knows in today’s digital world, seamless
-                  connections are the key to success. That’s why we offer
-                  Integration Services designed to demolish data silos and
-                  turbocharge your workflows. Imagine your systems working
-                  together in perfect harmony, unlocking a new level of
-                  efficiency for your business. Stop wrestling with outdated
-                  tech. Let Fintechify’s Integration Services be your secret
-                  weapon for achieving optimal performance.
+                  تدرك Fintechify أن الاتصالات السلسة هي مفتاح النجاح في العالم الرقمي الحالي.
+                  لهذا السبب نقدم خدمات التكامل المصممة لهدم صوامع البيانات وتسريع سير عملك.
+                  تخيل أن أنظمتك تعمل معًا في وئام تام، مما يفتح مستوى جديدًا من الكفاءة لعملك.
+                  توقف عن الصراع مع التكنولوجيا القديمة. دع خدمات التكامل من Fintechify تكون سلاحك
+                  السري لتحقيق الأداء الأمثل.
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -127,81 +119,69 @@ function page() {
                 data-aos="fade-right"
                 data-aos-offset="300"
               >
-                <h2>Why Fintechify is best for Integrations Services</h2>
+                <h2>لماذا Fintechify هي الأفضل لخدمات التكامل</h2>
                 <p className={styles.para}>
-                  So what are the plans about taking your business to the next
-                  level with Fintechify? Our expert team of Integration services
-                  can support you and your clients across the market. Solutions
-                  that are built to scale, effortlessly adapting as your
-                  business expands. And most importantly, security is our top
-                  priority. We implement robust measures to safeguard your
-                  valuable data throughout the entire integration process.
+                  ما هي خططك حول نقل عملك إلى المستوى التالي مع Fintechify؟
+                  يمكن لفريقنا المتخصص في خدمات التكامل دعمك أنت وعملائك في السوق.
+                  حلول مصممة للتوسع، تتكيف بسهولة مع توسع عملك. والأهم من ذلك،
+                  أن الأمان هو أولويتنا القصوى. نقوم بتنفيذ تدابير قوية لحماية بياناتك
+                  القيمة طوال عملية التكامل.
                 </p>
                 <div className={styles.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>Financial Institutions</h3>
+                    <h3>المؤسسات المالية</h3>
                     <span>
-                      Fintechify's Integration Services can connect legacy
-                      systems with modern fintech solutions, enabling features
-                      like real-time fraud detection, streamlined loan
-                      processing, and data-driven customer insights. This
-                      translates to faster transactions, improved customer
-                      experience, and better risk management.
+                      يمكن لخدمات التكامل من Fintechify ربط الأنظمة القديمة
+                      مع الحلول المالية الحديثة، مما يتيح ميزات مثل كشف الاحتيال
+                      في الوقت الفعلي، معالجة القروض السلسة، والرؤى المستندة إلى البيانات للعملاء.
+                      وهذا يؤدي إلى معاملات أسرع، وتحسين تجربة العملاء، وإدارة أفضل للمخاطر.
                     </span>
                   </div>
                 </div>
                 <div className={styles.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>E-commerce Businesses</h3>
+                    <h3>أعمال التجارة الإلكترونية</h3>
                     <span>
-                      Integration Services can connect online stores with
-                      inventory management systems, payment gateways, and
-                      marketing platforms. This allows for automated order
-                      fulfilment, real-time stock updates, and targeted
-                      marketing campaigns, leading to increased sales and
-                      improved customer satisfaction.
+                      يمكن لخدمات التكامل ربط المتاجر الإلكترونية مع أنظمة إدارة المخزون،
+                      بوابات الدفع، ومنصات التسويق. وهذا يتيح التنفيذ الآلي للطلبات،
+                      تحديثات المخزون في الوقت الفعلي، وحملات تسويقية موجهة،
+                      مما يؤدي إلى زيادة المبيعات وتحسين رضا العملاء.
                     </span>
                   </div>
                 </div>
                 <div className={styles.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>Supply Chain Management</h3>
+                    <h3>إدارة سلسلة التوريد</h3>
                     <span>
-                      Integrating disparate systems across the supply chain can
-                      improve visibility into inventory levels, optimize
-                      logistics, and facilitate real-time communication with
-                      suppliers and distributors. This translates to reduced
-                      costs, faster delivery times, and improved overall
-                      efficiency.
+                      ربط الأنظمة المتفرقة عبر سلسلة التوريد يمكن أن يحسن الرؤية في مستويات المخزون،
+                      تحسين اللوجستيات، وتسهيل التواصل في الوقت الفعلي مع الموردين والموزعين.
+                      وهذا يؤدي إلى خفض التكاليف، تسريع أوقات التسليم، وتحسين الكفاءة الإجمالية.
                     </span>
                   </div>
                 </div>
                 <div className={styles.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>Healthcare Providers</h3>
+                    <h3>مقدمو الرعاية الصحية</h3>
                     <span>
-                      Connecting Electronic Health Records (EHR) systems with
-                      appointment scheduling, billing software, and patient
-                      portals can streamline administrative tasks, improve data
-                      accuracy, and enhance patient care.
+                      ربط أنظمة السجلات الصحية الإلكترونية (EHR) مع جداول المواعيد،
+                      برمجيات الفوترة، وبوابات المرضى يمكن أن يبسط المهام الإدارية،
+                      يحسن دقة البيانات، ويعزز الرعاية الصحية للمرضى.
                     </span>
                   </div>
                 </div>
                 <div className={styles.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>Manufacturing</h3>
+                    <h3>التصنيع</h3>
                     <span>
-                      Integration Services can connect factory floor machines
-                      with production planning software and enterprise resource
-                      planning (ERP) systems. This allows for real-time
-                      monitoring of production lines, predictive maintenance,
-                      and optimized resource allocation, leading to increased
-                      productivity and reduced downtime.
+                      يمكن لخدمات التكامل ربط آلات المصنع بأنظمة تخطيط الإنتاج وبرمجيات
+                      تخطيط موارد المؤسسات (ERP). وهذا يتيح مراقبة في الوقت الفعلي لخطوط الإنتاج،
+                      الصيانة التنبؤية، وتحسين تخصيص الموارد، مما يؤدي إلى زيادة الإنتاجية
+                      وتقليل فترات التوقف.
                     </span>
                   </div>
                 </div>
@@ -214,42 +194,37 @@ function page() {
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4 className="text-center">Our Expertise in Integration Services</h4>
+            <h4 className="text-center">خبرتنا في خدمات التكامل</h4>
 
             <div className={styles.flexBoxes}>
-              <div className="col-lg-5 p-lg-0">
+              <div className="col-lg-5 p-lg-0 mt-3">
                 <div
                   className={`${styles.processBox} ${styles.blueBg} ${styles.integBlueUpperBox}`}
                 >
                   <ul>
-                    <h5>API Powerhouse</h5>
+                    <h5>قوة API</h5>
                     <p>
-                      Break down data silos and unlock seamless communication
-                      between your applications. Our expert team crafts robust API
-                      integrations, allowing for effortless data exchange and
-                      enhanced functionality across your entire software
-                      ecosystem.
+                      حطم صوامع البيانات وافتح الاتصال السلس بين تطبيقاتك.
+                      يصمم فريقنا الخبير تكاملات API قوية، مما يسمح بتبادل البيانات
+                      بسهولة وتعزيز الوظائف عبر نظامك البيئي بالكامل.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Cloud Ascent</h5>
+                    <h5>صعود السحابة</h5>
                     <p>
-                      Feeling stuck on-premise? We’re your cloud migration
-                      experts. Our seamless integration services connect your
-                      existing systems with leading cloud platforms. This unlocks
-                      the power of scalability, flexibility, and accessibility.
-                      Enjoy optimal performance and access your data from
-                      anywhere, at any time.
+                      هل تشعر بأنك عالق على الأنظمة المحلية؟ نحن خبراء الترحيل إلى السحابة.
+                      خدمات التكامل الخاصة بنا تربط أنظمتك الحالية بمنصات السحابة الرائدة.
+                      يفتح هذا لك قوة التوسع والمرونة وإمكانية الوصول.
+                      استمتع بالأداء الأمثل والوصول إلى بياناتك من أي مكان وفي أي وقت.
                     </p>
                   </ul>
                   <ul>
-                    <h5>ERP Symphony</h5>
+                    <h5>تناغم ERP</h5>
                     <p>
-                      Unleash the full potential of your ERP. Our integration
-                      experts synchronize it seamlessly with other applications.
-                      This fosters collaboration across departments, breaks down
-                      information silos, and provides a unified view of powerful
-                      business intelligence.
+                      أطلق العنان للإمكانات الكاملة لنظام ERP الخاص بك.
+                      يقوم خبراؤنا في التكامل بمزامنته بسلاسة مع التطبيقات الأخرى.
+                      يعزز هذا التعاون بين الأقسام، ويكسر صوامع المعلومات،
+                      ويوفر رؤية موحدة لمعلومات الأعمال القوية.
                     </p>
                   </ul>
                 </div>
@@ -259,23 +234,22 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.integWhiteBottomBox}`}
                 >
                   <ul>
-                    <h5>Data Unleashed</h5>
+                    <h5>البيانات غير المقيدة</h5>
                     <p>
-                      Drowning in data silos? We set your information free. Our
-                      data integration services create a smooth information
-                      highway across databases, applications, and analytics tools.
-                      This gives you a unified view of your entire business,
-                      empowering you to make data-driven decisions with
-                      confidence.
+                      هل تغرق في صوامع البيانات؟ نحن نحرر معلوماتك.
+                      خدمات تكامل البيانات الخاصة بنا تنشئ طريقًا سلسًا للمعلومات
+                      عبر قواعد البيانات والتطبيقات وأدوات التحليل.
+                      وهذا يوفر لك رؤية موحدة لعملك بالكامل، مما يمكّنك من اتخاذ
+                      قرارات مستندة إلى البيانات بثقة.
                     </p>
                   </ul>
                   <ul>
-                    <h5>E-commerce on Autopilot</h5>
+                    <h5>التجارة الإلكترونية على الطيار الآلي</h5>
                     <p>
-                      Stop juggling platforms! We craft seamless integrations
-                      between your e-commerce store, payment gateways, and
-                      inventory systems. This streamlines your online operations,
-                      automates tasks, and frees you up to focus on growth.
+                      توقف عن التعامل مع منصات متعددة! نحن نصمم تكاملات سلسة
+                      بين متجرك الإلكتروني، بوابات الدفع، وأنظمة المخزون.
+                      هذا يبسط عملياتك عبر الإنترنت، ويؤتمت المهام، ويمكّنك من التركيز
+                      على النمو.
                     </p>
                   </ul>
                 </div>
@@ -289,16 +263,15 @@ function page() {
         <div className="container">
           <div className="row">
             <div className={styles.startedUpperBox}>
-              <Image src={QoutesImg} alt="Qoutes" />
-              <h4 className="text-center">Revolutionize Your Customer Experience with Fintech CRM.</h4>
+              <Image src={QoutesImg} alt="اقتباسات" />
+              <h4 className="text-center">ثورة في تجربة العملاء مع CRM في مجال التكنولوجيا المالية.</h4>
               <p className="text-center">
-                Tired of clunky CRM systems hindering your growth? We craft
-                powerful FinTech CRM solutions designed to transform the way you
-                manage customer relationships.
+                هل سئمت من أنظمة CRM التقليدية التي تعيق نموك؟ نحن نصمم حلول CRM قوية في مجال التكنولوجيا المالية
+                مصممة لتحويل الطريقة التي تدير بها علاقات العملاء.
               </p>
               <p className="text-center">
-                Contact us today! Let's discuss your needs and show you how a
-                custom Fintech CRM can revolutionize your business.
+                اتصل بنا اليوم! دعونا نناقش احتياجاتك ونريك كيف يمكن لـ CRM مخصص في مجال التكنولوجيا المالية
+                أن يحدث ثورة في عملك.
               </p>
             </div>
           </div>

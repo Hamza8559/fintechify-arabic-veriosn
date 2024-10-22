@@ -50,19 +50,18 @@
   width: 100%;
   object-fit: contain;
 }
-
 .collg6 h1 {
   color: black;
-  font-size: 21px;
+  font-size: 25px;
   font-weight: 600;
   line-height: normal;
 }
 
 .collg6 p {
-  font-weight: 300;
+  font-weight: 500;
   margin: 10px 0;
   color: gray;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .btn {
@@ -82,13 +81,13 @@
 }
 
 .boxleft {
-  background-color: #1d96fd;
+  background: linear-gradient(180deg, #082ac9, #1f96fd);;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 20px;
   padding: 50px;
   color: white;
-  height: 400px;
+  height: 500px;
 }
 
 .flexBoxes {
@@ -101,11 +100,11 @@
 }
 
 .boxright {
-  background-color: #1d96fd;
+  background: linear-gradient(180deg, #082ac9, #1f96fd);;
   color: white;
   border-radius: 20px;
   padding: 50px;
-  height: 400px;
+  height: 500px;
 }
 
 .row2 {
@@ -120,35 +119,36 @@
 
 .boxleft h5 {
   color: white !important;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .boxleft h2 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .boxleft ul li {
   color: white !important;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .boxright h5 {
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .boxright h2 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .boxright ul li {
   color: white;
-  font-size: 13px;
+  font-size: 18px;
 }
+
 
 .row2 {
   display: flex;
@@ -280,46 +280,7 @@
   .col12 p {
     width: 90vw;
   }
-
-  .btn {
-    padding: 15px 20px;
-    font-size: 12px;
-  }
-
   .row2 h1 {
     font-size: 7vw;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .aboutFirstsection .iconFlexBox h3 {
-    font-size: 14px;
-  }
-
-  .aboutFirstsection .iconFlexBox div span {
-    font-size: 12px;
-    padding-right: 15px;
-  }
-  .collg6 h1 {
-    font-size: 12px;
-  }
-  .collg6 p {
-    font-size: 10px;
-  }
-  .col12 h1 {
-    font-size: 10vw;
-  }
-
-  .col12 p {
-    width: 95vw;
-  }
-
-  .btn {
-    padding: 10px 16px;
-    font-size: 10px;
-  }
-
-  .row2 h1 {
-    font-size: 6vw;
   }
 }

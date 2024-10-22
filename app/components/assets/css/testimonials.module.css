@@ -64,6 +64,8 @@
 /* RIGHT PART OF TESTIMONIALS SECTION CSS ================================================ */
 .testimonailsRightPart p {
     padding-top: 65px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
@@ -90,8 +92,9 @@
     box-shadow: 3px 3px 10px gray;
 }
 
-.contentSection span {
-    font-size: 14px;
+.contentSection span{
+    font-size: 18px;
+    line-height: normal !important;
 }
 
 @media screen and (max-width:992px) {

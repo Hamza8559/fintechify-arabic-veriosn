@@ -35,17 +35,21 @@
 }
 .InnovativeBox {
     color: black;
+    
 }
 .InnovativeBox h4 {
     font-size: 40px;
     font-weight: 600;
     color: black;
 }
+.InnovativeBox h5{
+    font-size: 20px;
+    font-weight: 500;
+}
 .InnovativeBox p {
-    font-size: 14px;
-    padding-left: 50px;
+    font-size: 18px;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
 }
 .InnovativeBox img {
     border-radius: 50px;
@@ -77,6 +81,10 @@
     background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
     color: white !important;
     height: 310px !important;
+}
+.servicesBoxScd span{
+    font-size: 17px !important;
+    font-weight: 500;
 }
 .servicesBox svg {
     font-size: 50px;
@@ -181,10 +189,10 @@
     font-weight: 600;
 }
 .aboutFirstsection .iconFlexBox span {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 18px;
     white-space: break-spaces;
-    color: #666666;
+    color: black;
     padding-left: 30px;
     display: block;
 }
@@ -215,18 +223,18 @@
     margin-top: 10px;
 }
 .processBox ul h5 {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     margin: 0;
 }
 .processBox ul p {
     font-weight: 200;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 .blueBg {
-    background: #1E96FC;
+    background: linear-gradient(180deg, #082ac9, #1f96fd);;
     color: white;
     border-radius: 20px;
 }
@@ -237,26 +245,26 @@
 
 /* =============================== */
 .bankDevBlueUpperBox {
-    height: 450px;
+    height: 650px;
 }
 .bankDevWhiteUpperBox {
-    height: 450px;
+    height: 650px;
 }
 
 /* ================================ */
 .bankDevWhiteBottomBox {
-    height: 400px;
+    height: 650px;
 }
 .bankDevBlueBottomBox {
-    height: 400px;
+    height: 650px;
 }
 
 /* ==================================== */
 .FinBlueUpperBox {
-    height: 450px;
+    height: 600px;
 }
 .FinWhiteUpperBox {
-    height: 450px;
+    height: 600px;
 }
 
 /* ================================ */
@@ -277,10 +285,10 @@
 
 /* ============================= */
 .DigiBlueUpperBox {
-    height: 300px;
+    height: 450px;
 }
 .DigiWhiteBottomBox {
-    height: 300px;
+    height: 450px;
 }
 
 /* ============================= */
@@ -293,10 +301,10 @@
 
 /* ============================= */
 .ResourceBlueUpperBox {
-    height: 300px;
+    height: 500px;
 }
 .ResourceWhiteBottomBox {
-    height: 300px;
+    height: 500px;
 }
 
 /* ============================= */
@@ -367,7 +375,7 @@
     text-align: center;
 }
 .getStartedSection .startedUpperBox p {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     text-align: center;
 }
@@ -381,11 +389,11 @@
     margin-top: 30px;
 }
 .getStartedSection .startedBox h5 {
-    font-size: 13px;
+    font-size: 18px;
     white-space: break-spaces;
 }
 .getStartedSection .startedBox ul li {
-    font-size: 13px;
+    font-size: 18px;
     white-space: break-spaces;
     margin: 5px 0;
 }
@@ -397,10 +405,11 @@
 }
 .startedBottomSection {
     text-align: center;
+    font-size: 25px;
 }
 .startedBottomSection p {
     color: #e3e3e3;
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 40px;
 }
 .imgBox {
@@ -520,7 +529,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) {
     .aboutFirstsection .iconFlexBox h3 {
         font-size: 15px;
     }
@@ -554,4 +563,4 @@
     .servicessection .keyBox{
         font-size: 20px;
     }
-}
+} */
