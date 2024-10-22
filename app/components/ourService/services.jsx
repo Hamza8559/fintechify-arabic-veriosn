@@ -122,6 +122,7 @@ const services = () => {
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <FiArrowUpLeft />عرض جميع الخدمات{" "}
+                
               </Link>
             </button>
           </div>

@@ -242,14 +242,14 @@ export default function Header() {
         <Image className={styles.mobilelogo} src={logo} alt="Logo" />
         <ul>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">الرئيسية</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">حول</Link>
           </li>
           <li>
             <button className={styles.dropdownButton} onClick={toggleDropdown}>
-              Services {isDropdownOpen ? <IoIosArrowDown /> : <IoIosArrowUp />}
+            الخدمات {isDropdownOpen ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </button>
             {isDropdownOpen && (
               <ul className={styles.dropdown}>
@@ -307,7 +307,7 @@ export default function Header() {
               className={styles.dropdownButton}
               onClick={toggleDropdowntwo}
             >
-              Products{" "}
+              المنتجات{" "}
               {isDropdownOpentwo ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </button>
             {isDropdownOpentwo && (
