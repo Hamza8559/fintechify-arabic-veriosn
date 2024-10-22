@@ -111,7 +111,7 @@ const services = () => {
               <div className={style.LuSend}>
                 <span>
                   <p>استفسارات مبيعات العملاء</p>
-                  <h6>+971-54-5061985</h6>
+                  <h6>971-54-5061985+</h6>
                 </span>
                 <PiHeadphonesLight className={style.sendIcon} />
               </div>
