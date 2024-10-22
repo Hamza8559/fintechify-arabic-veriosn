@@ -143,7 +143,7 @@ export default function Footer() {
               <div className={styles.linksBox}>
                 <h4>اتصل بنا</h4>
                 <ul>
-                  <p>+971-54-5061985</p>
+                  <p>971-54-5061985+</p>
                   <p>talktous@fintechify.ae</p>
                   <p>
                     الوحدة: IH0101-OF01، الطابق الأول، <br /> Innovation One، مركز دبي المالي العالمي، <br /> دبي، الإمارات العربية المتحدة
