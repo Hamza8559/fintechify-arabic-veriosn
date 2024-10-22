@@ -84,14 +84,14 @@
     transform: translateX(-50%)
   }
 }
-
+/* 
 .right span:hover {
   animation-play-state: paused;
 }
 
 .left span:hover {
   animation-play-state: paused;
-}
+} */
 
 @media screen and (max-width:480px) {
   .right{
