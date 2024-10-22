@@ -28,6 +28,11 @@ function page() {
             <section className='mb-5 mt-5 d-lg-block d-none'>
                 <div className="container-fluid px-lg-5" style={{ direction: 'rtl' }}>
                     <div className="row align-items-center">
+                        <div className="col-lg-6">
+                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
+                                <Image src={img1} className='img-fluid' />
+                            </div>
+                        </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500" >
                             <div className={styles.InnovativeBox}>
                                 <h4>مع تطبيق البنك <br /> أخيرًا أموالك تحت التحكم التلقائي.</h4>
@@ -49,11 +54,6 @@ function page() {
                                     </span>
                                 </Link>
                             </button>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
-                                <Image src={img1} className='img-fluid' />
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@ import Image from "next/image";
 import RisImage from "../components/assets/images/riseApp.png";
 import RisMobile from "../components/assets/images/riseMobile.png";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import aboutFirstSectionImg from "../components/assets/images/pexels-christina-morillo-1181244-1024x684.jpg"
+import aboutFirstSectionImg from "../components/assets/images/pexels-christina-morillo-1181244-1024x684.jpg";
 
 const page = () => {
   return (
@@ -18,7 +18,9 @@ const page = () => {
         <div className={`container-fluid ${style.container}`}>
           <div className={`row ${style.row}`}>
             <div className={`col-md-12 ${style.col12}`}>
-              <h1><Image src={RisImage} /></h1>
+              <h1>
+                <Image src={RisImage} />
+              </h1>
               {/* <p>
                 FinPoan is a leading digital product management platform that
                 empowers businesses to streamline their digital product
@@ -31,62 +33,74 @@ const page = () => {
         </div>
       </div>
 
-      <div className={`container  d-lg-block d-none ${style.container2}`}>
+      <div className={`container d-lg-block d-none ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
+          <div
+            className={`col-lg-6 flex_left ${style.collg6}`}
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <Image src={RisImage} />
             <h1>
-              TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
-              CORPORATION (MALAYSIA)
+              تحويل الخدمات المصرفية مع شركة الراجحي المصرفية للاستثمار
+              (ماليزيا)
             </h1>
             <p>
-              Experience a new era in banking with Rize. Open a savings account
-              anytime, anywhere, apply for personal financing with funds
-              deposited in your account within 15 minutes. Rize provides 24/7
-              access to your financial information and a comprehensive suite of
-              banking services. Whether you want to check your balance, transfer
-              funds, pay bills, or deposit checks, it’s all convenient and
-              secure from the comfort of your home or on the go using Rize. Rize
-              is revolutionizing the banking experience, combining anytime,
-              anywhere access, robust security measures, personalized financial
-              insights, and a wide range of banking services. Embrace the power
-              of digital banking with Rize and unlock a world of possibilities
-              for effortless and efficient financial management.
+              اختبر حقبة جديدة في عالم المصرفية مع Rize. افتح حساب توفير في أي
+              وقت ومن أي مكان، وقدم طلبًا للتمويل الشخصي ليتم إيداع الأموال في
+              حسابك خلال 15 دقيقة. يوفر Rize وصولًا مستمرًا على مدار الساعة إلى
+              معلوماتك المالية ومجموعة شاملة من الخدمات المصرفية. سواء كنت ترغب
+              في التحقق من رصيدك، تحويل الأموال، دفع الفواتير، أو إيداع الشيكات،
+              كل ذلك متاح بكل سهولة وأمان من راحة منزلك أو أثناء التنقل باستخدام
+              Rize. Rize يُحدث ثورة في تجربة المصرفية، حيث يجمع بين الوصول في أي
+              وقت ومن أي مكان، تدابير الأمان القوية، رؤى مالية مخصصة، ومجموعة
+              واسعة من الخدمات المصرفية. احتضن قوة المصرفية الرقمية مع Rize
+              وافتح عالمًا من الإمكانيات لإدارة مالية سهلة وفعالة.
             </p>
-            <button className={`${style.btn} mt-3`}>Join Now</button>
+            <button className={`${style.btn} mt-3`}>انضم الآن</button>
           </div>
-          <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+          <div
+            className={`col-lg-6 flex_right ${style.collg62}`}
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <Image src={RisMobile} className={style.RisMobile} />
           </div>
         </div>
       </div>
 
-      <div className={`container  d-lg-none d-block ${style.container2}`}>
+      <div className={`container d-lg-none d-block ${style.container2}`}>
         <div className={`row ${style.row}`}>
-          <div className={`col-lg-6 flex_right ${style.collg62}`} data-aos="fade-left" data-aos-duration="2000">
+          <div
+            className={`col-lg-6 flex_right ${style.collg62}`}
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <Image src={RisMobile} className={style.RisMobile} />
           </div>
-          <div className={`col-lg-6 flex_left ${style.collg6}`} data-aos="fade-right" data-aos-duration="2000">
+          <div
+            className={`col-lg-6 flex_left ${style.collg6}`}
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <Image src={RisImage} />
             <h1>
-              TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT
-              CORPORATION (MALAYSIA)
+              تحويل الخدمات المصرفية مع شركة الراجحي المصرفية للاستثمار
+              (ماليزيا)
             </h1>
             <p>
-              Experience a new era in banking with Rize. Open a savings account
-              anytime, anywhere, apply for personal financing with funds
-              deposited in your account within 15 minutes. Rize provides 24/7
-              access to your financial information and a comprehensive suite of
-              banking services. Whether you want to check your balance, transfer
-              funds, pay bills, or deposit checks, it’s all convenient and
-              secure from the comfort of your home or on the go using Rize. Rize
-              is revolutionizing the banking experience, combining anytime,
-              anywhere access, robust security measures, personalized financial
-              insights, and a wide range of banking services. Embrace the power
-              of digital banking with Rize and unlock a world of possibilities
-              for effortless and efficient financial management.
+              اختبر حقبة جديدة في عالم المصرفية مع Rize. افتح حساب توفير في أي
+              وقت ومن أي مكان، وقدم طلبًا للتمويل الشخصي ليتم إيداع الأموال في
+              حسابك خلال 15 دقيقة. يوفر Rize وصولًا مستمرًا على مدار الساعة إلى
+              معلوماتك المالية ومجموعة شاملة من الخدمات المصرفية. سواء كنت ترغب
+              في التحقق من رصيدك، تحويل الأموال، دفع الفواتير، أو إيداع الشيكات،
+              كل ذلك متاح بكل سهولة وأمان من راحة منزلك أو أثناء التنقل باستخدام
+              Rize. Rize يُحدث ثورة في تجربة المصرفية، حيث يجمع بين الوصول في أي
+              وقت ومن أي مكان، تدابير الأمان القوية، رؤى مالية مخصصة، ومجموعة
+              واسعة من الخدمات المصرفية. احتضن قوة المصرفية الرقمية مع Rize
+              وافتح عالمًا من الإمكانيات لإدارة مالية سهلة وفعالة.
             </p>
-            <button className={`${style.btn} mt-3`}>Join Now</button>
+            <button className={`${style.btn} mt-3`}>انضم الآن</button>
           </div>
         </div>
       </div>
@@ -94,53 +108,72 @@ const page = () => {
       <section className={style.aboutFirst}>
         <div className="container-fluid px-5">
           <div className="row text-center mb-5">
-            <h2 style={{fontWeight:"700"}}>Current Features</h2>
+            <h2 className="text-center" style={{ fontWeight: "700" }}>
+              الميزات الحالية
+            </h2>
           </div>
           <div className="row">
-            <div className="col-lg-6 p-0">
-              <div data-aos="fade-up" data-aos-duration="500" >
+            <div className="col-lg-6">
+              <div data-aos="fade-up" data-aos-duration="500">
                 <Image className="img-fluid" src={aboutFirstSectionImg} />
               </div>
             </div>
-            <div className="col-lg-6 p-0">
-              <div className={style.aboutFirstsection} data-aos="fade-right" data-aos-offset="300">
-                {/* <h2>
-                  Why You Should Move <br />for Banking App <br />Development
-                </h2> */}
+            <div className="col-lg-6">
+              <div
+                className={style.aboutFirstsection}
+                data-aos="fade-right"
+                data-aos-offset="300"
+              >
                 <div className={style.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>ACCOUNT MANAGEMENT:</h3>
-                    <span>Users can access and manage their bank accounts, check balances, view transaction history, and perform various banking activities directly from their mobile devices.</span>
+                    <h3>إدارة الحساب:</h3>
+                    <span>
+                      يمكن للمستخدمين الوصول إلى حساباتهم المصرفية وإدارتها،
+                      التحقق من الأرصدة، عرض سجل المعاملات، وتنفيذ أنشطة مصرفية
+                      مختلفة مباشرة من أجهزتهم المحمولة.
+                    </span>
                   </div>
                 </div>
                 <div className={style.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>PAYMENTS AND TRANSFERS:</h3>
-                    <span>The app allows users to make local and international transfers, pay bills, and conduct other financial transactions seamlessly.</span>
+                    <h3>المدفوعات والتحويلات:</h3>
+                    <span>
+                      يتيح التطبيق للمستخدمين إجراء تحويلات محلية ودولية، دفع
+                      الفواتير، وتنفيذ معاملات مالية أخرى بسلاسة.
+                    </span>
                   </div>
                 </div>
                 <div className={style.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>BUDGETING AND EXPENSE TRACKING:</h3>
-                    <span>It offers tools to help users track their expenses, set budgets, and manage their finances more effectively.</span>
+                    <h3>إعداد الميزانية وتتبع النفقات:</h3>
+                    <span>
+                      يقدم أدوات لمساعدة المستخدمين على تتبع نفقاتهم، تحديد
+                      الميزانيات، وإدارة أموالهم بشكل أكثر فعالية.
+                    </span>
                   </div>
                 </div>
                 <div className={style.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>CUSTOMER SUPPORT:</h3>
-                    <span>This app incorporates customer support features to provide assistance and resolve queries directly through the app.</span>
+                    <h3>دعم العملاء:</h3>
+                    <span>
+                      يتضمن هذا التطبيق ميزات دعم العملاء لتقديم المساعدة وحل
+                      الاستفسارات مباشرة عبر التطبيق.
+                    </span>
                   </div>
                 </div>
                 <div className={style.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>
-                    SECURITY FEATURES:</h3>
-                    <span>Security is a top priority for banking apps. Rize likely implements robust security measures, such as encryption and authentication methods, to ensure the safety of users' financial information.</span>
+                    <h3>ميزات الأمان:</h3>
+                    <span>
+                      الأمان هو أولوية قصوى لتطبيقات المصرفية. من المحتمل أن
+                      يطبق Rize تدابير أمان قوية مثل التشفير وطرق المصادقة لضمان
+                      سلامة المعلومات المالية للمستخدمين.
+                    </span>
                   </div>
                 </div>
               </div>
@@ -149,101 +182,102 @@ const page = () => {
         </div>
       </section>
 
-      <div className={`container-fluid ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
+      <div
+        className={`container-fluid ${style.Essential}`}
+        data-aos="fade-up"
+        data-aos-duration="500"
+      >
         <div className={`row ${style.row2}`}>
-          <h1>
-            Essential Banking Services
-          </h1>
+          <h1 className="text-center">الخدمات المصرفية الأساسية</h1>
           <div className={style.flexBoxes}>
             <div className={`col-lg-5 ${style.boxleft}`}>
-              <h2>READY CASHLINE (RCL)</h2>
+              <h2>خط الائتمان الجاهز (RCL)</h2>
               <div className={style.section}>
-                <h5>Credit Line:</h5>
+                <h5>خط الائتمان:</h5>
                 <ul>
                   <li>
-                    The bank assigns a maximum credit limit to its customers which
-                    they can use for various financial needs.
+                    يحدد البنك حدًا ائتمانيًا أقصى لعملائه يمكنهم استخدامه
+                    لتلبية احتياجاتهم المالية المختلفة.
                   </li>
-                  <li>Monitoring of utilized limits.</li>
+                  <li>مراقبة الحدود المستخدمة.</li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Encouraging Financial Behavior:</h5>
+                <h5>تشجيع السلوك المالي:</h5>
                 <ul>
-                  <li>Introducing Cashback incentive</li>
+                  <li>تقديم حافز استرداد النقود (Cashback)</li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Flexibility and Adaptability:</h5>
+                <h5>المرونة والقدرة على التكيف:</h5>
                 <ul>
                   <li>
-                    Interest is only charged on the outstanding balance, and it’s
-                    typically based on the amount of credit utilized.
+                    يتم فرض الفائدة فقط على الرصيد المستحق، وعادة ما تعتمد على
+                    مقدار الائتمان المستخدم.
                   </li>
                   <li>
-                    The customer can make regular payments to repay the borrowed
-                    amount.
+                    يمكن للعميل القيام بمدفوعات منتظمة لسداد المبلغ المقترض.
                   </li>
                   <li>
-                    As the customer repays the borrowed amount, the credit limit
-                    becomes available again.
+                    مع سداد العميل للمبلغ المقترض، يصبح الحد الائتماني متاحًا
+                    مرة أخرى.
                   </li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Technology Integration:</h5>
+                <h5>تكامل التكنولوجيا:</h5>
                 <ul>
-                  <li>RCL origination facilitated via Digibank app.</li>
                   <li>
-                    Access to generated RCL reports via portal for compliance and
-                    management.
+                    تسهيل إنشاء خط الائتمان الجاهز (RCL) عبر تطبيق Digibank.
+                  </li>
+                  <li>
+                    الوصول إلى تقارير خط الائتمان الجاهز (RCL) المُنشأة عبر
+                    البوابة الإلكترونية للامتثال والإدارة.
                   </li>
                 </ul>
               </div>
             </div>
             <div className={`col-lg-5  ${style.boxright} ${style.marginTop}`}>
               <div className={style.tdSection}>
-                <h2>TERM DEPOSIT (TD)</h2>
+                <h2>الودائع لأجل (TD)</h2>
                 <div className={style.section}>
-                  <h5>Investment:</h5>
+                  <h5>الاستثمار:</h5>
                   <ul>
                     <li>
-                      Term Deposit is a lump sum savings account with a fixed
-                      deposit period.
+                      الوديعة لأجل هي حساب ادخار بمبلغ إجمالي ثابت لفترة إيداع
+                      محددة.
                     </li>
-                    <li>Seamless digital investment.</li>
+                    <li>استثمار رقمي سلس.</li>
                   </ul>
                 </div>
                 <div className={style.section}>
-                  <h5>Encouraging Digital Investment:</h5>
+                  <h5>تشجيع الاستثمار الرقمي:</h5>
                   <ul>
-                    <li>Introducing Digital Term Deposit placements via App.</li>
+                    <li>تقديم خيارات إيداع لأجل رقمي عبر التطبيق.</li>
                   </ul>
                 </div>
                 <div className={style.section}>
-                  <h5>Flexibility and Adaptability:</h5>
+                  <h5>المرونة والقدرة على التكيف:</h5>
                   <ul>
                     <li>
-                      Predetermined interest rate which remains constant
-                      throughout the deposit period.
+                      معدل فائدة محدد مسبقًا يظل ثابتًا طوال فترة الإيداع.
                     </li>
-                    <li>Aims to improve digital banking experience.</li>
+                    <li>يهدف إلى تحسين تجربة الخدمات المصرفية الرقمية.</li>
                     <li>
-                      Prioritize capital preservation and a predictable income
-                      stream.
+                      يُعطى الأولوية للحفاظ على رأس المال وتوفير دخل ثابت متوقع.
                     </li>
-                    <li>Earn interest at the end of the deposit term.</li>
+                    <li>تحصل على الفائدة في نهاية فترة الإيداع.</li>
                   </ul>
                 </div>
                 <div className={style.section}>
-                  <h5>Technology Integration:</h5>
+                  <h5>تكامل التكنولوجيا:</h5>
                   <ul>
                     <li>
-                      TD origination is facilitated through the Digibank app.
+                      يتم تسهيل إنشاء الودائع لأجل (TD) عبر تطبيق Digibank.
                     </li>
                     <li>
-                      Access to generated TD reports via the portal for portfolio
-                      management and compliance.
+                      الوصول إلى تقارير الودائع لأجل (TD) المُنشأة عبر البوابة
+                      الإلكترونية لإدارة المحافظ والامتثال.
                     </li>
                   </ul>
                 </div>
@@ -255,91 +289,95 @@ const page = () => {
 
       <div className={`container-fluid mt-5 ${style.Essential}`}>
         <div className={`row ${style.row2}`}>
-          <h1>
-            Digital Lending
-          </h1>
+          <h1 className="text-center">الإقراض الرقمي</h1>
           <div className={style.flexBoxes}>
             <div className={`col-lg-5 ${style.boxleft}`}>
-              <h2>Personal Financing (PF)</h2>
+              <h2>التمويل الشخصي (PF)</h2>
               <div className={style.section}>
-                <h5>Personal Credit:</h5>
+                <h5>الائتمان الشخصي:</h5>
                 <ul>
                   <li>
-                    Amount approves depending on to customer’s financial profile and may have a fixed limit.
+                    يتم الموافقة على المبلغ بناءً على الملف المالي للعميل وقد
+                    يكون له حد ثابت.
                   </li>
-                  <li>Get funds to achieve your personal financial needs.</li>
+                  <li>احصل على الأموال لتلبية احتياجاتك المالية الشخصية.</li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Encouraging Digital Lending:</h5>
+                <h5>تشجيع الإقراض الرقمي:</h5>
                 <ul>
-                  <li>Introducing fixed term financing</li>
+                  <li>تقديم تمويل محدد الأجل</li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Flexibility and Adaptability:</h5>
+                <h5>المرونة والقدرة على التكيف:</h5>
                 <ul>
+                  <li>تمويل يأتي مع معدل فائدة ثابت.</li>
                   <li>
-                    Financing that comes with an interest rate that is fixed.
+                    يقوم العميل بسداد القرض على أقساط خلال فترة محددة، مع خيارات
+                    للقروض قصيرة أو طويلة الأجل.
                   </li>
                   <li>
-                    Customer repay the loan in installments over a fixed period, with options for short or long-term loans.
-                  </li>
-                  <li>
-                    With minimal documentation, approval for the loan can be obtained.
+                    بأقل قدر من المستندات، يمكن الحصول على الموافقة على القرض.
                   </li>
                 </ul>
               </div>
               <div className={style.section}>
-                <h5>Technology Integration:</h5>
+                <h5>تكامل التكنولوجيا:</h5>
                 <ul>
-                  <li>PF origination facilitated via Digibank app.</li>
                   <li>
-                    Access to generated PF reports via portal for compliance and
-                    management.
+                    يتم تسهيل إنشاء التمويل الشخصي (PF) عبر تطبيق Digibank.
+                  </li>
+                  <li>
+                    الوصول إلى تقارير التمويل الشخصي (PF) المُنشأة عبر البوابة
+                    الإلكترونية للامتثال والإدارة.
                   </li>
                 </ul>
               </div>
             </div>
             <div className={`col-lg-5 ${style.boxright} ${style.marginTop}`}>
               <div className={style.tdSection}>
-                <h2>Corporate Financing (CF)</h2>
+                <h2>التمويل المؤسسي (CF)</h2>
                 <div className={style.section}>
-                  <h5>SME Financing:
-                  </h5>
+                  <h5>تمويل المشاريع الصغيرة والمتوسطة (SME)</h5>
                   <ul>
                     <li>
-                      Specialized financing and credit options for your large-scale projects for business expansion
+                      خيارات تمويل وائتمان متخصصة لمشاريعك الكبيرة لتوسيع نطاق
+                      الأعمال.
                     </li>
-                    <li>Get funds to achieve your Business goals</li>
+                    <li>احصل على الأموال لتحقيق أهداف عملك.</li>
                   </ul>
                 </div>
                 <div className={style.section}>
-                  <h5>Encouraging Digital Financing:</h5>
+                  <h5>تشجيع التمويل الرقمي:</h5>
                   <ul>
-                    <li>Introducing Digital SME Financing</li>
+                    <li>تقديم تمويل المشاريع الصغيرة والمتوسطة الرقمي (SME)</li>
                   </ul>
                 </div>
                 <div className={style.section}>
-                  <h5>Flexibility and Adaptability:</h5>
+                  <h5>المرونة والقدرة على التكيف:</h5>
                   <ul>
+                    <li>تمويل يأتي بشروط سداد ثابتة.</li>
                     <li>
-                      Financing that comes with fixed repayment terms.
+                      يسدد العملاء القرض على أقساط خلال فترة محددة، للقروض طويلة
+                      الأجل.
                     </li>
-                    <li>Customers repay the loan in installments over a fixed period, for long-term loans.</li>
                     <li>
-                      Offer digital platforms for SMEs to manage their finances, make transactions, and access funding more efficiently.
+                      تقديم منصات رقمية للمشاريع الصغيرة والمتوسطة لإدارة شؤونها
+                      المالية، وإجراء المعاملات، والوصول إلى التمويل بشكل أكثر
+                      كفاءة.
                     </li>
                   </ul>
                 </div>
                 <div className={style.section}>
-                  <h5>Technology Integration:</h5>
+                  <h5>تكامل التكنولوجيا:</h5>
                   <ul>
                     <li>
-                      CF origination is facilitated through Digibank app.
+                      يتم تسهيل إنشاء التمويل المؤسسي (CF) عبر تطبيق Digibank.
                     </li>
                     <li>
-                      Access to generate CF reports via the portal for portfolio management and compliance.
+                      الوصول إلى تقارير التمويل المؤسسي (CF) المُنشأة عبر
+                      البوابة الإلكترونية لإدارة المحافظ والامتثال.
                     </li>
                   </ul>
                 </div>

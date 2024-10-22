@@ -71,9 +71,9 @@ export default function page() {
           <div className="row">
             <div className="col-lg-12">
               <div className={styles.clientSeciton}>
-                <h5 data-aos="fade-up" data-aos-duration="500">The Reason That You Must <br /> Be Choose Us for Your Financial Advisor</h5>
+                <h5 data-aos="fade-up" data-aos-duration="500" className='text-center'>The Reason That You Must <br /> Be Choose Us for Your Financial Advisor</h5>
                 <p data-aos="fade-up"
-                  data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">We are defined by our core values—integrity, loyalty, and commitment. Our mission is to provide financial services that go beyond transactions, focusing on building trusted relationships. Upholding the highest ethical standards, we prioritize your financial well-being.</p>
+                  data-aos-anchor-placement="bottom-bottom" className='text-center' data-aos-duration="500">We are defined by our core values—integrity, loyalty, and commitment. Our mission is to provide financial services that go beyond transactions, focusing on building trusted relationships. Upholding the highest ethical standards, we prioritize your financial well-being.</p>
                 {/* <div className={styles.counterStyle}>
                   <div className={styles.innerCounter}>
                     <h4><CountUp delay={1} style={{ color: "white", fontSize: "50px" }} start={0} end={100}></CountUp>K</h4>

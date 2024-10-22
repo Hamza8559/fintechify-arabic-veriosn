@@ -18,7 +18,7 @@ function page() {
             <Header />
             <Banner
                 showCase={false}
-                head={"Contact us"}
+                head={"اتصل بنا"}
                 tagLine={false}
                 Des={false}
             />
@@ -29,8 +29,8 @@ function page() {
                             <div className={styles.contactBox}>
                                 <MdOutlineAddIcCall />
                                 <div>
-                                    <span>Telephone</span>
-                                    <a href="">+971-54-5061985</a>
+                                    <span>هاتف</span>
+                                    <a href="tel:+971-54-5061985">+971-54-5061985</a>
                                 </div>
                             </div>
                         </div>
@@ -38,8 +38,8 @@ function page() {
                             <div className={styles.contactBox}>
                             <IoLocation />
                                 <div>
-                                    <span>Location</span>
-                                    <a href="">Unit: IH0101-OF01, Level One, <br />Innovation One, <br />DIFC, Dubai, UAE</a>
+                                    <span>الموقع</span>
+                                    <a href="#">الوحدة : IH0101-OF01، الطابق الأول،<br/> Innovation One، <br/>مركز دبي المالي العالمي (DIFC)، دبي، الإمارات العربية المتحدة.</a>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +47,8 @@ function page() {
                             <div className={styles.contactBox}>
                             <MdOutlineEmail />
                                 <div>
-                                    <span>Email</span>
-                                    <a href="">talktous@fintechify.ae</a>
+                                    <span>البريد الإلكتروني</span>
+                                    <a href="mailto:talktous@fintechify.ae">talktous@fintechify.ae</a>
                                 </div>
                             </div>
                         </div>
@@ -61,32 +61,32 @@ function page() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className={styles.contactFormImg}>
-                                <Image src={ContactImg}/>
+                                <Image src={ContactImg} alt="Contact Image" />
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.contactFormBox}>
-                                <h5>Get In Touch</h5>
-                                <p>Your email address will not be published. Required fields are marked *</p>
+                                <h5>تواصل معنا</h5>
+                                <p>لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة محددة *</p>
                                 <form>
                                     <div class="form-group">
-                                        <label>Name *</label>
-                                        <input type="text" class="form-control" required placeholder="Enter Your Name" />
+                                        <label>الاسم *</label>
+                                        <input type="text" class="form-control" required placeholder="أدخل اسمك" />
                                     </div>
                                     <div class="form-group">
-                                        <label>Email Address *</label>
-                                        <input type="email" class="form-control" required placeholder="Your Email" />
+                                        <label>عنوان البريد الإلكتروني *</label>
+                                        <input type="email" class="form-control" required placeholder="بريدك الإلكتروني" />
                                     </div>
                                     <div class="form-group">
-                                        <label>Subject *</label>
-                                        <input type="text" class="form-control" required placeholder="Message Subject" />
+                                        <label>الموضوع *</label>
+                                        <input type="text" class="form-control" required placeholder="موضوع الرسالة" />
                                     </div>
                                     <div class="form-group">
-                                        <label>Comments / Questions *</label>
-                                        <textarea class="form-control" rows="3"></textarea>
+                                        <label>تعليقات / أسئلة *</label>
+                                        <textarea class="form-control" rows="3" placeholder="اكتب تعليقك أو سؤالك هنا"></textarea>
                                     </div>
                                     <div class="form-group">
-                                       <button>Post Message</button>
+                                       <button>إرسال الرسالة</button>
                                     </div>
                                 </form>
                             </div>

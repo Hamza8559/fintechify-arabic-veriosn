@@ -18,16 +18,16 @@ export default function Banner({ showCase, head, tagLine, tagLine2, Des }) {
                                     </div> : false}
 
                                 {head !== false ?
-                                    <h2>{head}</h2> : false}
+                                    <h2 className='text-center'>{head}</h2> : false}
 
                                 {tagLine !== false ?
-                                    <span className={styles.aboutTagLine}>{tagLine}</span> : false}
+                                    <span className={`${styles.aboutTagLine} text-center`}>{tagLine}</span> : false}
 
                                 {tagLine2 !== false ?
-                                    <span className={styles.tagLine2}>{tagLine2}</span> : false}
+                                    <span className={`${styles.tagLine2} text-center`}>{tagLine2}</span> : false}
 
                                 {Des !== false ?
-                                    <p>{Des}</p> : false}
+                                    <p className='text-center'>{Des}</p> : false}
 
                             </div>
                         </div>

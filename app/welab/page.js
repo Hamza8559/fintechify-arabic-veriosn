@@ -94,12 +94,12 @@ const page = () => {
           </div>
         </div>
       </div>
-      
+
       <div className={`container  ${style.Essential}`} data-aos="fade-up" data-aos-duration="500">
         <div className={`row  ${style.row2}`}>
-          <h1>Benefits for All Stakeholders</h1>
+          <h1 className="text-center">Benefits for All Stakeholders</h1>
           <div className={style.flexBoxes}>
-            <div className={`col-lg-5 ${style.boxleft} p-3`}>
+            <div className={`col-lg-5 ${style.boxleft} p-5`}>
               <h5>Discovery Phase</h5>
               <div className={style.section}>
                 <ul>
@@ -116,7 +116,7 @@ const page = () => {
                 </ul>
               </div>
             </div>
-            <div className={`col-lg-5 ${style.boxright} ${style.marginTop} p-3`}>
+            <div className={`col-lg-5 ${style.boxright} ${style.marginTop} p-5`}>
               <div className={style.tdSection}>
                 <div className={style.section}>
                   <h5>Investment:</h5>

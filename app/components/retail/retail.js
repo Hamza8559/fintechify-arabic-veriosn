@@ -6,7 +6,7 @@ import img1 from "../assets/images/sheikh2.jpg";
 function page() {
   return (
     <>
-      <section className="mb-5" style={{marginTop: "100px"}}>
+      <section className="mb-5" style={{ marginTop: "100px" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -24,16 +24,12 @@ function page() {
               data-aos-duration="500"
             >
               <div className={styles.InnovativeBox}>
-                <h4 className="mt-4">
-                  We Tell the Tale of <br />
-                  Retail Banking!
-                </h4>
+                <h4 className="mt-4">نحن نحكي قصة الخدمات <br/>المصرفية للأفراد!</h4>
                 <p>
-                  Discover the epitome of personalized banking services with
-                  Fintechify! From savings accounts to loans and credit cards,
-                  we’re revolutionizing retail banking by offering accessible
-                  and tailored financial solutions. Experience banking that’s
-                  perfectly attuned to your needs with Fintechify.
+                  اكتشف قمة الخدمات المصرفية الشخصية مع Fintechify! من حسابات
+                  التوفير إلى القروض وبطاقات الائتمان، نحن نحدث ثورة في الخدمات
+                  المصرفية للأفراد من خلال تقديم حلول مالية مخصصة وسهلة الوصول.
+                  اختبر تجربة مصرفية تتناسب تمامًا مع احتياجاتك مع Fintechify.
                 </p>
               </div>
             </div>

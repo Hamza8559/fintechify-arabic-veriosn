@@ -201,7 +201,7 @@
 
 .aboutFirstsection .iconFlexBox svg {
   font-size: 20px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
   color: #1E8EF7;
 }
 
@@ -216,7 +216,7 @@
   font-size: 14px;
   white-space: break-spaces;
   color: #666666;
-  padding-right: 30px;
+  padding-left: 30px;
   display: block;
 }
 
@@ -233,7 +233,7 @@
     font-size: 30px;
   }
   .aboutFirstsection .iconFlexBox span {
-    padding-right: 0;
+    padding-left: 0;
   }
   .boxleft,.boxright {
     height: auto;
