@@ -86,7 +86,7 @@
 
 /* Section background */
 .section {
-  background-color: #00dcc766;
+  background: linear-gradient(90deg, #082AC9 , #1F96FD);
   padding: 0px 0;
 }
 
@@ -116,7 +116,7 @@
   justify-content: center;
   flex-direction: row;
   animation-name: infiniteScroll;
-  animation-duration: 20s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-play-state: running;
