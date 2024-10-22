@@ -25,7 +25,7 @@
   font-weight: 800;
   text-transform: uppercase;
   line-height: 1em;
-  background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+  background: linear-gradient(90deg, #082ac9 0%, #1f96fc 51%, #082ac9 100%) 0 / 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
@@ -66,7 +66,8 @@
   font-weight: 800;
   text-transform: uppercase;
   line-height: 1em;
-  background: linear-gradient(90deg, #006FF9 0%, #00DCC7 51%, #006FF9 100%) 0 / 200%;
+  background: linear-gradient(90deg, #082ac9 0%, #1f96fc 51%, #082ac9 100%) 0 / 200%;
+
   -webkit-background-clip: text;
   -webkit-text-stroke: 3px transparent;
   color: #ffffff;
