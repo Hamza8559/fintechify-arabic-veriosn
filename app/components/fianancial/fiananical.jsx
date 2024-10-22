@@ -65,7 +65,7 @@ const FinancialComponent = () => {
 
       <section className={`mt-5 ${styles.section}`}>
         <div className={`container-fluid ${styles.containerFluid}`}>
-          <h4>Trusted by industry-leading companies around the globe</h4>
+          <h4 className="text-center">Trusted by industry-leading companies around the globe</h4>
           <div className={styles.marqueeWrapper}>
             <div className={styles.marquee}>
               <div className={styles.marqueeContent}>
