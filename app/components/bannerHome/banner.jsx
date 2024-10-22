@@ -111,7 +111,7 @@ const Banner = () => {
                   تمكين المستقبل المالي
                 </h1>
                 <div className={style.picture}>
-                  <div
+                  {/* <div
                     className={style.people}
                     data-aos="fade-up"
                     data-aos-duration="1500"
@@ -123,7 +123,7 @@ const Banner = () => {
                       <h4>29.5 مليون</h4>
                       <h6>أكثر المستخدمين نشاطًا</h6>
                     </span>
-                  </div>
+                  </div> */}
                   <div
                     className={style.star}
                     data-aos="fade-up"

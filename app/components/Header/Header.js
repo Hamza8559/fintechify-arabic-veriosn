@@ -140,7 +140,7 @@ export default function Header() {
               <div className="col-lg-4 p-0 m-0">
                 <ul>
                   <li>
-                    <AiFillAppstore />
+                    <AiFillAppstore color="#1e8bf6" />
                     <div>
                       <Link href="/Banking-app-development">
                         تطوير التطبيقات المصرفية
@@ -149,7 +149,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <CiWallet />
+                    <CiWallet color="#1e8bf6" />
                     <div>
                       <Link href="/Digital-wallet-development">
                         تطوير المحفظة الرقمية
@@ -158,7 +158,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <SiBmcsoftware />
+                    <SiBmcsoftware color="#1e8bf6" />
                     <div>
                       <Link href="/Insurance-software-development">
                         تطوير برامج التأمين
@@ -167,7 +167,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <CiLock />
+                    <CiLock color="#1e8bf6" />
                     <div>
                       <Link href="/cybersecurity">
                         الأمن السيبراني <GoArrowUpLeft />
@@ -179,7 +179,7 @@ export default function Header() {
               <div className="col-lg-4 p-0 m-0">
                 <ul>
                   <li>
-                    <MdOutlineDesignServices />
+                    <MdOutlineDesignServices color="#1e8bf6" />
                     <div>
                       <Link href="/finops-services">
                         خدمات العمليات المالية (FinOps) <GoArrowUpLeft />
@@ -187,7 +187,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <GiFlatPlatform />
+                    <GiFlatPlatform color="#1e8bf6" />
                     <div>
                       <Link href="/Crowdfunding-platform-development">
                         تطوير منصة التمويل الجماعي
@@ -196,7 +196,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <GiPlatform />
+                    <GiPlatform color="#1e8bf6" />
                     <div>
                       <Link href="/decentralized-finance-defi-platform">
                         التمويل اللامركزي <GoArrowUpLeft />
@@ -208,7 +208,7 @@ export default function Header() {
               <div className="col-lg-4 p-0 m-0">
                 <ul>
                   <li>
-                    <GrIntegration />
+                    <GrIntegration color="#1e8bf6" />
                     <div>
                       <Link href="/integration-services">
                         خدمات التكامل <GoArrowUpLeft />
@@ -216,7 +216,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <GrResources />
+                    <GrResources color="#1e8bf6" />
                     <div>
                       <Link href="/resource-augmentation">
                         تعزيز الموارد <GoArrowUpLeft />
@@ -224,7 +224,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li>
-                    <FaExchangeAlt />
+                    <FaExchangeAlt color="#1e8bf6" />
                     <div>
                       <Link href="/currency-exchange-platform-development">
                         تطوير منصة تبادل العملات <GoArrowUpLeft />
