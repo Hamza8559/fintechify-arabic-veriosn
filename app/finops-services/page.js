@@ -16,9 +16,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"FinOps Services"}
+        head={"خدمات FinOps"}
         tagLine={false}
-        tagLine2={"Optimize your cloud for maximum performance and minimal spend."}
+        tagLine2={"قم بتحسين السحابة لتحقيق أقصى أداء وأقل تكاليف."}
         Des={false}
       />
       <section className="mb-5 mt-5 d-lg-block d-none">
@@ -31,21 +31,16 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Your one-stop shop <br /> for FinOps Services.
+                  كل ما تحتاجه <br /> لخدمات FinOps.
                 </h4>
                 <p>
-                  Struggling with financial chaos? Ditch the spreadsheets!
-                  Fintechify is your financial SWAT team, blasting complexity
-                  and optimizing your business health. Startups or enterprises,
-                  we craft a plan unique to you. Join the revolution and unlock
-                  streamlined operations, soaring business health, and freedom
-                  from financial busywork. Enlist today!
+                  تكافح مع الفوضى المالية؟ تخلص من جداول البيانات! Fintechify هو فريق التدخل المالي الخاص بك، يحطم التعقيد ويعمل على تحسين صحة عملك. سواء كنت شركة ناشئة أو مؤسسة كبيرة، نحن نصمم خطة فريدة لك. انضم إلى الثورة وافتح عمليات مبسطة، صحة تجارية مرتفعة، وحرية من الأعباء المالية. سجل اليوم!
                 </p>
               </div>
               <button className={styles.LuSend2}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
-                    JOIN NOW <FaArrowRight />
+                    انضم الآن <FaArrowRight />
                   </span>
                 </Link>
               </button>
@@ -81,21 +76,16 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Your one-stop shop <br /> for FinOps Services.
+                  كل ما تحتاجه <br /> لخدمات FinOps.
                 </h4>
                 <p>
-                  Struggling with financial chaos? Ditch the spreadsheets!
-                  Fintechify is your financial SWAT team, blasting complexity
-                  and optimizing your business health. Startups or enterprises,
-                  we craft a plan unique to you. Join the revolution and unlock
-                  streamlined operations, soaring business health, and freedom
-                  from financial busywork. Enlist today!
+                  تكافح مع الفوضى المالية؟ تخلص من جداول البيانات! Fintechify هو فريق التدخل المالي الخاص بك، يحطم التعقيد ويعمل على تحسين صحة عملك. سواء كنت شركة ناشئة أو مؤسسة كبيرة، نحن نصمم خطة فريدة لك. انضم إلى الثورة وافتح عمليات مبسطة، صحة تجارية مرتفعة، وحرية من الأعباء المالية. سجل اليوم!
                 </p>
               </div>
               <button className={styles.LuSend2}>
                 <Link href="/contact-us" passHref>
                   <span style={{ textDecoration: "none", color: "white" }}>
-                    JOIN NOW <FaArrowRight />
+                    انضم الآن <FaArrowRight />
                   </span>
                 </Link>
               </button>
@@ -104,210 +94,6 @@ function page() {
         </div>
       </section>
 
-      {/* <section
-        className={styles.processSection}
-        data-aos="fade-up"
-        data-aos-duration="500"
-      >
-        <div className="container-fluid px-5">
-          <div className="row">
-            <h4>See Where FinOps Service Works:</h4>
-
-            <div className={styles.flexBoxes}>
-              <div className="col-lg-5 p-lg-0">
-                <div
-                  className={`${styles.processBox} ${styles.blueBg} ${styles.FinBlueUpperBox}`}
-                >
-                  <ul>
-                    <h5>Financial Planning and Analysis</h5>
-                    <p>
-                      Tired of flying blind with your finances? Our expert
-                      Financial Planning and Analysis (Fp&A) services are your key
-                      to financial clarity and empowered decision-making. <br />
-                      We’re not just number crunchers, we’re financial
-                      strategists.
-                    </p>{" "}
-                  </ul>
-
-                  <ul>
-                    <h5>Financial X-Ray Vision</h5>
-                    <p>
-                      Gain deep insights into your financial performance,
-                      uncovering hidden opportunities and areas for improvement
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Data-Driven Decisions</h5>
-                    <p>
-                      Make confident choices backed by powerful financial
-                      analysis, not gut instinct.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Tailored Strategies</h5>
-                    <p>
-                      We don’t do cookie-cutter plans. Your Fp&A strategy is
-                      custom-built to achieve your unique business goals.
-                    </p>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
-                <div
-                  className={`${styles.processBox} ${styles.whiteBg} ${styles.FinWhiteUpperBox}`}
-                >
-                  <ul>
-                    <h5>Future-Proof Planning</h5>
-                    <p>
-                      We factor in market trends and potential risks, helping you
-                      navigate an uncertain world with confidence. <br />
-                      Stop wondering “what if?” and start knowing.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Cost Management Solutions</h5>
-                    <p>
-                      Is your bottom line feeling the squeeze? Our cost management
-                      solutions are your secret weapon for maximizing
-                      profitability without sacrificing quality or efficiency.{" "}
-                      <br />
-                      We’re the cost-cutting ninjas you’ve been searching for.
-                    </p>{" "}
-                  </ul>
-                  <ul>
-                    <h5>Prototypes</h5>
-                    <p>
-                      Interactive mockups that let you experience the app before
-                      it’s built.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Profit Powerhouse</h5>
-                    <p>
-                      Free up valuable resources and boost your profitability,
-                      allowing you to reinvest in growth.
-                    </p>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className={styles.flexBoxes}>
-              <div className="col-lg-5 p-lg-0">
-                <div
-                  className={`${styles.processBox} ${styles.whiteBg} ${styles.FinWhiteBottomBox}`}
-                >
-                  <ul>
-                    <h5>Efficiency Experts.</h5>
-                    <p>
-                      We streamline processes and optimize operations, ensuring
-                      you get the most out of every dollar you spend.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Data-Driven Decisions</h5>
-                    <p>
-                      Our cost-cutting strategies are backed by hard data, not gut{" "}
-                      <br /> instinct. <br />
-                      Stop letting runaway costs clip your wings.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Financing & Forecasting</h5>
-                    <p>
-                      Feeling lost in a financial fog? Our budgeting and
-                      forecasting <br /> services are your lighthouse, guiding you
-                      towards a clear and <br /> prosperous future. <br />
-                      We’re not just number jockeys, we’re your financial
-                      co-pilots
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Realistic Budgets</h5>
-                    <p>
-                      Ditch the guesswork. We collaborate to build budgets that
-                      reflect <br /> reality, not wishful thinking.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Accurate Forecasts</h5>
-                    <p>
-                      See the financial road ahead with clear and precise
-                      forecasts, <br /> allowing you to plan for growth and
-                      navigate challenges.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Data-Driven Decisions</h5>
-                    <p>
-                      Our insights are based on real data, giving you the
-                      confidence to <br /> make strategic financial choices.
-                    </p>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-5 p-lg-0" id={styles.marginBoxTop}>
-                <div
-                  className={`${styles.processBox} ${styles.blueBg} ${styles.FinBlueBottomBox}`}
-                >
-                  <ul>
-                    <h5>Growth Roadmap</h5>
-                    <h5>Time to celebrate!</h5>
-                    <p>
-                      Use your budget and forecasts as a map to chart your course{" "}
-                      <br /> towards sustainable and profitable growth. <br />
-                      Stop being reactive, start being proactive.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Cash Flow Management</h5>
-                    <p>
-                      Is your cash flow more like a wild ride than a smooth
-                      journey? Our <br /> cash flow management expertise is your
-                      ticket to financial stability <br /> and minimized risk.{" "}
-                      <br />
-                      We’re not just bean counters, we’re your cash flow
-                      architects.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Optimized Cash Cycle </h5>
-                    <p>
-                      We streamline the flow of cash in and out of your business,{" "}
-                      <br /> ensuring a steady stream for when you need it most
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Improved Liquidity</h5>
-                    <p>
-                      Say goodbye to cash flow droughts. We’ll help you maintain a{" "}
-                      <br /> healthy reserve and avoid financial strain.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Financial Stability.</h5>
-                    <p>
-                      With a predictable cash flow, you can weather storms and
-                      seize <br /> opportunities with confidence.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Data-Driven Decisions</h5>
-                    <p>
-                      Our strategies are backed by real data, not guesswork,
-                      giving you <br /> control over your financial future.
-                    </p>
-                  </ul>
-                  <ul>
-                    <h5>Don’t let cash flow worries hold you back.</h5>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      
       <section
         className={styles.processSection}
         data-aos="fade-up"
@@ -315,7 +101,7 @@ function page() {
       >
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>See Where FinOps Service Works:</h4>
+            <h4>شاهد أين تعمل خدمة FinOps:</h4>
 
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
@@ -323,35 +109,29 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.FinBlueUpperBox}`}
                 >
                   <ul>
-                    <h5>Financial Planning and Analysis</h5>
+                    <h5>التخطيط والتحليل المالي</h5>
                     <p>
-                      Tired of flying blind with your finances? Our expert
-                      Financial Planning and Analysis (Fp&A) services are your key
-                      to financial clarity and empowered decision-making. <br />
-                      We’re not just number crunchers, we’re financial
-                      strategists.
+                      مللت من العمل دون رؤية واضحة لتمويلك؟ خدمات التخطيط والتحليل المالي لدينا هي المفتاح للحصول على وضوح مالي واتخاذ قرارات مبنية على التحليل. <br />
+                      نحن لسنا مجرد محللين ماليين، نحن استراتيجيون ماليون.
                     </p>{" "}
                   </ul>
 
                   <ul>
-                    <h5>Financial X-Ray Vision</h5>
+                    <h5>رؤية الأشعة السينية المالية</h5>
                     <p>
-                      Gain deep insights into your financial performance,
-                      uncovering hidden opportunities and areas for improvement
+                      احصل على رؤى عميقة حول أدائك المالي، واكتشاف الفرص الخفية ومجالات التحسين.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Data-Driven Decisions</h5>
+                    <h5>القرارات المبنية على البيانات</h5>
                     <p>
-                      Make confident choices backed by powerful financial
-                      analysis, not gut instinct.
+                      اتخذ قرارات بثقة بناءً على التحليل المالي القوي، وليس على الحدس.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Tailored Strategies</h5>
+                    <h5>استراتيجيات مخصصة</h5>
                     <p>
-                      We don’t do cookie-cutter plans. Your Fp&A strategy is
-                      custom-built to achieve your unique business goals.
+                      نحن لا نقدم خططًا جاهزة. استراتيجيتك في التخطيط والتحليل المالي مخصصة لتحقيق أهداف عملك الفريدة.
                     </p>
                   </ul>
                 </div>
@@ -361,35 +141,29 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.FinWhiteUpperBox}`}
                 >
                   <ul>
-                    <h5>Future-Proof Planning</h5>
+                    <h5>التخطيط المستقبلي المضمون</h5>
                     <p>
-                      We factor in market trends and potential risks, helping you
-                      navigate an uncertain world with confidence. <br />
-                      Stop wondering “what if?” and start knowing.
+                      نحن نأخذ في الاعتبار اتجاهات السوق والمخاطر المحتملة، مما يساعدك على التنقل في عالم غير مؤكد بثقة. <br />
+                      توقف عن التساؤل "ماذا لو؟" وابدأ في معرفة الحقيقة.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Cost Management Solutions</h5>
+                    <h5>حلول إدارة التكلفة</h5>
                     <p>
-                      Is your bottom line feeling the squeeze? Our cost management
-                      solutions are your secret weapon for maximizing
-                      profitability without sacrificing quality or efficiency.{" "}
-                      <br />
-                      We’re the cost-cutting ninjas you’ve been searching for.
+                      هل تشعر بضيق في صافي أرباحك؟ حلول إدارة التكلفة لدينا هي سلاحك السري لتعظيم الربحية دون التضحية بالجودة أو الكفاءة. <br />
+                      نحن النينجا المخفيين في قطع التكاليف الذين كنت تبحث عنهم.
                     </p>{" "}
                   </ul>
                   <ul>
-                    <h5>Prototypes</h5>
+                    <h5>النماذج الأولية</h5>
                     <p>
-                      Interactive mockups that let you experience the app before
-                      it’s built.
+                      نماذج تفاعلية تسمح لك بتجربة التطبيق قبل بنائه.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Profit Powerhouse</h5>
+                    <h5>مصنع الربح</h5>
                     <p>
-                      Free up valuable resources and boost your profitability,
-                      allowing you to reinvest in growth.
+                      حرر الموارد القيمة وزد من ربحيتك، مما يتيح لك إعادة استثمارها في النمو.
                     </p>
                   </ul>
                 </div>
@@ -402,50 +176,41 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.FinWhiteBottomBox}`}
                 >
                   <ul>
-                    <h5>Efficiency Experts.</h5>
+                    <h5>خبراء الكفاءة.</h5>
                     <p>
-                      We streamline processes and optimize operations, ensuring
-                      you get the most out of every dollar you spend.
+                      نحن نعمل على تبسيط العمليات وتحسين العمليات، مما يضمن حصولك على أقصى استفادة من كل دولار تنفقه.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Data-Driven Decisions</h5>
+                    <h5>القرارات المبنية على البيانات</h5>
                     <p>
-                      Our cost-cutting strategies are backed by hard data, not gut{" "}
-                      <br /> instinct. <br />
-                      Stop letting runaway costs clip your wings.
+                      استراتيجياتنا في خفض التكاليف مدعومة بالبيانات الحقيقية، وليس على الحدس. <br />
+                      توقف عن ترك التكاليف المرتفعة تقيدك.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Financing & Forecasting</h5>
+                    <h5>التمويل والتنبؤات</h5>
                     <p>
-                      Feeling lost in a financial fog? Our budgeting and
-                      forecasting <br /> services are your lighthouse, guiding you
-                      towards a clear and <br /> prosperous future. <br />
-                      We’re not just number jockeys, we’re your financial
-                      co-pilots
+                      هل تشعر بالضياع في ضباب مالي؟ خدمات إعداد الميزانيات والتنبؤات لدينا هي منارتك، لتوجيهك نحو مستقبل واضح ومزدهر. <br />
+                      نحن لسنا مجرد محللين ماليين، نحن مساعديك الماليين.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Realistic Budgets</h5>
+                    <h5>الميزانيات الواقعية</h5>
                     <p>
-                      Ditch the guesswork. We collaborate to build budgets that
-                      reflect <br /> reality, not wishful thinking.
+                      تخلص من التخمينات. نتعاون معك لبناء ميزانيات تعكس الواقع، وليس التمنيات.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Accurate Forecasts</h5>
+                    <h5>التنبؤات الدقيقة</h5>
                     <p>
-                      See the financial road ahead with clear and precise
-                      forecasts, <br /> allowing you to plan for growth and
-                      navigate challenges.
+                      شاهد الطريق المالي أمامك بتوقعات واضحة ودقيقة، مما يسمح لك بالتخطيط للنمو ومواجهة التحديات.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Data-Driven Decisions</h5>
+                    <h5>القرارات المبنية على البيانات</h5>
                     <p>
-                      Our insights are based on real data, giving you the
-                      confidence to <br /> make strategic financial choices.
+                      رؤانا تستند إلى بيانات حقيقية، مما يمنحك الثقة لاتخاذ خيارات مالية استراتيجية.
                     </p>
                   </ul>
                 </div>
@@ -455,55 +220,46 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.FinBlueBottomBox}`}
                 >
                   <ul>
-                    <h5>Growth Roadmap</h5>
-                    <h5>Time to celebrate!</h5>
+                    <h5>خريطة طريق النمو</h5>
+                    <h5>حان وقت الاحتفال!</h5>
                     <p>
-                      Use your budget and forecasts as a map to chart your course{" "}
-                      <br /> towards sustainable and profitable growth. <br />
-                      Stop being reactive, start being proactive.
+                      استخدم ميزانيتك وتوقعاتك كخريطة لرسم مسارك نحو نمو مستدام ومربح. <br />
+                      توقف عن أن تكون تفاعليًا، وابدأ بأن تكون استباقيًا.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Cash Flow Management</h5>
+                    <h5>إدارة التدفق النقدي</h5>
                     <p>
-                      Is your cash flow more like a wild ride than a smooth
-                      journey? Our <br /> cash flow management expertise is your
-                      ticket to financial stability <br /> and minimized risk.{" "}
-                      <br />
-                      We’re not just bean counters, we’re your cash flow
-                      architects.
+                      هل تدفقاتك النقدية تبدو مثل رحلة برية بدلاً من رحلة سلسة؟ خبرتنا في إدارة التدفق النقدي هي تذكرتك للاستقرار المالي وتقليل المخاطر. <br />
+                      نحن لسنا مجرد محللين ماليين، نحن مهندسي تدفقك النقدي.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Optimized Cash Cycle </h5>
+                    <h5>دورة نقدية محسنة</h5>
                     <p>
-                      We streamline the flow of cash in and out of your business,{" "}
-                      <br /> ensuring a steady stream for when you need it most
+                      نحن نبسط تدفق النقد داخل وخارج عملك، مما يضمن تدفقًا ثابتًا عند الحاجة إليه أكثر.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Improved Liquidity</h5>
+                    <h5>تحسين السيولة</h5>
                     <p>
-                      Say goodbye to cash flow droughts. We’ll help you maintain a{" "}
-                      <br /> healthy reserve and avoid financial strain.
+                      وداعًا لفترات الجفاف في التدفق النقدي. سنساعدك في الحفاظ على احتياطي صحي وتجنب الضغوط المالية.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Financial Stability.</h5>
+                    <h5>الاستقرار المالي.</h5>
                     <p>
-                      With a predictable cash flow, you can weather storms and
-                      seize <br /> opportunities with confidence.
+                      مع تدفق نقدي يمكن التنبؤ به، يمكنك مواجهة العواصف وانتهاز الفرص بثقة.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Data-Driven Decisions</h5>
+                    <h5>القرارات المبنية على البيانات</h5>
                     <p>
-                      Our strategies are backed by real data, not guesswork,
-                      giving you <br /> control over your financial future.
+                      استراتيجياتنا مدعومة بالبيانات الحقيقية، وليس على التخمين، مما يمنحك السيطرة على مستقبلك المالي.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Don’t let cash flow worries hold you back.</h5>
+                    <h5>لا تدع المخاوف المالية تمنعك.</h5>
                   </ul>
                 </div>
               </div>
@@ -521,12 +277,9 @@ function page() {
           <div className="row">
             <div className={styles.startedUpperBox}>
               <Image src={QoutesImg} alt="Qoutes" />
-              <h4>Get Started Today</h4>
+              <h4>ابدأ اليوم</h4>
               <p>
-                Start your journey towards financial empowerment and business
-                growth now! Reach out to us today to <br /> discover how our
-                FinOps services can propel your business to success. Don't wait,
-                take the first step <br /> towards a brighter future!
+                ابدأ رحلتك نحو التمكين المالي ونمو الأعمال الآن! تواصل معنا اليوم لاكتشاف كيف يمكن لخدمات FinOps أن تدفع أعمالك نحو النجاح. لا تنتظر، اتخذ الخطوة الأولى نحو مستقبل أكثر إشراقًا!
               </p>
             </div>
           </div>

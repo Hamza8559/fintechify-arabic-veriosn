@@ -20,9 +20,9 @@ function page() {
             <Header />
             <Banner
                 showCase={false}
-                head={"Crowdfunding Platform Development"}
+                head={"تطوير منصة التمويل الجماعي"}
                 tagLine={false}
-                tagLine2={"We Create Your Platform of Success."}
+                tagLine2={"نحن نخلق منصتك للنجاح."}
                 Des={false}
             />
             <section className='d-lg-block d-none mb-5 mt-5'>
@@ -30,20 +30,20 @@ function page() {
                     <div className="row align-items-center">
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
-                                <h4>Transforming Ideas into Funded <br /> Realities with Crowdfunding <br />Platform Development</h4>
-                                <p>Crowdfund with confidence at Fintechify. Our expert team crafts secure, custom platforms to launch your <br /> vision and empower your fundraising goals. Let’s turn ideas into reality, together.</p>
-                                <p>Fuel Your Fintech Vision: Is your client looking to revolutionize fundraising? Our team of experts builds <br /> feature-rich crowdfunding platforms tailored to their specific needs.</p>
-                                <p>Reach the Perfect Audience: We design user-friendly interfaces that attract both creators and backers,<br /> fostering a thriving crowdfunding  ecosystem.</p>
+                                <h4>تحويل الأفكار إلى واقع ممول مع <br /> تطوير منصة التمويل الجماعي</h4>
+                                <p>قم بالتمويل الجماعي بثقة مع فينتكفاي. فريقنا الخبير يصنع منصات مخصصة وآمنة لإطلاق <br /> رؤيتك وتحقيق أهداف جمع التمويل الخاصة بك. دعونا نحول الأفكار إلى واقع معًا.</p>
+                                <p>ادعم رؤيتك في الفنتك: هل يسعى عميلك إلى إحداث ثورة في جمع التمويل؟ فريقنا من الخبراء يبني <br /> منصات تمويل جماعي غنية بالميزات مصممة خصيصًا لتلبية احتياجاتهم.</p>
+                                <p>الوصول إلى الجمهور المثالي: نحن نصمم واجهات سهلة الاستخدام تجذب المبدعين والممولين معًا،<br /> مما يعزز النظام البيئي للتمويل الجماعي.</p>
                                 <p>
-                                    Seamless Funding Solutions: Integrate secure payment gateways <br /> and transparent fund management tools to ensure a smooth and <br /> trustworthy experience.
+                                    حلول تمويل سلسة: دمج بوابات دفع آمنة <br /> وأدوات إدارة الأموال الشفافة لضمان تجربة سلسة وموثوقة.
                                 </p>
-                                <p>Built for Success: Our platforms are scalable and adaptable, empowering your client’s platform to grow <br />alongside their ambitions.</p>
-                                <p>More Than Development: We provide ongoing support and maintenance to ensure your client’s platform <br />stays secure, efficient, and at the forefront of the crowdfunding landscape</p>
+                                <p>مصممة للنجاح: منصاتنا قابلة للتوسع والتكيف، مما يمكّن منصة عميلك من النمو <br /> جنبًا إلى جنب مع طموحاتهم.</p>
+                                <p>أكثر من مجرد تطوير: نحن نقدم الدعم والصيانة المستمرة لضمان أن تظل منصة عميلك <br /> آمنة وفعالة وعلى طليعة مشهد التمويل الجماعي.</p>
                             </div>
                             <button className={styles.LuSend2}>
                                 <Link href="/contact-us" passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
-                                        JOIN NOW <FaArrowRight />
+                                        انضم الآن <FaArrowRight />
                                     </span>
                                 </Link>
                             </button>
@@ -65,20 +65,20 @@ function page() {
                         </div>
                         <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
                             <div className={styles.InnovativeBox}>
-                                <h4>Transforming Ideas into Funded <br /> Realities with Crowdfunding <br />Platform Development</h4>
-                                <p>Crowdfund with confidence at Fintechify. Our expert team crafts secure, custom platforms to launch your <br /> vision and empower your fundraising goals. Let’s turn ideas into reality, together.</p>
-                                <p>Fuel Your Fintech Vision: Is your client looking to revolutionize fundraising? Our team of experts builds <br /> feature-rich crowdfunding platforms tailored to their specific needs.</p>
-                                <p>Reach the Perfect Audience: We design user-friendly interfaces that attract both creators and backers,<br /> fostering a thriving crowdfunding  ecosystem.</p>
+                                <h4>تحويل الأفكار إلى واقع ممول مع <br /> تطوير منصة التمويل الجماعي</h4>
+                                <p>قم بالتمويل الجماعي بثقة مع فينتكفاي. فريقنا الخبير يصنع منصات مخصصة وآمنة لإطلاق <br /> رؤيتك وتحقيق أهداف جمع التمويل الخاصة بك. دعونا نحول الأفكار إلى واقع معًا.</p>
+                                <p>ادعم رؤيتك في الفنتك: هل يسعى عميلك إلى إحداث ثورة في جمع التمويل؟ فريقنا من الخبراء يبني <br /> منصات تمويل جماعي غنية بالميزات مصممة خصيصًا لتلبية احتياجاتهم.</p>
+                                <p>الوصول إلى الجمهور المثالي: نحن نصمم واجهات سهلة الاستخدام تجذب المبدعين والممولين معًا،<br /> مما يعزز النظام البيئي للتمويل الجماعي.</p>
                                 <p>
-                                    Seamless Funding Solutions: Integrate secure payment gateways <br /> and transparent fund management tools to ensure a smooth and <br /> trustworthy experience.
+                                    حلول تمويل سلسة: دمج بوابات دفع آمنة <br /> وأدوات إدارة الأموال الشفافة لضمان تجربة سلسة وموثوقة.
                                 </p>
-                                <p>Built for Success: Our platforms are scalable and adaptable, empowering your client’s platform to grow <br />alongside their ambitions.</p>
-                                <p>More Than Development: We provide ongoing support and maintenance to ensure your client’s platform <br />stays secure, efficient, and at the forefront of the crowdfunding landscape</p>
+                                <p>مصممة للنجاح: منصاتنا قابلة للتوسع والتكيف، مما يمكّن منصة عميلك من النمو <br /> جنبًا إلى جنب مع طموحاتهم.</p>
+                                <p>أكثر من مجرد تطوير: نحن نقدم الدعم والصيانة المستمرة لضمان أن تظل منصة عميلك <br /> آمنة وفعالة وعلى طليعة مشهد التمويل الجماعي.</p>
                             </div>
                             <button className={styles.LuSend2}>
                                 <Link href="/contact-us" passHref>
                                     <span style={{ textDecoration: "none", color: "white" }}>
-                                        JOIN NOW <FaArrowRight />
+                                        انضم الآن <FaArrowRight />
                                     </span>
                                 </Link>
                             </button>
@@ -86,181 +86,81 @@ function page() {
                     </div>
                 </div>
             </section>
-            {/* <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
-                <div className="container-fluid px-5">
-                    <div className="row">
-                        <h4>Our Process</h4>
-                        <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>
-                                <ul>
-                                    <h5>Platform Development</h5>
-                                    <p>Build a custom crowdfunding platform tailored to your specific <br /> needs.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Campaign Management</h5>
-                                    <p>Support with planning, launching, and managing your crowdfunding <br /> campaign.</p>
-                                </ul>
-                                <ul><h5>Marketing and Promotion</h5>
-                                    <p>Develop strategies to reach your target audience and attract <br /> investors.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Payment Processing</h5>
-                                    <p>Integrate secure payment gateways to facilitate seamless <br />
-                                        transactions.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Regulatory Compliance</h5>
-                                    <p>Ensure your platform adheres to all relevant crowdfunding <br /> regulations.
-                                    </p>
-                                </ul>
-                                <ul>
-                                    <h5>Entrepreneurship</h5>
-                                    <p>Raise capital for startups, product launches, and innovative  <br />ventures.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Creative Industries
-                                    </h5>
-                                    <p>Fund films, music projects, art installations, and other creative <br /> endeavors.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Social Causes
-                                    </h5>
-                                    <p>Support social good initiatives, charities, and community  <br />development projects.
-
-                                    </p>
-                                </ul>
-                                <ul>
-                                    <h5>Real Estate</h5>
-                                    <p>Finance real estate development projects and <br /> property investments.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Renewable Energy
-                                    </h5>
-                                    <p>Raise capital for renewable energy projects and sustainability  <br />initiatives.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Local Businesses </h5>
-                                    <p>Empower local businesses to raise funds for expansion, equipment, <br /> and marketing.</p>
-                                </ul>
-
-                            </div>
-                        </div>
-                        <div className='col-lg-6 p-lg-0'>
-                            <div className={`${styles.processBox} ${styles.whiteBg} ${styles.CrowdWhiteBottomBox}`}>
-                                <ul>
-                                    <h5>Craft Your Crowdfunding Dream: Fintechify Delivers
-                                    </h5>
-                                    <h5>Bespoke Platforms</h5>
-                                    <p>We build custom crowdfunding solutions that perfectly match your <br /> vision – from concept to launch.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Effortless User Experience</h5>
-                                    <p>Beautiful, intuitive interfaces keep donors engaged and donations <br /> flowing.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Powerhouse Features</h5>
-                                    <p>Maximize fundraising with built-in tools for tracking, payments, <br /> social outreach, and insightful analytics.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Grow with Confidence
-                                    </h5>
-                                    <p>Scalable platforms handle growth seamlessly, while robust security <br />     keeps all transactions safe.</p>
-                                </ul>
-                                <ul>
-                                    <h5>Fintechify: Where crowdfunding dreams take flight.</h5>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
 
             <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
                 <div className="container-fluid px-lg-5">
                     <div className="row">
-                        <h4>Our Process</h4>
+                        <h4>عمليتنا</h4>
                         <div className={styles.flexBoxes}>
                             <div className='col-lg-5 p-lg-0'>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdBlueUpperBox}`}>
                                     <ul>
-                                        <h5>Platform Development</h5>
-                                        <p>Build a custom crowdfunding platform tailored to your specific <br /> needs.</p>
+                                        <h5>تطوير المنصة</h5>
+                                        <p>بناء منصة تمويل جماعي مخصصة لتلبية احتياجاتك المحددة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Campaign Management</h5>
-                                        <p>Support with planning, launching, and managing your crowdfunding <br /> campaign.</p>
+                                        <h5>إدارة الحملة</h5>
+                                        <p>الدعم في التخطيط، الإطلاق، وإدارة حملة التمويل الجماعي الخاصة بك.</p>
                                     </ul>
-                                    <ul><h5>Marketing and Promotion</h5>
-                                        <p>Develop strategies to reach your target audience and attract <br /> investors.</p>
-                                    </ul>
-                                    <ul>
-                                        <h5>Payment Processing</h5>
-                                        <p>Integrate secure payment gateways to facilitate seamless <br />
-                                            transactions.</p>
+                                    <ul><h5>التسويق والترويج</h5>
+                                        <p>تطوير استراتيجيات للوصول إلى جمهورك المستهدف وجذب المستثمرين.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Regulatory Compliance</h5>
-                                        <p>Ensure your platform adheres to all relevant crowdfunding <br /> regulations.
-                                        </p>
+                                        <h5>معالجة الدفع</h5>
+                                        <p>دمج بوابات دفع آمنة لتسهيل المعاملات بسلاسة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Entrepreneurship</h5>
-                                        <p>Raise capital for startups, product launches, and innovative  <br />ventures.</p>
+                                        <h5>الامتثال التنظيمي</h5>
+                                        <p>ضمان أن تتوافق منصتك مع جميع اللوائح ذات الصلة بالتمويل الجماعي.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Creative Industries
-                                        </h5>
-                                        <p>Fund films, music projects, art installations, and other creative <br /> endeavors.</p>
+                                        <h5>ريادة الأعمال</h5>
+                                        <p>جمع رأس المال للشركات الناشئة وإطلاق المنتجات والمشاريع الابتكارية.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Social Causes
-                                        </h5>
-                                        <p>Support social good initiatives, charities, and community  <br />development projects.
-
-                                        </p>
+                                        <h5>الصناعات الإبداعية</h5>
+                                        <p>تمويل الأفلام والموسيقى والمشاريع الفنية وغيرها من المبادرات الإبداعية.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Real Estate</h5>
-                                        <p>Finance real estate development projects and <br /> property investments.</p>
+                                        <h5>القضايا الاجتماعية</h5>
+                                        <p>دعم المبادرات الخيرية وتطوير المجتمع.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Renewable Energy
-                                        </h5>
-                                        <p>Raise capital for renewable energy projects and sustainability  <br />initiatives.</p>
+                                        <h5>العقارات</h5>
+                                        <p>تمويل مشاريع تطوير العقارات والاستثمارات العقارية.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Local Businesses </h5>
-                                        <p>Empower local businesses to raise funds for expansion, equipment, <br /> and marketing.</p>
+                                        <h5>الطاقة المتجددة</h5>
+                                        <p>جمع رأس المال لمشاريع الطاقة المتجددة والمبادرات المستدامة.</p>
                                     </ul>
-
+                                    <ul>
+                                        <h5>الأعمال المحلية</h5>
+                                        <p>تمكين الشركات المحلية من جمع الأموال للتوسع والتسويق.</p>
+                                    </ul>
                                 </div>
                             </div>
                             <div className='col-lg-5 p-lg-0' id={styles.marginBoxTop}>
                                 <div className={`${styles.processBox} ${styles.blueBg} ${styles.CrowdWhiteBottomBox}`}>
                                     <ul>
-                                        <h5>Craft Your Crowdfunding Dream: Fintechify Delivers
-                                        </h5>
-                                        <h5>Bespoke Platforms</h5>
-                                        <p>We build custom crowdfunding solutions that perfectly match your <br /> vision – from concept to launch.</p>
+                                        <h5>حقق حلمك في التمويل الجماعي: فينتكفاي تقدم</h5>
+                                        <h5>منصات مخصصة</h5>
+                                        <p>نحن نبني حلول تمويل جماعي مخصصة تتوافق تمامًا مع رؤيتك – من المفهوم إلى الإطلاق.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Effortless User Experience</h5>
-                                        <p>Beautiful, intuitive interfaces keep donors engaged and donations <br /> flowing.</p>
+                                        <h5>تجربة مستخدم سلسة</h5>
+                                        <p>واجهات جميلة وبديهية تحافظ على تفاعل الممولين وتدفق التبرعات.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Powerhouse Features</h5>
-                                        <p>Maximize fundraising with built-in tools for tracking, payments, <br /> social outreach, and insightful analytics.</p>
+                                        <h5>ميزات قوية</h5>
+                                        <p>زيادة جمع الأموال باستخدام أدوات مدمجة للتتبع، المدفوعات، والتواصل الاجتماعي والتحليلات المفيدة.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Grow with Confidence
-                                        </h5>
-                                        <p>Scalable platforms handle growth seamlessly, while robust security <br />     keeps all transactions safe.</p>
+                                        <h5>النمو بثقة</h5>
+                                        <p>المنصات القابلة للتوسع تتعامل مع النمو بسلاسة، مع ضمان الأمان لجميع المعاملات.</p>
                                     </ul>
                                     <ul>
-                                        <h5>Fintechify: Where crowdfunding dreams take flight.</h5>
+                                        <h5>فينتكفاي: حيث تحلق أحلام التمويل الجماعي.</h5>
                                     </ul>
-
                                 </div>
                             </div>
                         </div>
@@ -272,11 +172,10 @@ function page() {
                 <div className="container-fluid px-lg-5">
                     <div className="row">
                         <div className={styles.startedUpperBox}>
-                            <Image src={QoutesImg} alt='Qoutes' />
-                            <h4>Get Started Today</h4>
-                            <p>Unleash the potential of your idea. Contact Fintechify today! We'll craft your custom crowdfunding <br /> platform and empower you to reach your funding goals. Together, let's make a difference..</p>
+                            <Image src={QoutesImg} alt='اقتباسات' />
+                            <h4>ابدأ اليوم</h4>
+                            <p>أطلق العنان لإمكانيات فكرتك. اتصل بفينتكفاي اليوم! سنصنع منصتك التمويلية الجماعية المخصصة وسنمكنك من الوصول إلى أهدافك التمويلية. معًا، لنحدث فرقًا.</p>
                         </div>
-
                     </div>
                 </div>
             </section>

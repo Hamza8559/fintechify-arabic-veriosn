@@ -19,9 +19,9 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"Resource Augmentation"}
+        head={"خدمة تعزيز الموارد"}
         tagLine={false}
-        tagLine2={"Stop fitting your business in a payment box. Get a custom solution that fits your flow."}
+        tagLine2={"توقف عن تكييف عملك ضمن حلول الدفع الجاهزة. احصل على حل مخصص يناسب تدفق عملك."}
         Des={false}
       />
       <section className="d-lg-block d-none mb-5 mt-5">
@@ -34,27 +34,21 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Ditch the One-Size-Fits-All! Craft Your Dream Payment App with
-                  Fintechify’s Resource Augmentation Service.
+                  تخلص من الحلول الجاهزة! صمم تطبيق الدفع المثالي الخاص بك مع خدمة تعزيز الموارد من Fintechify.
                 </h4>
                 <p>
-                  Tired of payment solutions that cramp your business style? At
-                  Fintechify, we believe your payment process should be as
-                  unique as you are. That’s why we offer custom-built payment
-                  app development. Our all-star team of developers, designers,
-                  and strategists will collaborate with you to craft the perfect
-                  payment app, seamlessly integrated with your business goals.
+                  هل سئمت من حلول الدفع التي تعيق أسلوب عملك؟ في Fintechify، نؤمن بأن عملية الدفع الخاصة بك يجب أن تكون فريدة مثلك.
+                  لهذا السبب نقدم حلولاً مخصصة لتطوير تطبيقات الدفع.
+                  فريقنا المتميز من المطورين والمصممين والمخططين سيتعاون معك لتصميم تطبيق الدفع المثالي المتكامل مع أهداف عملك.
                 </p>
                 <p>
-                  {" "}
-                  Ready to ditch the generic and embrace the perfect fit?
-                  Contact Fintechify today!
+                  هل أنت مستعد للتخلي عن الحلول العامة واعتماد الحل المثالي؟ تواصل مع Fintechify اليوم!
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -90,27 +84,21 @@ function page() {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Ditch the One-Size-Fits-All! Craft Your Dream Payment App with
-                  Fintechify’s Resource Augmentation Service.
+                  تخلص من الحلول الجاهزة! صمم تطبيق الدفع المثالي الخاص بك مع خدمة تعزيز الموارد من Fintechify.
                 </h4>
                 <p>
-                  Tired of payment solutions that cramp your business style? At
-                  Fintechify, we believe your payment process should be as
-                  unique as you are. That’s why we offer custom-built payment
-                  app development. Our all-star team of developers, designers,
-                  and strategists will collaborate with you to craft the perfect
-                  payment app, seamlessly integrated with your business goals.
+                  هل سئمت من حلول الدفع التي تعيق أسلوب عملك؟ في Fintechify، نؤمن بأن عملية الدفع الخاصة بك يجب أن تكون فريدة مثلك.
+                  لهذا السبب نقدم حلولاً مخصصة لتطوير تطبيقات الدفع.
+                  فريقنا المتميز من المطورين والمصممين والمخططين سيتعاون معك لتصميم تطبيق الدفع المثالي المتكامل مع أهداف عملك.
                 </p>
                 <p>
-                  {" "}
-                  Ready to ditch the generic and embrace the perfect fit?
-                  Contact Fintechify today!
+                  هل أنت مستعد للتخلي عن الحلول العامة واعتماد الحل المثالي؟ تواصل مع Fintechify اليوم!
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -119,88 +107,27 @@ function page() {
         </div>
       </section>
 
-      {/* <section className={styles.processSection} data-aos="fade-up">
-        <div className="container-fluid px-5">
-          <div className="row">
-            <h4>Key Features</h4>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.blueBg} ${styles.ResourceBlueUpperBox}`}
-              >
-                <ul>
-                  <h5>Your Fort Knox of Payment Security</h5>
-                  <p>
-                    We don’t just integrate secure gateways, we build them like
-                    fortresses. State-of-the-art encryption, tokenization, and
-                    PCI DSS compliance keep your customers’ data safe. Regular
-                    security audits ensure constant vigilance. Choose Fintechify
-                    for peace of mind.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Effortless Transactions. Happy Customers.</h5>
-                  <p>
-                    Fintechify crafts intuitive payment apps. Clear visuals,
-                    smooth flow, and helpful prompts make transactions a breeze.
-                    We build for everyone, ensuring accessibility and a
-                    delightful user experience that keeps customers coming back.
-                  </p>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.whiteBg} ${styles.ResourceWhiteBottomBox}`}
-              >
-                <ul>
-                  <h5>Go Everywhere Your Customers Do.</h5>
-                  <p>
-                    Fintechify builds payment apps that work seamlessly on any
-                    device, from iPhones to Androids and desktops. Reach your
-                    entire audience, no matter their platform preference.
-                  </p>
-                </ul>
-                <ul>
-                  <h5>Build Your Perfect Payment Flow. </h5>
-                  <p>
-                    Flexibility is our middle name. Fintechify crafts payment
-                    apps that adapt to your vision. Choose the features you
-                    need, personalize the design, and create the perfect payment
-                    experience for your business and customers.
-                  </p>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className={styles.processSection} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Key Features</h4>
-            <div  className={styles.flexBoxes}>
+            <h4>الميزات الرئيسية</h4>
+            <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
                 <div
                   className={`${styles.processBox} ${styles.blueBg} ${styles.ResourceBlueUpperBox}`}
                 >
                   <ul>
-                    <h5>Your Fort Knox of Payment Security</h5>
+                    <h5>حصن آمن لحماية الدفع</h5>
                     <p>
-                      We don’t just integrate secure gateways, we build them like
-                      fortresses. State-of-the-art encryption, tokenization, and
-                      PCI DSS compliance keep your customers’ data safe. Regular
-                      security audits ensure constant vigilance. Choose Fintechify
-                      for peace of mind.
+                      نحن لا ندمج فقط بوابات آمنة، بل نبنيها كحصون. التشفير المتقدم، وتجزئة البيانات، والامتثال لمعايير PCI DSS تحافظ على بيانات عملائك آمنة.
+                      عمليات تدقيق الأمان الدورية تضمن الحذر المستمر. اختر Fintechify للسلامة وراحة البال.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Effortless Transactions. Happy Customers.</h5>
+                    <h5>عمليات سلسة. عملاء سعداء.</h5>
                     <p>
-                      Fintechify crafts intuitive payment apps. Clear visuals,
-                      smooth flow, and helpful prompts make transactions a breeze.
-                      We build for everyone, ensuring accessibility and a
-                      delightful user experience that keeps customers coming back.
+                      تقوم Fintechify بتصميم تطبيقات الدفع التي توفر واجهة مرئية واضحة وتدفقًا سلسًا وإرشادات مفيدة تجعل المعاملات بسيطة.
+                      نحن نبني للجميع، مما يضمن سهولة الوصول وتجربة مستخدم ممتعة تجعل العملاء يعودون مرة أخرى.
                     </p>
                   </ul>
                 </div>
@@ -210,20 +137,17 @@ function page() {
                   className={`${styles.processBox} ${styles.blueBg} ${styles.ResourceWhiteBottomBox}`}
                 >
                   <ul>
-                    <h5>Go Everywhere Your Customers Do.</h5>
+                    <h5>اذهب حيثما يذهب عملاؤك.</h5>
                     <p>
-                      Fintechify builds payment apps that work seamlessly on any
-                      device, from iPhones to Androids and desktops. Reach your
-                      entire audience, no matter their platform preference.
+                      Fintechify تصمم تطبيقات الدفع التي تعمل بسلاسة على أي جهاز، من أجهزة iPhone إلى أجهزة Android وأجهزة الكمبيوتر المكتبية.
+                      يمكنك الوصول إلى جمهورك بالكامل، بغض النظر عن تفضيلاتهم في المنصة.
                     </p>
                   </ul>
                   <ul>
-                    <h5>Build Your Perfect Payment Flow. </h5>
+                    <h5>قم ببناء تدفق الدفع المثالي الخاص بك.</h5>
                     <p>
-                      Flexibility is our middle name. Fintechify crafts payment
-                      apps that adapt to your vision. Choose the features you
-                      need, personalize the design, and create the perfect payment
-                      experience for your business and customers.
+                      المرونة هي اسمنا الأوسط. تصمم Fintechify تطبيقات الدفع التي تتكيف مع رؤيتك. اختر الميزات التي تحتاجها، وقم بتخصيص التصميم،
+                      واصنع تجربة الدفع المثالية لعملك وعملائك.
                     </p>
                   </ul>
                 </div>
@@ -237,13 +161,11 @@ function page() {
         <div className="container-fluid px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
-              <Image src={QoutesImg} alt="Qoutes" />
-              <h4>Ready to transform how your business manages payments?</h4>
+              <Image src={QoutesImg} alt="اقتباسات" />
+              <h4>هل أنت مستعد لتحويل كيفية إدارة عملك للمدفوعات؟</h4>
               <p>
-                Reach out to us today to explore your project needs and initiate
-                the journey towards developing an innovative payment application
-                that propels your business towards growth and prosperity. Let's
-                bring your vision to life!
+                تواصل معنا اليوم لاستكشاف احتياجات مشروعك وبدء الرحلة نحو تطوير تطبيق دفع مبتكر يدفع عملك نحو النمو والازدهار.
+                دعنا نجعل رؤيتك حقيقة!
               </p>
             </div>
           </div>
