@@ -1,158 +1,24 @@
-// components/Footer.js
 import styles from "../assets/css/Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../assets/images/FINTECHIFY.png";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter, FaArrowRight } from "react-icons/fa6";
 
 export default function Footer() {
   return (
     <>
-      {/* <footer className={styles.footer}>
-        <div className={styles.newsletter}>
-          <div className={styles.newsletterText}>
-            <h2>
-              Subscribe to our newsletter <br /> and stay updated
-            </h2>
-            <p>
-              FinTechify revolutionizes banking, offering a user-centric digital
-              experience.
-            </p>
-          </div>
-          <div className={styles.subscription}>
-            <input
-              type="email"
-              placeholder="Email address"
-              className={styles.emailInput}
-            />
-            <button className={styles.subscribeButton}>
-              Subscribe <FaArrowRight />
-            </button>
-          </div>
-        </div>
-        <div className={`${styles.footerMain} p-0 m-0`}>
-          <div className="row p-0 m-0">
-            <div className={`${styles.companyInfo} col-lg-3 p-0 m-0`}>
-              <Image src={logo} alt="Logo" className={styles.logo} />
-              <div className={styles.socialIcons}>
-                <Link href="#">
-                  <FaFacebookSquare />
-                </Link>
-                <Link href="#">
-                  <FaInstagram />
-                </Link>
-                <Link href="#">
-                  <FaXTwitter />
-                </Link>
-                <Link href="#">
-                  <FaLinkedin />
-                </Link>
-              </div>
-            </div>
-            <div className={`${styles.linksSection} col-lg-9 p-0 m-0`}>
-              <div>
-                <h4>Services</h4>
-                <ul>
-                  <li>
-                    <Link href="/Banking-app-development">Banking App Development</Link>
-                  </li>
-                  <li>
-                    <Link href="/Digital-wallet-development">Digital Wallet Development</Link>
-                  </li>
-                  <li>
-                    <Link href="/Insurance-software-development">Insurance Software Development</Link>
-                  </li>
-                  <li>
-                    <Link href="/finops-services">FinOps Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development</Link>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <h4></h4>
-                  <li>
-                    <Link href="/decentralized-finance-defi-platform">
-                      Decentralized Finance <br />
-                      (DeFi) Platform
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/integration-services">Integration Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/resource-augmentation">Resource Augmentation</Link>
-                  </li>
-                  <li>
-                    <Link href="/currency-exchange-platform-development">
-                      Currency Exchange <br />
-                      Platform Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/cybersecurity">Cybersecurity</Link>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h4>Quick Links</h4>
-                <ul>
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link href="/about">About</Link>
-                  </li>
-                  <li>
-                    <Link href="/service">Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/rizeApp">Rize App</Link>
-                  </li>
-                  <li>
-                    <Link href="/welab">WeLab</Link>
-                  </li>
-                  <li>
-                    <Link href="/contact-us">Contact</Link>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h4>Contact us</h4>
-                <ul>
-                  <p>+971-54-5061985</p>
-                  <p>talktous@fintechify.ae</p>
-                  <p>
-                    Unit: IH0101-OF01, Level One, <br /> Innovation One, DIFC,
-                    Dubai,
-                    <br /> UAE
-                  </p>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.footerBottom}>
-          <p className="text-center">&copy; 2024 FinTechify. All rights reserved.</p>
-        </div>
-      </footer> */}
       <div className="container-fluid p-0">
         <section className={styles.footer}>
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className={styles.subscribeBox}>
                 <h2>
-                  Subscribe to our newsletter <br /> and stay updated
+                  اشترك في النشرة الإخبارية <br /> وابقَ على اطلاع
                 </h2>
                 <p>
-                  FinTechify revolutionizes banking, offering a user-centric digital
-                  experience.
+                  تقوم FinTechify بثورة في البنوك، حيث تقدم تجربة رقمية تركز على
+                  المستخدم.
                 </p>
               </div>
             </div>
@@ -160,11 +26,11 @@ export default function Footer() {
               <div className={styles.newsLatterBox}>
                 <input
                   type="email"
-                  placeholder="Email address"
+                  placeholder="عنوان البريد الإلكتروني"
                   className={styles.emailInput}
                 />
                 <button>
-                  Subscribe <FaArrowRight />
+                  اشترك <FaArrowRight />
                 </button>
               </div>
             </div>
@@ -172,7 +38,7 @@ export default function Footer() {
           <div className="row mt-5">
             <div className="col-lg-3 col-md-4">
               <div className={styles.LogoBox}>
-                <Image src={logo} />
+                <Image src={logo} alt="شعار FinTechify" />
                 <div className={styles.socailMediaIconsBox}>
                   <Link href="#">
                     <FaFacebookSquare />
@@ -191,22 +57,30 @@ export default function Footer() {
             </div>
             <div className="col-lg-3 col-md-4 p-0">
               <div className={styles.linksBox}>
-                <h4>Services</h4>
+                <h4>الخدمات</h4>
                 <ul>
                   <li>
-                    <Link href="/Banking-app-development">Banking App Development</Link>
+                    <Link href="/Banking-app-development">
+                      تطوير تطبيقات البنوك
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/Digital-wallet-development">Digital Wallet Development</Link>
+                    <Link href="/Digital-wallet-development">
+                      تطوير المحافظ الرقمية
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/Insurance-software-development">Insurance Software Development</Link>
+                    <Link href="/Insurance-software-development">
+                      تطوير برامج التأمين
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/finops-services">FinOps Services</Link>
+                    <Link href="/finops-services">خدمات FinOps</Link>
                   </li>
                   <li>
-                    <Link href="/Crowdfunding-platform-development">Crowdfunding Platform Development</Link>
+                    <Link href="/Crowdfunding-platform-development">
+                      تطوير منصات التمويل الجماعي
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -216,73 +90,74 @@ export default function Footer() {
                 <ul>
                   <li>
                     <Link href="/decentralized-finance-defi-platform">
-                      Decentralized Finance <br />
-                      (DeFi) Platform
+                      منصة التمويل اللامركزي (DeFi)
                     </Link>
                   </li>
                   <li>
-                    <Link href="/integration-services">Integration Services</Link>
+                    <Link href="/integration-services">
+                      خدمات التكامل
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/resource-augmentation">Resource Augmentation</Link>
+                    <Link href="/resource-augmentation">
+                      تعزيز الموارد
+                    </Link>
                   </li>
                   <li>
                     <Link href="/currency-exchange-platform-development">
-                      Currency Exchange <br />
-                      Platform Development
+                      تطوير منصات تبادل العملات
                     </Link>
                   </li>
                   <li>
-                    <Link href="/cybersecurity">Cybersecurity</Link>
+                    <Link href="/cybersecurity">الأمن السيبراني</Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-2 col-md-4 p-0">
               <div className={styles.linksBox}>
-                <h4>Quick Links</h4>
+                <h4>روابط سريعة</h4>
                 <ul>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/">الرئيسية</Link>
                   </li>
                   <li>
-                    <Link href="/about">About</Link>
+                    <Link href="/about">من نحن</Link>
                   </li>
                   <li>
-                    <Link href="/service">Services</Link>
+                    <Link href="/service">الخدمات</Link>
                   </li>
                   <li>
-                    <Link href="/rizeApp">Rize App</Link>
+                    <Link href="/rizeApp">تطبيق Rize</Link>
                   </li>
                   <li>
                     <Link href="/welab">WeLab</Link>
                   </li>
                   <li>
-                    <Link href="/contact-us">Contact</Link>
+                    <Link href="/contact-us">تواصل معنا</Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-2 col-md-4 p-0">
               <div className={styles.linksBox}>
-              <h4>Contact us</h4>
+                <h4>اتصل بنا</h4>
                 <ul>
                   <p>+971-54-5061985</p>
                   <p>talktous@fintechify.ae</p>
                   <p>
-                    Unit: IH0101-OF01, Level One, <br /> Innovation One, DIFC,
-                    Dubai,
-                    <br /> UAE
+                    الوحدة: IH0101-OF01، الطابق الأول، <br /> Innovation One، مركز دبي المالي العالمي، <br /> دبي، الإمارات العربية المتحدة
                   </p>
                 </ul>
               </div>
             </div>
           </div>
           <div className="row" id={styles.BottomRow}>
-            <p className="text-center">&copy; 2024 FinTechify. All rights reserved.</p>
+            <p className="text-center">
+              &copy; 2024 FinTechify. جميع الحقوق محفوظة.
+            </p>
           </div>
         </section>
-
       </div>
     </>
   );
