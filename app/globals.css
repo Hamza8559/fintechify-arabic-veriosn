@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
 
 :root {
   --background: #171717;
   --foreground: #171717;
 }
 h1,h2,h3,h4,h5,h6,div,section,a,ul,li,button{
-  font-family: "Montserrat", sans-serif !important;
+  /* font-family: "Montserrat", sans-serif !important; */
+  font-family: "Noto Sans Arabic", sans-serif !important;
+  font-optical-sizing: auto;
   text-align: right !important;
   direction:rtl !important;
 }
@@ -14,7 +17,9 @@ ul{
   direction: rtl;
 }
 p,span{
-  font-family: "Work Sans", sans-serif !important;;
+  /* font-family: "Work Sans", sans-serif !important;; */
+  font-family: "Noto Sans Arabic", sans-serif !important;
+  font-optical-sizing: auto;
   line-height: normal !important;
   text-align: right !important;
   direction:rtl !important;
@@ -24,7 +29,9 @@ section{
 }
 body {
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Noto Sans Arabic", sans-serif !important;
+  font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   overflow-x: clip !important;
     -moz-osx-font-smoothing: grayscale;

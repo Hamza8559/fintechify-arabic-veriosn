@@ -10,19 +10,18 @@ import img from "../components/assets/images/financeimg.jpg";
 import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa6";
 
-
 const page = () => {
   return (
     <>
       <Header />
       <Banner
         showCase={false}
-        head={"Decentralized Finance (DeFi) Platform"}
+        head={"منصة التمويل اللامركزي (DeFi)"}
         tagLine={false}
-        tagLine2={"Financial freedom for everyone."}
+        tagLine2={"الحرية المالية للجميع."}
         Des={false}
       />
-      
+
       <section className="d-lg-block d-none mb-5 mt-5">
         <div className="container-fluid px-lg-5">
           <div className="row align-items-center">
@@ -33,57 +32,48 @@ const page = () => {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Revolutionize Your Finances: <br />Explore Our
-                  Powerful DeFi <br />Platform
+                  ثورة في المالية: <br />اكتشف منصتنا القوية <br />للتمويل اللامركزي
                 </h4>
                 <p>
-                  Fintechify is shaking things up with our revolutionary
-                  Decentralized Finance (DeFi) platform, built for YOU.
+                  Fintechify تقوم بتغيير اللعبة مع منصتنا الثورية للتمويل اللامركزي (DeFi)، المصممة خصيصاً لك.
                 </p>
                 <p>
-                  Break free from traditional limitations: Eliminate
-                  intermediaries and gain control over your investments, <br />
-                  borrowing, and lending activities.
+                  تحرر من القيود التقليدية: تخلص من الوساطة وسيطر على استثماراتك،
+                  <br /> الاقتراض، وأنشطة الإقراض.
                 </p>
                 <p>
-                  Unleash a world of possibilities: Explore a diverse range of
-                  DeFi products and services, including:
+                  اكتشف عالماً من الإمكانيات: استمتع بمجموعة متنوعة من منتجات وخدمات التمويل اللامركزي، بما في ذلك:
                 </p>
                 <p>
-                  Decentralized Exchanges (DEXs): Trade cryptocurrencies
-                  directly peer-to-peer without relying on <br />centralized
-                  platforms.
+                  التبادلات اللامركزية (DEXs): تداول العملات المشفرة مباشرة من نظير إلى نظير دون الاعتماد على
+                  <br />المنصات المركزية.
                 </p>{" "}
                 <p>
-                  Beyond Cash: It’s not just payments anymore. Imagine storing
-                  loyalty cards, tickets, and even <br />managing investments – all in
-                  one secure app. The future of finance is here!
+                  أكثر من مجرد النقود: لم تعد الأمور تتعلق فقط بالمدفوعات. تخيل إدارة بطاقات الولاء، التذاكر، وحتى
+                  <br />إدارة الاستثمارات - كل ذلك في تطبيق آمن واحد. المستقبل المالي هنا!
                 </p>
                 <p>
-                  DeFi Lending & Borrowing: Earn interest on your crypto
-                  holdings or 
-                  borrow funds at competitive rates, <br />all facilitated by smart
-                  contracts.
+                  الإقراض والاقتراض في DeFi: اكسب فائدة على أصولك المشفرة أو
+                  اقترض أموالاً بأسعار تنافسية،
+                  <br />كل ذلك مدعوم بالعقود الذكية.
                 </p>
                 <p>
-                  Yield Farming: Optimize your returns by strategically lending
-                  your crypto assets across <br />various DeFi protocols.
+                  الزراعة العائدية: عزز أرباحك عبر إقراض أصولك المشفرة بشكل استراتيجي عبر
+                  <br />بروتوكولات DeFi المختلفة.
                 </p>
                 <p>
-                  Security & Transparency: Our platform prioritizes the safety
-                  of your funds with robust security <br /> protocols and
-                  transparent on-chain transactions.
+                  الأمان والشفافية: منصتنا تضمن أمان أموالك باستخدام بروتوكولات أمان قوية
+                  <br />ومعاملات شفافة على السلسلة.
                 </p>
                 <p>
-                  Seamless User Experience: We offer an intuitive interface and
-                  educational resources to help you<br /> navigate the DeFi landscape
-                  with confidence, regardless of your experience level.
+                  تجربة مستخدم سلسة: نقدم واجهة بديهية وموارد تعليمية لمساعدتك
+                  <br />في التنقل في عالم DeFi بثقة، بغض النظر عن مستوى خبرتك.
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -124,57 +114,48 @@ const page = () => {
             >
               <div className={styles.InnovativeBox}>
                 <h4>
-                  Revolutionize Your Finances: <br />Explore Our
-                  Powerful DeFi <br />Platform
+                  ثورة في المالية: <br />اكتشف منصتنا القوية <br />للتمويل اللامركزي
                 </h4>
                 <p>
-                  Fintechify is shaking things up with our revolutionary
-                  Decentralized Finance (DeFi) platform, built for YOU.
+                  Fintechify تقوم بتغيير اللعبة مع منصتنا الثورية للتمويل اللامركزي (DeFi)، المصممة خصيصاً لك.
                 </p>
                 <p>
-                  Break free from traditional limitations: Eliminate
-                  intermediaries and gain control over your investments, <br />
-                  borrowing, and lending activities.
+                  تحرر من القيود التقليدية: تخلص من الوساطة وسيطر على استثماراتك،
+                  <br /> الاقتراض، وأنشطة الإقراض.
                 </p>
                 <p>
-                  Unleash a world of possibilities: Explore a diverse range of
-                  DeFi products and services, including:
+                  اكتشف عالماً من الإمكانيات: استمتع بمجموعة متنوعة من منتجات وخدمات التمويل اللامركزي، بما في ذلك:
                 </p>
                 <p>
-                  Decentralized Exchanges (DEXs): Trade cryptocurrencies
-                  directly peer-to-peer without relying on <br />centralized
-                  platforms.
+                  التبادلات اللامركزية (DEXs): تداول العملات المشفرة مباشرة من نظير إلى نظير دون الاعتماد على
+                  <br />المنصات المركزية.
                 </p>{" "}
                 <p>
-                  Beyond Cash: It’s not just payments anymore. Imagine storing
-                  loyalty cards, tickets, and even <br />managing investments – all in
-                  one secure app. The future of finance is here!
+                  أكثر من مجرد النقود: لم تعد الأمور تتعلق فقط بالمدفوعات. تخيل إدارة بطاقات الولاء، التذاكر، وحتى
+                  <br />إدارة الاستثمارات - كل ذلك في تطبيق آمن واحد. المستقبل المالي هنا!
                 </p>
                 <p>
-                  DeFi Lending & Borrowing: Earn interest on your crypto
-                  holdings or 
-                  borrow funds at competitive rates, <br />all facilitated by smart
-                  contracts.
+                  الإقراض والاقتراض في DeFi: اكسب فائدة على أصولك المشفرة أو
+                  اقترض أموالاً بأسعار تنافسية،
+                  <br />كل ذلك مدعوم بالعقود الذكية.
                 </p>
                 <p>
-                  Yield Farming: Optimize your returns by strategically lending
-                  your crypto assets across <br />various DeFi protocols.
+                  الزراعة العائدية: عزز أرباحك عبر إقراض أصولك المشفرة بشكل استراتيجي عبر
+                  <br />بروتوكولات DeFi المختلفة.
                 </p>
                 <p>
-                  Security & Transparency: Our platform prioritizes the safety
-                  of your funds with robust security <br /> protocols and
-                  transparent on-chain transactions.
+                  الأمان والشفافية: منصتنا تضمن أمان أموالك باستخدام بروتوكولات أمان قوية
+                  <br />ومعاملات شفافة على السلسلة.
                 </p>
                 <p>
-                  Seamless User Experience: We offer an intuitive interface and
-                  educational resources to help you<br /> navigate the DeFi landscape
-                  with confidence, regardless of your experience level.
+                  تجربة مستخدم سلسة: نقدم واجهة بديهية وموارد تعليمية لمساعدتك
+                  <br />في التنقل في عالم DeFi بثقة، بغض النظر عن مستوى خبرتك.
                 </p>
               </div>
               <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
+                  <Link href="/contact-us" passHref>
                     <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
+                      انضم الآن <FaArrowRight />
                     </span>
                   </Link>
                 </button>
@@ -183,122 +164,37 @@ const page = () => {
         </div>
       </section>
 
-      {/* <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
-        <div className="container-fluid px-5">
-          <div className="row">
-            <h4>Our Services Of DeFi Platform Development</h4>
-            <h4 className="mb-5">Tired of worrying about security and limited options?</h4>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}
-              >
-                <h5>Tired of worrying about security and limited options?</h5>
-                <p>
-                  Fintechify’s DeFi platform delivers a powerful combination of{" "}
-                  <br /> cutting-edge security and a diverse range of financial
-                  instruments, <br /> all accessible 24/7.
-                </p>
-                <h5>Built with rock-solid security:</h5>
-                <ul>
-                  <li>
-                    Blockchain Powered: We leverage the latest blockchain <br />{" "}
-                    technology to ensure every transaction is:
-                  </li>{" "}
-                  <li>
-                    Secure: Encrypted and tamper-proof, protecting your funds.{" "}
-                  </li>
-                  <li>
-                    Transparent: Every step is visible and verifiable on the
-                    blockchain.
-                  </li>
-                  <li>
-                    {" "}
-                    Immutable: Once completed, transactions cannot be reversed,
-                    fostering trust.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-6 p-lg-0">
-              <div
-                className={`${styles.processBox} ${styles.whiteBg} ${styles.decentralizedWhiteBottomBox}`}
-              >
-                
-                  <h5>Unleash a world of financial possibilities:</h5>
-                  <ul>
-                  <li>
-                    Beyond Traditional Finance: Our platform offers a wider
-                    range <br /> of tools than ever before:{" "}
-                  </li>
-                  <li>
-                    Decentralized Exchanges (DEXs): Trade directly with other{" "}
-                    <br /> users, bypassing centralized platforms.
-                  </li>
-                  <li>
-                    Lending & Borrowing Protocols: Earn interest on your <br />{" "}
-                    holdings or borrow funds at competitive rates.
-                  </li>
-                  <li>
-                    Yield Farming Opportunities: Maximize your returns with{" "}
-                    <br /> strategic crypto lending across DeFi protocols.
-                  </li>
-                </ul>
-                
-                  <h5>Seamless Integration and Accessibility:</h5>
-                  <ul>
-                  <li>
-                    The DeFi Ecosystem at Your Fingertips: Our platform is{" "}
-                    <br />
-                    interoperable with other DeFi applications (DApps) and{" "}
-                    <br /> blockchain networks, allowing you to explore the
-                    entire DeFi <br /> landscape.
-                  </li>
-                  <li>
-                    Financial Freedom, 24/7: No matter your location or <br />{" "}
-                    experience level, our intuitive interface makes DeFi
-                    accessible <br /> and easy to use, anytime, anywhere.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className={`${styles.processSection} mt-5`} data-aos="fade-up">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Our Services Of DeFi Platform Development</h4>
-            <h4 className="mb-5">Tired of worrying about security and limited options?</h4>
+            <h4>خدماتنا لتطوير منصة DeFi</h4>
+            <h4 className="mb-5">سئمت من القلق بشأن الأمان والخيارات المحدودة؟</h4>
 
             <div className={styles.flexBoxes}>
               <div className="col-lg-5 p-lg-0">
                 <div
                   className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedBlueUpperBox}`}
                 >
-                  <h5>Tired of worrying about security and limited options?</h5>
+                  <h5>سئمت من القلق بشأن الأمان والخيارات المحدودة؟</h5>
                   <p>
-                    Fintechify’s DeFi platform delivers a powerful combination of{" "}
-                    <br /> cutting-edge security and a diverse range of financial
-                    instruments, <br /> all accessible 24/7.
+                    منصة Fintechify للتمويل اللامركزي توفر مزيجًا قويًا من 
+                    <br /> الأمان المتطور ومجموعة متنوعة من الأدوات المالية،
+                    <br /> المتاحة على مدار الساعة.
                   </p>
-                  <h5>Built with rock-solid security:</h5>
+                  <h5>مبنية بأمان قوي:</h5>
                   <ul>
                     <li>
-                      Blockchain Powered: We leverage the latest blockchain <br />{" "}
-                      technology to ensure every transaction is:
+                      مدعومة بتكنولوجيا البلوكشين: نستخدم أحدث تكنولوجيا
+                      <br />البلوكشين لضمان كل معاملة:
                     </li>{" "}
                     <li>
-                      Secure: Encrypted and tamper-proof, protecting your funds.{" "}
+                      آمنة: مشفرة وغير قابلة للتلاعب، لحماية أموالك.
                     </li>
                     <li>
-                      Transparent: Every step is visible and verifiable on the
-                      blockchain.
+                      شفافة: كل خطوة مرئية وقابلة للتحقق على السلسلة.
                     </li>
                     <li>
-                      {" "}
-                      Immutable: Once completed, transactions cannot be reversed,
-                      fostering trust.
+                      غير قابلة للتغيير: بعد إتمام المعاملات، لا يمكن عكسها، مما يعزز الثقة.
                     </li>
                   </ul>
                 </div>
@@ -307,40 +203,33 @@ const page = () => {
                 <div
                   className={`${styles.processBox} ${styles.blueBg} ${styles.decentralizedWhiteBottomBox}`}
                 >
-                  
-                    <h5>Unleash a world of financial possibilities:</h5>
-                    <ul>
+                  <h5>اكتشف عالمًا من الإمكانيات المالية:</h5>
+                  <ul>
                     <li>
-                      Beyond Traditional Finance: Our platform offers a wider
-                      range <br /> of tools than ever before:{" "}
+                      أبعد من التمويل التقليدي: منصتنا تقدم مجموعة أوسع
+                      <br />من الأدوات المالية أكثر من أي وقت مضى:
                     </li>
                     <li>
-                      Decentralized Exchanges (DEXs): Trade directly with other{" "}
-                      <br /> users, bypassing centralized platforms.
+                      التبادلات اللامركزية (DEXs): تداول مباشرة مع مستخدمين آخرين،
+                      <br />دون الاعتماد على المنصات المركزية.
                     </li>
                     <li>
-                      Lending & Borrowing Protocols: Earn interest on your <br />{" "}
-                      holdings or borrow funds at competitive rates.
+                      بروتوكولات الإقراض والاقتراض: اكسب فائدة على أصولك أو اقترض أموالًا بأسعار تنافسية.
                     </li>
                     <li>
-                      Yield Farming Opportunities: Maximize your returns with{" "}
-                      <br /> strategic crypto lending across DeFi protocols.
+                      فرص الزراعة العائدية: عزز عوائدك من خلال إقراض أصولك بشكل استراتيجي عبر بروتوكولات DeFi.
                     </li>
                   </ul>
-                  
-                    <h5>Seamless Integration and Accessibility:</h5>
-                    <ul>
+
+                  <h5>تكامل سلس وإمكانية الوصول:</h5>
+                  <ul>
                     <li>
-                      The DeFi Ecosystem at Your Fingertips: Our platform is{" "}
-                      <br />
-                      interoperable with other DeFi applications (DApps) and{" "}
-                      <br /> blockchain networks, allowing you to explore the
-                      entire DeFi <br /> landscape.
+                      نظام DeFi في متناول يديك: منصتنا متوافقة مع التطبيقات اللامركزية الأخرى (DApps)
+                      <br />وشبكات البلوكشين، مما يسمح لك باستكشاف كامل منظومة DeFi.
                     </li>
                     <li>
-                      Financial Freedom, 24/7: No matter your location or <br />{" "}
-                      experience level, our intuitive interface makes DeFi
-                      accessible <br /> and easy to use, anytime, anywhere.
+                      الحرية المالية على مدار الساعة: بغض النظر عن موقعك أو مستوى خبرتك،
+                      <br />واجهة المستخدم البسيطة الخاصة بنا تجعل DeFi سهل الاستخدام وفي متناول الجميع.
                     </li>
                   </ul>
                 </div>
@@ -354,40 +243,36 @@ const page = () => {
         <div className="container px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
-              <Image src={QoutesImg} alt="Qoutes" />
+              <Image src={QoutesImg} alt="اقتباسات" />
               <h1 className={styles.heading}>
-                Ready to break free from traditional finance?
+                هل أنت مستعد للتحرر من التمويل التقليدي؟
               </h1>
-              <h3>Our cutting-edge DeFi platform empowers you</h3>
+              <h3>منصتنا المتطورة للتمويل اللامركزي تمكنك</h3>
             </div>
             <div className="col-lg-12 text-center">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
                   <li>
                     <span>
-                      Trade like a pro: Access a diverse range of
-                      cryptocurrencies on our secure DEX.
+                      تداول مثل المحترفين: وصول إلى مجموعة متنوعة من العملات المشفرة على DEX الآمنة الخاصة بنا.
                     </span>
                   </li>
                   <li>
                     <span>
-                      Earn like royalty: Borrow, lend, and farm for high yields
-                      with innovative DeFi tools.
+                      اربح مثل الملوك: اقترض، وقدم قروضًا، وازرع للحصول على عوائد عالية باستخدام أدوات DeFi المبتكرة.
                     </span>
                   </li>
                   <li>
                     <span>
-                      Be your own bank: Take control of your finances, free from
-                      centralized control.
+                      كن مصرفك الخاص: سيطر على أموالك، بدون سيطرة مركزية.
                     </span>
                   </li>
                 </ul>
               </div>
               <h5>
-                Don't wait! Sign up for your FREE Fintechify account TODAY and
-                unlock a world of financial possibilities.
+                لا تنتظر! اشترك اليوم للحصول على حساب Fintechify المجاني الخاص بك واكتشف عالمًا من الإمكانيات المالية.
               </h5>
-              <h3 style={{fontWeight:"600"}}>Limited Spots Available! JOIN THE REVOLUTION NOW!</h3>
+              <h3 style={{fontWeight:"600"}}>عدد محدود من الأماكن! انضم إلى الثورة الآن!</h3>
             </div>
           </div>
         </div>

@@ -19,6 +19,12 @@
     width: 50%;
     background-image: url(../assets/images/hjalftone-header-1@2x.webp);
 }
+.bannerBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 .bannerBox h2 {
     font-size: 50px;

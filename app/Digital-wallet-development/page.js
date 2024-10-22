@@ -4,7 +4,7 @@ import Header from '../components/Header/Header'
 import Banner from '../components/Banner/Banner'
 import Testimonials from '../components/Testimonials/Testimonials'
 import Footer from '../components/Footer/Footer'
-import styles from '../components/assets/css/services.module.css'
+import styles from '../components/assets/css/services.module.css' // Assuming RTL styles
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
 import img1 from '../components/assets/images/LwFhMaSbaBL4xwnIjhjtOh4AJVI2FE1fuQivfjbk.jpg'
@@ -17,9 +17,9 @@ const page = () => {
       <Header />
       <Banner
         showCase={false}
-        head={"Digital Wallet Development"}
+        head={"تطوير المحفظة الرقمية"}
         tagLine={false}
-        tagLine2={"Be a pioneer in the financial revolution."}
+        tagLine2={"كن رائدًا في الثورة المالية."}
         Des={false}
       />
       <section className='d-lg-block d-none mb-5 mt-5'>
@@ -27,22 +27,23 @@ const page = () => {
           <div className="row align-items-center">
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
               <div className={styles.InnovativeBox}>
-                <h4>Why Digital Wallet Development is Booming.</h4>
-                <p>The world is witnessing a mobile payment revolution, and at the heart of it all lies digital wallet development.  Cash is becoming a relic, replaced by the sleek convenience of digital wallets. But this isn’t just about replacing plastic with pixels. Here’s why digital wallet development is a goldmine::</p>
-                <p>User Explosion: The mobile wallet market is about to explode over 50% growth in just a few years!  Your digital wallet app will be surfing a tidal wave of new customers..</p>
-                <p>Frictionless Payments: Gone are the days of fumbling for cards. Digital wallets make checkouts a breeze one tap is all it takes!.</p>
+                <h4>لماذا تزدهر صناعة تطوير المحافظ الرقمية؟</h4>
+                <p>يشهد العالم ثورة في المدفوعات عبر الهواتف المحمولة، وفي قلب كل ذلك تكمن المحافظ الرقمية. أصبح النقد عملة قديمة، واستُبدل براحة المحافظ الرقمية الأنيقة. لكن هذا لا يتعلق فقط باستبدال البلاستيك بالبكسلات. إليك لماذا يعتبر تطوير المحافظ الرقمية فرصة ذهبية:</p>
+                <p>انفجار المستخدمين: من المتوقع أن ينمو سوق المحافظ الرقمية بأكثر من 50٪ في بضع سنوات! ستكون محفظتك الرقمية على موجة من العملاء الجدد.</p>
+                <p>المدفوعات السلسة: وداعًا لأيام البحث عن البطاقات. تجعل المحافظ الرقمية عمليات الدفع سهلة، فقط بنقرة واحدة!</p>
                 <p>
-                  Fort Knox Security: Worried about safety? Digital wallets are security champions, using cutting-edge tech to keep your finances safe.                </p>
-                <p>Beyond Cash: It’s not just payments anymore.  Imagine storing loyalty cards, tickets, and even managing investments – all in one secure app.  The future of finance is here!</p>
-                <p>Ready to join the revolution?  Develop the next game-changing digital wallet app!</p>
-                    </div>
-                    <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                  أمان "فورت نوكس": قلق بشأن الأمان؟ المحافظ الرقمية هي أبطال الأمان، باستخدام تقنيات متقدمة لحماية أموالك.
+                </p>
+                <p>ما بعد النقد: الأمر لم يعد يتعلق بالمدفوعات فقط. تخيل تخزين بطاقات الولاء، التذاكر، وحتى إدارة الاستثمارات - كل ذلك في تطبيق آمن واحد. مستقبل التمويل هنا!</p>
+                <p>جاهز للانضمام إلى الثورة؟ طوّر التطبيق الرقمي التالي الذي سيغير قواعد اللعبة!</p>
+              </div>
+              <button className={styles.LuSend2}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    انضم الآن <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
             <div className="col-lg-6">
               <div className={styles.InnovativeBox} data-aos="fade-up" data-aos-duration="500">
@@ -63,22 +64,23 @@ const page = () => {
             </div>
             <div className="col-lg-6" data-aos="fade-right" data-aos-duration="500">
               <div className={styles.InnovativeBox}>
-                <h4>Why Digital Wallet Development is Booming.</h4>
-                <p>The world is witnessing a mobile payment revolution, and at the heart of it all lies digital wallet development.  Cash is becoming a relic, replaced by the sleek convenience of digital wallets. But this isn’t just about replacing plastic with pixels. Here’s why digital wallet development is a goldmine::</p>
-                <p>User Explosion: The mobile wallet market is about to explode over 50% growth in just a few years!  Your digital wallet app will be surfing a tidal wave of new customers..</p>
-                <p>Frictionless Payments: Gone are the days of fumbling for cards. Digital wallets make checkouts a breeze one tap is all it takes!.</p>
+                <h4>لماذا تزدهر صناعة تطوير المحافظ الرقمية؟</h4>
+                <p>يشهد العالم ثورة في المدفوعات عبر الهواتف المحمولة، وفي قلب كل ذلك تكمن المحافظ الرقمية. أصبح النقد عملة قديمة، واستُبدل براحة المحافظ الرقمية الأنيقة. لكن هذا لا يتعلق فقط باستبدال البلاستيك بالبكسلات. إليك لماذا يعتبر تطوير المحافظ الرقمية فرصة ذهبية:</p>
+                <p>انفجار المستخدمين: من المتوقع أن ينمو سوق المحافظ الرقمية بأكثر من 50٪ في بضع سنوات! ستكون محفظتك الرقمية على موجة من العملاء الجدد.</p>
+                <p>المدفوعات السلسة: وداعًا لأيام البحث عن البطاقات. تجعل المحافظ الرقمية عمليات الدفع سهلة، فقط بنقرة واحدة!</p>
                 <p>
-                  Fort Knox Security: Worried about safety? Digital wallets are security champions, using cutting-edge tech to keep your finances safe.                </p>
-                <p>Beyond Cash: It’s not just payments anymore.  Imagine storing loyalty cards, tickets, and even managing investments – all in one secure app.  The future of finance is here!</p>
-                <p>Ready to join the revolution?  Develop the next game-changing digital wallet app!</p>
-                    </div>
-                    <button className={styles.LuSend2}>
-                  <Link href="/contact-us"passHref>
-                    <span style={{ textDecoration: "none", color: "white" }}>
-                      JOIN NOW <FaArrowRight />
-                    </span>
-                  </Link>
-                </button>
+                  أمان "فورت نوكس": قلق بشأن الأمان؟ المحافظ الرقمية هي أبطال الأمان، باستخدام تقنيات متقدمة لحماية أموالك.
+                </p>
+                <p>ما بعد النقد: الأمر لم يعد يتعلق بالمدفوعات فقط. تخيل تخزين بطاقات الولاء، التذاكر، وحتى إدارة الاستثمارات - كل ذلك في تطبيق آمن واحد. مستقبل التمويل هنا!</p>
+                <p>جاهز للانضمام إلى الثورة؟ طوّر التطبيق الرقمي التالي الذي سيغير قواعد اللعبة!</p>
+              </div>
+              <button className={styles.LuSend2}>
+                <Link href="/contact-us" passHref>
+                  <span style={{ textDecoration: "none", color: "white" }}>
+                    انضم الآن <FaArrowRight />
+                  </span>
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -87,35 +89,33 @@ const page = () => {
       <section className={styles.processSection} data-aos="fade-up" data-aos-duration="500">
         <div className="container-fluid px-lg-5">
           <div className="row">
-            <h4>Code, Craft, Cash! Unleash Your</h4>
-            <h4>Digital Wallet's Potential</h4>
-            <span className='m-0'>That's the power of our Code, Craft, Cash! digital wallet development process.</span>
-            <span>Here's how we turn your vision into reality:</span>
+            <h4>كود، حرفة، أموال! أطلق العنان لإمكانيات محفظتك الرقمية</h4>
+            <span className='m-0'>هذه هي قوة تطوير المحافظ الرقمية لدينا.</span>
+            <span>إليك كيف نحول رؤيتك إلى حقيقة:</span>
 
             <div className={styles.flexBoxes}>
               <div className='col-lg-5 p-lg-0'>
                 <div className={`${styles.processBox}  ${styles.blueBg} ${styles.DigiBlueUpperBox}`}>
                   <ul>
-                    <h5>1. Cracking the Code: Deep Dive Discovery</h5>
-                    <p>We don’t just write code; we write the future of finance. We partner with you to understand your business goals, target audience, and the tech that makes it tick.</p>
-                    <p>Think of us as financial detectives, uncovering the perfect formula for your digital wallet’s success.</p>
+                    <h5>1. فك الشيفرة: اكتشاف عميق</h5>
+                    <p>نحن لا نكتب الأكواد فقط؛ نحن نكتب مستقبل التمويل. نتعاون معك لفهم أهداف عملك، والجمهور المستهدف، والتقنية التي تجعل كل شيء يعمل.</p>
+                    <p>فكر فينا كـ"محققين ماليين"، نكتشف الصيغة المثالية لنجاح محفظتك الرقمية.</p>
                   </ul>
                   <ul>
-                    <h5>2. Crafting the Magic: Design & Prototyping</h5>
-                    <p>Our design wizards craft an interface that’s not just intuitive, it’s irresistible.  We create sleek prototypes that bring your app’s flow and functionality to life.</p>
+                    <h5>2. صناعة السحر: التصميم والنماذج الأولية</h5>
+                    <p>حرفيو التصميم لدينا يصنعون واجهة ليست فقط بديهية، بل ساحرة. نصنع نماذج تجريبية تجعل تدفق التطبيق ووظائفه تنبض بالحياة.</p>
                   </ul>
                 </div>
               </div>
               <div className='col-lg-5 p-lg-0' id={styles.marginBoxTop}>
                 <div className={`${styles.processBox}  ${styles.blueBg} ${styles.DigiWhiteBottomBox}`}>
                   <ul>
-                    <h5>3. Cashing in on Innovation: Development</h5>
-                    <p>Our developers are coding ninjas, wielding cutting-edge tech to build a digital wallet that’s scalable, secure, and lightning-fast.  We use industry best practices to make sure your app is built to last.</p>
+                    <h5>3. جني الأرباح: التطوير</h5>
+                    <p>مطورونا هم "نينجا" البرمجة، يستخدمون أحدث التقنيات لبناء محفظة رقمية قابلة للتطوير وآمنة وسريعة. نستخدم أفضل الممارسات لضمان أن تطبيقك مبني ليبقى.</p>
                   </ul>
                   <ul>
-                    <h5>4. Testing & Cashing Out:</h5>
-                    <p>Before you launch, we put your app through rigorous testing. We identify and eliminate any bugs or glitches, ensuring a seamless experience across all devices.
-                      Consider it a final polish before you unveil your masterpiece to the world.</p>
+                    <h5>4. الاختبار والتسليم:</h5>
+                    <p>قبل الإطلاق، نضع تطبيقك في اختبارات صارمة. نحدد ونقضي على أي عيوب أو أخطاء، لضمان تجربة سلسة عبر جميع الأجهزة. اعتبرها اللمسة النهائية قبل أن تكشف عن تحفتك الفنية للعالم.</p>
                   </ul> 
                 </div>
               </div>
@@ -129,18 +129,18 @@ const page = () => {
         <div className="container px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
-              <Image src={QoutesImg} alt='Qoutes' />
-              <h1 className={styles.heading}>Ready to Code, Craft, and Cash In?</h1>
-              <h3>Let's build the future of finance, together!</h3>
-              <p>Developing a digital wallet isn’t just about building an app, it’s about building the future of finance. Are you ready to be a <br />part of it?</p>
+              <Image src={QoutesImg} alt='اقتباسات' />
+              <h1 className={styles.heading}>جاهز لكتابة الكود، الحرفة، وجني الأموال؟</h1>
+              <h3>دعنا نبني مستقبل التمويل، معاً!</h3>
+              <p>تطوير المحفظة الرقمية ليس مجرد بناء تطبيق، إنه بناء مستقبل التمويل. هل أنت جاهز لتكون جزءًا منه؟</p>
             </div>
             <div className="col-lg-12">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
-                  <li className='text-start'><IoCheckmarkSharp /><span>Don't just develop an app, develop a revolution. Digital wallets are changing the game, and you can be at the forefront.</span></li>
-                  <li className='text-start'><IoCheckmarkSharp /><span>Security that's sharper than your new suit. Convenience that's smoother than a crypto transaction.</span></li>
-                  <li className='text-start'><IoCheckmarkSharp /><span>This isn't just mobile payments, it's the financial Swiss Army Knife of the future.</span></li>
-                  <li className='text-start'><IoCheckmarkSharp /><span>Ready to ditch the wallet bulge and build something epic? Let's make financial magic happen.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>لا تبني تطبيقًا فقط، بل ابتكر ثورة. المحافظ الرقمية تغير اللعبة، ويمكنك أن تكون في المقدمة.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>الأمان أشد من حلتك الجديدة. الراحة أسهل من معاملة العملات الرقمية.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>هذه ليست مجرد مدفوعات عبر الهاتف المحمول، إنها السكين السويسري المالي للمستقبل.</span></li>
+                  <li className='text-start'><IoCheckmarkSharp /><span>جاهز للتخلص من انتفاخ المحفظة وبناء شيء رائع؟ دعنا نصنع السحر المالي.</span></li>
                 </ul>
               </div>
             </div>
