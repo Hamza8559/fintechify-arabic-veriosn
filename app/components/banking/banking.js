@@ -28,7 +28,7 @@ function Page() {
               </button> */}
             </div>
             <div
-              className="col-lg-6"
+              className="col-lg-6 p-3"
               data-aos="fade-right"
               data-aos-duration="500"
             >
