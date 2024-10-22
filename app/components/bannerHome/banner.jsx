@@ -11,17 +11,17 @@ import head3 from "../assets/images/head3.png";
 import head4 from "../assets/images/head4.svg";
 
 const Banner = () => {
-  const [isOne, setIsOne] = useState(false);
-  const [isTwo, setIsTwo] = useState(true);
+  const [isOne, setIsOne] = useState(true);
+  const [isTwo, setIsTwo] = useState(false);
 
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setIsOne((prev) => !prev);
-  //     setIsTwo((prev) => !prev);
-  //   }, 5000);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIsOne((prev) => !prev);
+      setIsTwo((prev) => !prev);
+    }, 5000);
 
-  //   return () => clearInterval(timer);
-  // }, []);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className={` ${style.containerFluid}`}>

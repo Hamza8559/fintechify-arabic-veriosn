@@ -10,9 +10,6 @@
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   padding-top: 0px;
   background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
-
-  /* background: linear-gradient(90deg, #0e0683 51%, #0a096c 0%, #1a2c65) 51% / 200%; */
-  /* background-image: url("../assets/images/ft1-bg.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,9 +29,6 @@
   margin-top: 0px;
 }
 
-
-.colright {
-}
 
 .colright p {
   font-size: 20px;
@@ -162,7 +156,6 @@
   flex-direction: column;
    padding-left: 100px;
    padding-top: 50px;
-   /* align-items: center; */
   justify-content: center;
 
 }
@@ -173,9 +166,7 @@
   justify-content: center;
 }
 
-.colright p {
-  /* padding: 20px 0px; */
-}
+
 .colleft2 h1 {
   font-size: 65px;
   line-height: 65px;
@@ -191,7 +182,6 @@
   flex-direction: column;
    padding-left: 100px;
    padding-top: 50px;
-   /* align-items: center; */
   justify-content: center;
 
 }
@@ -202,16 +192,12 @@
   justify-content: center;
 }
 
-.colright2 p {
-  /* padding: 20px 0px; */
-}
+
 
 .rowContent {
   display: flex;
   padding-bottom: 0px;
   justify-content: space-evenly;
-  /* padding-right: 100px;
-  padding-left: 100px; */
   flex-direction: row;
   align-items: center;
 }
@@ -512,7 +498,7 @@
 
 .row3Child{
   position: relative;
-  top:-30%;
+  bottom: 35%;
 }
 
 .row3Child2{
@@ -866,7 +852,7 @@
   
   .slider1{
     border-radius: 0px;
-    height: 100vh;
+    height: 110vh;
   }
   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
     height: 40vh;
@@ -881,7 +867,7 @@
 
  .box1,.box3,.box4,.box5,.box6,.box7{
   width: 23vw;
-  height: 20vh;
+  height: 26vh;
  }
  .box3{
   top: 0%;
@@ -893,10 +879,10 @@
 
   }
  .row3Child{
-   top: -25%;
+   bottom: 16%;
  } 
  .row3Child2{
-  top: 10%;
+  top: 2%;
 } 
 
 
@@ -915,7 +901,7 @@
    height: 50vh;
  } */
  .row3Child{
-   top: -45%;
+   /* top: -45%; */
  } 
  .row3Child2{
   top: -10%;
@@ -946,12 +932,12 @@
    }
    .box2{
      width: 26vw;
-     height: 40vh;
+     height: 50vh;
      left: 22%;
   
     }
   .row3Child{
-    top: -60%;
+    /* top: -60%; */
   }
   .colleft {
     padding-left: 70px;
@@ -997,12 +983,6 @@
     height: 15vh;
   }
 
- .row3Child{
-  /* top: -45%; */
-} 
-.row3Child2{
- /* top: -35%; */
-} 
   .colright button {
     width: 25vw;
     margin-top: 25px;
@@ -1076,7 +1056,7 @@
     top: 5%;
   }
   .slider1{
-    height: 70vh;
+    height: 80vh;
   }
   .card1,.card2,.card3,.card4,.card5,.card6,.card7{
     height: 24vh;
@@ -1121,16 +1101,10 @@
   }
   .box1, .box3 , .box4 , .box5, .box6 , .box7{
     border-radius: 10px;
-
     width: 22vw;
-        height: 10vh;
+      height: 10vh;
   }
-  .row3Child{
-    top: -100%;
-  } 
-  .row3Child2{
-    /* top: 3%; */
-  } 
+
 
 
 }
@@ -1140,19 +1114,19 @@
   .box2{
     border-radius: 10px;
     width: 23vw;
-    height: 20vh;
+    height: 35vh;
     left: 24.5%;
-    top: 5%;
+    /* top: 5%; */
   }
   .box1, .box3 , .box4 , .box5, .box6 , .box7{
     width: 22vw;
-        height: 10vh;
+        height: 20vh;
   }
   .row3Child{
-    top: 45%;
+    /* bottom: 5%; */
   } 
   .row3Child2{
-    top: 25%;
+    /* top: 25%; */
   } 
 
    
@@ -1252,16 +1226,6 @@
 }
 
 
-@media screen and (max-width:740px) {
-    .box1{
-      /* top: 2; */
-    }
-}
-
-
-
-
-
 
 @media screen and (max-width: 568px) {
 
@@ -1270,7 +1234,7 @@
   .box2{
     border-radius: 10px;
     width: 23vw;
-    height: 20vh;
+    height: 25vh;
     left: 24.5%;
     top: -1%;
   }
@@ -1281,10 +1245,11 @@
   .box6,
   .box7 {
     width: 23vw;
-        height: 8vh;
+        height: 15vh;
   }
   .row3Child{
-    top: -10%;
+    /* top: -10%; */
+
   } 
   .row3Child2{
     top: -0%;
@@ -1351,7 +1316,7 @@
     }
   
 }
-@media screen and (max-width: 540px) {
+/* @media screen and (max-width: 540px) {
 
   .box2{
     border-radius: 10px;
@@ -1375,12 +1340,12 @@
 
  
   
-}
+} */
 
 
 @media screen and (max-width: 500px) {
   
-  .box2{
+  /* .box2{
     border-radius: 10px;
     width: 28vw;
     height: 16vh;
@@ -1396,7 +1361,7 @@
   } 
   .row3Child2{
     top: 25%;
-  } 
+  }  */
 
   .colleft h1{
     font-size: 30px;
@@ -1422,7 +1387,7 @@
 
   .box2{
     border-radius: 10px;
-    height: 19vh;
+    height: 22vh;
   }
   .box1,
   .box3,
@@ -1431,10 +1396,10 @@
   .box6,
   .box7 {
     width: 23vw;
-        height: 8vh;
+    height: 11vh;
   }
   .row3Child{
-    top: -13%;
+    /* top: -13%; */
   } 
   .row3Child2{
     /* top: -0%; */
@@ -1530,7 +1495,7 @@
     height: 55vh;
    }
    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 11vh;
+    height: 13vh;
    }
    
   
@@ -1585,19 +1550,26 @@
    }
 
   .btmRow2{
-    /* top: 0%; */
+    top: 0%;
   }
   .btmRow3{
     top:1%;
   }
   .row3Child{
-    top: -10%;
+    top: -5%;
   }
   .row3Child2{
-    top: 10%;
+    /* top: 10%; */
   }
   .box2{
-    height: 16.5vh;
+    height: 15vh;
+    width: 26vw;
+    left: 22.5%;
+    border-radius: 5px;
+  }
+  .box1, .box3 , .box4 , .box5, .box6 , .box7{
+    width: 20vw;
+    height: 7vh;
   }
   
 }
@@ -1606,12 +1578,16 @@
   .box2{
     border-radius: 10px;
     width: 25vw;
-    height: 16.5vh;
+    height: 15.5vh;
     left: 23%;
+  }
+  .box1, .box3 , .box4 , .box5, .box6 , .box7{
+    width: 20vw;
+    height: 8vh;
   }
 
 .row3Child{
-  top: -20%;
+  top: -15%;
 }
 .row3Child2{
   /* top: -5%; */
@@ -1713,9 +1689,11 @@
     height: 65vh;
    }
    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 14vh;
+    height: 17vh;
    }
-
+   .card2{
+    height: 17vh;
+   }
 
   .colleft{
     padding-left: 10px;
@@ -1743,7 +1721,7 @@
    }
 
    .btmRow{
-    /* top: 35%; */
+    top: 4%;
     /* z-index: 9; */
    }
  
@@ -1763,7 +1741,7 @@
   
   }
   .row3Child{
-    top: -27%;
+    top: 8%;
   }
   .row3Child2{
     top: 10%;
@@ -1787,22 +1765,11 @@
     width: 65vw;
    }
    
-  /* .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    width: 36vw;
-  } */
-
-/* .btmRow{
-  top: 5%;
-}
-.btmRow2{
-   top: 5%; 
-} */
-  
 }
 
 @media screen and (max-width:344px){
    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
-    height: 12vh;
+    height: 14vh;
   }
   .slider1{
     height: 55vh;
