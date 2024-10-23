@@ -537,6 +537,7 @@
   border-radius: 20px;
   position: absolute;
   background: url("../assets/images/revslider_1_img-3.jpg") left top / cover no-repeat transparent;
+  /* background: url("../assets/images/Add_a_heading_1.png") left top / cover no-repeat transparent; */
   left: 23%;
   top: -1%;
 

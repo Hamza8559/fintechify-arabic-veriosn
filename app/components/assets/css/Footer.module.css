@@ -14,7 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: clip;
-  box-shadow: -3px 6px 29px grey;
+  box-shadow: -3px 6px 29px #8080803b;
   width: 95%;
 }
 .subscribeBox h2{

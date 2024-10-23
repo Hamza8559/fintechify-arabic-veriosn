@@ -124,7 +124,7 @@ const Banner = () => {
                       <h6>أكثر المستخدمين نشاطًا</h6>
                     </span>
                   </div> */}
-                  <div
+                  {/* <div
                     className={style.star}
                     data-aos="fade-up"
                     data-aos-duration="1000"
@@ -134,7 +134,7 @@ const Banner = () => {
                       <h6>2024 العالم</h6>
                       <h6>أفضل بنك رقمي</h6>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div

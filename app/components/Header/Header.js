@@ -111,7 +111,7 @@ export default function Header() {
                   </li>
                   <li>
                     <Link href="/welab" className={styles.ol}>
-                      WeLab
+                    ويلاب WeLab
                     </Link>
                   </li>
                 </ul>
@@ -316,7 +316,7 @@ export default function Header() {
                   <Link href="/rizeApp">تطبيق Rize</Link>
                 </li>
                 <li>
-                  <Link href="/welab">WeLab</Link>
+                  <Link href="/welab">ويلاب WeLab</Link>
                 </li>
               </ul>
             )}

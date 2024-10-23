@@ -231,6 +231,7 @@
 .sidebar ul li a {
   text-decoration: none;
   color: #111;
+  font-weight: 700;
 }
 
 .sidebar ul li a:hover {
@@ -246,6 +247,7 @@
   width: 100%;
   cursor: pointer;
   color: black;
+  font-weight: 700;
 
 }
 

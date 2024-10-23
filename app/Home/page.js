@@ -22,7 +22,7 @@ const page = () => {
       <Services />
       {/* <Count /> */}
       <Payment />
-      <Move />
+      {/* <Move /> */}
       <Retail />
       <Testimonials />
       <Footer />
