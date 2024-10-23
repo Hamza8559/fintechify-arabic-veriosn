@@ -229,4 +229,7 @@
   .percent p{
     text-align: center;
   }
+  .financialText h2 {
+    font-size: 25px;
+  }
 }

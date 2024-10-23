@@ -126,4 +126,7 @@
   .aboutFirstsection .iconFlexBox h3 {
     font-size: 20px;
   }
+  .aboutFirstsection .iconFlexBox svg {
+    display: none;
+  }
 }

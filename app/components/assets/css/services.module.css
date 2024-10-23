@@ -528,7 +528,20 @@
         text-align: left;
     }
 }
-
+@media screen and (max-width: 480px) {
+    .InnovativeBox h4 {
+        font-size: 20px;
+    }
+    .aboutFirstsection h2{
+        font-size: 22px;
+    }
+    .aboutFirstsection .iconFlexBox svg {
+        display: none;
+    }
+    .processBox ul h5{
+        font-size: 18px;
+    }
+}
 /* @media screen and (max-width:480px) {
     .aboutFirstsection .iconFlexBox h3 {
         font-size: 15px;

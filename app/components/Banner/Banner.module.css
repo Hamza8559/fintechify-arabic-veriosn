@@ -124,4 +124,11 @@
     .bannerBox .tagLine2{
         font-size: 15px;
     }
+    .bannerBox .aboutTagLine {
+        font-size: 15px;
+    }
+    .bannerBox p{
+        font-size: 12px;
+    }
+    
 }

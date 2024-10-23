@@ -9,6 +9,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import styles from "../components/assets/css/about.module.css"
 import aboutFirstSectionImg from "../components/assets/images/smiling-arab-businessman-adult-happy-generate-ai-scaled-e1711735176898.jpg"
 import Testimonials from '../components/Testimonials/Testimonials'
+
 import CountUp from 'react-countup';
 
 export default function page() {

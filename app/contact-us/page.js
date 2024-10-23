@@ -10,6 +10,9 @@ import Image from 'next/image'
 import Map from '../components/map/map'
 import { IoLocation } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
+import { GrLocation } from "react-icons/gr";
+import { IoLocationOutline } from "react-icons/io5";
+
 
 
 function page() {
@@ -36,7 +39,7 @@ function page() {
                         </div>
                         <div className="col-lg-4">
                             <div className={styles.contactBox}>
-                            <IoLocation />
+                                <GrLocation />
                                 <div>
                                     <span>الموقع</span>
                                     <a href="#">الوحدة : IH0101-OF01، الطابق الأول،<br/> Innovation One، <br/>مركز دبي المالي العالمي (DIFC)، دبي، الإمارات العربية المتحدة.</a>

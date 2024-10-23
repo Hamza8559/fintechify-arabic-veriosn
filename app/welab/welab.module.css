@@ -284,3 +284,30 @@
     font-size: 7vw;
   }
 }
+@media screen and (max-width: 480px) {
+  .collg6 h1 {
+    font-size: 20px;
+  }
+  .boxright h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .boxright h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .boxleft h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .boxleft h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .boxright ul li {
+    font-size: 16px;
+  }
+  .boxleft ul li {
+    font-size: 16px;
+  }
+}

@@ -41,21 +41,21 @@ const FinancialComponent = () => {
                 رائدًا، وليس تابعًا.{" "}
               </p>
               <div className={`${styles.percentFlex} d-flex  mt-4`}>
-                <div className={`me-5 text-center ${styles.percent}`}>
+                <div className={`text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     
                     <h3>20x</h3>
                     <BsLightningCharge className={styles.eletric} />
                   </span>
-                  <p>تحويلات ومدفوعات فورية وسريعة للغاية.</p>
+                  <p className="text-center">تحويلات ومدفوعات فورية وسريعة للغاية.</p>
                 </div>
-                <div className={`me-5 text-center ${styles.percent}`}>
+                <div className={`text-center ${styles.percent}`}>
                   <span className={styles.percent1}>
                     
                     <h3>100%</h3>
                     <RiSecurePaymentLine className={styles.eletric} />
                   </span>
-                  <p>حماية بيانات فائقة الأمان.</p>
+                  <p className="text-center">حماية بيانات فائقة الأمان.</p>
                 </div>
               </div>
             </div>
