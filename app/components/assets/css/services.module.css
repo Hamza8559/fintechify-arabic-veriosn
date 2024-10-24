@@ -8,6 +8,9 @@
     font-size: 40px;
     color: black;
 }
+.everyoneSection p{
+    font-size: 21px;
+}
 .everyoneInnerBox {
     padding: 20px 20px;
     border-radius: 20px;
@@ -19,14 +22,14 @@
     margin-bottom: 20px;
 }
 .everyoneInnerBox h5 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 30px;
     color: black;
 }
 .everyoneInnerBox span {
     display: block;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 0;
 }
 .everyoneInnerBox:hover {
@@ -65,7 +68,7 @@
 }
 
 .servicessection p {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 .servicesBox {
@@ -98,7 +101,7 @@
     font-weight: 700;
 }
 .servicesBox span {
-    font-size: 14px;
+    font-size: 20px;
     display: block;
     padding-bottom: 25px;
 }
@@ -542,38 +545,14 @@
         font-size: 18px;
     }
 }
-/* @media screen and (max-width:480px) {
-    .aboutFirstsection .iconFlexBox h3 {
-        font-size: 15px;
+@media screen and (max-width:480px) {
+    .everyoneSection h4{
+        font-size: 22px;
     }
-    .processSection h4 {
-        font-size: 20px;
+    .everyoneSection p{
+        font-size: 17px;
     }
-    .getStartedSection .startedUpperBox h4 {
-        font-size: 25px;
+    .everyoneInnerBox span {
+        font-size: 17px;
     }
-    .getStartedSection .startedUpperBox p {
-        font-size: 15px;
-    }
-    .startedBottomSection p {
-        font-size: 16px;
-    }
-    .InnovativeBox h4 {
-        font-size: 20px;
-    }
-    .InnovativeBox p {
-        font-size: 12px;
-    }
-    .aboutFirstsection h2 {
-        font-size: 20px;
-    }
-    .iconFlexBox svg{
-        display: none;
-    }
-    .aboutFirstsection p{
-        font-size: 13px;
-    }
-    .servicessection .keyBox{
-        font-size: 20px;
-    }
-} */
+}

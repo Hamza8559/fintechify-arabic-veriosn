@@ -31,29 +31,29 @@ function page() {
             <Header />
             <Banner
                 showCase={false}
-                head="Services"
+                head="الخدمات"
                 tagLine={false}
                 Des={false}
             />
             <section className={styles.everyoneSection}>
                 <div className="container">
                     <div className="row">
-                        <h4>Come and take a look what everyone says</h4>
-                        <p>Discover the buzz! Come and take a look at what everyone is saying about our services.</p>
+                        <h4 className='text-center'>تعال وشاهد ماذا يقول الجميع</h4>
+                        <p className='text-center'>اكتشف الضجة! تعال وشاهد ماذا يقول الجميع عن خدماتنا.</p>
                     </div>
                     <div className="row justify-content-center mt-5">
                         <div className="col-lg-4">
-                            <div className={styles.everyoneInnerBox}>
+                            <div className={`${styles.everyoneInnerBox} text-center`}>
                                 <FcAddRow />
-                                <h5>Exceptional service!</h5>
-                                <span>The team at Fintechify goes above and beyond. Their expertise in banking solutions transformed our financial operations. Highly recommended!</span>
+                                <h5 className='text-center'>خدمة استثنائية!</h5>
+                                <span className='text-center'>فريق Fintechify يتجاوز التوقعات. خبرتهم في حلول البنوك حولت عملياتنا المالية. موصى به بشدة!</span>
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className={styles.everyoneInnerBox}>
+                            <div className={`${styles.everyoneInnerBox} text-center`}>
                                 <FcDoughnutChart />
-                                <h5>A Game-changer!</h5>
-                                <span>Fintechify exceeded our expectations. Their commitment to reducing legacy IT debt and ensuring regulatory compliance reflects their dedication to excellence. A trusted partner in our financial journey.</span>
+                                <h5 className='text-center'>مغير لقواعد اللعبة!</h5>
+                                <span className='text-center'>Fintechify فاقت توقعاتنا. التزامهم بتقليل ديون تكنولوجيا المعلومات وضمان الامتثال يعكس تفانيهم في التميز. شريك موثوق في رحلتنا المالية.</span>
                             </div>
                         </div>
                     </div>
@@ -69,9 +69,8 @@ function page() {
                         </div>
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox}>
-                                <h4 className='mt-4'>Innovative Fintech <br /> Solutions for  <br />Modern Finance</h4>
-                                <p>Discover modern finance through our innovative fintech solutions. From seamless payments to AI-powered insights, we offer a range of services designed to simplify and enhance your financial experience. Explore the future of finance with us.
-                                </p>
+                                <h4 className='mt-4'>حلول Fintech المبتكرة <br /> للتمويل الحديث</h4>
+                                <p>اكتشف التمويل الحديث من خلال حلولنا المبتكرة في Fintech. من المدفوعات السلسة إلى الرؤى المدعومة بالذكاء الاصطناعي، نقدم مجموعة من الخدمات المصممة لتبسيط وتعزيز تجربتك المالية. استكشف مستقبل التمويل معنا.</p>
                             </div>
                         </div>
                     </div>
@@ -80,108 +79,105 @@ function page() {
             <section className={styles.servicessection}>
                 <div className="container">
                     <div className="row">
-                        <h5>Our Services</h5>
-                        <p>Discover the buzz! Come and take a look at what everyone is saying about our services.</p>
+                        <h5 className='text-center'>خدماتنا</h5>
+                        <p className='text-center'>اكتشف الضجة! تعال وشاهد ماذا يقول الجميع عن خدماتنا.</p>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <CiBank />
-                                <h4>Banking App Development</h4>
-                                <span>At Fintechify, we specialize in creating cutting-edge banking apps tailored to the unique requirements of financial institutions.</span>
+                                <h4 className='text-center'>تطوير تطبيقات البنوك</h4>
+                                <span className='text-center'>في Fintechify، نحن متخصصون في إنشاء تطبيقات بنكية متطورة مصممة خصيصًا لمتطلبات المؤسسات المالية.</span>
                                 <div className={styles.numberBox}>
                                     <h6>01</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <FaWallet />
-                                <h4>Digital Wallet Development</h4>
-                                <span>Welcome to our Digital Wallet Development Services! In today’s fast-paced digital landscape, convenience is paramount,</span>
+                                <h4 className='text-center'>تطوير المحافظ الرقمية</h4>
+                                <span className='text-center'>مرحبًا بكم في خدمات تطوير المحافظ الرقمية لدينا! في العالم الرقمي السريع اليوم، الراحة هي الأولوية.</span>
                                 <div className={styles.numberBox}>
                                     <h6>02</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <SiJirasoftware />
-                                <h4>Insurance Software Development</h4>
-                                <span>At Fintechify, we understand the complexities of the insurance industry and the critical need for efficient, secure, and scalable software solutions.</span>
+                                <h4 className='text-center'>تطوير برامج التأمين</h4>
+                                <span className='text-center'>في Fintechify، نفهم تعقيدات صناعة التأمين والحاجة الماسة إلى حلول برمجية فعالة وآمنة وقابلة للتوسع.</span>
                                 <div className={styles.numberBox}>
                                     <h6>03</h6>
                                 </div>
                             </div>
                         </div>
-
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <FaCropSimple />
-                                <h4>FinOps Services</h4>
-                                <span>Welcome to Fintechify, where we offer comprehensive FinOps services designed to streamline your financial operations and optimize your business’s financial health.</span>
+                                <h4 className='text-center'>خدمات FinOps</h4>
+                                <span className='text-center'>مرحبًا بكم في Fintechify، حيث نقدم خدمات FinOps شاملة مصممة لتبسيط العمليات المالية وتحسين الصحة المالية لأعمالك.</span>
                                 <div className={styles.numberBox}>
                                     <h6>04</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <GiFlatPlatform />
-                                <h4>Crowdfunding Platform Development</h4>
-                                <span>Welcome to Fintechify, where innovation meets efficiency in crowdfunding platform development.</span>
+                                <h4 className='text-center'>تطوير منصة التمويل الجماعي</h4>
+                                <span className='text-center'>مرحبًا بكم في Fintechify، حيث يلتقي الابتكار بالكفاءة في تطوير منصات التمويل الجماعي.</span>
                                 <div className={styles.numberBox}>
                                     <h6>05</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <AiFillMerge />
-                                <h4>Decentralized Finance (DeFi) Platform</h4>
-                                <span>At Fintechify, we’re proud to introduce our cutting-edge Decentralized Finance (DeFi) platform, revolutionizing</span>
+                                <h4 className='text-center'>منصة التمويل اللامركزي (DeFi)</h4>
+                                <span className='text-center'>في Fintechify، نفخر بتقديم منصة التمويل اللامركزي (DeFi) المتطورة، التي تحدث ثورة في العالم المالي.</span>
                                 <div className={styles.numberBox}>
                                     <h6>06</h6>
                                 </div>
                             </div>
                         </div>
-
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <SiCivicrm />
-                                <h4>FinTech CRM Software Development</h4>
-                                <span>Empower your financial services business with a custom-built CRM solution tailored to your unique needs.</span>
+                                <h4 className='text-center'>تطوير برمجيات CRM في FinTech</h4>
+                                <span className='text-center'>عزز عملك في الخدمات المالية بحلول CRM مخصصة مصممة لتلبية احتياجاتك الفريدة.</span>
                                 <div className={styles.numberBox}>
                                     <h6>07</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <MdPayments />
-                                <h4>Payment App Development</h4>
-                                <span>At Fintechify, we understand that every business is unique, and so are its payment needs. That’s why we offer tailor-made payment app development.</span>
+                                <h4 className='text-center'>تطوير تطبيقات الدفع</h4>
+                                <span className='text-center'>في Fintechify، نفهم أن كل عمل فريد، وكذلك احتياجاته في الدفع. لهذا نقدم حلول تطوير تطبيقات دفع مخصصة.</span>
                                 <div className={styles.numberBox}>
                                     <h6>08</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <FaExchangeAlt />
-                                <h4>Currency Exchange Platform Development</h4>
-                                <span>At Fintechify, we specialize in the development of cutting-edge currency exchange platforms that are scalable.</span>
+                                <h4 className='text-center'>تطوير منصات تبادل العملات</h4>
+                                <span v>في Fintechify، نحن متخصصون في تطوير منصات تبادل العملات المتطورة القابلة للتوسع.</span>
                                 <div className={styles.numberBox}>
                                     <h6>09</h6>
                                 </div>
                             </div>
                         </div>
-
                         <div className="col-lg-4 mt-5">
-                            <div className={styles.servicesBox}>
+                            <div className={`${styles.servicesBox} text-center`}>
                                 <CiLock />
-                                <h4>Cybersecurity</h4>
-                                <span>Implementing cybersecurity is not just a protective measure but it's a strategic advantage that sets your business apart in an increasingly digital world.</span>
+                                <h4 className='text-center'>الأمن السيبراني</h4>
+                                <span className='text-center'>تنفيذ الأمن السيبراني ليس مجرد إجراء وقائي، بل هو ميزة استراتيجية تميز عملك في العالم الرقمي المتزايد.</span>
                                 <div className={styles.numberBox}>
                                     <h6>10</h6>
                                 </div>
@@ -195,9 +191,8 @@ function page() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className={styles.InnovativeBox}>
-                                <h4>Crafting Success: Partner with Experts in Innovative Product Design & Development</h4>
-                                <p>Collaborate with our seasoned experts in product design and development to precisely achieve your business goals. We bring innovation to the forefront, ensuring that every aspect of your project is crafted with precision. From conceptualization to execution, trust our team to transform your ideas into impactful and seamlessly functioning products, driving your business towards unparalleled success.
-                                </p>
+                                <h4>صياغة النجاح: تعاون مع خبراء في تصميم وتطوير المنتجات المبتكرة</h4>
+                                <p>تعاون مع خبرائنا المخضرمين في تصميم وتطوير المنتجات لتحقيق أهداف عملك بدقة. نحن نجلب الابتكار إلى المقدمة، مما يضمن أن كل جانب من جوانب مشروعك يتم صياغته بدقة. من التصور إلى التنفيذ، ثق بفريقنا لتحويل أفكارك إلى منتجات مؤثرة وعملية تدفع عملك نحو نجاح لا مثيل له.</p>
                             </div>
                         </div>
                         <div className="col-lg-6">
