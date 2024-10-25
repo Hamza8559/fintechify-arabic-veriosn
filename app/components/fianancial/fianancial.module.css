@@ -150,8 +150,9 @@
 
 .brand {
   margin: 0px 25px;
-  height: 67px;
-  width: 47%;
+  height: 100px;
+  width: 35%;
+  object-fit: contain;
 }
 
 .OneApp {
