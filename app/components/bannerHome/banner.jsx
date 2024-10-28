@@ -94,6 +94,9 @@ const Banner = () => {
               </div>
             </div>
             <Image src={Phone1} alt="Phone1" className={style.phoner1} />
+            {/* <Image src={Phone1} alt="Phone1" className={style.phoner1} /> */}
+            {/* <Image src={Phone1} alt="Phone1" className={style.phoner1} /> */}
+
           </div>
         )}
 
