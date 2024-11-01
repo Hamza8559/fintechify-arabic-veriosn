@@ -48,7 +48,7 @@
 }
 
 .RisMobile {
-  width: 70%;
+  width: 100%;
   height: auto;
   display: block;
   margin: auto;
@@ -57,16 +57,16 @@
 
 .collg6 h1 {
   color: black;
-  font-size: 21px;
+  font-size: 25px;
   font-weight: 600;
   line-height: normal;
 }
 
 .collg6 p {
-  font-weight: 300;
+  font-weight: 500;
   margin: 10px 0;
   color: gray;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .btn {
@@ -86,14 +86,14 @@
 }
 
 .boxleft {
-  background-color: #1d96fd;
+  background: linear-gradient(180deg, #082ac9, #1f96fd);;
   /* background-image: url('../components/assets/images/risebanner1.png'); */
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 20px;
   padding: 50px;
   color: white;
-  height: 600px;
+  height: 750px;
 }
 
 .flexBoxes{
@@ -105,11 +105,11 @@
   margin-top: 100px;
 }
 .boxright {
-  background-color: #1d96fd;
+  background: linear-gradient(180deg, #082ac9, #1f96fd);;
   color: white;
   border-radius: 20px;
   padding: 50px;
-  height: 600px;
+  height: 750px;
 }
 
 .row2 {
@@ -124,34 +124,34 @@
 
 .boxleft h5 {
   color: white !important;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .boxleft h2 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .boxleft ul li {
   color: white !important;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .boxright h5 {
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .boxright h2 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .boxright ul li {
   color: white;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .row2 {
@@ -183,7 +183,10 @@
   margin: 50px 0;
   color: black;
 }
-
+/* 
+.aboutFirst h2{
+  font-size: 55px;
+} */
 .aboutFirstsection h2 {
   font-size: 48px;
 }
@@ -201,29 +204,28 @@
 
 .aboutFirstsection .iconFlexBox svg {
   font-size: 20px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
   color: #1E8EF7;
 }
 
 .aboutFirstsection .iconFlexBox h3 {
   white-space: pre-wrap;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 
 .aboutFirstsection .iconFlexBox span {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 18px;
   white-space: break-spaces;
-  color: #666666;
-  padding-right: 30px;
+  color: black;
+  padding-left: 30px;
   display: block;
 }
 
 .aboutFirst img {
   border-radius: 50px;
 }
-
 .servicessection {
   text-align: center;
   color: black;
@@ -272,14 +274,14 @@
 
 /* Responsive breakpoints */
 @media screen and (max-width:992px) {
-  /* .container2{
+  .container2{
     margin-top: 80px !important;
-  } */
+  }
   .aboutFirstsection h2 {
     font-size: 30px;
   }
   .aboutFirstsection .iconFlexBox span {
-    padding-right: 0;
+    padding-left: 0;
   }
   .boxleft,.boxright {
     height: auto;
@@ -294,7 +296,7 @@
     margin-top: auto;
   }
   .RisMobile{
-    /* height: 500px; */
+    height: 500px;
     background: #FDFEFF;
   }
   .aboutFirst img {
@@ -316,41 +318,34 @@
   .col12 p {
     width: 90vw;
   }
-  .btn {
-    padding: 15px 20px;
-    font-size: 12px;
-  }
   .row2 h1 {
     font-size: 7vw;
   }
 }
-
 @media screen and (max-width: 480px) {
-  .aboutFirstsection .iconFlexBox h3 {
-    font-size: 14px;
+  .collg6 h1 {
+    font-size: 20px;
   }
-  .aboutFirstsection .iconFlexBox div span{
-    font-size: 12px;
-    padding-right: 15px;
+  .boxright h5 {
+    font-size: 18px;
+    font-weight: bold;
   }
-  .col12 h1 {
-    font-size: 10vw;
+  .boxright h2 {
+    font-size: 20px;
+    font-weight: 800;
   }
-  .col12 p {
-    width: 95vw;
+  .boxleft h5 {
+    font-size: 18px;
+    font-weight: bold;
   }
-  .btn {
-    padding: 10px 16px;
-    font-size: 10px;
+  .boxleft h2 {
+    font-size: 20px;
+    font-weight: 800;
   }
-  .row2 h1 {
-    font-size: 6vw;
+  .boxright ul li {
+    font-size: 16px;
   }
-  .servicessection h5 {
-    font-size: 25px;
-  }
-  
-  .servicessection p {
-    font-size: 15px;
+  .boxleft ul li {
+    font-size: 16px;
   }
 }
