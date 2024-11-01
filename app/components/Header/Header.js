@@ -114,6 +114,11 @@ export default function Header() {
                     ويلاب WeLab
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/FinBloc" className={styles.ol}>
+                    ويلاب WeLab
+                    </Link>
+                  </li>
                 </ul>
               )}
             </li>
@@ -317,6 +322,9 @@ export default function Header() {
                 </li>
                 <li>
                   <Link href="/welab">ويلاب WeLab</Link>
+                </li>
+                <li>
+                  <Link href="/FinBloc">ويلاب WeLab</Link>
                 </li>
               </ul>
             )}
