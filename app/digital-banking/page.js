@@ -20,7 +20,7 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"البنك الرقمي"}
+        head={"الخدمات المصرفية الرقمية"}
         tagLine={false}
         Des={false}
       />
@@ -34,32 +34,34 @@ function page() {
               data-aos-duration="500"
             >
               <div className={styles.InnovativeBox}>
-                <h4>منصة البنك الرقمي الخاصة بنا</h4>
+                <h4>منصة البنك الرقمي لدينا</h4>
                 <h6>
                   <b>“كاش آب”</b>
                 </h6>
                 <p>
-                  منصة موحدة تضم الخدمات البنكية، التأمين، والاستثمارات. تمكن
-                  العملاء من القيام بمعاملات بنكية تشمل سداد الفواتير، تحويل
-                  الأموال، القروض المصغرة، تعبئة الرصيد وغيرها.
+                  التأمين، والاستثمار تحت منصة واحدة. إنها حل متكامل
+                  للخدمات المصرفية عبر الهاتف المحمول الذي يمنح العملاء
+                  القدرة على إجراء المعاملات من حساباتهم المصرفية الحالية
+                  على خدمات مثل دفع الفواتير، والتحويلات المالية، والخدمات
+                  المصرفية، والقروض الصغيرة، ودقائق الهاتف المحمول، وغيرها.
                 </p>
                 <h5 className="mt-5">المكونات الأساسية</h5>
                 <ul className={styles.ulPoints}>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    تطبيق وموقع كاش آب
+                    تطبيق / ويب كاش آب
                   </li>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    منصة الدفع الخاصة بكاش آب
+                    منصة دفع كاش آب
                   </li>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    نظام توكينيزاشن كاش آب
+                    نظام التشفير كاش آب
                   </li>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    واجهة برمجة التطبيقات الخاصة بكاش آب
+                    API كاش آب
                   </li>
                 </ul>
               </div>
@@ -102,32 +104,34 @@ function page() {
               data-aos-duration="500"
             >
               <div className={styles.InnovativeBox}>
-                <h4>منصة البنك الرقمي الخاصة بنا</h4>
+                <h4>منصة البنك الرقمي لدينا</h4>
                 <h6>
                   <b>“كاش آب”</b>
                 </h6>
                 <p>
-                  منصة موحدة تضم الخدمات البنكية، التأمين، والاستثمارات. تمكن
-                  العملاء من القيام بمعاملات بنكية تشمل سداد الفواتير، تحويل
-                  الأموال، القروض المصغرة، تعبئة الرصيد وغيرها.
+                  التأمين، والاستثمار تحت منصة واحدة. إنها حل متكامل
+                  للخدمات المصرفية عبر الهاتف المحمول الذي يمنح العملاء
+                  القدرة على إجراء المعاملات من حساباتهم المصرفية الحالية
+                  على خدمات مثل دفع الفواتير، والتحويلات المالية، والخدمات
+                  المصرفية، والقروض الصغيرة، ودقائق الهاتف المحمول، وغيرها.
                 </p>
                 <h5 className="mt-5">المكونات الأساسية</h5>
                 <ul className={styles.ulPoints}>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    تطبيق وموقع كاش آب
+                    تطبيق / ويب كاش آب
                   </li>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    منصة الدفع الخاصة بكاش آب
+                    منصة دفع كاش آب
                   </li>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    نظام توكينيزاشن كاش آب
+                    نظام التشفير كاش آب
                   </li>
                   <li>
                     <MdOutlineKeyboardDoubleArrowRight />
-                    واجهة برمجة التطبيقات الخاصة بكاش آب
+                    API كاش آب
                   </li>
                 </ul>
               </div>
@@ -158,14 +162,15 @@ function page() {
                 data-aos-offset="300"
               >
                 <h2 className="mt-5">
-                  البنك الرقمي
+                  الخدمات المصرفية الرقمية
                   <br /> كاش آب
                 </h2>
                 <div className={styles.iconFlexBox}>
                   <div>
-                    <h5>لنحوّل الخدمات البنكية...</h5>
+                    <h5>لنحوّل تجربة المصرفية...</h5>
                     <span className="mt-2">
-                      مع نظام دفع شامل مصمم لتقديم تجربة آمنة ومريحة وسلسة.
+                      مع نظام دفع شامل صُمم لتوفير تجربة نقدية سهلة وآمنة
+                      ومريحة.
                     </span>
                   </div>
                 </div>
@@ -183,27 +188,34 @@ function page() {
         <div className="container-fluid px-lg-5">
           <div className="row">
             <div className={styles.startedUpperBox}>
-              <Image src={QoutesImg} alt="اقتباسات" />
+              <Image src={QoutesImg} alt="Qoutes" />
               <h4>ابدأ اليوم</h4>
-              <p>هل مللت من التطبيقات البنكية التقليدية؟ نحن نبني تكنولوجيا المستقبل.</p>
+              <p>هل سئمت من التطبيقات المصرفية البطيئة؟ نحن نبني تطبيقات رائعة.</p>
             </div>
             <div className="col-lg-6">
               <div className={`${styles.startedBox} ${styles.startedLeft}`}>
                 <ul>
                   <h5>
-                    عملاؤك يستحقون تجربة بنكية متطورة وليست متأخرة. نحن نبني
-                    تطبيقات قوية وسهلة الاستخدام والتي:
+                    عملاؤك يستحقون تجربة مصرفية عبر الهاتف المحمول تنطلق
+                    بسرعة، لا تجربة عالقة في العصور المظلمة. نحن نصنع تطبيقات
+                    قوية وسهلة الاستخدام:
                   </h5>
                   <li className="text-start">
                     <IoCheckmarkSharp />
                     <span>
-                      تحمي المعلومات مثل "فورت نوكس" (لكن مع واي فاي أفضل).
+                      حماية المعلومات كما لو كانت في حصن (ولكن مع واي فاي أفضل).
                     </span>
                   </li>
                   <li className="text-start">
                     <IoCheckmarkSharp />
                     <span>
-                      تسهل إدارة الأموال بشكل سلس.
+                      جعل إدارة الشؤون المالية أسهل من انزلاق سلس.
+                    </span>
+                  </li>
+                  <li className="text-start">
+                    <IoCheckmarkSharp />
+                    <span>
+                      جعل إدارة الشؤون المالية أسهل من انزلاق سلس.
                     </span>
                   </li>
                 </ul>
@@ -213,40 +225,34 @@ function page() {
               <div className={`${styles.startedBox}  ${styles.starteRight}`}>
                 <ul>
                   <h5>
-                    نحن لسنا مجرد مطورين، نحن أبطال في الخدمات البنكية. فريقنا
-                    من خبراء التصميم والبرمجة والاستراتيجيات ينشئ:
+                    نحن لسنا مجرد مطورين، نحن أبطال المصارف. فريقنا من
+                    السحرة المصممين، و"نينجا" الكودات، وعقولنا الاستراتيجية
+                    تتضافر لإنشاء:
                   </h5>
                   <li className="text-start">
                     <IoCheckmarkSharp />
-                    <span>تطبيقات ممتعة وسهلة الاستخدام.</span>
+                    <span>تطبيقات ممتعة للاستخدام، ليست عبئًا.</span>
                   </li>
                   <li className="text-start">
                     <IoCheckmarkSharp />
                     <span>
-                      ميزات تجعل التعامل البنكي بسيطًا وسلسًا.
+                      ميزات تجعل التعامل مع المصارف سهلة، لا معركة.
                     </span>
                   </li>
                   <li className="text-start">
                     <IoCheckmarkSharp />
                     <span>
-                      حلول تجعل العملاء معجبين وليسوا محبطين.
+                      حلول تحول العملاء إلى معجبين متحمسين.
                     </span>
                   </li>
                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className={styles.startedBottomSection}>
-                لا تقدم مجرد بنك، كن الثورة البنكية. شارك مع Fintechify وشاهد
-                تطبيقك يرتقي إلى السماء! <br />
-                هل أنت جاهز لإطلاق تطبيقك البنكي إلى آفاق جديدة؟ نحن هنا لنجعله
-                حقيقة!
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <Testimonials />
       <Footer />
     </>
   );
