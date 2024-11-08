@@ -21,7 +21,10 @@ import { IoIosArrowUp } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdClose } from "react-icons/md";
 import { FaBars } from "react-icons/fa";
-import { GoArrowUpLeft } from "react-icons/go";
+import { FaRoute } from "react-icons/fa6";
+import { MdFormatIndentDecrease } from "react-icons/md";
+import { SiSololearn } from "react-icons/si";
+import { SiMarketo } from "react-icons/si";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -102,23 +105,18 @@ export default function Header() {
                 <ul
                   onMouseLeave={() => {
                     setProdMenu(false);
-                  }}
-                >
-                  <li>
-                    <Link href="/rizeApp" className={styles.ol}>
-                      تطبيق Rize
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/welab" className={styles.ol}>
-                    ويلاب WeLab
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/FinBloc" className={styles.ol}>
-                    فين بلوك FinBloc
-                    </Link>
-                  </li>
+                  }}>
+                  <li> <Link href="/rizeApp" className={styles.ol}>تطبيق Rize</Link></li>
+                  <li><Link href="/welab" className={styles.ol}> ويلاب WeLab</Link></li>
+                  <li><Link href="/FinBloc" className={styles.ol}>منصة الوسائط التفاعلية</Link></li>
+                  <li><Link href="/property-management-solution" className={styles.ol}>حل إدارة الممتلكات</Link></li>
+                  <li><Link href="/smart-order" className={styles.ol}>الطلب الذكي</Link></li>
+                  <li><Link href="/gateway-plus" className={styles.ol}>بوابة بلس</Link></li>
+                  <li><Link href="/smart-city-solutions" className={styles.ol}>حلول المدن الذكية</Link></li>
+                  <li><Link href="/mobile-money-solution" className={styles.ol}>حلول المال عبر الهاتف المحمول</Link></li>
+                  <li><Link href="/core-banking-solution" className={styles.ol}>منصة الخدمات المصرفية الأساسية</Link></li>
+                  <li><Link href="/mobile-wallet" className={styles.ol}>منصة المحفظة الرقمية</Link></li>
+                  <li><Link href="/digital-banking" className={styles.ol}>منصة التفعيل الرقمي</Link></li>
                 </ul>
               )}
             </li>
@@ -148,8 +146,7 @@ export default function Header() {
                     <AiFillAppstore color="#1e8bf6" />
                     <div>
                       <Link href="/Banking-app-development">
-                        تطوير التطبيقات المصرفية
-                        <GoArrowUpLeft />
+                        تطوير تطبيقات البنوك <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -157,8 +154,7 @@ export default function Header() {
                     <CiWallet color="#1e8bf6" />
                     <div>
                       <Link href="/Digital-wallet-development">
-                        تطوير المحفظة الرقمية
-                        <GoArrowUpLeft />
+                        تطوير المحافظ الرقمية <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -166,8 +162,7 @@ export default function Header() {
                     <SiBmcsoftware color="#1e8bf6" />
                     <div>
                       <Link href="/Insurance-software-development">
-                        تطوير برامج التأمين
-                        <GoArrowUpLeft />
+                        تطوير برامج التأمين <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -175,7 +170,15 @@ export default function Header() {
                     <CiLock color="#1e8bf6" />
                     <div>
                       <Link href="/cybersecurity">
-                        الأمن السيبراني <GoArrowUpLeft />
+                        الأمن السيبراني <WiDirectionUpRight />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <MdFormatIndentDecrease color="#1e8bf6" />
+                    <div>
+                      <Link href="/DevOps-Transformation">
+                        تحويل DevOps <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -187,7 +190,7 @@ export default function Header() {
                     <MdOutlineDesignServices color="#1e8bf6" />
                     <div>
                       <Link href="/finops-services">
-                        خدمات العمليات المالية (FinOps) <GoArrowUpLeft />
+                        خدمات FinOps <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -195,8 +198,7 @@ export default function Header() {
                     <GiFlatPlatform color="#1e8bf6" />
                     <div>
                       <Link href="/Crowdfunding-platform-development">
-                        تطوير منصة التمويل الجماعي
-                        <GoArrowUpLeft />
+                        تطوير منصات التمويل الجماعي <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -204,7 +206,23 @@ export default function Header() {
                     <GiPlatform color="#1e8bf6" />
                     <div>
                       <Link href="/decentralized-finance-defi-platform">
-                        التمويل اللامركزي <GoArrowUpLeft />
+                        منصة التمويل اللامركزي <WiDirectionUpRight />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <FaRoute color="#1e8bf6" />
+                    <div>
+                      <Link href="/IT-outsourcing">
+                        الاستعانة بمصادر خارجية لتكنولوجيا المعلومات <WiDirectionUpRight />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <SiMarketo color="#1e8bf6" />
+                    <div>
+                      <Link href="/E-commerce">
+                        التجارة الإلكترونية <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -216,7 +234,7 @@ export default function Header() {
                     <GrIntegration color="#1e8bf6" />
                     <div>
                       <Link href="/integration-services">
-                        خدمات التكامل <GoArrowUpLeft />
+                        خدمات التكامل <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -224,7 +242,7 @@ export default function Header() {
                     <GrResources color="#1e8bf6" />
                     <div>
                       <Link href="/resource-augmentation">
-                        تعزيز الموارد <GoArrowUpLeft />
+                        تعزيز الموارد <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -232,7 +250,15 @@ export default function Header() {
                     <FaExchangeAlt color="#1e8bf6" />
                     <div>
                       <Link href="/currency-exchange-platform-development">
-                        تطوير منصة تبادل العملات <GoArrowUpLeft />
+                        تطوير منصة تبادل العملات <WiDirectionUpRight />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <SiSololearn color="#1e8bf6" />
+                    <div>
+                      <Link href="/solution-re-engineering">
+                        إعادة هندسة الحلول <WiDirectionUpRight />
                       </Link>
                     </div>
                   </li>
@@ -240,6 +266,7 @@ export default function Header() {
               </div>
             </div>
           </div>
+
         </section>
       )}
 
@@ -254,57 +281,53 @@ export default function Header() {
           </li>
           <li>
             <button className={styles.dropdownButton} onClick={toggleDropdown}>
-            الخدمات {isDropdownOpen ? <IoIosArrowDown /> : <IoIosArrowUp />}
+              الخدمات {isDropdownOpen ? <IoIosArrowDown /> : <IoIosArrowUp />}
             </button>
             {isDropdownOpen && (
-              <ul className={styles.dropdown}>
+             <ul className={styles.dropdown}>
                 <li>
-                  <Link href="/Banking-app-development">
-                    تطوير التطبيقات المصرفية
-                  </Link>
+                    <Link href="/Banking-app-development">تطوير تطبيقات البنوك</Link>
                 </li>
                 <li>
-                  <Link href="/Digital-wallet-development">
-                    تطوير المحفظة الرقمية
-                  </Link>
+                    <Link href="/Digital-wallet-development">تطوير المحافظ الرقمية</Link>
                 </li>
                 <li>
-                  <Link href="/Insurance-software-development">
-                    تطوير برامج التأمين
-                  </Link>
+                    <Link href="/Insurance-software-development">تطوير برامج التأمين</Link>
                 </li>
                 <li>
-                  <Link href="/finops-services">
-                    خدمات العمليات المالية (FinOps)
-                  </Link>
+                    <Link href="/finops-services">خدمات FinOps</Link>
                 </li>
                 <li>
-                  <Link href="/Crowdfunding-platform-development">
-                    تطوير منصة التمويل الجماعي
-                  </Link>
+                    <Link href="/Crowdfunding-platform-development">تطوير منصات التمويل الجماعي</Link>
                 </li>
                 <li>
-                  <Link href="/decentralized-finance-defi-platform">
-                    التمويل اللامركزي
-                  </Link>
+                    <Link href="/decentralized-finance-defi-platform">منصة التمويل اللامركزي</Link>
                 </li>
                 <li>
-                  <Link href="/integration-services">خدمات التكامل</Link>
+                    <Link href="/integration-services">خدمات التكامل</Link>
                 </li>
                 <li>
-                  <Link href="/resource-augmentation">
-                  تعزيز الموارد
-                  </Link>
+                    <Link href="/resource-augmentation">تعزيز الموارد</Link>
                 </li>
                 <li>
-                  <Link href="/currency-exchange-platform-development">
-                  تطوير منصة تبادل العملات
-                  </Link>
+                    <Link href="/currency-exchange-platform-development">تطوير منصة تبادل العملات</Link>
                 </li>
                 <li>
-                  <Link href="/cybersecurity">الأمن السيبراني</Link>
+                    <Link href="/cybersecurity">الأمن السيبراني</Link>
                 </li>
-              </ul>
+                <li>
+                    <Link href="/IT-outsourcing">الاستعانة بمصادر خارجية لتكنولوجيا المعلومات</Link>
+                </li>
+                <li>
+                    <Link href="/solution-re-engineering">إعادة هندسة الحلول</Link>
+                </li>
+                <li>
+                    <Link href="/DevOps-Transformation">تحويل DevOps</Link>
+                </li>
+                <li>
+                    <Link href="/E-commerce">التجارة الإلكترونية</Link>
+                </li>
+            </ul>
             )}
           </li>
           <li>
@@ -317,15 +340,17 @@ export default function Header() {
             </button>
             {isDropdownOpentwo && (
               <ul className={styles.dropdown}>
-                <li>
-                  <Link href="/rizeApp">تطبيق Rize</Link>
-                </li>
-                <li>
-                  <Link href="/welab">ويلاب WeLab</Link>
-                </li>
-                <li>
-                  <Link href="/FinBloc">فين بلوك FinBloc</Link>
-                </li>
+                  <li> <Link href="/rizeApp" className={styles.ol}>تطبيق Rize</Link></li>
+                  <li><Link href="/welab" className={styles.ol}> ويلاب WeLab</Link></li>
+                  <li><Link href="/FinBloc" className={styles.ol}>منصة الوسائط التفاعلية</Link></li>
+                  <li><Link href="/property-management-solution" className={styles.ol}>حل إدارة الممتلكات</Link></li>
+                  <li><Link href="/smart-order" className={styles.ol}>الطلب الذكي</Link></li>
+                  <li><Link href="/gateway-plus" className={styles.ol}>بوابة بلس</Link></li>
+                  <li><Link href="/smart-city-solutions" className={styles.ol}>حلول المدن الذكية</Link></li>
+                  <li><Link href="/mobile-money-solution" className={styles.ol}>حلول المال عبر الهاتف المحمول</Link></li>
+                  <li><Link href="/core-banking-solution" className={styles.ol}>منصة الخدمات المصرفية الأساسية</Link></li>
+                  <li><Link href="/mobile-wallet" className={styles.ol}>منصة المحفظة الرقمية</Link></li>
+                  <li><Link href="/digital-banking" className={styles.ol}>منصة التفعيل الرقمي</Link></li>
               </ul>
             )}
           </li>
