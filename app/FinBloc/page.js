@@ -63,7 +63,7 @@ const page = () => {
               way—starting at an amount that fits your budget.
             </p>
             <p>
-              Whether you're new to real estate or a seasoned investor, FinBlocs
+              Whether you're new to real estate or a 1 investor, FinBlocs
               make it easy to start investing in high-value properties in the
               UAE market.
             </p>

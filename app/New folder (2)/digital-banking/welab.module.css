@@ -1,5 +1,5 @@
 .containerFluid {
-  padding: 0;
+  padding: 0px;
 }
 
 .container {
@@ -23,7 +23,6 @@
 
 .col12 h1 {
   font-size: 6vw;
-  /* Responsive font size */
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -34,39 +33,36 @@
 .col12 p {
   text-align: center;
   width: 50vw;
-  /* Use viewport width for better responsiveness */
   font-weight: 300;
   animation: tilt-in-top-1 1s ease 0s 1 normal none;
   color: white;
 }
 
 .container2 {
-  /* padding: 30px; */
+  padding: 30px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.RisMobile {
+.RisMobile2 {
+  height: 640px;
   width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
   object-fit: contain;
 }
 
 .collg6 h1 {
   color: black;
-  font-size: 25px;
+  font-size: 21px;
   font-weight: 600;
   line-height: normal;
 }
 
 .collg6 p {
-  font-weight: 500;
+  font-weight: 300;
   margin: 10px 0;
   color: gray;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .btn {
@@ -86,30 +82,30 @@
 }
 
 .boxleft {
-  background: linear-gradient(180deg, #082ac9, #1f96fd);;
-  /* background-image: url('../components/assets/images/risebanner1.png'); */
+  background-color: #1d96fd;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 20px;
   padding: 50px;
   color: white;
-  height: 750px;
+  height: 400px;
 }
 
-.flexBoxes{
+.flexBoxes {
   display: flex;
   justify-content: space-around;
-  margin-top: 40px;
 }
-.marginTop{
+
+.marginTop {
   margin-top: 100px;
 }
+
 .boxright {
-  background: linear-gradient(180deg, #082ac9, #1f96fd);;
+  background-color: #1d96fd;
   color: white;
   border-radius: 20px;
   padding: 50px;
-  height: 750px;
+  height: 400px;
 }
 
 .row2 {
@@ -124,34 +120,34 @@
 
 .boxleft h5 {
   color: white !important;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .boxleft h2 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 800;
 }
 
 .boxleft ul li {
   color: white !important;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .boxright h5 {
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .boxright h2 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 800;
 }
 
 .boxright ul li {
   color: white;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .row2 {
@@ -165,6 +161,17 @@
   color: black;
   font-size: 40px;
   font-weight: 600;
+}
+
+.RisMobile2 {
+  height: 640px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.collg62 {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes tilt-in-top-1 {
@@ -183,10 +190,7 @@
   margin: 50px 0;
   color: black;
 }
-/* 
-.aboutFirst h2{
-  font-size: 55px;
-} */
+
 .aboutFirstsection h2 {
   font-size: 48px;
 }
@@ -204,148 +208,118 @@
 
 .aboutFirstsection .iconFlexBox svg {
   font-size: 20px;
-  /* margin-right: 15px; */
+  margin-right: 15px;
   color: #1E8EF7;
 }
 
 .aboutFirstsection .iconFlexBox h3 {
   white-space: pre-wrap;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .aboutFirstsection .iconFlexBox span {
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 14px;
   white-space: break-spaces;
-  color: black;
-  padding-left: 30px;
+  color: #666666;
+  padding-right: 30px;
   display: block;
 }
 
 .aboutFirst img {
   border-radius: 50px;
 }
-.servicessection {
-  text-align: center;
-  color: black;
-  margin: 80px 0;
-}
-.servicessection h5 {
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.servicessection p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.servicesBox {
-  color: black;
-  padding: 20px 20px;
-  border-radius: 20px;
-  border: 2px solid #E2E4EF;
-  text-align: center;
-  position: relative;
-  height: 275px;
-}
-.servicesBoxScd{
-  background-image: linear-gradient(180deg, #082AC9 0%, #1F96FD 100%);
-  color: white !important;
-  height: 200px !important;
-}
-.servicesBox svg {
-  font-size: 50px;
-  background: #1F8EF8;
-  padding: 8px 8px;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-.servicesBox h4 {
-  font-weight: 700;
-}
-.servicesBox span {
-  font-size: 14px;
-  display: block;
-  padding-bottom: 25px;
-}
 
 /* Responsive breakpoints */
-@media screen and (max-width:992px) {
-  .container2{
-    margin-top: 80px !important;
+@media screen and (max-width:1380px){
+  .RisMobile2 {
+    height: 400px;
   }
+}
+@media screen and (max-width:992px) {
   .aboutFirstsection h2 {
     font-size: 30px;
   }
+
   .aboutFirstsection .iconFlexBox span {
-    padding-left: 0;
+    padding-right: 0;
   }
-  .boxleft,.boxright {
+
+  .boxleft,
+  .boxright {
     height: auto;
     border-radius: 10px;
     margin: 10px 0;
   }
-  .flexBoxes{
+
+  .flexBoxes {
     flex-direction: column;
     justify-content: unset !important;
   }
-  .marginTop{
+
+  .marginTop {
     margin-top: auto;
-  }
-  .RisMobile{
-    height: 500px;
-    background: #FDFEFF;
-  }
-  .aboutFirst img {
-    border-radius: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .container {
-   border-radius: 0;
+    border-radius: 0;
   }
+
   .col12 {
     height: auto;
     padding: 20px;
   }
+
   .col12 h1 {
     font-size: 8vw;
   }
+
   .col12 p {
     width: 90vw;
   }
+
+  .btn {
+    padding: 15px 20px;
+    font-size: 12px;
+  }
+
   .row2 h1 {
     font-size: 7vw;
   }
 }
+
 @media screen and (max-width: 480px) {
+  .aboutFirstsection .iconFlexBox h3 {
+    font-size: 14px;
+  }
+
+  .aboutFirstsection .iconFlexBox div span {
+    font-size: 12px;
+    padding-right: 15px;
+  }
   .collg6 h1 {
-    font-size: 20px;
+    font-size: 12px;
   }
-  .boxright h5 {
-    font-size: 18px;
-    font-weight: bold;
+  .collg6 p {
+    font-size: 10px;
   }
-  .boxright h2 {
-    font-size: 20px;
-    font-weight: 800;
+  .col12 h1 {
+    font-size: 10vw;
   }
-  .boxleft h5 {
-    font-size: 18px;
-    font-weight: bold;
+
+  .col12 p {
+    width: 95vw;
   }
-  .boxleft h2 {
-    font-size: 20px;
-    font-weight: 800;
+
+  .btn {
+    padding: 10px 16px;
+    font-size: 10px;
   }
-  .boxright ul li {
-    font-size: 16px;
-  }
-  .boxleft ul li {
-    font-size: 16px;
+
+  .row2 h1 {
+    font-size: 6vw;
   }
 }
