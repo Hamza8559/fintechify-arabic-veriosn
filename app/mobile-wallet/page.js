@@ -172,7 +172,7 @@ function page() {
         </div>
       </section>
 
-      <section
+      {/* <section
         className={styles.getStartedSection}
         data-aos="fade-up"
         data-aos-duration="500"
@@ -250,7 +250,7 @@ function page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Testimonials />
       <Footer />

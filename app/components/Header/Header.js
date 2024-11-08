@@ -105,11 +105,11 @@ export default function Header() {
                 <ul
                   onMouseLeave={() => {
                     setProdMenu(false);
-                  }}>
+                  }}
+                >
                   <li> <Link href="/rizeApp" className={styles.ol}>تطبيق Rize</Link></li>
                   <li><Link href="/welab" className={styles.ol}> ويلاب WeLab</Link></li>
-                  <li><Link href="/FinBloc" className={styles.ol}>منصة الوسائط التفاعلية</Link></li>
-                  <li><Link href="/property-management-solution" className={styles.ol}>حل إدارة الممتلكات</Link></li>
+                  <li><Link href="/FinBloc" className={styles.ol}>حل إدارة الممتلكات</Link></li>
                   <li><Link href="/smart-order" className={styles.ol}>الطلب الذكي</Link></li>
                   <li><Link href="/gateway-plus" className={styles.ol}>بوابة بلس</Link></li>
                   <li><Link href="/smart-city-solutions" className={styles.ol}>حلول المدن الذكية</Link></li>
@@ -342,8 +342,7 @@ export default function Header() {
               <ul className={styles.dropdown}>
                   <li> <Link href="/rizeApp" className={styles.ol}>تطبيق Rize</Link></li>
                   <li><Link href="/welab" className={styles.ol}> ويلاب WeLab</Link></li>
-                  <li><Link href="/FinBloc" className={styles.ol}>منصة الوسائط التفاعلية</Link></li>
-                  <li><Link href="/property-management-solution" className={styles.ol}>حل إدارة الممتلكات</Link></li>
+                  <li><Link href="/FinBloc" className={styles.ol}>حل إدارة الممتلكات</Link></li>
                   <li><Link href="/smart-order" className={styles.ol}>الطلب الذكي</Link></li>
                   <li><Link href="/gateway-plus" className={styles.ol}>بوابة بلس</Link></li>
                   <li><Link href="/smart-city-solutions" className={styles.ol}>حلول المدن الذكية</Link></li>

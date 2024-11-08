@@ -182,7 +182,7 @@ function page() {
                 <Image className="img-fluid" src={aboutFirstSectionImg} />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 px-5">
               <div
                 className={styles.aboutFirstsection}
                 data-aos="fade-right"
@@ -222,7 +222,7 @@ function page() {
         </div>
       </section>
 
-      <section
+      {/* <section
         className={styles.getStartedSection}
         data-aos="fade-up"
         data-aos-duration="500"
@@ -274,7 +274,7 @@ function page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Testimonials />
       <Footer />
     </>

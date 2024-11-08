@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 import style from "./realsatate.module.css";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Image from "next/image";
-import RisImage from "../components/assets/images/riseApp.png";
+import RisImage from "../components/assets/images/Finblock.png";
 import ImageOne from "../components/assets/images/blocks-landing-learn-more-1-md.webp";
 import ImageTwo from "../components/assets/images/blocks-landing-learn-more-2-md.webp";
 import ImageThree from "../components/assets/images/blocks-landing-learn-more-3-md.png";

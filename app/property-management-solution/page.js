@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 import style from "./welab.module.css";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Image from "next/image";
-import RisImage from "../components/assets/images/weblab.png";
+import RisImage from "../components/assets/images/Finblock.png";
 import RisMobile from "../components/assets/images/weblabPhone.png";
 
 const page = () => {
