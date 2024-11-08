@@ -78,7 +78,7 @@
 .LogoBox .socailMediaIconsBox{
   margin: 30px 0;
   position: relative;
-  z-index: 999999;
+  /* z-index: 999999; */
 }
 .LogoBox .socailMediaIconsBox a {
   margin-left: 10px;
