@@ -130,12 +130,12 @@
 }
 
 .productsMenu ul {
-  background: #162A3E;
-  padding: 20px 10px;
+  background:linear-gradient(90deg, #2096F9, #082AC9);
+  padding: 20px 20px;
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 240px;
   border-radius: 0 0 25px 25px;
   /* top: 15%; */
   margin-top: 30px;

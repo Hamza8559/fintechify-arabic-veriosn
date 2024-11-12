@@ -8,7 +8,7 @@ import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 import Image1 from "../assets/images/revslider_1_img-1.jpg";
 import Image2 from "../assets/images/revslider_1_img-2.jpg";
-import Image3 from "../assets/images/revslider_1_img-3.jpg";
+import Image3 from "../assets/images/revslider_1_img-3.png";
 import Image4 from "../assets/images/revslider_1_img-4.jpg";
 import Image5 from "../assets/images/revslider_1_img-5.jpg";
 import Image6 from "../assets/images/revslider_1_img-6.jpg";
