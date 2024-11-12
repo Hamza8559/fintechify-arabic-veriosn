@@ -20,7 +20,7 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"حلول المصرفية الأساسية"}
+        head={"الحلول المصرفية الأساسية"}
         tagLine={false}
         Des={false}
       />

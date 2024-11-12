@@ -21,7 +21,7 @@ function page() {
       <Header />
       <Banner
         showCase={false}
-        head={"SMART ORDER"}
+        head={"طلب ذكي"}
         tagLine={false}
         Des={false}
       />
@@ -134,7 +134,10 @@ function page() {
                   <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>رؤى قائمة على البيانات:</h3>
-                    <span>اكتساب بيانات قيمة عن العملاء وعادات الإنفاق لتوجيه استراتيجيات التسويق وتطوير المنتجات المستقبلية.</span>
+                    <span>
+                      احصل على بيانات قيمة حول العملاء وعادات الإنفاق <br/>لتحسين
+                      استراتيجيات التسويق وتطوير المنتجات المستقبلية.
+                    </span>
                   </div>
                 </div>
                 <div className={styles.iconFlexBox}>
