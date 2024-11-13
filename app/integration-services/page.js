@@ -113,7 +113,7 @@ function page() {
                 <Image className="img-fluid" src={img} />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 px-4">
               <div
                 className={styles.aboutFirstsection}
                 data-aos="fade-right"

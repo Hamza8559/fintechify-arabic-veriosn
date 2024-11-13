@@ -21,6 +21,43 @@ const services = () => {
     <div className={`container-fluid my-5`}>
       <div className={`container mt-5`}>
         <div className={`row`}>
+          <div className={`col-lg-5 ${style.check}`}>
+            <span className={style.about}>
+              <RiSettings2Line className={style.settingIcon} />
+              <h4>خدماتنا</h4>
+            </span>
+            <div className={style.content}>
+              <h1 className={style.h1}>خدماتنا المصرفية<br />  وفوائدها</h1>
+              <p>
+              استكشف خدماتنا المصرفية وفوائدها في بنك Fintechify، المصممة لتوفير تجربة مصرفية حديثة وآمنة.
+              </p>
+            </div>
+            <div className={`${style.flexBoxNew}`}>
+              <div className={style.LuSend}>
+                <span>
+                  <p>الاستفسارات العامة</p>
+                  <h6>talktous@fintechify.ae</h6>
+                </span>
+                <LuSend className={style.sendIcon} />
+              </div>
+              <div className={style.LuSend}>
+                <span>
+                  <p>استفسارات مبيعات العملاء</p>
+                  <h6>971-54-5061985+</h6>
+                </span>
+                <PiHeadphonesLight className={style.sendIcon} />
+              </div>
+            </div>
+            <button className={`${style.LuSend2}`}>
+              <Link
+                href="/service"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <FiArrowUpLeft />عرض جميع الخدمات{" "}
+                
+              </Link>
+            </button>
+          </div>
           <div className={`col-lg-7 col-sm-12 ${style.rightBoxes}`}>
             <div className="row justify-content-end" id={`${style.flexRow}`}>
               <div className={`${style.card} col-md-5 col-sm-12`}>
@@ -88,43 +125,6 @@ const services = () => {
                 </span>
               </div>
             </div>
-          </div>
-          <div className={`col-lg-5 ${style.check}`}>
-            <span className={style.about}>
-              <RiSettings2Line className={style.settingIcon} />
-              <h4>خدماتنا</h4>
-            </span>
-            <div className={style.content}>
-              <h1 className={style.h1}>خدماتنا المصرفية<br />  وفوائدها</h1>
-              <p>
-              استكشف خدماتنا المصرفية وفوائدها في بنك Fintechify، المصممة لتوفير تجربة مصرفية حديثة وآمنة.
-              </p>
-            </div>
-            <div className={`${style.flexBoxNew}`}>
-              <div className={style.LuSend}>
-                <span>
-                  <p>الاستفسارات العامة</p>
-                  <h6>talktous@fintechify.ae</h6>
-                </span>
-                <LuSend className={style.sendIcon} />
-              </div>
-              <div className={style.LuSend}>
-                <span>
-                  <p>استفسارات مبيعات العملاء</p>
-                  <h6>971-54-5061985+</h6>
-                </span>
-                <PiHeadphonesLight className={style.sendIcon} />
-              </div>
-            </div>
-            <button className={`${style.LuSend2}`}>
-              <Link
-                href="/service"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                <FiArrowUpLeft />عرض جميع الخدمات{" "}
-                
-              </Link>
-            </button>
           </div>
         </div>
       </div>

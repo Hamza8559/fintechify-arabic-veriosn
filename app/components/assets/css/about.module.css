@@ -41,7 +41,8 @@
 
 .aboutFirst img {
   border-radius: 50px;
-  box-shadow: 3px 4px 0px #3f3739;
+  height: 600px;
+  object-fit: cover;
 }
 
 /* ClIENT SECTION CSS ========================================================== */

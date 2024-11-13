@@ -56,6 +56,8 @@
 }
 .InnovativeBox img {
     border-radius: 50px;
+    height: 600px;
+    object-fit: cover;
 }
 .servicessection {
     text-align: center;
@@ -201,6 +203,8 @@
 }
 .aboutFirst img {
     border-radius: 50px;
+    height: 500px;
+    object-fit: cover;
 }
 
 /* ================================================== */
@@ -378,8 +382,8 @@
     text-align: center;
 }
 .getStartedSection .startedUpperBox p {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
 }
 .getStartedSection .startedBox {
