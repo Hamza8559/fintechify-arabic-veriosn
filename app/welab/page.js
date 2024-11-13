@@ -74,7 +74,7 @@ const page = () => {
             data-aos="fade-right"
             data-aos-duration="2000"
           >
-            <Image src={RisImage} alt="Welab Image" />
+            <Image src={RisImage} width={100} alt="Welab Image" />
             <h1 className="mt-3">
               نحن فخورون بتقديم Welab، الحل الرائد الذي يجلب خدمات الرعاية الصحية إلى عتبة دارك بسرعة وراحة.
             </h1>

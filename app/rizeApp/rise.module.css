@@ -64,7 +64,7 @@
 .collg6 p {
   font-weight: 500;
   margin: 10px 0;
-  color: gray;
+  color: black;
   font-size: 18px;
 }
 
@@ -301,5 +301,12 @@
   }
   .boxleft ul li {
     font-size: 16px;
+  }
+  .RisMobile{
+    height: 237px;
+  }
+  .aboutFirst img {
+    height: 237px;
+    object-fit: cover;
   }
 }

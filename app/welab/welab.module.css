@@ -60,7 +60,7 @@
 .collg6 p {
   font-weight: 500;
   margin: 10px 0;
-  color: gray;
+  color: black;
   font-size: 18px;
 }
 
@@ -299,5 +299,9 @@
   }
   .boxleft ul li {
     font-size: 16px;
+  }
+  .RisMobile2 {
+    height: 237px;
+    margin-bottom: 20px;
   }
 }

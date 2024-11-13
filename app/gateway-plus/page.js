@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
 import styles from '../components/assets/css/services.module.css'
 import img1 from '../components/assets/images/cropped-mobile-man1.jpg'
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import aboutFirstSectionImg from "../components/assets/images/3d-internet-secuirty-badge.jpg"
+import aboutFirstSectionImg from "../components/assets/images/11111111.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa6";
@@ -134,7 +134,7 @@ function page() {
                 <div className={styles.iconFlexBox}>
                   <IoMdCheckmarkCircleOutline />
                   <div>
-                    <h3>خفض النفقات التشغيلية عن طريق تشجيع <br />استخدام الخدمات المصرفية عبر الهاتف المحمول بدلاً من الفروع التقليدية.</h3>
+                    <h3>خفض النفقات التشغيلية عن طريق تشجيع <br />استخدام الخدمات المصرفية عبر الهاتف المحمول<br /> بدلاً من الفروع التقليدية.</h3>
                     <span>تقديم تجربة مصرفية أكثر تخصيصًا وتفاعلية.</span>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ function page() {
                   <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>رؤى قائمة على البيانات:</h3>
-                    <span>احصل على بيانات قيمة حول العملاء وعادات الإنفاق لتحسين استراتيجيات التسويق وتطوير المنتجات المستقبلية.</span>
+                    <span>احصل على بيانات قيمة حول العملاء وعادات الإنفاق لتحسين استراتيجيات<br /> التسويق وتطوير المنتجات المستقبلية.</span>
                   </div>
                 </div>
                 <div className={styles.iconFlexBox}>

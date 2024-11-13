@@ -130,4 +130,8 @@
   .aboutFirstsection .iconFlexBox svg {
     display: none;
   }
+  .aboutFirst img {
+    height: 350px;
+    border-radius: 10px;
+  }
 }

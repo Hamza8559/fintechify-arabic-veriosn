@@ -8,7 +8,7 @@ import Testimonials from '../components/Testimonials/Testimonials'
 import styles from '../components/assets/css/services.module.css'
 import { FcAddRow } from "react-icons/fc";
 import { FcDoughnutChart } from "react-icons/fc";
-import img1 from '../components/assets/images/webp.net-resizeimage.jpg'
+import img1 from '../components/assets/images/services-img.jpg'
 import img2 from '../components/assets/images/shape-1@2x.png'
 import { FaCropSimple } from "react-icons/fa6";
 import { FaWallet } from "react-icons/fa";

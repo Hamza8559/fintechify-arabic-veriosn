@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import styles from "../assets/css/header.module.css";
-import logo from "../assets/images/FINTECHIFY.png";
+import logo from "../assets/images/fintectfy_oman_logo-01.png";
 import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
 import { AiFillAppstore } from "react-icons/ai";
