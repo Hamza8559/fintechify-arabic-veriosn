@@ -8,13 +8,8 @@ import Footer from "../components/Footer/Footer";
 import styles from "../components/assets/css/services.module.css";
 import img1 from "../components/assets/images/cropped-mobile-man1.jpg";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-<<<<<<< HEAD
-import aboutFirstSectionImg from "../components/assets/images/3d-internet-secuirty-badge.jpg";
-import QoutesImg from "../components/assets/images/img-3-300x300.png";
-=======
 import aboutFirstSectionImg from "../components/assets/images/11111111.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
->>>>>>> 212ceb86593e2d1f88f18fbabbf593c37803fcb5
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
