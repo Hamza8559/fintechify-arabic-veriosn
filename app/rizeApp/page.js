@@ -83,7 +83,7 @@ const page = () => {
             data-aos="fade-right"
             data-aos-duration="2000"
           >
-            <Image src={RisImage} />
+            <Image src={RisImage} width={50}/>
             <h1>
               تحويل الخدمات المصرفية مع شركة الراجحي المصرفية للاستثمار
               (ماليزيا)

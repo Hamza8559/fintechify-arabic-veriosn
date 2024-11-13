@@ -8,7 +8,7 @@ import styles from "../components/assets/css/services.module.css";
 import img1 from "../components/assets/images/IT.JPEG";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import QoutesImg from "../components/assets/images/img-3-300x300.png";
-import img from "../components/assets/images/integration.jpg";
+import img from "../components/assets/images/grwoth-business-.jpg";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";

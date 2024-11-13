@@ -1,7 +1,7 @@
 import styles from "../assets/css/Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../assets/images/FINTECHIFY.png";
+import logo from "../assets/images/fintectfy_oman_logo-01.png";
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter, FaArrowRight } from "react-icons/fa6";
 

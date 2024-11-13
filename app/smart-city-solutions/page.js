@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
 import styles from '../components/assets/css/services.module.css'
 import img1 from '../components/assets/images/3f78baf2.jpg'
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import aboutFirstSectionImg from "../components/assets/images/3d-internet-secuirty-badge.jpg"
+import aboutFirstSectionImg from "../components/assets/images/222222222.jpg"
 import QoutesImg from '../components/assets/images/img-3-300x300.png'
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa6";
@@ -149,7 +149,7 @@ function page() {
                   <IoMdCheckmarkCircleOutline />
                   <div>
                     <h3>تحليلات مدفوعة بالبيانات:</h3>
-                    <span>الحصول على بيانات قيمة حول العملاء وعادات الإنفاق لتوجيه استراتيجيات التسويق المستقبلية وتطوير المنتجات.</span>
+                    <span>الحصول على بيانات قيمة حول العملاء وعادات الإنفاق لتوجيه <br />استراتيجيات التسويق المستقبلية وتطوير المنتجات.</span>
                   </div>
                 </div>
                 <div className={styles.iconFlexBox}>

@@ -36,7 +36,7 @@
   }
   .content p {
     font-weight: 500;
-    color: #929292;
+    color: black;
     font-size: 18px;
   }
  
@@ -118,7 +118,7 @@
   }
   .card p{
     font-size: 18px;
-    color: gray;
+    color: black;
     font-weight: 500;
     line-height: normal !important;
   }

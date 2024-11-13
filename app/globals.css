@@ -58,13 +58,12 @@ a {
 }
 
 .flex_left{
-  
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-
 }
+
 .flex_right{
   display: flex;
   justify-content: end;

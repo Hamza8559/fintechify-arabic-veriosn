@@ -39,10 +39,13 @@
 .financialText p {
   line-height: normal;
   font-weight: 500;
-  color: gray;
+  color: black;
   font-size: 18px;
 }
 
+.percent{
+  margin-left: 50px;
+}
 .percent1 {
   display: flex;
   align-items: center;
@@ -200,6 +203,7 @@
     display: none;
   }
 }
+
 @media screen and (max-width:565px) {
   .financialText h2 {
     font-size: 30px;
@@ -216,10 +220,9 @@
 }
 @media screen and (max-width:480px) {
   .percent{
-    margin-left: 10px !important;
+    margin-left: 0;
   }
   .percentFlex{
-    /* justify-content: space-between; */
     flex-direction: column;
   }
   .percent1 {
@@ -228,7 +231,7 @@
     align-items: center;
   }
   .percent p{
-    text-align: center;
+    text-align: center !important;
   }
   .financialText h2 {
     font-size: 25px;
